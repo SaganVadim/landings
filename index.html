@@ -15,6 +15,7 @@
     <link rel="stylesheet" href="css/bootstrap.min.css" />
     <link rel="stylesheet" href="css/style.css" />
     <link rel="stylesheet" href="css/responsive.css" />
+    <link rel="stylesheet" href="css/cfg.css" />
     <link rel="icon" href="images/fevicon.png" type="image/gif" />
     <link rel="stylesheet" href="css/jquery.mCustomScrollbar.min.css" />
     <link
@@ -453,7 +454,7 @@
               </div>
             </div>
             <div class="col-md-12">
-              <form id="request" class="main_form">
+              <form id="request" class="main_form" action="/thanks_page.php">
                 <div class="row">
                   <div class="col-md-3">
                     <input
@@ -461,6 +462,7 @@
                       placeholder="Full Name"
                       type="type"
                       name="Full Name"
+                      required
                     />
                   </div>
                   <div class="col-md-3">
@@ -469,6 +471,7 @@
                       placeholder="Email"
                       type="type"
                       name="Email"
+                      required
                     />
                   </div>
                   <div class="col-md-3">
@@ -477,6 +480,7 @@
                       placeholder="Phone Number"
                       type="type"
                       name="Phone Number"
+                      required
                     />
                   </div>
                   <div class="col-xl-3 col-lg-3 col-md-3 col-sm-12"></div>
@@ -490,6 +494,25 @@
 Message </textarea
                     >
                   </div>
+                  <div class="form-check">
+                    <input
+                      class="form-check-input"
+                      type="checkbox"
+                      value=""
+                      required
+                      id="flexCheckDefault"
+                    />
+                    <label
+                      class="form-check-label"
+                      for="flexCheckDefault"
+                      required
+                    >
+                      I accept
+                      <a href="./privacy/privacy.html" class="check"
+                        >Privacy policy</a
+                      >
+                    </label>
+                  </div>
                   <div class="col-xl-4 col-lg-4 col-md-4 col-sm-12">
                     <button class="send_btn">Send</button>
                   </div>
@@ -502,7 +525,12 @@ Message </textarea
                   <a href="#"
                     ><i class="fa fa-map-marker" aria-hidden="true"></i
                   ></a>
-                  Locatins
+                  <a
+                    target="_blank"
+                    href="https://www.google.com/maps/place/1445+Washburn+Rd,+Pasadena,+CA+91105,+%D0%A1%D0%A8%D0%90/@34.1270996,-118.1789895,17z/data=!3m1!4b1!4m6!3m5!1s0x80c2c38a51aba293:0xf84c3423ecb59bc1!8m2!3d34.1270996!4d-118.1789895!16s%2Fg%2F11c245z2tp?entry=ttu"
+                  >
+                    1445 WASHBURN RD PASADENA CA 91105-2772 USA
+                  </a>
                 </li>
                 <li>
                   <a href="#"
@@ -511,23 +539,26 @@ Message </textarea
                       aria-hidden="true"
                     ></i
                   ></a>
-                  +71 9087654321
+                  <a href="tel:+91-70239-98035" target="_blank"
+                    >+91-70239-98035</a
+                  >
                 </li>
                 <li>
-                  <a href="#"
-                    ><i class="fa fa-envelope" aria-hidden="true"></i></a
-                  >demo@gmail.com
+                  <span id="email_list"
+                    ><a href="mailto:info@example.com" target="_blank"
+                      >info@example.com</a
+                    >
+                  </span>
                 </li>
               </ul>
             </div>
             <div class="col-md-3">
               <h3>Useful Link</h3>
               <ul class="link">
-                <li><a href="#">humour, or </a></li>
-                <li><a href="#">randomised words </a></li>
-                <li><a href="#">which don't look </a></li>
-                <li><a href="#">even slightly </a></li>
-                <li><a href="#">believable. If </a></li>
+                <li><a href="/privacy/disclaimer.html">Disclamer </a></li>
+                <li><a href="/privacy/cookies.html">Cookies </a></li>
+                <li><a href="/privacy/terms.html">Terms of service </a></li>
+                <li><a href="/privacy/privacy.html">Privacy policy </a></li>
               </ul>
             </div>
           </div>
