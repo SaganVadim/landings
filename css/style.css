@@ -210,10 +210,7 @@ h3 {
   position: absolute;
   content: "";
   /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#001d38+0,1a0d01+100&0.7+0,0.6+100 */
-  background: -moz-linear-gradient(
-    left,
-    rgba(0, 29, 56, 0.7) 0%,
-    rgba(26, 13, 1, 0.6) 100%
+  background: linear-gradient( to right, rgb(0 29 56 / 30%) 0%, rgb(137 86 38 / 30%) 100% );
   );
   /* FF3.6-15 */
   background: -webkit-linear-gradient(
@@ -680,7 +677,7 @@ h3 {
 .section_title h3 {
   font-size: 50px;
   font-weight: 700;
-  color: #001d38;
+  color: #6bcbf3;
   position: relative;
   z-index: 0;
   padding-bottom: 0;
@@ -734,7 +731,7 @@ h3 {
 /* line 34, ../../Arafath/CL/Cl November/225. Restaurant-02/HTML/scss/_section_title.scss */
 .section_title p {
   font-size: 16px;
-  color: #768bff;
+  color: #e2e2e2;
   line-height: 28px;
   margin-bottom: 0;
   font-weight: 400;
@@ -2044,7 +2041,7 @@ h3 {
 
 /* line 2, ../../Arafath/CL/Cl November/225. Restaurant-02/HTML/scss/_testmonial.scss */
 .testimonial_area {
-  background-image: url(../img/testimonial/bg.png);
+  background: linear-gradient(rgb(0 0 0 / 10%), rgb(177 0 0 / 10%)), url(../img/testimonial/bg.jpg);
   background-size: cover;
   background-position: center center;
   background-repeat: no-repeat;
@@ -2072,13 +2069,13 @@ h3 {
 /* line 20, ../../Arafath/CL/Cl November/225. Restaurant-02/HTML/scss/_testmonial.scss */
 .testimonial_area .owl-dots div.owl-dot.active {
   position: relative;
-  background: #596672;
+  background: #f8f8f8;
 }
 
 /* line 23, ../../Arafath/CL/Cl November/225. Restaurant-02/HTML/scss/_testmonial.scss */
 .testimonial_area .owl-dots div.owl-dot.active:before {
   position: absolute;
-  border: 2px solid #001d38;
+  border: 2px solid #71bbff;
   content: "";
   left: -4px;
   top: -4px;
@@ -2094,12 +2091,6 @@ h3 {
   .testimonial_area {
     padding: 50px 0;
   }
-}
-
-/* line 39, ../../Arafath/CL/Cl November/225. Restaurant-02/HTML/scss/_testmonial.scss */
-.testimonial_area.overlay::before {
-  opacity: 0.4;
-  background: #fff;
 }
 
 /* line 43, ../../Arafath/CL/Cl November/225. Restaurant-02/HTML/scss/_testmonial.scss */
@@ -2189,7 +2180,7 @@ h3 {
 
 /* line 106, ../../Arafath/CL/Cl November/225. Restaurant-02/HTML/scss/_testmonial.scss */
 .testimonial_area .single_testmonial .testmonial_author h3 {
-  color: #001d38;
+  color: #00e3ff;
   font-family: "Poppins", sans-serif;
   font-size: 16px;
   font-weight: 500;
@@ -2214,6 +2205,7 @@ h3 {
 .testimonial_area .owl-carousel .owl-item img {
   display: inline-block;
   width: auto;
+  border-radius: 50%;
 }
 
 /* line 131, ../../Arafath/CL/Cl November/225. Restaurant-02/HTML/scss/_testmonial.scss */
