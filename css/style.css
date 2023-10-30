@@ -209,8 +209,10 @@ h3 {
 .overlay::before {
   position: absolute;
   content: "";
-  /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#001d38+0,1a0d01+100&0.7+0,0.6+100 */
-  background: linear-gradient( to right, rgb(0 29 56 / 30%) 0%, rgb(137 86 38 / 30%) 100% );
+  background: linear-gradient(
+    to right,
+    rgb(0 29 56 / 30%) 0%,
+    rgb(137 86 38 / 30%) 100%
   );
   /* FF3.6-15 */
   background: -webkit-linear-gradient(
@@ -1389,7 +1391,6 @@ h3 {
 
 /* line 4, ../../Arafath/CL/Cl November/225. Restaurant-02/HTML/scss/_slider.scss */
 
-
 /* line 7, ../../Arafath/CL/Cl November/225. Restaurant-02/HTML/scss/_slider.scss */
 .slider_area {
   position: relative;
@@ -1954,16 +1955,9 @@ h3 {
   width: 100%;
 }
 
-
-
-
-
-
-
 /* line 115, ../../Arafath/CL/Cl November/225. Restaurant-02/HTML/scss/_about.scss */
 .main_about_wrap {
   padding-top: 145px;
-  
 }
 
 @media (max-width: 767px) {
@@ -2024,7 +2018,8 @@ h3 {
 
 /* line 2, ../../Arafath/CL/Cl November/225. Restaurant-02/HTML/scss/_testmonial.scss */
 .testimonial_area {
-  background: linear-gradient(rgb(0 0 0 / 10%), rgb(177 0 0 / 10%)), url(../img/testimonial/bg.jpg);
+  background: linear-gradient(rgb(0 0 0 / 10%), rgb(177 0 0 / 10%)),
+    url(../img/testimonial/bg.jpg);
   background-size: cover;
   background-position: center center;
   background-repeat: no-repeat;
@@ -3646,7 +3641,6 @@ h3 {
   height: 48px;
   padding-left: 18px;
   font-size: 13px;
- 
 }
 
 /* line 69, ../../Arafath/CL/Cl November/225. Restaurant-02/HTML/scss/_contact.scss */
@@ -6723,10 +6717,10 @@ h6 {
   margin-right: 10px;
   font-size: 12px;
 }
-.form-check{
+.form-check {
   margin: 20px;
 }
-.form-control{
+.form-control {
   margin: 10px;
 }
 

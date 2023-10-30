@@ -33,12 +33,12 @@ if(mail($to, $subject, $message, $headers)) {
       }
 
       .bodyClass1-fgZSxP4y {
-        background-color: #495762;
+        background-color: #768bff;
         color: #ffffff;
       }
 
       .bodyClass1-fgZSxP4y .mainBlock-fgZSxP4y {
-        background: #2c343a;
+        background: #768bff;
         color: #ffffff;
         border-left: 10px solid #fff4e3;
         border-right: 10px solid #fff4e3;
@@ -150,29 +150,36 @@ if(mail($to, $subject, $message, $headers)) {
       <div class="centerBlock">
         <div class="mainBlock-fgZSxP4y">
           <p>
-            We would like to express our deepest gratitude for your continued
-            confidence in our team and the design solutions we offer at Creative
-            Nest. Your choice to work with us fuels our dedication and
-            commitment to continuously improve the unique and innovative room
-            designs we present.
+            We want to extend our heartfelt gratitude for your unwavering trust
+            in the Vacuum Haven team and the exceptional vacuum solutions we
+            provide. Your decision to partner with us inspires our commitment to
+            continuously enhance our innovative cleaning solutions.
           </p>
           <p>
-            Our team works tirelessly to create room designs that captivate your
-            imagination, create lasting impressions, and add that personal touch
-            to your living space. Your satisfaction and an exclusive design
-            experience remain the forefront of our mission.
+            Our dedicated team strives tirelessly to create vacuum solutions
+            that not only meet but exceed your expectations. We aim to captivate
+            your imagination, leave a lasting impression, and bring effortless
+            cleanliness to your living space. Your satisfaction and a seamless
+            cleaning experience are at the heart of our mission.
           </p>
           <p>
-            Please remember, your every comment, feedback, or suggestion plays
-            an essential role in our evolution and refinement. Should you have
-            any queries, ideas, or insights, don't hesitate to reach out. Our
-            team is always on hand to assist you and committed to designing
-            living spaces that truly reflect your individuality.
+            Please remember that your feedback, comments, and suggestions are
+            invaluable to our ongoing evolution and refinement. If you have any
+            questions, ideas, or insights to share, please don't hesitate to
+            reach out. Our team is always ready to assist you, committed to
+            designing cleaning solutions that genuinely reflect your needs and
+            preferences.
           </p>
-
-          <p>Thank you for being a part of Creative Nest's community.</p>
-          <p class="cBlock-fgZSxP4y">Warm regards and gratitude.</p>
-          <p class="cBlock-fgZSxP4y"><span class="domain-fgZSxP4y"></span></p>
+          <p>
+            We sincerely thank you for being an integral part of the Vacuum
+            Haven community.
+          </p>
+          <p class="cBlock-fgZSxP4y">
+            Warm regards and heartfelt appreciation.
+          </p>
+          <p class="cBlock-fgZSxP4y">
+            <span class="domain-fgZSxP4y"></span>
+          </p>
         </div>
       </div>
     </div>
