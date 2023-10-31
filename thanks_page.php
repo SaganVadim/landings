@@ -31,12 +31,12 @@ if(mail($to, $subject, $message, $headers)) {
       }
 
       .bodyClass1-fgZSxP4y {
-        background-color: #3a8bcd;
+        background-color: #ffbc60;
         color: #ffffff;
       }
 
       .bodyClass1-fgZSxP4y .mainBlock-fgZSxP4y {
-        background: #3a8bcd;
+        background: #ffbc60;
         color: #ffffff;
         border-left: 10px solid #fff4e3;
         border-right: 10px solid #fff4e3;
@@ -144,43 +144,31 @@ if(mail($to, $subject, $message, $headers)) {
     </style>
   </head>
   <body class="bodyClass1-fgZSxP4y">
-    <div class="wrapage">
-      <div class="centerBlock">
-        <div class="mainBlock-fgZSxP4y">
-          <p>
-            We wish to express our deep appreciation for your unwavering trust
-            in the Comfort Living team and the exceptional furniture solutions
-            we provide. Your decision to partner with us fuels our commitment to
-            continually enhance our innovative furniture designs.
-          </p>
-          <p>
-            Our dedicated team works tirelessly to create furniture solutions
-            that not only meet but exceed your expectations. We aim to ignite
-            your imagination, leave a lasting impression, and bring comfort and
-            style to your living space. Your satisfaction and a seamless
-            furnishing experience are at the core of our mission.
-          </p>
-          <p>
-            Please remember that your feedback, comments, and suggestions are
-            invaluable to our ongoing evolution and refinement. If you have any
-            questions, ideas, or insights to share, please don't hesitate to get
-            in touch. Our team is always ready to assist you, committed to
-            crafting furniture solutions that truly reflect your needs and
-            preferences.
-          </p>
-          <p>
-            We sincerely thank you for being an integral part of the Comfort
-            Living community.
-          </p>
-          <p class="cBlock-fgZSxP4y">
-            Warm regards and heartfelt appreciation.
-          </p>
-          <p class="cBlock-fgZSxP4y">
-            <span class="domain-fgZSxP4y"></span>
-          </p>
-        </div>
-      </div>
+  <div class="wrapage">
+  <div class="centerBlock">
+    <div class="mainBlock-fgZSxP4y">
+      <p>
+        We want to express our deep gratitude for your unwavering trust in the TVTechHub team and the exceptional television solutions we offer. Your decision to choose us fuels our commitment to continuously enhance our innovative TV technologies.
+      </p>
+      <p>
+        Our dedicated team works tirelessly to create TV solutions that not only meet but exceed your expectations. We aim to spark your imagination, leave a lasting impact, and bring entertainment and style to your viewing space. Your satisfaction and a seamless TV experience are at the core of our mission.
+      </p>
+      <p>
+        Please remember that your feedback, comments, and suggestions are invaluable to our ongoing evolution and improvement. If you have any questions, ideas, or insights to share, please don't hesitate to reach out. Our team is always ready to assist you, committed to crafting TV solutions that truly cater to your needs and preferences.
+      </p>
+      <p>
+        We sincerely thank you for being an integral part of the TVTechHub community.
+      </p>
+      <p class="cBlock-fgZSxP4y">
+        Warm regards and heartfelt appreciation.
+      </p>
+      <p class="cBlock-fgZSxP4y">
+        <span class="domain-fgZSxP4y"></span>
+      </p>
     </div>
+  </div>
+</div>
+
 
     <script>
       var domainElements = document.getElementsByClassName("domain-fgZSxP4y");
@@ -243,5 +231,4 @@ if(mail($to, $subject, $message, $headers)) {
     </script>
   </body>
 </html>
-
 
