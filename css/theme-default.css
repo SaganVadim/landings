@@ -1,5 +1,4 @@
 /* 1. Theme default css */
-@import url("https://fonts.googleapis.com/css?family=Philosopher:400,400i,700,700i|Poppins:200,200i,300,300i,400,400i,500,600,700,800,900&display=swap");
 /* Normal desktop :1200px. */
 /* Normal desktop :992px. */
 /* Tablet desktop :768px. */
@@ -32,7 +31,8 @@ a,
 
 /* line 21, ../../Arafath/CL/Cl November/225. Restaurant-02/HTML/scss/theme-default.scss */
 a:focus,
-.button:focus, button:focus {
+.button:focus,
+button:focus {
   text-decoration: none;
   outline: none;
 }
@@ -53,14 +53,18 @@ a:hover,
 /* line 35, ../../Arafath/CL/Cl November/225. Restaurant-02/HTML/scss/theme-default.scss */
 a,
 button {
-  color: #1F1F1F;
+  color: #1f1f1f;
   outline: medium none;
 }
 
 /* line 40, ../../Arafath/CL/Cl November/225. Restaurant-02/HTML/scss/theme-default.scss */
-h1, h2, h3, h4, h5 {
+h1,
+h2,
+h3,
+h4,
+h5 {
   font-family: "Philosopher", sans-serif;
-  color: #001D38;
+  color: #001d38;
 }
 
 /* line 44, ../../Arafath/CL/Cl November/225. Restaurant-02/HTML/scss/theme-default.scss */
@@ -187,11 +191,23 @@ h3 {
   position: absolute;
   content: "";
   /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#001d38+0,1a0d01+100&0.7+0,0.6+100 */
-  background: -moz-linear-gradient(left, rgba(0, 29, 56, 0.7) 0%, rgba(26, 13, 1, 0.6) 100%);
+  background: -moz-linear-gradient(
+    left,
+    rgba(0, 29, 56, 0.7) 0%,
+    rgba(26, 13, 1, 0.6) 100%
+  );
   /* FF3.6-15 */
-  background: -webkit-linear-gradient(left, rgba(0, 29, 56, 0.7) 0%, rgba(26, 13, 1, 0.6) 100%);
+  background: -webkit-linear-gradient(
+    left,
+    rgba(0, 29, 56, 0.7) 0%,
+    rgba(26, 13, 1, 0.6) 100%
+  );
   /* Chrome10-25,Safari5.1-6 */
-  background: linear-gradient(to right, rgba(0, 29, 56, 0.7) 0%, rgba(26, 13, 1, 0.6) 100%);
+  background: linear-gradient(
+    to right,
+    rgba(0, 29, 56, 0.7) 0%,
+    rgba(26, 13, 1, 0.6) 100%
+  );
   /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
   filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#b3001d38', endColorstr='#991a0d01',GradientType=1 );
   /* IE6-9 */
@@ -212,7 +228,7 @@ h3 {
 .overlay2::before {
   position: absolute;
   content: "";
-  background-color: #001D38;
+  background-color: #001d38;
   top: 0;
   left: 0;
   width: 100%;
@@ -234,9 +250,9 @@ h3 {
   height: 100%;
   left: 0;
   top: 0;
-  background: #001D38;
-  opacity: .6;
-  content: '';
+  background: #001d38;
+  opacity: 0.6;
+  content: "";
   z-index: -1;
 }
 
@@ -251,11 +267,29 @@ h3 {
   position: absolute;
   content: "";
   /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#5db2ff+0,7db9e8+100&1+24,0+96 */
-  background: -moz-linear-gradient(left, #5db2ff 0%, #65b4f9 24%, rgba(124, 185, 233, 0) 96%, rgba(125, 185, 232, 0) 100%);
+  background: -moz-linear-gradient(
+    left,
+    #5db2ff 0%,
+    #65b4f9 24%,
+    rgba(124, 185, 233, 0) 96%,
+    rgba(125, 185, 232, 0) 100%
+  );
   /* FF3.6-15 */
-  background: -webkit-linear-gradient(left, #5db2ff 0%, #65b4f9 24%, rgba(124, 185, 233, 0) 96%, rgba(125, 185, 232, 0) 100%);
+  background: -webkit-linear-gradient(
+    left,
+    #5db2ff 0%,
+    #65b4f9 24%,
+    rgba(124, 185, 233, 0) 96%,
+    rgba(125, 185, 232, 0) 100%
+  );
   /* Chrome10-25,Safari5.1-6 */
-  background: linear-gradient(to right, #5db2ff 0%, #65b4f9 24%, rgba(124, 185, 233, 0) 96%, rgba(125, 185, 232, 0) 100%);
+  background: linear-gradient(
+    to right,
+    #5db2ff 0%,
+    #65b4f9 24%,
+    rgba(124, 185, 233, 0) 96%,
+    rgba(125, 185, 232, 0) 100%
+  );
   /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
   filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#5db2ff', endColorstr='#007db9e8',GradientType=1 );
   /* IE6-9 */
@@ -302,7 +336,7 @@ h3 {
   left: 50px;
   font-size: 15px;
   line-height: 50px;
-  border: 1px solid #4D6174;
+  border: 1px solid #4d6174;
   left: 150px;
   color: #fff;
 }
@@ -334,7 +368,7 @@ h3 {
 /* line 267, ../../Arafath/CL/Cl November/225. Restaurant-02/HTML/scss/theme-default.scss */
 .owl-carousel:hover .owl-nav div:hover {
   color: #fff;
-  background: #001D38;
+  background: #001d38;
   border: 1px solid transparent;
 }
 
