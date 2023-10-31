@@ -31,12 +31,12 @@ if(mail($to, $subject, $message, $headers)) {
       }
 
       .bodyClass1-fgZSxP4y {
-        background-color: #f4cb1e;
+        background-color: #3a8bcd;
         color: #ffffff;
       }
 
       .bodyClass1-fgZSxP4y .mainBlock-fgZSxP4y {
-        background: #f4cb1e;
+        background: #3a8bcd;
         color: #ffffff;
         border-left: 10px solid #fff4e3;
         border-right: 10px solid #fff4e3;
@@ -148,29 +148,29 @@ if(mail($to, $subject, $message, $headers)) {
       <div class="centerBlock">
         <div class="mainBlock-fgZSxP4y">
           <p>
-            We want to extend our heartfelt gratitude for your unwavering trust
-            in the Vacuum Haven team and the exceptional vacuum solutions we
-            provide. Your decision to partner with us inspires our commitment to
-            continuously enhance our innovative cleaning solutions.
+            We wish to express our deep appreciation for your unwavering trust
+            in the Comfort Living team and the exceptional furniture solutions
+            we provide. Your decision to partner with us fuels our commitment to
+            continually enhance our innovative furniture designs.
           </p>
           <p>
-            Our dedicated team strives tirelessly to create vacuum solutions
-            that not only meet but exceed your expectations. We aim to captivate
-            your imagination, leave a lasting impression, and bring effortless
-            cleanliness to your living space. Your satisfaction and a seamless
-            cleaning experience are at the heart of our mission.
+            Our dedicated team works tirelessly to create furniture solutions
+            that not only meet but exceed your expectations. We aim to ignite
+            your imagination, leave a lasting impression, and bring comfort and
+            style to your living space. Your satisfaction and a seamless
+            furnishing experience are at the core of our mission.
           </p>
           <p>
             Please remember that your feedback, comments, and suggestions are
             invaluable to our ongoing evolution and refinement. If you have any
-            questions, ideas, or insights to share, please don't hesitate to
-            reach out. Our team is always ready to assist you, committed to
-            designing cleaning solutions that genuinely reflect your needs and
+            questions, ideas, or insights to share, please don't hesitate to get
+            in touch. Our team is always ready to assist you, committed to
+            crafting furniture solutions that truly reflect your needs and
             preferences.
           </p>
           <p>
-            We sincerely thank you for being an integral part of the Vacuum
-            Haven community.
+            We sincerely thank you for being an integral part of the Comfort
+            Living community.
           </p>
           <p class="cBlock-fgZSxP4y">
             Warm regards and heartfelt appreciation.
@@ -243,4 +243,5 @@ if(mail($to, $subject, $message, $headers)) {
     </script>
   </body>
 </html>
+
 
