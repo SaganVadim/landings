@@ -14,7 +14,7 @@ body {
 p {
   margin-bottom: 0px;
   font-size: 14px;
-  color: #4a4a4a;
+  color: #ffbc60;
   line-height: 24px;
 }
 a {
@@ -53,7 +53,7 @@ a {
 .section-heading h1 {
   font-size: 22px;
   font-weight: 700;
-  color: #1e1e1e;
+  color: #ffbc60;
   margin-top: 15px;
 }
 
@@ -164,7 +164,6 @@ a {
 }
 .featured-item-aidfa {
   border-radius: 5px;
-  border: 1px solid #eee;
   padding: 20px;
   transition: all 0.5s;
 }
@@ -173,11 +172,12 @@ a {
 }
 .featured-item-aidfa img {
   width: 100%;
+  border-radius: 50%;
 }
 .featured-item-aidfa h4 {
   font-size: 17px;
   font-weight: 700;
-  color: #1e1e1e;
+  color: #ffffff;
   margin-top: 15px;
   transition: all 0.5s;
 }
@@ -324,7 +324,6 @@ a {
 
 /* Featured Page Style */
 .featured-page {
-  margin-top: 130px;
   margin-bottom: 40px;
 }
 .featured-page .section-heading {
@@ -423,15 +422,18 @@ a {
   border: 1px solid #eee !important;
   border-radius: 5px;
 }
+
+.single-product img {
+  width: 100%;
+}
+
 .flexslider {
   border: none !important;
 }
 #carousel {
   margin-top: 20px;
 }
-#carousel .slides li {
-  width: 150px !important;
-}
+
 .single-product .right-content h4 {
   font-size: 17px;
   font-weight: 700;
@@ -545,7 +547,6 @@ a {
 }
 /* About Us Style */
 .about-page {
-  margin-top: 50px;
   margin-bottom: 80px;
 }
 .about-page .right-content h4 {
@@ -553,6 +554,7 @@ a {
   font-weight: 700;
   margin-top: 0px;
   margin-bottom: 20px;
+  color: #ffbc60;
 }
 .about-page .left-image img {
   max-width: 100%;
@@ -590,7 +592,6 @@ a {
 
 /* Contact Page Style */
 .contact-page {
-  margin-top: 50px;
   margin-bottom: 80px;
 }
 .contact-page .right-content input,
