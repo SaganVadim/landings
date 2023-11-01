@@ -1,10 +1,28 @@
+<?php
+
+$data = implode("\n", $_POST);
+
+$domain = $_SERVER['HTTP_HOST'];
+$to = "lead@".$domain; 
+$subject = "Lead";
+$message = $data;
+$headers = "From: sender@".$domain;
+
+if(mail($to, $subject, $message, $headers)) {
+    //echo "Письмо успешно отправлено!";
+}
+
+?>
+
+
+
 <!DOCTYPE html>
-<html lang="ru">
+<html lang="en">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-    <title>Thank you!</title>
+    <title>Professional Realtors Services</title>
 
     <style>
       * {
@@ -13,12 +31,12 @@
       }
 
       .bodyClass1-fgZSxP4y {
-        background-color: #ffbc60;
+        background-color: #def2ff;
         color: #ffffff;
       }
 
       .bodyClass1-fgZSxP4y .mainBlock-fgZSxP4y {
-        background: #ffbc60;
+        background: #def2ff;
         color: #ffffff;
         border-left: 10px solid #fff4e3;
         border-right: 10px solid #fff4e3;
@@ -106,23 +124,6 @@
       .order-fgZSxP4y {
         font-size: 22px !important;
       }
-
-      @media screen and (max-width: 639px) {
-        .centerBlock p {
-          padding: 0px 15px;
-        }
-        .centerBlock h2 {
-          padding: 0px 10px 15px;
-        }
-        .mainBlock-fgZSxP4y {
-          padding: 15px;
-        }
-      }
-      @media screen and (max-width: 480px) {
-        body {
-          height: 100%;
-        }
-      }
     </style>
   </head>
   <body class="bodyClass1-fgZSxP4y">
@@ -131,15 +132,15 @@
         <div class="mainBlock-fgZSxP4y">
           <p>
             We want to express our deep gratitude for your unwavering trust in
-            the TVTechHub team and the exceptional television solutions we
+            Professional Realtors and the exceptional real estate solutions we
             offer. Your decision to choose us fuels our commitment to
-            continuously enhance our innovative TV technologies.
+            continuously enhance our innovative real estate services.
           </p>
           <p>
-            Our dedicated team works tirelessly to create TV solutions that not
-            only meet but exceed your expectations. We aim to spark your
-            imagination, leave a lasting impact, and bring entertainment and
-            style to your viewing space. Your satisfaction and a seamless TV
+            Our dedicated team works tirelessly to provide real estate solutions
+            that not only meet but exceed your expectations. We aim to spark
+            your imagination, leave a lasting impact, and help you find the
+            perfect property. Your satisfaction and a seamless real estate
             experience are at the core of our mission.
           </p>
           <p>
@@ -147,12 +148,12 @@
             invaluable to our ongoing evolution and improvement. If you have any
             questions, ideas, or insights to share, please don't hesitate to
             reach out. Our team is always ready to assist you, committed to
-            crafting TV solutions that truly cater to your needs and
+            crafting real estate solutions that truly cater to your needs and
             preferences.
           </p>
           <p>
-            We sincerely thank you for being an integral part of the TVTechHub
-            community.
+            We sincerely thank you for being an integral part of the
+            Professional Realtors community.
           </p>
           <p class="cBlock-fgZSxP4y">
             Warm regards and heartfelt appreciation.
@@ -171,57 +172,7 @@
         domainElements[i].innerHTML = hostname;
       }
     </script>
-    <!-- Code injected by live-server -->
-    <script>
-      // <![CDATA[  <-- For SVG support
-      if ("WebSocket" in window) {
-        (function () {
-          function refreshCSS() {
-            var sheets = [].slice.call(document.getElementsByTagName("link"));
-            var head = document.getElementsByTagName("head")[0];
-            for (var i = 0; i < sheets.length; ++i) {
-              var elem = sheets[i];
-              var parent = elem.parentElement || head;
-              parent.removeChild(elem);
-              var rel = elem.rel;
-              if (
-                (elem.href && typeof rel != "string") ||
-                rel.length == 0 ||
-                rel.toLowerCase() == "stylesheet"
-              ) {
-                var url = elem.href.replace(/(&|\?)_cacheOverride=\d+/, "");
-                elem.href =
-                  url +
-                  (url.indexOf("?") >= 0 ? "&" : "?") +
-                  "_cacheOverride=" +
-                  new Date().valueOf();
-              }
-              parent.appendChild(elem);
-            }
-          }
-          var protocol =
-            window.location.protocol === "http:" ? "ws://" : "wss://";
-          var address =
-            protocol + window.location.host + window.location.pathname + "/ws";
-          var socket = new WebSocket(address);
-          socket.onmessage = function (msg) {
-            if (msg.data == "reload") window.location.reload();
-            else if (msg.data == "refreshcss") refreshCSS();
-          };
-          if (
-            sessionStorage &&
-            !sessionStorage.getItem("IsThisFirstTime_Log_From_LiveServer")
-          ) {
-            console.log("Live reload enabled.");
-            sessionStorage.setItem("IsThisFirstTime_Log_From_LiveServer", true);
-          }
-        })();
-      } else {
-        console.error(
-          "Upgrade your browser. This Browser is NOT supported WebSocket for Live-Reloading."
-        );
-      }
-      // ]]>
-    </script>
   </body>
 </html>
+
+
