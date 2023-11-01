@@ -11,7 +11,7 @@ body {
 
 body {
   font-family: Hind, sans-serif;
-  background-color: #f4fff3;
+  background-color: #f2fff2;
 }
 
 p {
@@ -266,7 +266,7 @@ fieldset[disabled] .btn-theme {
 }
 
 .btn-default-bg {
-  color: #515769;
+  color: #e06b2a;
   background: #f3f4f5;
   border-color: transparent;
   border-width: 0;
@@ -276,7 +276,7 @@ fieldset[disabled] .btn-theme {
 .btn-default-bg:focus,
 .btn-default-bg.focus {
   color: #fff;
-  background: #17bed2;
+  background: #bfd217;
   border-color: transparent;
 }
 
@@ -299,6 +299,7 @@ fieldset[disabled] .btn-theme {
   font-size: 13px;
   font-weight: 600;
   padding: 15px 30px;
+  border-radius: 20px;
 }
 
 /*------------------------------------------------------------------
@@ -306,9 +307,10 @@ fieldset[disabled] .btn-theme {
 ------------------------------------------------------------------*/
 .pricing {
   padding: 70px 45px;
-  background: #fff;
+  background: #e7e8f9;
   margin-top: 50px;
-  border-radius: 25px 0;
+  border-radius: 100px;
+  border: 1px solid;
 }
 
 @media (max-width: 768px) {
@@ -397,8 +399,10 @@ fieldset[disabled] .btn-theme {
   	[Service]
 ------------------------------------------------------------------*/
 .service {
-  background: #fff;
+  margin: 10px;
+  background: #e7e8f9;
   padding: 50px;
+  border-radius: 50px;
 }
 
 .service .service-element,
@@ -1313,7 +1317,7 @@ fieldset[disabled] .btn-theme {
 }
 
 .bg-color-sky-light {
-  background: #def2ff;
+  background: #f8dbcc;
 }
 
 /*------------------------------------------------------------------
