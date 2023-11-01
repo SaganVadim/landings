@@ -639,6 +639,7 @@ fieldset[disabled] .btn-theme {
   white-space: nowrap;
   font-size: 24px;
   font-weight: 800;
+  color: #d36f22;
 }
 
 .header .logo-wrap:focus,
@@ -826,7 +827,7 @@ fieldset[disabled] .btn-theme {
 /* Page On Scroll */
 @media (min-width: 992px) {
   .page-on-scroll .header .navbar {
-    background: #fff;
+    background: #ebffea;
     border-bottom-color: #f0f0f0;
     transition-duration: 300ms;
     transition-property: all;
@@ -846,7 +847,7 @@ fieldset[disabled] .btn-theme {
     transition-timing-function: cubic-bezier(0.7, 1, 0.7, 1);
   }
   .page-on-scroll .header .nav-item-child {
-    color: #515769;
+    color: #c1441c;
     transition-duration: 300ms;
     transition-property: all;
     transition-timing-function: cubic-bezier(0.7, 1, 0.7, 1);
