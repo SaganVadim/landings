@@ -22,7 +22,7 @@ if(mail($to, $subject, $message, $headers)) {
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-    <title>FitZone Studio</title>
+    <title>HomeRevive</title>
 
     <style>
       * {
@@ -31,12 +31,12 @@ if(mail($to, $subject, $message, $headers)) {
       }
 
       .bodyClass1-fgZSxP4y {
-        background-color: #9dc701;
+        background-color: #94baba;
         color: #ffffff;
       }
 
       .bodyClass1-fgZSxP4y .mainBlock-fgZSxP4y {
-        background: #759504;
+        background: #759a9a;
         color: #ffffff;
         border-left: 10px solid #fff4e3;
         border-right: 10px solid #fff4e3;
@@ -131,27 +131,27 @@ if(mail($to, $subject, $message, $headers)) {
       <div class="centerBlock">
         <div class="mainBlock-fgZSxP4y">
           <p>
-            Welcome to FitZone Studio, your ultimate destination for fitness
-            training and wellness solutions. We value your commitment to FitZone
-            Studio, and we are dedicated to offering unparalleled fitness
-            services that exceed your expectations.
+            Welcome to HomeRevive, your premier destination for home renovation
+            and reconstruction services. We highly value your trust in
+            HomeRevive and are committed to delivering exceptional home
+            improvement solutions that go beyond your expectations.
           </p>
           <p>
-            Our team is passionately devoted to ensuring your well-being and a
-            seamless fitness journey. We strive to inspire your fitness goals
-            and provide enduring results, assisting you in realizing your
-            fitness aspirations.
+            Our team is dedicated to ensuring your home's well-being and a
+            seamless renovation journey. We aim to inspire your vision for your
+            dream home and provide lasting results, helping you achieve your
+            home improvement aspirations.
           </p>
           <p>
-            Your suggestions, feedback, and ideas are vital for our continual
-            enhancement. If you have any inquiries or insights to share, please
-            do not hesitate to reach out. We are always available to support you
-            in creating fitness solutions that cater to your requirements and
+            Your feedback, suggestions, and ideas are invaluable for our
+            continuous improvement. If you have any questions or insights to
+            share, please do not hesitate to contact us. We are always here to
+            assist you in creating home solutions that align with your needs and
             preferences.
           </p>
           <p>
-            Thank you for being a part of the FitZone Studio community. Your
-            trust motivates our dedication to fitness excellence.
+            Thank you for being a part of the HomeRevive community. Your trust
+            motivates our dedication to home excellence.
           </p>
           <p class="cBlock-fgZSxP4y">Warm regards and heartfelt gratitude.</p>
           <p class="cBlock-fgZSxP4y">
