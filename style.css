@@ -1,40 +1,4 @@
-/*------------------------------------------------------------------
-    Version: 1.0
--------------------------------------------------------------------*/
 
-
-/*------------------------------------------------------------------
-    [Table of contents]
-
-    1. IMPORT FONTS
-    2. IMPORT FILES
-    3. SKELETON
-    4. WP CORE
-    5. HEADER
-    6. SECTIONS
-    7. SECTIONS
-    8. PORTFOLIO
-    9. TESTIMONIALS
-    10. PRICING TABLES
-    11. ICON BOXES
-    12. MESSAGE BOXES
-    13. FEATURES
-    14. CONTACT
-    15. FOOTER
-    16. MISC
-    17. BUTTONS
--------------------------------------------------------------------*/
-
-
-/*------------------------------------------------------------------
-    IMPORT FONTS
--------------------------------------------------------------------*/
-
-@import url('https://fonts.googleapis.com/css?family=Raleway:100,200,300,400,500,600,700,900');
-
-/*------------------------------------------------------------------
-    IMPORT FILES
--------------------------------------------------------------------*/
 
 @import url(css/animate.css);
 @import url(css/flaticon.css);
@@ -43,9 +7,6 @@
 @import url(css/owl.carousel.css);
 @import url(css/font-awesome.min.css);
 
-/*------------------------------------------------------------------
-    SKELETON
--------------------------------------------------------------------*/
 
 body {
     color: #999;
@@ -435,8 +396,10 @@ a img.aligncenter {
 }
 
 .header_style_01 .navbar-brand {
-    padding: 2px 15px 0 15px;
+    padding: 20px 15px 0 15px;
 	height: auto;
+    color: #a60a0a;
+
 }
 
 .header_style_01 .navbar-default .navbar-nav > li > a {
