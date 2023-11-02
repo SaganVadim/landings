@@ -397,9 +397,10 @@ a img.aligncenter {
 
 .header_style_01 .navbar-brand {
     padding: 20px 15px 0 15px;
-	height: auto;
-    color: #a60a0a;
-
+    height: auto;
+    color: #9dc701;
+    font-size: 30px;
+    font-weight: 800;
 }
 
 .header_style_01 .navbar-default .navbar-nav > li > a {
@@ -420,15 +421,15 @@ a img.aligncenter {
 .header_style_01 .navbar-default .navbar-nav > li a.active{
 	color: #ffffff;
 	box-shadow: 0 10px 20px 0 rgba(5, 16, 44, .15);
-	border-radius: 25px 0px 25px 0px;
-	background: #fd6802;
+	border-radius: 25px 0px 0px 25px;
+	background: #9dc701;
 }
 
 .header_style_01 .navbar-default .navbar-nav > li:hover a,
 .header_style_01 .navbar-default .navbar-nav > li:focus a {
     color: #ffffff;
 	box-shadow: 0 10px 20px 0 rgba(5, 16, 44, .15);
-	border-radius: 25px 0px 25px 0px;
+	border-radius: 25px 0px 0px 25px;
 	background: #fd6802;
 }
 
@@ -520,7 +521,7 @@ li.social-links a {
 }
 
 .slide-text h1 span{
-	color: #fd6802;
+	color: #9dc701;
 }
 
 .slide-text h2 {
@@ -541,7 +542,7 @@ li.social-links a {
     transform: translateY(-50%);
     transition: all 0.4s ease-in-out 0s;
     width: 60px;
-	border-radius: 25px 0px 25px 0px;
+	border-radius: 25px 0px 0px 25px;
 }
 
 .slider-wrapper .owl-nav .owl-prev:hover, .slider-wrapper .owl-nav .owl-next:hover {
@@ -577,7 +578,7 @@ li.social-links a {
 	width: auto;
 	height: auto;
 	background: none;
-	color: #ffffff;
+	color: #fafafa;
 }
 
 .home-one-slider-otem::before{
@@ -651,11 +652,11 @@ li.social-links a {
 }
 
 .section.wb {
-    background-color: #ffffff;
+    background-color: #ebf8eb;
 }
 
 .section.lb {
-    background-color: #f2f3f5;
+    background-color: #e4eaf6;
 }
 
 .section.db {
@@ -902,9 +903,9 @@ li.social-links a {
     position: relative;
     background: #393939;
     border: 1px solid #393939;
-	-webkit-border-radius: 25px 0px 25px 0px;
-	-moz-border-radius: 25px 0px 25px 0px;
-	border-radius: 25px 0px 25px 0px;
+	-webkit-border-radius: 25px 0px 0px 25px;
+	-moz-border-radius: 25px 0px 0px 25px;
+	border-radius: 25px 0px 0px 25px;
 }
 
 .testi-meta {
@@ -1178,7 +1179,7 @@ li.social-links a {
     top: -7px;
     left: -7px;
     padding: 7px;
-    box-shadow: 0 0 0 2px #fcbf02;
+    box-shadow: 0 0 0 2px #caff05;
     -webkit-transition: -webkit-transform 0.2s, opacity 0.2s;
     -webkit-transform: scale(.8);
     -moz-transition: -moz-transform 0.2s, opacity 0.2s;
@@ -1273,7 +1274,8 @@ li.social-links a {
 }
 
 .post-media img {
-    width: 100%;
+    width: 70%;
+    border-radius: 80px 0;
 }
 
 .playbutton {
@@ -1461,6 +1463,7 @@ hr.invis1 {
     z-index: 10;
     padding-right: 30px;
     text-align: center;
+    width: 80%;
 }
 
 .customwidget p {
@@ -1491,7 +1494,7 @@ hr.invis1 {
 	-webkit-box-shadow: 0px 5px 35px 0px rgba(148, 146, 245, 0.15);
 	box-shadow: 0px 5px 35px 0px rgba(148, 146, 245, 0.15);
 	background: #393939;
-	border-radius: 25px 0px 25px 0px;
+	border-radius: 25px 0px 0px 25px;
 	transition: all 1s ease-in-out;
 }
 
@@ -1518,7 +1521,7 @@ hr.invis1 {
     height: 68px;
     line-height: 68px;
     display: table;
-    border-radius: 25px 0px 25px 0px;
+    border-radius: 25px 0px 0px 25px;
     font-size: 26px;
 	color: #ffffff;
     background-color: #fd6802;
@@ -2252,7 +2255,7 @@ select.mobile-device {
 }
 
 .icon_wrap {
-    background-color: #fd6802;
+    background-color: #9cc601;
     width: 100px;
     height: 100px;
     display: block;
@@ -2268,7 +2271,7 @@ select.mobile-device {
 .stat-wrap h3 {
     font-size: 22px;
     font-weight: 600;
-    color: #fcbf02;
+    color: #caff05;
     margin: 0 !important;
     padding: 0 !important;
     line-height: 1 !important:
@@ -2755,17 +2758,18 @@ select.mobile-device {
 .nav-pills > li > a,
 .global-radius,
 .btn-brd {
-    -webkit-border-radius: 25px 0px 25px 0px;
-    -moz-border-radius: 25px 0px 25px 0px;
-    border-radius: 25px 0px 25px 0px;
+    -webkit-border-radius: 25px 0px 0px 25px;
+    -moz-border-radius: 25px 0px 0px 25px;
+    border-radius: 25px 0px 0px 25px;
 }
 
 .btn-light {
     padding: 13px 40px;
     font-size: 18px;
-    border: 2px solid #fd6802;
+    border: 4px solid #c9ff00;
     color: #ffffff;
-    background-color: #fd6802;
+    background-color: #9dc701;
+    
 }
 
 .btn-dark {
@@ -3294,6 +3298,8 @@ select.mobile-device {
     bottom: 20px;
 }
 
-
+.owl-next i:hover, .owl-prev i:hover {
+    background-color: #caff05;
+}
 
 
