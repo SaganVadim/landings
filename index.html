@@ -1,676 +1,1008 @@
 <!DOCTYPE html>
-<html lang="en" class="no-js">
+<html lang="en">
   <head>
     <meta charset="utf-8" />
-    <title>ElectroMaster - Your Electrical Solutions Experts</title>
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <meta
+      name="viewport"
+      content="width=device-width, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no"
+    />
+
+    <title>FitZone Studio</title>
+    <meta name="keywords" content="fitness, studio, workouts, health" />
     <meta
       name="description"
-      content="Your trusted electrical solutions experts at ElectroMaster provide top-quality services."
+      content="Discover the ultimate fitness experience at FitZone Studio."
     />
-    <meta name="author" content="ElectroMaster" />
+    <meta name="author" content="FitZone Studio Team" />
 
-    <link
-      href="vendor/simple-line-icons/simple-line-icons.min.css"
-      rel="stylesheet"
-      type="text/css"
-    />
-    <link
-      href="vendor/bootstrap/css/bootstrap.min.css"
-      rel="stylesheet"
-      type="text/css"
-    />
+    <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon" />
+    <link rel="apple-touch-icon" href="images/apple-touch-icon.png" />
 
-    <link href="css/animate.css" rel="stylesheet" />
-    <link
-      href="vendor/swiper/css/swiper.min.css"
-      rel="stylesheet"
-      type="text/css"
-    />
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="css/responsive.css" />
+    <link rel="stylesheet" href="css/custom.css" />
 
-    <link href="css/layout.css" rel="stylesheet" type="text/css" />
-    <link href="css/cfg.css" rel="stylesheet" type="text/css" />
-    <link rel="stylesheet" href="css/cookies.css" />
-
-    <link rel="shortcut icon" href="img/favicon.ico" />
+    <script src="js/modernizer.js"></script>
   </head>
-
   <body>
-    <header class="header navbar-fixed-top">
-      <nav class="navbar" role="navigation">
-        <div class="container">
-          <div class="menu-container">
-            <button
-              type="button"
-              class="navbar-toggle"
-              data-toggle="collapse"
-              data-target=".nav-collapse"
-            >
-              <span class="sr-only">Toggle navigation</span>
-              <span class="toggle-icon"></span>
-            </button>
+    <!-- LOADER -->
+    <div id="preloader">
+      <div class="loader">
+        <div class="loader__bar"></div>
+        <div class="loader__bar"></div>
+        <div class="loader__bar"></div>
+        <div class="loader__bar"></div>
+        <div class="loader__bar"></div>
+        <div class="loader__ball"></div>
+      </div>
+    </div>
+    <!-- end loader -->
+    <!-- END LOADER -->
 
-            <div class="logo">
-              <a class="logo-wrap" href="index.html">ElectroMaster</a>
+    <div class="top-bar">
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col-md-6 col-sm-6">
+            <div class="left-top">
+              <div class="email-box">
+                <a href="#"
+                  ><i class="fa fa-envelope-o" aria-hidden="true"></i>
+                  youremail@gmail.com</a
+                >
+              </div>
+              <div class="phone-box">
+                <a href="tel:1234567890"
+                  ><i class="fa fa-phone" aria-hidden="true"></i> +1 234 567
+                  890</a
+                >
+              </div>
             </div>
           </div>
-
-          <div class="collapse navbar-collapse nav-collapse">
-            <div class="menu-container">
-              <ul class="navbar-nav navbar-nav-right">
-                <li class="nav-item">
-                  <a
-                    class="nav-item-child nav-item-hover active"
-                    href="index.html"
-                    >Home</a
-                  >
-                </li>
-                <li class="nav-item">
-                  <a class="nav-item-child nav-item-hover" href="pricing.html"
-                    >Pricing</a
-                  >
-                </li>
-                <li class="nav-item">
-                  <a class="nav-item-child nav-item-hover" href="about.html"
-                    >About</a
-                  >
-                </li>
-
-                <li class="nav-item">
-                  <a class="nav-item-child nav-item-hover" href="contact.html"
-                    >Contact</a
-                  >
-                </li>
-              </ul>
+          <div class="col-md-6 col-sm-6">
+            <div class="right-top">
+              <div class="social-box">
+                <ul>
+                  <li>
+                    <a href="#"
+                      ><i class="fa fa-facebook-square" aria-hidden="true"></i
+                    ></a>
+                  </li>
+                  <li>
+                    <a href="#"
+                      ><i class="fa fa-instagram" aria-hidden="true"></i
+                    ></a>
+                  </li>
+                  <li>
+                    <a href="#"
+                      ><i class="fa fa-linkedin-square" aria-hidden="true"></i
+                    ></a>
+                  </li>
+                  <li>
+                    <a href="#"
+                      ><i class="fa fa-twitter-square" aria-hidden="true"></i
+                    ></a>
+                  </li>
+                  <li>
+                    <a href="#"
+                      ><i class="fa fa-rss-square" aria-hidden="true"></i
+                    ></a>
+                  </li>
+                </ul>
+              </div>
             </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <header class="header header_style_01">
+      <nav class="megamenu navbar navbar-default">
+        <div class="container-fluid">
+          <div class="navbar-header">
+            <button
+              type="button"
+              class="navbar-toggle collapsed"
+              data-toggle="collapse"
+              data-target="#navbar"
+              aria-expanded="false"
+              aria-controls="navbar"
+            >
+              <span class="sr-only">Toggle navigation</span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="index.html"
+              ><img src="images/logos/logo.png" alt="image"
+            /></a>
+          </div>
+          <div id="navbar" class="navbar-collapse collapse">
+            <ul class="nav navbar-nav navbar-right">
+              <li><a class="active" href="index.html">Home</a></li>
+              <li><a href="about-us.html">About us</a></li>
+              <li><a href="services.html">Our Services</a></li>
+              <li><a href="portfolio.html">Portfolio</a></li>
+              <li><a href="features.html">Features</a></li>
+              <li><a href="testimonials.html">Testimonials</a></li>
+              <li><a href="pricing.html">Pricing</a></li>
+              <li><a href="contact.html">Contact</a></li>
+            </ul>
           </div>
         </div>
       </nav>
     </header>
 
-    <div
-      id="carousel-example-generic"
-      class="carousel slide"
-      data-ride="carousel"
-    >
-      <div class="container"></div>
-
-      <div class="carousel-inner" role="listbox">
-        <div class="item active">
-          <img
-            class="img-responsive"
-            src="img/1920x1080/01.jpg"
-            alt="Slider Image"
-          />
+    <div class="slider-area">
+      <div class="slider-wrapper owl-carousel">
+        <div
+          class="slider-item home-one-slider-otem slider-item-four slider-bg-one"
+        >
           <div class="container">
-            <div class="carousel-centered">
-              <div class="margin-b-40">
-                <h1 class="carousel-title">
-                  ElectroMaster: Powering Your World
-                </h1>
-                <p>
-                  Illuminate your life with the experts in electrical services,
-                  where precision matters and every connection is a masterpiece.
-                </p>
-              </div>
-              <a
-                href="contact.html"
-                class="btn-theme btn-theme-sm btn-white-brd text-uppercase"
-                >Get Wired</a
-              >
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-    <div class="bg-color-sky-light">
-      <div class="content-lg container">
-        <div class="row row-space-1">
-          <div class="col-sm-4 sm-margin-b-2">
-            <div class="pricing">
-              <div class="margin-b-30">
-                <i class="pricing-icon icon-tools"></i>
-                <h3>Essential Package <span> - $</span> 49</h3>
-                <p>
-                  Get started with the essentials for your electrical project
-                  with our Essential Package.
-                </p>
-              </div>
-              <ul class="list-unstyled pricing-list margin-b-50">
-                <li class="pricing-list-item">Basic Wiring</li>
-                <li class="pricing-list-item">Up to 5 Outlets</li>
-                <li class="pricing-list-item">Safety Inspection</li>
-              </ul>
-              <a
-                href="contact.html"
-                class="btn-theme btn-theme-sm btn-default-bg text-uppercase"
-                >Contact</a
-              >
-            </div>
-          </div>
-          <div class="col-sm-4 sm-margin-b-2">
-            <div class="pricing pricing-active">
-              <div class="margin-b-30">
-                <i class="pricing-icon icon-settings"></i>
-                <h3>Pro Package <span> - $</span> 149</h3>
-                <p>
-                  Elevate your electrical project with our Pro Package, designed
-                  for professional results.
-                </p>
-              </div>
-              <ul class="list-unstyled pricing-list margin-b-50">
-                <li class="pricing-list-item">Advanced Installations</li>
-                <li class="pricing-list-item">Up to 10 Outlets</li>
-                <li class="pricing-list-item">24/7 Support</li>
-              </ul>
-              <a
-                href="contact.html"
-                class="btn-theme btn-theme-sm btn-default-bg text-uppercase"
-                >Contact</a
-              >
-            </div>
-          </div>
-          <div class="col-sm-4">
-            <div class="pricing">
-              <div class="margin-b-30">
-                <i class="pricing-icon icon-star"></i>
-                <h3>Premium Package <span> - $</span> 249</h3>
-                <p>
-                  Achieve excellence in your electrical project with our Premium
-                  Package, designed for top-tier performance.
-                </p>
-              </div>
-              <ul class="list-unstyled pricing-list margin-b-50">
-                <li class="pricing-list-item">Premium Services</li>
-                <li class="pricing-list-item">Unlimited Outlets</li>
-                <li class="pricing-list-item">Priority Scheduling</li>
-              </ul>
-              <a
-                href="contact.html"
-                class="btn-theme btn-theme-sm btn-default-bg text-uppercase"
-                >Contact</a
-              >
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-
-    <div class="bg-color-sky-light" data-auto-height="true">
-      <div class="content-lg container">
-        <div class="row row-space-1 margin-b-2">
-          <div class="col-sm-4 sm-margin-b-2">
-            <div
-              class="wow fadeInLeft"
-              data-wow-duration=".3"
-              data-wow-delay=".3s"
-            >
-              <div class="service" data-height="height">
-                <div class="service-element">
-                  <i class="service-icon icon-lightning"></i>
-                </div>
-                <div class="service-info">
-                  <h3>Electrical Insights</h3>
-                  <p class="margin-b-5">
-                    Gain valuable insights into the electrical industry and
-                    installation opportunities.
-                  </p>
-                </div>
-                <a href="contact.html" class="content-wrapper-link"></a>
-              </div>
-            </div>
-          </div>
-          <div class="col-sm-4 sm-margin-b-2">
-            <div
-              class="wow fadeInLeft"
-              data-wow-duration=".3"
-              data-wow-delay=".2s"
-            >
-              <div class="service" data-height="height">
-                <div class="service-element">
-                  <i class="service-icon icon-tools"></i>
-                </div>
-                <div class="service-info">
-                  <h3>Quality Installations</h3>
-                  <p class="margin-b-5">
-                    Explore our top-quality and professional electrical
-                    installation services for your needs.
-                  </p>
-                </div>
-                <a href="contact.html" class="content-wrapper-link"></a>
-              </div>
-            </div>
-          </div>
-          <div class="col-sm-4">
-            <div
-              class="wow fadeInLeft"
-              data-wow-duration=".3"
-              data-wow-delay=".1s"
-            >
-              <div class="service" data-height="height">
-                <div class="service-element">
-                  <i class="service-icon icon-shield"></i>
-                </div>
-                <div class="service-info">
-                  <h3>Safety-First Approach</h3>
-                  <p class="margin-b-5">
-                    Explore our commitment to safety with every electrical
-                    project, ensuring your peace of mind.
-                  </p>
-                </div>
-                <a href="contact.html" class="content-wrapper-link"></a>
-              </div>
-            </div>
-          </div>
-        </div>
-
-        <div class="row row-space-1">
-          <div class="col-sm-4 sm-margin-b-2">
-            <div
-              class="wow fadeInLeft"
-              data-wow-duration=".3"
-              data-wow-delay=".4s"
-            >
-              <div class="service" data-height="height">
-                <div class="service-element">
-                  <i class="service-icon icon-tools"></i>
-                </div>
-                <div class="service-info">
-                  <h3>Informative Guides</h3>
-                  <p class="margin-b-5">
-                    Access comprehensive and informative guides to navigate the
-                    electrical industry confidently.
-                  </p>
-                </div>
-                <a href="contact.html" class="content-wrapper-link"></a>
-              </div>
-            </div>
-          </div>
-          <div class="col-sm-4 sm-margin-b-2">
-            <div
-              class="wow fadeInLeft"
-              data-wow-duration=".3"
-              data-wow-delay=".5s"
-            >
-              <div class="service" data-height="height">
-                <div class="service-element">
-                  <i class="service-icon icon-bolt"></i>
-                </div>
-                <div class="service-info">
-                  <h3>Swift Installations</h3>
-                  <p class="margin-b-5">
-                    Experience swift and efficient electrical installations with
-                    our dedicated services.
-                  </p>
-                </div>
-                <a href="contact.html" class="content-wrapper-link"></a>
-              </div>
-            </div>
-          </div>
-          <div class="col-sm-4">
-            <div
-              class="wow fadeInLeft"
-              data-wow-duration=".3"
-              data-wow-delay=".6s"
-            >
-              <div class="service" data-height="height">
-                <div class="service-element">
-                  <i class="service-icon icon-shield"></i>
-                </div>
-                <div class="service-info">
-                  <h3>Complimentary Add-Ons</h3>
-                  <p class="margin-b-5">
-                    Enjoy an array of complimentary add-ons when choosing
-                    ElectroMaster for your electrical needs.
-                  </p>
-                </div>
-                <a href="contact.html" class="content-wrapper-link"></a>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-
-    <div class="content-lg container">
-      <div class="row">
-        <div class="col-sm-9">
-          <h2>Client Testimonials</h2>
-
-          <div class="swiper-slider swiper-testimonials">
-            <div class="swiper-wrapper">
-              <div class="swiper-slide">
-                <blockquote class="blockquote">
-                  <div class="margin-b-20">
-                    ElectroMaster exceeded our expectations with their
-                    electrical services. Their dedication, expertise, and
-                    outstanding work made our project a success. We highly
-                    recommend ElectroMaster!
-                  </div>
-                  <div class="margin-b-20">
-                    The team at ElectroMaster went above and beyond to ensure
-                    our electrical needs were met. Their attention to detail and
-                    commitment to client satisfaction is truly commendable.
-                  </div>
-                  <p>
-                    <span class="fweight-700 color-link">Sarah Johnson</span>,
-                    Satisfied Customer
-                  </p>
-                </blockquote>
-              </div>
-              <div class="swiper-slide">
-                <blockquote class="blockquote">
-                  <div class="margin-b-20">
-                    ElectroMaster made our electrical project a seamless
-                    process. Their expertise and professional approach exceeded
-                    our expectations. We're grateful for their outstanding
+            <div class="row">
+              <div class="slider-content-area">
+                <div class="slide-text">
+                  <h1 class="homepage-three-title">
+                    Outstanding <span>Installation</span> Services
+                  </h1>
+                  <h2>
+                    With GoodWEB Solutions responsive landing page template,
+                    <br />you can promote your all web design & development
                     services.
+                  </h2>
+                  <div class="slider-content-btn">
+                    <a class="button btn btn-light btn-radius btn-brd" href="#"
+                      >Read More</a
+                    >
+                    <a class="button btn btn-light btn-radius btn-brd" href="#"
+                      >Contact</a
+                    >
                   </div>
-                  <div class="margin-b-20">
-                    From the initial consultation to the project completion,
-                    ElectroMaster's professionalism shone through. We endorse
-                    their services for anyone in need of electrical work.
-                  </div>
-                  <p>
-                    <span class="fweight-700 color-link">John Smith</span>,
-                    Happy Customer
-                  </p>
-                </blockquote>
+                </div>
               </div>
             </div>
-
-            <div class="swiper-testimonials-pagination"></div>
+          </div>
+        </div>
+        <div
+          class="slider-item text-center home-one-slider-otem slider-item-four slider-bg-two"
+        >
+          <div class="container">
+            <div class="row">
+              <div class="slider-content-area">
+                <div class="slide-text">
+                  <h1 class="homepage-three-title">
+                    Outstanding <span>Installation</span> Services
+                  </h1>
+                  <h2>
+                    With GoodWEB Solutions responsive landing page template,
+                    <br />you can promote your all web design & development
+                    services.
+                  </h2>
+                  <div class="slider-content-btn">
+                    <a class="button btn btn-light btn-radius btn-brd" href="#"
+                      >Read More</a
+                    >
+                    <a class="button btn btn-light btn-radius btn-brd" href="#"
+                      >Contact</a
+                    >
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div
+          class="slider-item home-one-slider-otem slider-item-four slider-bg-three"
+        >
+          <div class="container">
+            <div class="row">
+              <div class="slider-content-area">
+                <div class="slide-text">
+                  <h1 class="homepage-three-title">
+                    Outstanding <span>Installation</span> Services
+                  </h1>
+                  <h2>
+                    With GoodWEB Solutions responsive landing page template,
+                    <br />you can promote your all web design & development
+                    services.
+                  </h2>
+                  <div class="slider-content-btn">
+                    <a class="button btn btn-light btn-radius btn-brd" href="#"
+                      >Read More</a
+                    >
+                    <a class="button btn btn-light btn-radius btn-brd" href="#"
+                      >Contact</a
+                    >
+                  </div>
+                </div>
+              </div>
+            </div>
           </div>
         </div>
       </div>
     </div>
 
-    <div class="promo-section overflow-h">
+    <div id="about" class="section wb">
       <div class="container">
-        <div class="clearfix">
-          <div class="ver-center">
-            <div class="ver-center-aligned">
-              <div class="promo-section-col">
-                <h2>Our Clients</h2>
-                <p>
-                  Explore the success stories of our clients at ElectroMaster,
-                  where electrical dreams come to life. Our dedicated team
-                  ensures your electrical projects run smoothly, providing
-                  unparalleled service and expertise.
-                </p>
-                <p>
-                  Experience excellence in every electrical endeavor. At
-                  ElectroMaster, we redefine electrical standards. Trust us to
-                  turn your electrical aspirations into reality.
-                </p>
-              </div>
+        <div class="row">
+          <div class="col-md-6">
+            <div class="message-box">
+              <h4>About Us</h4>
+              <h2>Welcome to GoodWEB Solutions</h2>
+              <p class="lead">
+                Quisque eget nisl id nulla sagittis auctor quis id. Aliquam quis
+                vehicula enim, non aliquam risus. Sed a tellus quis mi rhoncus
+                dignissim.
+              </p>
+
+              <p>
+                Integer rutrum ligula eu dignissim laoreet. Pellentesque
+                venenatis nibh sed tellus faucibus bibendum. Sed fermentum est
+                vitae rhoncus molestie. Cum sociis natoque penatibus et magnis
+                dis parturient montes, nascetur ridiculus mus. Sed vitae rutrum
+                neque. Ut id erat sit amet libero bibendum aliquam. Donec ac
+                egestas libero, eu bibendum risus. Phasellus et congue justo.
+              </p>
+
+              <a href="#services" class="btn btn-light btn-radius btn-brd grd1"
+                >Learn More</a
+              >
+            </div>
+            <!-- end messagebox -->
+          </div>
+          <!-- end col -->
+
+          <div class="col-md-6">
+            <div class="post-media wow fadeIn">
+              <img
+                src="uploads/about_01.jpg"
+                alt=""
+                class="img-responsive img-rounded"
+              />
+              <a
+                href="http://www.youtube.com/watch?v=nrJtHemSPW4"
+                data-rel="prettyPhoto[gal]"
+                class="playbutton"
+                ><i class="flaticon-play-button"></i
+              ></a>
+            </div>
+            <!-- end media -->
+          </div>
+          <!-- end col -->
+        </div>
+        <!-- end row -->
+
+        <hr class="hr1" />
+
+        <div class="row">
+          <div class="col-md-6">
+            <div class="post-media wow fadeIn">
+              <img
+                src="uploads/about_02.jpg"
+                alt=""
+                class="img-responsive img-rounded"
+              />
+            </div>
+            <!-- end media -->
+          </div>
+          <!-- end col -->
+
+          <div class="col-md-6">
+            <div class="message-box">
+              <h4>Who We are</h4>
+              <h2>We Are GoodWEB Solutions</h2>
+              <p class="lead">
+                Quisque eget nisl id nulla sagittis auctor quis id. Aliquam quis
+                vehicula enim, non aliquam risus. Sed a tellus quis mi rhoncus
+                dignissim.
+              </p>
+
+              <p>
+                Integer rutrum ligula eu dignissim laoreet. Pellentesque
+                venenatis nibh sed tellus faucibus bibendum. Sed fermentum est
+                vitae rhoncus molestie. Cum sociis natoque penatibus et magnis
+                dis parturient montes, nascetur ridiculus mus. Sed vitae rutrum
+                neque. Ut id erat sit amet libero bibendum aliquam. Donec ac
+                egestas libero, eu bibendum risus. Phasellus et congue justo.
+              </p>
+
+              <a href="#services" class="btn btn-light btn-radius btn-brd grd1"
+                >Learn More</a
+              >
+            </div>
+            <!-- end messagebox -->
+          </div>
+          <!-- end col -->
+        </div>
+        <!-- end row -->
+      </div>
+      <!-- end container -->
+    </div>
+    <!-- end section -->
+
+    <div
+      class="parallax section parallax-off"
+      data-stellar-background-ratio="0.9"
+      style="background-image: url('uploads/parallax_04.jpg')"
+    >
+      <div class="container">
+        <div class="row text-center stat-wrap">
+          <div class="col-md-3 col-sm-6 col-xs-12">
+            <span data-scroll class="global-radius icon_wrap effect-1"
+              ><i class="flaticon-briefcase"></i
+            ></span>
+            <p class="stat_count">1200</p>
+            <h3>Complated Projects</h3>
+          </div>
+          <!-- end col -->
+
+          <div class="col-md-3 col-sm-6 col-xs-12">
+            <span data-scroll class="global-radius icon_wrap effect-1"
+              ><i class="flaticon-happy"></i
+            ></span>
+            <p class="stat_count">3210</p>
+            <h3>Happy Clients</h3>
+          </div>
+          <!-- end col -->
+
+          <div class="col-md-3 col-sm-6 col-xs-12">
+            <span data-scroll class="global-radius icon_wrap effect-1"
+              ><i class="flaticon-idea"></i
+            ></span>
+            <p class="stat_count">3781</p>
+            <h3>Customer Services</h3>
+          </div>
+          <!-- end col -->
+
+          <div class="col-md-3 col-sm-6 col-xs-12">
+            <span data-scroll class="global-radius icon_wrap effect-1"
+              ><i class="flaticon-customer-service"></i
+            ></span>
+            <p class="stat_count">4300</p>
+            <h3>Answered Questions</h3>
+          </div>
+          <!-- end col -->
+        </div>
+        <!-- end row -->
+      </div>
+      <!-- end container -->
+    </div>
+    <!-- end section -->
+
+    <div id="services" class="parallax section lb">
+      <div class="container">
+        <div class="section-title text-center">
+          <h3>Our Service</h3>
+          <p class="lead">
+            Our Service unlimited solutions to all your business needs. in the
+            installation package we prepare search engine optimization, social
+            media support, we provide corporate identity and graphic design
+            services.
+          </p>
+        </div>
+        <!-- end title -->
+
+        <div class="owl-services owl-carousel owl-theme">
+          <div class="service-widget">
+            <div class="post-media wow fadeIn">
+              <a
+                href="uploads/service_01.jpg"
+                data-rel="prettyPhoto[gal]"
+                class="hoverbutton global-radius"
+                ><i class="flaticon-unlink"></i
+              ></a>
+              <img
+                src="uploads/service_01.jpg"
+                alt=""
+                class="img-responsive img-rounded"
+              />
+            </div>
+            <div class="service-dit">
+              <h3>Smart Swatch Editions</h3>
+              <p>
+                Aliquam sagittis ligula et sem lacinia, ut facilisis enim
+                sollicitudin. Proin nisi est, convallis nec purus vitae, iaculis
+                posuere sapien. Cum sociis natoque.
+              </p>
+            </div>
+          </div>
+          <!-- end service -->
+
+          <div class="service-widget">
+            <div class="post-media wow fadeIn">
+              <a
+                href="uploads/service_02.jpg"
+                data-rel="prettyPhoto[gal]"
+                class="hoverbutton global-radius"
+                ><i class="flaticon-unlink"></i
+              ></a>
+              <img
+                src="uploads/service_02.jpg"
+                alt=""
+                class="img-responsive img-rounded"
+              />
+            </div>
+            <div class="service-dit">
+              <h3>Web UI Kit Design</h3>
+              <p>
+                Duis at tellus at dui tincidunt scelerisque nec sed felis.
+                Suspendisse id dolor sed leo rutrum euismod. Nullam vestibulum
+                fermentum erat. It nam auctor.
+              </p>
+            </div>
+          </div>
+          <!-- end service -->
+
+          <div class="service-widget">
+            <div class="post-media wow fadeIn">
+              <a
+                href="uploads/service_03.jpg"
+                data-rel="prettyPhoto[gal]"
+                class="hoverbutton global-radius"
+                ><i class="flaticon-unlink"></i
+              ></a>
+              <img
+                src="uploads/service_03.jpg"
+                alt=""
+                class="img-responsive img-rounded"
+              />
+            </div>
+            <div class="service-dit">
+              <h3>Mobile Optimization</h3>
+              <p>
+                Etiam materials ut mollis tellus, vel posuere nulla. Etiam sit
+                amet lacus vitae massa sodales aliquam at eget quam. Integer
+                ultricies et magna quis accumsan.
+              </p>
+            </div>
+          </div>
+          <!-- end service -->
+
+          <div class="service-widget">
+            <div class="post-media wow fadeIn">
+              <a
+                href="uploads/service_04.jpg"
+                data-rel="prettyPhoto[gal]"
+                class="hoverbutton global-radius"
+                ><i class="flaticon-unlink"></i
+              ></a>
+              <img
+                src="uploads/service_04.jpg"
+                alt=""
+                class="img-responsive img-rounded"
+              />
+            </div>
+            <div class="service-dit">
+              <h3>Digital Design for Mac</h3>
+              <p>
+                Praesent in neque congue sapien lobortis faucibus id eget erat.
+                <br />Pellentesque maximus rutrum felis. Interdum et malesuada
+                fames ac ante ipsum primis in faucibus.
+              </p>
+            </div>
+          </div>
+          <!-- end service -->
+        </div>
+        <!-- end row -->
+
+        <hr class="hr1" />
+
+        <div class="text-center">
+          <a
+            data-scroll
+            href="#portfolio"
+            class="btn btn-light btn-radius btn-brd"
+            >View Our Portfolio</a
+          >
+        </div>
+      </div>
+      <!-- end container -->
+    </div>
+    <!-- end section -->
+
+    <div
+      class="parallax section noover"
+      data-stellar-background-ratio="0.7"
+      style="background-image: url('uploads/parallax_05.png')"
+    >
+      <div class="container">
+        <div class="row text-center">
+          <div class="col-md-6">
+            <div class="customwidget text-left">
+              <h1>Beautiful Websites</h1>
+              <p>
+                Full access control of the background parallax effects,
+                <br />change your awesome background elements and edit colors
+                from style.css or colors.css
+              </p>
+              <ul class="list-inline">
+                <li><i class="fa fa-check"></i> Custom Sections</li>
+                <li><i class="fa fa-check"></i> Parallax's</li>
+                <li><i class="fa fa-check"></i> Icons & PSD</li>
+                <li><i class="fa fa-check"></i> Limitless Colors</li>
+              </ul>
+              <!-- end list -->
+              <a
+                href="#services"
+                data-scroll
+                class="btn btn-light btn-radius btn-brd"
+                >Learn More</a
+              >
+            </div>
+          </div>
+          <!-- end col -->
+          <div class="col-md-6">
+            <div class="text-center image-center hidden-sm hidden-xs">
+              <img
+                src="uploads/device_03.png"
+                alt=""
+                class="img-responsive wow fadeInUp"
+              />
             </div>
           </div>
         </div>
+        <!-- end row -->
       </div>
-      <div class="promo-section-img-right">
-        <img
-          class="img-responsive"
-          src="img/970x970/01.jpg"
-          alt="Content Image"
-        />
-      </div>
+      <!-- end container -->
     </div>
+    <!-- end section -->
+
+    <div id="features" class="section lb">
+      <div class="container">
+        <div class="section-title text-center">
+          <h3>Features & Overviews</h3>
+          <p class="lead">
+            Lorem Ipsum dolroin gravida nibh vel velit auctor aliquet. Aenean
+            sollicitudin, <br />lorem quis bibendum auctor, nisi elit consequat
+            ipsum, nec sagittis sem!
+          </p>
+        </div>
+        <!-- end title -->
+
+        <div class="row">
+          <div class="col-md-4 col-sm-6 col-xs-12">
+            <ul class="features-left">
+              <li
+                class="wow fadeInLeft"
+                data-wow-duration="1s"
+                data-wow-delay="0.2s"
+              >
+                <i class="flaticon-wordpress-logo"></i>
+                <div class="fl-inner">
+                  <h4>WordPress Installation</h4>
+                  <p>
+                    Lorem Ipsum dolroin gravida nibh vel velit auctor aliquet.
+                  </p>
+                </div>
+              </li>
+              <li
+                class="wow fadeInLeft"
+                data-wow-duration="1s"
+                data-wow-delay="0.3s"
+              >
+                <i class="flaticon-windows"></i>
+                <div class="fl-inner">
+                  <h4>Browser Compatible</h4>
+                  <p>
+                    Lorem Ipsum dolroin gravida nibh vel velit auctor aliquet.
+                  </p>
+                </div>
+              </li>
+              <li
+                class="wow fadeInLeft"
+                data-wow-duration="1s"
+                data-wow-delay="0.4s"
+              >
+                <i class="flaticon-price-tag"></i>
+                <div class="fl-inner">
+                  <h4>eCommerce Ready</h4>
+                  <p>
+                    Lorem Ipsum dolroin gravida nibh vel velit auctor aliquet.
+                  </p>
+                </div>
+              </li>
+              <li
+                class="wow fadeInLeft"
+                data-wow-duration="1s"
+                data-wow-delay="0.5s"
+              >
+                <i class="flaticon-new-file"></i>
+                <div class="fl-inner">
+                  <h4>Easy to Customize</h4>
+                  <p>
+                    Lorem Ipsum dolroin gravida nibh vel velit auctor aliquet.
+                  </p>
+                </div>
+              </li>
+            </ul>
+          </div>
+          <div class="col-md-4 hidden-xs hidden-sm">
+            <img
+              src="uploads/ipad.png"
+              class="img-center img-responsive"
+              alt=""
+            />
+          </div>
+          <div class="col-md-4 col-sm-6 col-xs-12">
+            <ul class="features-right">
+              <li
+                class="wow fadeInRight"
+                data-wow-duration="1s"
+                data-wow-delay="0.2s"
+              >
+                <i class="flaticon-pantone"></i>
+                <div class="fr-inner">
+                  <h4>Limitless Colors</h4>
+                  <p>
+                    Lorem Ipsum dolroin gravida nibh vel velit auctor aliquet.
+                  </p>
+                </div>
+              </li>
+              <li
+                class="wow fadeInRight"
+                data-wow-duration="1s"
+                data-wow-delay="0.3s"
+              >
+                <i class="flaticon-cloud-computing"></i>
+                <div class="fr-inner">
+                  <h4>Lifetime Update</h4>
+                  <p>
+                    Lorem Ipsum dolroin gravida nibh vel velit auctor aliquet.
+                  </p>
+                </div>
+              </li>
+              <li
+                class="wow fadeInRight"
+                data-wow-duration="1s"
+                data-wow-delay="0.4s"
+              >
+                <i class="flaticon-line-graph"></i>
+                <div class="fr-inner">
+                  <h4>SEO Friendly</h4>
+                  <p>
+                    Lorem Ipsum dolroin gravida nibh vel velit auctor aliquet.
+                  </p>
+                </div>
+              </li>
+              <li
+                class="wow fadeInRight"
+                data-wow-duration="1s"
+                data-wow-delay="0.5s"
+              >
+                <i class="flaticon-coding"></i>
+                <div class="fr-inner">
+                  <h4>Simple Clean Code</h4>
+                  <p>
+                    Lorem Ipsum dolroin gravida nibh vel velit auctor aliquet.
+                  </p>
+                </div>
+              </li>
+            </ul>
+          </div>
+          <!-- end col -->
+        </div>
+        <!-- end row -->
+      </div>
+      <!-- end container -->
+    </div>
+    <!-- end section -->
+
+    <div
+      id="testimonials"
+      class="parallax section db parallax-off"
+      style="background-image: url('uploads/parallax_03.jpg')"
+    >
+      <div class="container">
+        <div class="section-title text-center">
+          <h3>Testimonials</h3>
+          <p class="lead">
+            We thanks for all our awesome testimonials! There are hundreds of
+            our happy customers! <br />Let's see what others say about GoodWEB
+            Solutions website template!
+          </p>
+        </div>
+        <!-- end title -->
+
+        <div class="row">
+          <div class="col-md-12 col-sm-12">
+            <div class="testi-carousel owl-carousel owl-theme">
+              <div class="testimonial clearfix">
+                <div class="desc">
+                  <h3><i class="fa fa-quote-left"></i> Wonderful Support!</h3>
+                  <p class="lead">
+                    They have got my project on time with the competition with a
+                    sed highly skilled, and experienced & professional team.
+                  </p>
+                </div>
+                <div class="testi-meta">
+                  <img
+                    src="uploads/testi_01.png"
+                    alt=""
+                    class="img-responsive alignleft"
+                  />
+                  <h4>James Fernando <small>- Manager of Racer</small></h4>
+                </div>
+                <!-- end testi-meta -->
+              </div>
+              <!-- end testimonial -->
+
+              <div class="testimonial clearfix">
+                <div class="desc">
+                  <h3><i class="fa fa-quote-left"></i> Awesome Services!</h3>
+                  <p class="lead">
+                    Explain to you how all this mistaken idea of denouncing
+                    pleasure and praising pain was born and I will give you
+                    completed.
+                  </p>
+                </div>
+                <div class="testi-meta">
+                  <img
+                    src="uploads/testi_02.png"
+                    alt=""
+                    class="img-responsive alignleft"
+                  />
+                  <h4>Jacques Philips <small>- Designer</small></h4>
+                </div>
+                <!-- end testi-meta -->
+              </div>
+              <!-- end testimonial -->
+
+              <div class="testimonial clearfix">
+                <div class="desc">
+                  <h3>
+                    <i class="fa fa-quote-left"></i> Great & Talented Team!
+                  </h3>
+                  <p class="lead">
+                    The master-builder of human happines no one rejects,
+                    dislikes avoids pleasure itself, because it is very pursue
+                    pleasure.
+                  </p>
+                </div>
+                <div class="testi-meta">
+                  <img
+                    src="uploads/testi_03.png"
+                    alt=""
+                    class="img-responsive alignleft"
+                  />
+                  <h4>Venanda Mercy <small>- Newyork City</small></h4>
+                </div>
+                <!-- end testi-meta -->
+              </div>
+              <!-- end testimonial -->
+              <div class="testimonial clearfix">
+                <div class="desc">
+                  <h3><i class="fa fa-quote-left"></i> Wonderful Support!</h3>
+                  <p class="lead">
+                    They have got my project on time with the competition with a
+                    sed highly skilled, and experienced & professional team.
+                  </p>
+                </div>
+                <div class="testi-meta">
+                  <img
+                    src="uploads/testi_01.png"
+                    alt=""
+                    class="img-responsive alignleft"
+                  />
+                  <h4>James Fernando <small>- Manager of Racer</small></h4>
+                </div>
+                <!-- end testi-meta -->
+              </div>
+              <!-- end testimonial -->
+
+              <div class="testimonial clearfix">
+                <div class="desc">
+                  <h3><i class="fa fa-quote-left"></i> Awesome Services!</h3>
+                  <p class="lead">
+                    Explain to you how all this mistaken idea of denouncing
+                    pleasure and praising pain was born and I will give you
+                    completed.
+                  </p>
+                </div>
+                <div class="testi-meta">
+                  <img
+                    src="uploads/testi_02.png"
+                    alt=""
+                    class="img-responsive alignleft"
+                  />
+                  <h4>Jacques Philips <small>- Designer</small></h4>
+                </div>
+                <!-- end testi-meta -->
+              </div>
+              <!-- end testimonial -->
+
+              <div class="testimonial clearfix">
+                <div class="desc">
+                  <h3>
+                    <i class="fa fa-quote-left"></i> Great & Talented Team!
+                  </h3>
+                  <p class="lead">
+                    The master-builder of human happines no one rejects,
+                    dislikes avoids pleasure itself, because it is very pursue
+                    pleasure.
+                  </p>
+                </div>
+                <div class="testi-meta">
+                  <img
+                    src="uploads/testi_03.png"
+                    alt=""
+                    class="img-responsive alignleft"
+                  />
+                  <h4>Venanda Mercy <small>- Newyork City</small></h4>
+                </div>
+                <!-- end testi-meta -->
+              </div>
+              <!-- end testimonial -->
+            </div>
+            <!-- end carousel -->
+          </div>
+          <!-- end col -->
+        </div>
+        <!-- end row -->
+
+        <hr class="hr1" />
+
+        <div class="row logos">
+          <div class="col-md-2 col-sm-2 col-xs-6 wow fadeInUp">
+            <a href="#"
+              ><img src="uploads/logo_01.png" alt="" class="img-repsonsive"
+            /></a>
+          </div>
+          <div class="col-md-2 col-sm-2 col-xs-6 wow fadeInUp">
+            <a href="#"
+              ><img src="uploads/logo_02.png" alt="" class="img-repsonsive"
+            /></a>
+          </div>
+          <div class="col-md-2 col-sm-2 col-xs-6 wow fadeInUp">
+            <a href="#"
+              ><img src="uploads/logo_03.png" alt="" class="img-repsonsive"
+            /></a>
+          </div>
+          <div class="col-md-2 col-sm-2 col-xs-6 wow fadeInUp">
+            <a href="#"
+              ><img src="uploads/logo_04.png" alt="" class="img-repsonsive"
+            /></a>
+          </div>
+          <div class="col-md-2 col-sm-2 col-xs-6 wow fadeInUp">
+            <a href="#"
+              ><img src="uploads/logo_05.png" alt="" class="img-repsonsive"
+            /></a>
+          </div>
+          <div class="col-md-2 col-sm-2 col-xs-6 wow fadeInUp">
+            <a href="#"
+              ><img src="uploads/logo_06.png" alt="" class="img-repsonsive"
+            /></a>
+          </div>
+        </div>
+        <!-- end row -->
+      </div>
+      <!-- end container -->
+    </div>
+    <!-- end section -->
 
     <footer class="footer">
-      <div class="footer-seperator">
-        <div class="content-lg container">
-          <div class="row">
-            <form id="contact" action="thanks_page.php" method="post">
-              <div class="col-sm-5 sm-margin-b-30">
-                <h2 class="color-white">Send Us A Note</h2>
-                <input
-                  type="text"
-                  class="form-control footer-input margin-b-20"
-                  placeholder="Name"
-                  required
-                />
-                <input
-                  type="email"
-                  class="form-control footer-input margin-b-20"
-                  placeholder="Email"
-                  required
-                />
-                <input
-                  type="text"
-                  class="form-control footer-input margin-b-20"
-                  placeholder="Phone"
-                  required
-                />
-                <textarea
-                  class="form-control footer-input margin-b-30"
-                  rows="6"
-                  placeholder="Message"
-                  required
-                ></textarea>
-                <div class="form-check">
-                  <input
-                    class="form-check-input"
-                    type="checkbox"
-                    value=""
-                    required=""
-                    id="flexCheckDefault"
-                  />
-                  <label
-                    class="form-check-label"
-                    for="flexCheckDefault"
-                    required=""
-                  >
-                    I accept
-                    <a href="./privacy/privacy.html" class="check"
-                      >Privacy policy</a
-                    >
-                  </label>
-                </div>
-                <button
-                  type="submit"
-                  class="btn-theme btn-theme-sm btn-base-bg text-uppercase"
-                >
-                  Submit
-                </button>
+      <div class="container">
+        <div class="row">
+          <div class="col-md-4 col-sm-4 col-xs-12">
+            <div class="widget clearfix">
+              <div class="widget-title">
+                <img src="images/logos/logo-2.png" alt="" />
               </div>
-            </form>
-            <div class="col-sm-2 sm-margin-b-50" style="margin-left: 270px">
-              <ul class="list-unstyled footer-list">
-                <li class="footer-list-item">
-                  <a class="footer-list-link" href="cookies.html">Cookies</a>
+              <p>
+                Integer rutrum ligula eu dignissim laoreet. Pellentesque
+                venenatis nibh sed tellus faucibus bibendum. Sed fermentum est
+                vitae rhoncus molestie. Cum sociis natoque penatibus et magnis
+                dis montes.
+              </p>
+              <p>
+                Sed fermentum est vitae rhoncus molestie. Cum sociis natoque
+                penatibus et magnis dis montes.
+              </p>
+            </div>
+            <!-- end clearfix -->
+          </div>
+          <!-- end col -->
+
+          <div class="col-md-4 col-sm-4 col-xs-12">
+            <div class="widget clearfix">
+              <div class="widget-title">
+                <h3>Pages</h3>
+              </div>
+
+              <ul class="footer-links hov">
+                <li>
+                  <a href="#"
+                    >Home <span class="icon icon-arrow-right2"></span
+                  ></a>
                 </li>
-                <li class="footer-list-item">
-                  <a class="footer-list-link" href="disclaimer.html"
-                    >Disclaimer</a
-                  >
+                <li>
+                  <a href="#"
+                    >Blog <span class="icon icon-arrow-right2"></span
+                  ></a>
                 </li>
-                <li class="footer-list-item">
-                  <a class="footer-list-link" href="privacy.html">Privacy</a>
+                <li>
+                  <a href="#"
+                    >Pricing <span class="icon icon-arrow-right2"></span
+                  ></a>
                 </li>
-                <li class="footer-list-item">
-                  <a class="footer-list-link" href="terms.html">Terms</a>
+                <li>
+                  <a href="#"
+                    >About <span class="icon icon-arrow-right2"></span
+                  ></a>
+                </li>
+                <li>
+                  <a href="#"
+                    >Faq <span class="icon icon-arrow-right2"></span
+                  ></a>
+                </li>
+                <li>
+                  <a href="#"
+                    >Contact <span class="icon icon-arrow-right2"></span
+                  ></a>
                 </li>
               </ul>
+              <!-- end links -->
             </div>
+            <!-- end clearfix -->
           </div>
-        </div>
-      </div>
+          <!-- end col -->
 
-      <div class="content container">
-        <div class="row">
-          <div class="col-md-12">
-            <div class="copyright-text">
-              <p>Copyright © ElectroMaster</p>
+          <div class="col-md-4 col-sm-4 col-xs-12">
+            <div class="footer-distributed widget clearfix">
+              <div class="widget-title">
+                <h3>Subscribe</h3>
+                <p>
+                  There are many variations of passages of Lorem Ipsum
+                  available, but the majority have suffered alteration in some
+                  form, by injected humour, or randomised words which one know
+                  this tricks.
+                </p>
+              </div>
+
+              <div class="footer-right">
+                <form method="get" action="#">
+                  <input
+                    placeholder="Subscribe our newsletter.."
+                    name="search"
+                  />
+                  <i class="fa fa-envelope-o"></i>
+                </form>
+              </div>
             </div>
+            <!-- end clearfix -->
           </div>
+          <!-- end col -->
         </div>
+        <!-- end row -->
       </div>
+      <!-- end container -->
     </footer>
+    <!-- end footer -->
 
-    <div class="floating-windows-9oV">
-      <div class="floating-windows-box-9oV">
-        <div class="cookie-text-9oV">
-          Our resource uses cookies to improve your experience. If you wish, you
-          can opt out of them, however, this may limit some of the functions of
-          the site. Check out our
-          <a href="./privacy/cookies.html" target="_blank"> cookie notice</a>.
-        </div>
-        <div class="buttons-9oV">
-          <button id="allow-all-cookie-9oV" class="button-9oV">
-            Accept all cookies
-          </button>
-          <button id="reject-all-9oV" class="button-9oV">Reject All</button>
-          <button id="cookie-settings-text-9oV" class="button-9oV">
-            Cookie settings
-          </button>
+    <div class="copyrights">
+      <div class="container">
+        <div class="footer-distributed">
+          <div class="footer-left">
+            <p class="footer-company-name">
+              All Rights Reserved. &copy; 2018 <a href="#">GoodWEB</a> Design By
+              : <a href="https://html.design/">html design</a>
+            </p>
+          </div>
         </div>
       </div>
+      <!-- end container -->
     </div>
-    <div id="modal-9oV" class="modal-9oV">
-      <div class="modal-content-9oV">
-        <span id="modal-close-9oV" class="modal-close-9oV">&times;</span>
-        <h2>Cookie settings</h2>
-        <p>
-          Cookies are small pieces of data sent from a website and stored on the
-          user's computer by the web browser while it is running. The browser
-          stores each message in a small file called a cookie. When you request
-          another page from the server, your browser sends the cookie back to
-          the server. Cookies have been developed as a reliable mechanism that
-          allows websites to remember information or record user activity when
-          browsing pages.
-        </p>
+    <!-- end copyrights -->
 
-        <div class="accordion-9oV">
-          <div class="accordion-header-9oV">
-            <input
-              type="checkbox"
-              class="switch-9oV"
-              checked
-              disabled
-              name="field-39521"
-            /><span>&nbsp; Necessary</span>
-            <span class="accordion-icon-9oV">&or;</span>
-          </div>
-          <div class="accordion-body-9oV">
-            <p>
-              Strictly necessary cookies - usually these cookies are necessary
-              for the operation of the site. They can help you show the user the
-              information they need, customize their experience, and allow you
-              to implement and maintain security features. As a rule, without
-              these cookies, the operation of the site is not possible or its
-              functioning may be severely impaired.
-            </p>
-          </div>
-        </div>
+    <a href="#" id="scroll-to-top" class="dmtop global-radius"
+      ><i class="fa fa-angle-up"></i
+    ></a>
 
-        <div class="accordion-9oV">
-          <div class="accordion-header-9oV">
-            <input
-              type="checkbox"
-              class="switch-9oV"
-              unchecked
-              name="field-27383"
-            /><span>&nbsp; Functional</span>
-            <span class="accordion-icon-9oV">&or;</span>
-          </div>
-          <div class="accordion-body-9oV">
-            <p>
-              Functional cookies - usually these cookies are used to improve the
-              functional characteristics of your site and make it easier for
-              users to use. These cookies remember the settings selected by
-              users (for example, language and time zone settings). With the
-              help of these files, users can avoid changing the settings each
-              time they visit the site.
-            </p>
-          </div>
-        </div>
-        <div class="accordion-9oV">
-          <div class="accordion-header-9oV">
-            <input
-              type="checkbox"
-              class="switch-9oV"
-              unchecked
-              name="field-76549"
-            /><span>&nbsp; Statistics</span>
-            <span class="accordion-icon-9oV">&or;</span>
-          </div>
-          <div class="accordion-body-9oV">
-            <p>
-              Performance cookies - usually these cookies show whether the user
-              has visited your site before. Analytical cookies allow you to
-              recognize and count the number of users of your site and see how
-              these users move around your site.
-            </p>
-          </div>
-        </div>
-
-        <div class="accordion-9oV">
-          <div class="accordion-header-9oV">
-            <input
-              type="checkbox"
-              class="switch-9oV"
-              unchecked
-              name="field-11357"
-            /><span>&nbsp; Marketing</span>
-            <span class="accordion-icon-9oV">&or;</span>
-          </div>
-          <div class="accordion-body-9oV">
-            <p>
-              Marketing, targeting, and advertising cookies &ndash; Usually,
-              these cookies record visitors' visits to your site, the pages they
-              visited, and the links they clicked on. This information is used
-              to make the advertisements displayed on it more relevant to the
-              interests of the user. Advertising cookies allow you to know if
-              the user has already seen a specific advertisement or an
-              advertisement of a certain type.
-            </p>
-          </div>
-        </div>
-        <div class="button-box-9oV">
-          <button id="save-current-settings-9oV" class="button-9oV">
-            Save current settings
-          </button>
-          <button id="accept-all-cookies-9oV" class="button-9oV">
-            Accept all cookies and close
-          </button>
-        </div>
-      </div>
-    </div>
-
-    <a href="javascript:void(0);" class="js-back-to-top back-to-top">Top</a>
-
-    <script src="js/jquery.file.min.js"></script>
-    <script src="js/script-cookie.js"></script>
-    <script src="js/jquery.cookie.file.js"></script>
-    <script src="vendor/jquery.min.js" type="text/javascript"></script>
-    <script src="vendor/jquery-migrate.min.js" type="text/javascript"></script>
-    <script
-      src="vendor/bootstrap/js/bootstrap.min.js"
-      type="text/javascript"
-    ></script>
-
-    <script src="vendor/jquery.easing.js" type="text/javascript"></script>
-    <script src="vendor/jquery.back-to-top.js" type="text/javascript"></script>
-
-    <script src="vendor/jquery.wow.min.js" type="text/javascript"></script>
-    <script
-      src="vendor/swiper/js/swiper.jquery.min.js"
-      type="text/javascript"
-    ></script>
-    <script
-      src="vendor/masonry/jquery.masonry.pkgd.min.js"
-      type="text/javascript"
-    ></script>
-    <script
-      src="vendor/masonry/imagesloaded.pkgd.min.js"
-      type="text/javascript"
-    ></script>
-
-    <script src="js/layout.js" type="text/javascript"></script>
-    <script src="js/components/wow.min.js" type="text/javascript"></script>
-    <script src="js/components/swiper.min.js" type="text/javascript"></script>
-    <script src="js/components/masonry.min.js" type="text/javascript"></script>
+    <!-- ALL JS FILES -->
+    <script src="js/all.js"></script>
+    <!-- ALL PLUGINS -->
+    <script src="js/custom.js"></script>
+    <script src="js/portfolio.js"></script>
+    <script src="js/hoverdir.js"></script>
   </body>
 </html>
