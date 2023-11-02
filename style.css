@@ -1933,6 +1933,8 @@ select.mobile-device {
   box-shadow: 0 5px 14px rgba(0, 0, 0, 0.1);
   background-color: #f2f3f5;
   padding: 40px 30px;
+  border-radius: 10%;
+  border-top: 20px solid;
 }
 
 .contact_form .form-control {
@@ -1948,6 +1950,7 @@ select.mobile-device {
   resize: none;
   box-shadow: none !important;
   width: 100%;
+  border-radius: 30px;
 }
 
 .contact_form textarea {
@@ -1970,7 +1973,7 @@ select.mobile-device {
 }
 
 #contact {
-  background: url(images/bg.png) no-repeat center center #fff;
+  background: url(images/bg.png) no-repeat center center #edfbfb;
 }
 
 /*------------------------------------------------------------------
@@ -3268,6 +3271,8 @@ select.mobile-device {
   padding: 0px 15px;
   width: 31%;
   box-shadow: 0 5px 14px rgba(0, 0, 0, 0.1);
+  border-radius: 40px;
+  border-top: 10px solid;
 }
 
 .address-icon {
@@ -3281,7 +3286,7 @@ select.mobile-device {
 .address-item h3 {
   font-size: 28px;
   font-weight: 600;
-  color: #fd6802;
+  color: #94baba;
 }
 
 .dmtop.show {
@@ -3291,4 +3296,7 @@ select.mobile-device {
 .owl-next i:hover,
 .owl-prev i:hover {
   background-color: #95aeff;
+}
+.map {
+  padding-top: 50px;
 }
