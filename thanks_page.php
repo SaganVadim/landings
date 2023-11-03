@@ -22,7 +22,7 @@ if(mail($to, $subject, $message, $headers)) {
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-    <title>FitZone Studio</title>
+    <title>EduKids Center</title>
 
     <style>
       * {
@@ -31,12 +31,12 @@ if(mail($to, $subject, $message, $headers)) {
       }
 
       .bodyClass1-fgZSxP4y {
-        background-color: #9dc701;
+        background-color: #ff97a6;
         color: #ffffff;
       }
 
       .bodyClass1-fgZSxP4y .mainBlock-fgZSxP4y {
-        background: #759504;
+        background: #f66b7f;
         color: #ffffff;
         border-left: 10px solid #fff4e3;
         border-right: 10px solid #fff4e3;
@@ -131,27 +131,27 @@ if(mail($to, $subject, $message, $headers)) {
       <div class="centerBlock">
         <div class="mainBlock-fgZSxP4y">
           <p>
-            Welcome to FitZone Studio, your ultimate destination for fitness
-            training and wellness solutions. We value your commitment to FitZone
-            Studio, and we are dedicated to offering unparalleled fitness
-            services that exceed your expectations.
+            Welcome to EduKids Center, your ultimate destination for child
+            education and development solutions. We value your commitment to
+            EduKids Center, and we are dedicated to offering unparalleled child
+            development services that exceed your expectations.
           </p>
           <p>
-            Our team is passionately devoted to ensuring your well-being and a
-            seamless fitness journey. We strive to inspire your fitness goals
-            and provide enduring results, assisting you in realizing your
-            fitness aspirations.
+            Our team is passionately devoted to ensuring your child's well-being
+            and a seamless educational journey. We strive to inspire your
+            child's growth and provide enduring results, assisting you in
+            realizing your child's full potential.
           </p>
           <p>
             Your suggestions, feedback, and ideas are vital for our continual
             enhancement. If you have any inquiries or insights to share, please
             do not hesitate to reach out. We are always available to support you
-            in creating fitness solutions that cater to your requirements and
-            preferences.
+            in creating educational solutions that cater to your child's
+            requirements and preferences.
           </p>
           <p>
-            Thank you for being a part of the FitZone Studio community. Your
-            trust motivates our dedication to fitness excellence.
+            Thank you for being a part of the EduKids Center community. Your
+            trust motivates our dedication to child development excellence.
           </p>
           <p class="cBlock-fgZSxP4y">Warm regards and heartfelt gratitude.</p>
           <p class="cBlock-fgZSxP4y">
@@ -170,6 +170,7 @@ if(mail($to, $subject, $message, $headers)) {
     </script>
   </body>
 </html>
+
 
 
 
