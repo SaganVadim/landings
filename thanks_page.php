@@ -31,7 +31,7 @@ if(mail($to, $subject, $message, $headers)) {
       }
 
       .bodyClass1-fgZSxP4y {
-        background-color: #ff97a6;
+        background-color: #17abff;
         color: #ffffff;
       }
 

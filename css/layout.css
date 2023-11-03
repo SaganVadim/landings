@@ -1,27 +1,3 @@
-/*----------------------------------------------------------------------
-
-	MASTER STYLESHEET
-
-	Project:        Metronic "Aitonepage" Frontend Freebie - Responsive HTML Template Based On Twitter Bootstrap 3.3.4
-	Version:        1.0
-	Author:         KeenThemes
-	Primary use:    Corporate, Business Themes.
-	Email:			support@keenthemes.com
-	Follow: 		http://www.twitter.com/keenthemes
-	Like: 			http://www.facebook.com/keenthemes
-	Website:		http://www.keenthemes.com
-	Premium:		Premium Metronic Admin Theme: http://themeforest.net/item/metronic-responsive-admin-dashboard-template/4021469?ref=keenthemes
-
------------------------------------------------------------------------*/
-/* eg: @include user-select(none); */
-/* eg: @include rotate(45deg); */
-/* eg: @include translate3d(0,0,0); */
-/* eg: @include border-radius(3px); */
-/* eg: @include visibility-backface(hidden); */
-/*------------------------------------------------------------------
-  	[The "base.scss" contains basic default element styles
-  		(colors, typography, margins & padding).]
-------------------------------------------------------------------*/
 html {
   overflow-x: hidden;
 }
@@ -102,7 +78,7 @@ h5,
 h6 {
   font-weight: 700;
   font-family: Hind, sans-serif;
-  color: #ff97a6;
+  color: #17abff;
   line-height: 1.4;
   margin: 0 0 15px;
 }
@@ -195,7 +171,7 @@ h4 {
   	[Accordion]
 ------------------------------------------------------------------*/
 .accordion .panel-default {
-  border: none;
+  border: 4px solid #0334f8;
 }
 
 .accordion .panel-heading {
@@ -233,7 +209,7 @@ h4 {
 .accordion [aria-expanded="true"],
 .accordion .collapse.in {
   color: #fff;
-  background: #ff97a6;
+  background: #17abff;
 }
 
 /*------------------------------------------------------------------
@@ -295,7 +271,7 @@ fieldset[disabled] .btn-theme {
 
 .btn-white-bg {
   color: #fff;
-  background: #ff97a6;
+  background: #17abff;
   border-color: transparent;
   border-width: 0;
 }
@@ -304,14 +280,14 @@ fieldset[disabled] .btn-theme {
 .btn-white-bg:focus,
 .btn-white-bg.focus {
   color: #fff;
-  background: #17bed2;
+  background: #ff7b7b;
   border-color: transparent;
 }
 
 .btn-white-brd {
   color: #fff;
   background: transparent;
-  border-color: #fff;
+  border-color: #ff7b7b;
   border-width: 2px;
 }
 
@@ -342,7 +318,7 @@ fieldset[disabled] .btn-theme {
   font-size: 13px;
   font-weight: 600;
   padding: 15px 40px;
-  border-radius: 50px;
+  border-radius: 15px 15px 0 0;
 }
 
 /*------------------------------------------------------------------
@@ -350,11 +326,12 @@ fieldset[disabled] .btn-theme {
 ------------------------------------------------------------------*/
 .pricing {
   padding: 70px 45px;
-  background: #effff4;
+  background: #fff4f4;
+
   margin-top: 50px;
-  border-radius: 50px;
-  border-bottom: 20px solid #ceeed8;
-  border-right: 20px solid #ceeed8;
+  border-radius: 50px 50px 0 0;
+  border-top: 20px solid #ff7b7b;
+  box-shadow: 0 8px 14px rgb(0 0 0 / 55%);
 }
 
 @media (max-width: 768px) {
@@ -407,6 +384,9 @@ fieldset[disabled] .btn-theme {
 .service {
   background: #fff;
   padding: 50px;
+  border: 3px solid #f00;
+  border-radius: 50px 50px 8px 8px;
+  box-shadow: 0 8px 14px rgb(0 0 0 / 55%);
 }
 
 .service .service-element,
@@ -694,7 +674,8 @@ fieldset[disabled] .btn-theme {
   padding: 15px 0;
   font-size: 50px;
   font-weight: 800;
-  color: #ff97a6;
+  color: #17abff;
+  box-shadow: 0 8px 14px rgb(0 0 0 / 55%);
 }
 
 .header .logo-wrap:focus,
@@ -762,7 +743,7 @@ fieldset[disabled] .btn-theme {
   font-size: 13px;
   font-weight: 600;
   font-family: Hind, sans-serif;
-  color: #ff97a6;
+  color: #17abff;
   text-transform: uppercase;
   line-height: 55px;
   padding: 20px;
@@ -786,7 +767,7 @@ fieldset[disabled] .btn-theme {
   left: 0;
   width: 9px;
   height: 2px;
-  background: #17bed2;
+  background: #ff7b7b;
   opacity: 0;
   content: " ";
   transition-duration: 400ms;
@@ -884,7 +865,7 @@ fieldset[disabled] .btn-theme {
 /* Page On Scroll */
 @media (min-width: 992px) {
   .page-on-scroll .header .navbar {
-    background: #fff;
+    background: #ffbdbd;
     border-bottom-color: #f0f0f0;
     transition-duration: 300ms;
     transition-property: all;
@@ -1062,17 +1043,16 @@ fieldset[disabled] .btn-theme {
   -webkit-transform: translate3d(0, -50%, 0);
   -moz-transform: translate3d(0, -50%, 0);
   transform: translate3d(0, -50%, 0);
-  background-color: #ff97a678;
+  background-color: #17abff78;
   padding: 40px;
-  border-radius: 50px;
-  border-bottom: 20px solid #ff97a678;
-  border-right: 20px solid #ff97a678;
+  border-radius: 80px 80px 0 0;
+  border-top: 40px solid #ff7b7b;
 }
 
 .carousel-title {
   font-size: 80px;
   font-weight: 700;
-  color: #fff;
+  color: #ff8f8f;
   line-height: 1.1;
   text-transform: uppercase;
 }
@@ -1084,7 +1064,9 @@ fieldset[disabled] .btn-theme {
 }
 
 .margin-b-20 img {
-  border-radius: 50px;
+  border-radius: 140px;
+  border: 4px solid;
+  box-shadow: 0 8px 14px rgb(0 0 0 / 55%);
 }
 /*------------------------------------------------------------------
     [Swiper Slider]
@@ -1150,7 +1132,7 @@ fieldset[disabled] .btn-theme {
   	[Background Colors]
 ------------------------------------------------------------------*/
 .bg-color-base {
-  background: #ff97a6 !important;
+  background: #ff7b7b !important;
 }
 
 .bg-color-white {
@@ -1174,14 +1156,15 @@ fieldset[disabled] .btn-theme {
 }
 
 .bg-color-sky-light {
-  background: #ffeb021f !important;
+  background: #17abff1a !important;
 }
 .contact_form {
   border: 1px solid #ededed;
   box-shadow: 0 8px 14px rgba(0, 0, 0, 0.1);
-  background-color: #ff97a64d;
+  background-color: #17abff4d;
   padding: 40px 30px;
-  border-radius: 50px;
+  border-radius: 50px 50px 0 0;
+  border-top: 20px solid #ff7b7b;
 }
 .contact_form .form-control {
   background-color: #fff;
@@ -1196,7 +1179,7 @@ fieldset[disabled] .btn-theme {
   resize: none;
   box-shadow: none !important;
   width: 100%;
-  border-radius: 50px;
+  border-radius: 25px 25px 0 0;
 }
 
 .contact_form textarea {
@@ -1246,7 +1229,8 @@ fieldset[disabled] .btn-theme {
 .full-width {
   width: 100%;
   height: auto;
-  border-radius: 50px;
+  border-radius: 110px 7px 50px 7px;
+  box-shadow: 0 8px 14px rgb(0 0 0 / 55%);
 }
 
 /*--------------------------------------------------
