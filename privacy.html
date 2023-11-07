@@ -21,6 +21,9 @@
         background-color: #222;
         color: #eee;
       }
+      a {
+        color: #eee;
+      }
       h1 {
         margin-bottom: 10px;
       }
@@ -90,9 +93,19 @@
         <p>
           If you have any questions or would like to avail of our auto repair
           and maintenance services, feel free to reach us at
-          contact@motorkraft.com.
+          <span id="email_list"
+            ><a href="mailto:info@motorkraft.com">info@motorkraft.com</a></span
+          >.
         </p>
       </div>
     </div>
+    <script>
+      var domainElement = document.querySelectorAll("#email_list");
+      var hostname = window.location.hostname;
+
+      domainElement.forEach((elem) => {
+        elem.innerHTML = `<a href="mailto:info@${hostname}" target="_blank">info@${hostname}</a>`;
+      });
+    </script>
   </body>
 </html>
