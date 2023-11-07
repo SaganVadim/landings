@@ -18500,7 +18500,7 @@ a#scrollUp:hover {
 }
 
 .h2-c-ifo .provide_images::after {
-  border: 10px solid rgba(0, 0, 0, 0.05);
+  border: 10px solid #0ec93f;
   content: "";
   display: block;
   height: 100%;
@@ -18510,6 +18510,7 @@ a#scrollUp:hover {
   transition: all 300ms linear 0s;
   width: 100%;
   z-index: 1;
+  border-radius: 50%;
 }
 .h2-c-ifo .provide_images {
   cursor: pointer;
@@ -18532,7 +18533,7 @@ a#scrollUp:hover {
   padding: 83px 0 54px 61px;
 }
 .h2-c-ifo .company-info > h6 {
-  color: rgba(0, 0, 0, 0.24);
+  color: #0ec93f;
   font-size: 23px;
   font-weight: 400;
   text-transform: uppercase;
