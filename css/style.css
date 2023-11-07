@@ -5527,7 +5527,7 @@ textarea.input-group-sm > .input-group-btn > .btn {
   display: none;
 }
 #main-nav.navbar {
-  padding: 0;
+  padding: 10px 0;
 }
 @media (max-width: 767px) {
   .navbar-default .navbar-nav .open .dropdown-menu > li > a {
@@ -15826,17 +15826,20 @@ label {
 }
 
 .navbar-default .navbar-brand {
-  height: 100px;
   padding-bottom: 0;
   padding-top: 15px;
+  text-transform: uppercase;
+  font-size: 30px;
   width: 90%;
+  color: #000;
+  border-radius: 20px;
 }
 .navbar-default .navbar-nav > li {
   text-transform: uppercase;
   font-weight: 600;
   font-size: 13px;
-  line-height: 100px;
   margin-left: 30px;
+  padding: 10px 0;
 }
 
 .navbar-default .navbar-nav > li > a {
@@ -18527,7 +18530,7 @@ a#scrollUp:hover {
     min-height: 50vh;
   }
   #main-nav.navbar {
-    padding: 15px 0;
+    padding: 10px 0;
   }
 }
 
