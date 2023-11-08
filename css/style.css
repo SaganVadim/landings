@@ -5171,6 +5171,8 @@ textarea.input-group-sm > .input-group-btn > .btn {
   font-size: 50px;
   line-height: 20px;
   border-bottom: 2px solid #0ec93f;
+  border-right: 2px solid #0ec93f;
+  border-radius: 0 0 20px 0;
 }
 
 .navbar-brand:focus,
@@ -16621,6 +16623,7 @@ article.post-entry:after {
   display: inline-block;
   margin-bottom: 25px;
   font-size: 30px;
+  margin-left: 12px;
   text-transform: uppercase;
   color: #fff;
 }
@@ -18744,7 +18747,7 @@ h4.box-title {
   margin-top: 24px !important;
 }
 .widgetized-footer .col-xs-12.col-sm-6.col-md-3:nth-child(2) {
-  padding-left: 55px;
+  padding: 0 55px;
 }
 .our-history .single-item {
   margin-bottom: 35px;
