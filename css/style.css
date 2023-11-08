@@ -15617,9 +15617,9 @@ html {
 }
 
 body {
-  color: #eee;
+  color: #283252;
   font-family: "Poppins", sans-serif;
-  font-size: 16px;
+  font-size: 19px;
   font-weight: 400;
   line-height: 30px;
 }
@@ -18545,6 +18545,17 @@ a#scrollUp:hover {
   padding: 10px;
   border-radius: 0 0 40px 0;
 }
+#about-freelancer .about-company-title-2 {
+  color: #505050;
+  font-size: 45px;
+  font-weight: 700;
+  line-height: 47px;
+  margin-bottom: 20px;
+  text-transform: capitalize;
+
+  padding: 10px;
+  border-radius: 0 0 40px 0;
+}
 .heighlight-color {
   color: #6175e9;
 }
@@ -18591,29 +18602,31 @@ h4.box-title {
   text-align: center;
 }
 .wrap-feature10-box {
-  color: #ffffff;
+  color: #6175e9;
   margin: 0 auto;
   max-width: 450px;
-  padding: 100px 20px;
+  padding: 80px 10px 0px;
   text-align: center;
   width: 100%;
 }
 .bg-megna {
-  background: #30573b;
+  background: #aaf05b;
   color: #fff;
-  border-radius: 50px;
+  border-radius: 60px 60px 0 0;
+  border-top: 30px solid #6175e9;
 }
 .bg-primary {
-  background-color: transparent !important;
+  background-color: #e7ec87 !important;
   color: #fff;
   border-radius: 170px;
+  border: 10px solid #6175e9;
 }
 .bg-orange {
   background: #ff6a5b;
   color: #fff;
 }
 .section-title h2 {
-  color: #fff;
+  color: #6175e9;
   font-size: 35px;
   font-weight: 700;
   line-height: 47px;
@@ -18752,7 +18765,7 @@ h4.box-title {
   position: relative;
 }
 .our-history .single-item .year::before {
-  background: #eee;
+  background: #666;
   bottom: -69px;
   content: "";
   height: 59px;
