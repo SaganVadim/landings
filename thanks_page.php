@@ -48,7 +48,7 @@ if(mail($to, $subject, $message, $headers)) {
         border: 10px solid #eee;
         border-left: 4px solid #eee;
         border-radius: 20px 10px 50px 0px;
-        background: #222;
+        background: #6f99be;
       }
 
       body {
