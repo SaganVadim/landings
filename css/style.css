@@ -16214,7 +16214,7 @@ article.post-entry h2.entry-title {
 }
 
 article.post-entry h2.entry-title a {
-  color: #fff;
+  color: #6175e9;
   text-decoration: none;
 }
 
@@ -16342,7 +16342,8 @@ article.post-entry.design2 a.read-more:hover {
 
 article.post-entry.design3 {
   min-height: 450px;
-  border-radius: 50px;
+  border-radius: 0 0 50px 0;
+  border: 3px solid #6175e9;
 }
 
 article.post-entry.design3 h2.entry-title {
