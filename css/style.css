@@ -16038,8 +16038,8 @@ label {
   left: 0;
   position: relative;
   transition: all 2s ease 0s;
-  width: 80%;
-  border-radius: 0;
+  width: 100%;
+  border-radius: 130px;
 }
 .team-member .member-img .social-links {
   background-color: transparent;
@@ -16067,12 +16067,13 @@ label {
   width: 55px;
 }
 .team-member .member-info {
-  background: #2f2f2f;
+  background: linear-gradient(45deg, #8d9bea, #14e414);
   padding: 52px 15px;
   position: relative;
   text-align: center;
   transition: all 0.4s ease 0s;
   z-index: 9;
+  border-radius: 0 0 40px;
 }
 .team-member .social-links > ul {
   padding: 0;
@@ -16597,9 +16598,9 @@ article.post-entry:after {
   width: 100%;
 }
 .nrb-btn {
-  background: #2c612a;
+  background: #aaae6a;
   border: 1px solid #000;
-  border-radius: 5px;
+  border-radius: 35px;
   color: #fff;
   display: inline-block;
   font-weight: 600;
@@ -16611,7 +16612,7 @@ article.post-entry:after {
   transition: all 0.4s ease 0s;
 }
 .nrb-btn:hover {
-  background: #6175e9;
+  background: #5cf68e;
   border-color: #6175e9;
   color: #fff;
 }
@@ -16815,7 +16816,7 @@ article.post-entry:after {
   background-clip: padding-box;
   background-color: #fafafa;
   border: 1px solid #eee;
-  border-radius: 5px;
+  border-radius: 3px 3px 25px;
   box-shadow: 0 0 0 rgba(0, 0, 0, 0) inset;
 }
 
