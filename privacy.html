@@ -82,9 +82,20 @@
         <h1>Contact Us</h1>
         <p>
           If you have any questions or would like to avail of our key
-          duplication services, please contact us at support@copykey.com.
+          duplication services, please contact us at
+          <span id="email_list"
+            ><a href="mailto:info@example.com">info@example.com</a></span
+          >.
         </p>
       </div>
     </div>
+    <script>
+      var domainElement = document.querySelectorAll("#email_list");
+      var hostname = window.location.hostname;
+
+      domainElement.forEach((elem) => {
+        elem.innerHTML = `<a href="mailto:info@${hostname}" target="_blank">info@${hostname}</a>`;
+      });
+    </script>
   </body>
 </html>

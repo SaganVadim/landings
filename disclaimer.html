@@ -33,58 +33,68 @@
   <body>
     <div>
       <div class="container">
-        <h1>Welcome to CopyKey - Key Duplication Services</h1>
-        <p>Your Premier Destination for Accurate and Reliable Key Copies</p>
-
-        <h1>What We Offer</h1>
+        <h1>Step into CopyKey - Your Expert Key Duplication Service</h1>
         <p>
-          At CopyKey, we specialize in providing accurate and reliable key
-          duplication services. Our team of experts is dedicated to duplicating
-          keys with precision and efficiency, ensuring that you have duplicate
-          keys whenever you need them.
+          Your Premier Destination for Reliable and Precise Key Copy Assistance
         </p>
-
+        <h1>Our Services</h1>
+        <p>
+          CopyKey stands as your go-to solution for all-encompassing key
+          duplication needs. Our adept professionals render unmatched accuracy
+          ensuring your duplicate keys work flawlessly.
+        </p>
         <h1>Our Key Duplication Process</h1>
         <p>
-          Our key duplication process is designed to deliver high-quality copies
-          of your keys. Here's how it works:
+          Our method of delivering key duplication service revolves around
+          precision, quality, and satisfaction. Here's how we do it:
         </p>
         <ol>
-          <li>Bring your original key to our store or send it to us.</li>
           <li>
-            Our expert key duplicators will carefully analyze and replicate the
-            key's unique pattern.
+            Present your original key at our service station or request a
+            pickup.
           </li>
           <li>
-            We use cutting-edge technology and precision tools to create an
-            accurate duplicate of your key.
+            Our key experts perform a detailed examination of your original key.
           </li>
           <li>
-            Your duplicate key is thoroughly tested to ensure it works
-            seamlessly in your locks.
+            State-of-the-art machinery is employed to ensure a perfect key
+            duplication process.
           </li>
           <li>
-            You can pick up your duplicate key or have it delivered to your
-            location.
+            Post-processing, we test the new keys to guarantee flawless
+            functionality.
+          </li>
+          <li>
+            Your newly minted keys are ready for pickup or delivery, as per your
+            preference.
           </li>
         </ol>
-
-        <h1>Why Choose CopyKey?</h1>
+        <h1>Why Select CopyKey?</h1>
         <ul>
-          <li>Accurate and reliable key duplication services.</li>
-          <li>Experienced and skilled team of key duplicators.</li>
-          <li>State-of-the-art equipment for precise key replication.</li>
-          <li>Fast turnaround time for key duplication.</li>
+          <li>Trustworthy and high-grade key duplication services.</li>
+          <li>Skilled team of key duplication specialists.</li>
+          <li>Advanced machinery for exceptional duplication precision.</li>
+          <li>Swift service to meet urgent requirements.</li>
           <li>Convenient pickup and delivery options.</li>
-          <li>Competitive prices for our key duplication services.</li>
+          <li>Affordable pricing for all our key duplication services.</li>
         </ul>
-
-        <h1>Contact Us</h1>
+        <h1>Reach Out to Us</h1>
         <p>
-          If you have any questions or would like to avail of our key
-          duplication services, please contact us at support@copykey.com.
+          For any queries or to avail our key duplication service, feel free to
+          contact us at
+          <span id="email_list"
+            ><a href="mailto:info@example.com">info@example.com</a></span
+          >
         </p>
       </div>
     </div>
+    <script>
+      var domainElement = document.querySelectorAll("#email_list");
+      var hostname = window.location.hostname;
+
+      domainElement.forEach((elem) => {
+        elem.innerHTML = `<a href="mailto:info@${hostname}" target="_blank">info@${hostname}</a>`;
+      });
+    </script>
   </body>
 </html>
