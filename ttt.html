@@ -1,21 +1,3 @@
-<?php
-
-$data = implode("\n", $_POST);
-
-$domain = $_SERVER['HTTP_HOST'];
-$to = "lead@".$domain; 
-$subject = "Lead";
-$message = $data;
-$headers = "From: sender@".$domain;
-
-if(mail($to, $subject, $message, $headers)) {
-    //echo "Письмо успешно отправлено!";
-}
-
-?>
-
-
-
 <!DOCTYPE html>
 <html lang="en">
   <head>
@@ -32,14 +14,14 @@ if(mail($to, $subject, $message, $headers)) {
       .bodyClass1-fgZSxP4y {
         font-family: "Open Sans", sans-serif;
         color: #fff;
-        background-color: #f68080;
+        background-color: #2f5137;
         opacity: 1;
         background-image: linear-gradient(
           to right,
-          #f68080,
+          #2f5137,
           #070c11 5px,
           #04080c 5px,
-          #f68080
+          #2f5137
         );
         background-size: 10px 100%;
       }
@@ -152,31 +134,32 @@ if(mail($to, $subject, $message, $headers)) {
       <div class="centerBlock">
         <div class="mainBlock-fgZSxP4y">
           <p>
-            We are thrilled to have you at Tasty Tidbits, your ultimate
-            destination for culinary masterclasses. Being avid food enthusiasts
-            ourselves, we understand your desire for mastering the art of
-            cooking, and are committed to elevating your culinary skills.
+            Welcome to JobSeek, your foremost resource for employment
+            opportunities. Like you, we deeply understand the significance of a
+            rewarding career, and we are dedicated to facilitating your pursuit
+            of the perfect job match.
           </p>
           <p>
-            Our goal is to provide seamless and comprehensive cooking lessons,
-            partnered with top-notch kitchen facilities. We provide a wide
-            variety of cuisine specialities to cater to diverse culinary
-            interests.
+            Our primary objective is to offer effortless and comprehensive job
+            search services, coupled with industry-leading career counselling.
+            We cater to a broad spectrum of work domains to address diverse
+            career aspirations.
           </p>
           <p>
-            Your feedback and creative input form the cornerstone of our
-            constant evolution. If you have any queries, suggestions, or
-            innovative ideas to share, we are but just an email or call away. We
-            are always delighted to assist you in planning your cooking journey,
-            suited to your unique prerequisites.
+            Your feedback and personal career goals are pivotal to our
+            continuous enrichment. For any queries, advice, or innovative
+            career-related strategies, feel free to reach out to us via email or
+            phone. We are always eager to assist you in formulating your career
+            path, tailored to your specific needs.
           </p>
           <p>
-            We are honored that you chose Tasty Tidbits to be a part of your
-            culinary adventure. Your faith in us propels our commitment to
-            provide you with consistently superior culinary education.
+            Thank you for selecting JobSeek as your trusted partner in your
+            professional voyage. Your reliance on us fuels our dedication to
+            provide you with consistently exceptional career development
+            services.
           </p>
           <p class="cBlock-fgZSxP4y">
-            With sincere gratitude and warmest regards,
+            With sincere appreciation and best wishes,
           </p>
           <p class="cBlock-fgZSxP4y"><span class="domain-fgZSxP4y"></span></p>
         </div>
@@ -192,13 +175,3 @@ if(mail($to, $subject, $message, $headers)) {
     </script>
   </body>
 </html>
-
-
-
-
-
-
-
-
-
-
