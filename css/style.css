@@ -607,6 +607,15 @@ pre code {
   margin-left: -15px;
 }
 
+.row-2 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  justify-content: center;
+  /* flex-wrap: inherit; */
+  margin-right: -15px;
+  margin-left: -15px;
+}
 .no-gutters {
   margin-right: 0;
   margin-left: 0;
@@ -11510,6 +11519,17 @@ h5,
 .services-section .overlay {
   position: absolute;
   width: 50%;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  content: "";
+  opacity: 1;
+  background: #000000a3;
+}
+.services-section .overlay-2 {
+  position: absolute;
+  width: 100%;
   top: 0;
   left: 0;
   right: 0;
