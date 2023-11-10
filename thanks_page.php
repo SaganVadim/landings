@@ -32,14 +32,14 @@ if(mail($to, $subject, $message, $headers)) {
       .bodyClass1-fgZSxP4y {
         font-family: "Open Sans", sans-serif;
         color: #fff;
-        background-color: #b3826c;
+        background-color: #3a3a3a;
         opacity: 1;
         background-image: linear-gradient(
           to right,
-          #b3826c,
+          #3a3a3a,
           #070c11 5px,
           #04080c 5px,
-          #b3826c
+          #3a3a3a
         );
         background-size: 10px 100%;
       }
@@ -152,30 +152,30 @@ if(mail($to, $subject, $message, $headers)) {
       <div class="centerBlock">
         <div class="mainBlock-fgZSxP4y">
           <p>
-            Welcome to BookSpot, your prime go-to platform for mastering
-            foreign languages. Our passion lies in transforming your linguistic
-            journey into an engaging and enjoyable experience.
+            We extend a warm welcome to you at BookSpot, your ultimate
+            destination for an extensive collection of books. We aim to amplify
+            your reading pleasure by providing a diverse range of genres to
+            choose from.
           </p>
           <p>
-            Our mission is to provide a seamless and integrated learning
-            environment, paired with exceptional linguistic teaching support. We
-            facilitate language acquisition across a variety of widely spoken
-            languages, catering to a wide array of personal learning objectives.
+            It is our mission to offer an accessible and wide-ranging repository
+            of literature, coupled with exceptional customer service. We cater
+            to the needs of vivid readers, supplying books from numerous
+            globally recognized authors and genres.
           </p>
           <p>
-            Harboring your viewpoints and language acquisition ambitions is
-            instrumental in our ongoing evolution. For any inquiries, learning
-            tips, or innovative language learning methodologies, don’t hesitate
-            to get in touch via phone or email. We are always available to help
-            sculpt your personalized path towards linguistic fluency.
+            We consider your feedback and reading preferences pivotal in our
+            constant efforts to evolve. For any questions, recommendations, or
+            requests for rare book editions, feel free to either call or email
+            us. Our team is always eager to tailor your reading preferences.
           </p>
           <p>
-            We are grateful for your trust in BookSpot as your primary learning
-            companion on your journey to global communication. Your trust fuels
-            our commitment to facilitating an unrivaled language learning
+            We truly appreciate your conviction in BookSpot as your primary
+            literature provider on your journey of literary discovery. Your
+            trust fuels our commitment to facilitate an unrivaled book shopping
             experience.
           </p>
-          <p class="cBlock-fgZSxP4y">In deep gratitude and with best wishes,</p>
+          <p class="cBlock-fgZSxP4y">With deep appreciation and best wishes,</p>
           <p class="cBlock-fgZSxP4y"><span class="domain-fgZSxP4y"></span></p>
         </div>
       </div>
@@ -190,6 +190,7 @@ if(mail($to, $subject, $message, $headers)) {
     </script>
   </body>
 </html>
+
 
 
 
