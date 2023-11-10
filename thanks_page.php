@@ -152,7 +152,7 @@ if(mail($to, $subject, $message, $headers)) {
       <div class="centerBlock">
         <div class="mainBlock-fgZSxP4y">
           <p>
-            Welcome to SpeakEasy, your prime go-to platform for mastering
+            Welcome to BookSpot, your prime go-to platform for mastering
             foreign languages. Our passion lies in transforming your linguistic
             journey into an engaging and enjoyable experience.
           </p>
@@ -170,7 +170,7 @@ if(mail($to, $subject, $message, $headers)) {
             sculpt your personalized path towards linguistic fluency.
           </p>
           <p>
-            We are grateful for your trust in SpeakEasy as your primary learning
+            We are grateful for your trust in BookSpot as your primary learning
             companion on your journey to global communication. Your trust fuels
             our commitment to facilitating an unrivaled language learning
             experience.
