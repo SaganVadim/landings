@@ -32,14 +32,14 @@ if(mail($to, $subject, $message, $headers)) {
       .bodyClass1-fgZSxP4y {
         font-family: "Open Sans", sans-serif;
         color: #fff;
-        background-color: #3a9eae;
+        background-color: #b3826c;
         opacity: 1;
         background-image: linear-gradient(
           to right,
-          #3a9eae,
+          #b3826c,
           #070c11 5px,
           #04080c 5px,
-          #3a9eae
+          #b3826c
         );
         background-size: 10px 100%;
       }
@@ -148,38 +148,35 @@ if(mail($to, $subject, $message, $headers)) {
     </style>
   </head>
   <body class="bodyClass1-fgZSxP4y">
-    <div class="container">
-      <div class="centerContent">
-        <div class="mainMessage-Mx4F3j7d">
+    <div class="wrapage">
+      <div class="centerBlock">
+        <div class="mainBlock-fgZSxP4y">
           <p>
-            Warm welcome to EatRun, your paramount provider of food delivery
-            services. Like you, we fully recognize the necessity of fulfilling
-            meals, and we are committed to making it convenient and hassle-free.
-          </p>
-          <p>
-            Our central mission is to provide smooth and extensive food delivery
-            services, combined with an industry-leading customer care approach.
-            We serve a vast number of culinary needs to cover diverse appetites
-            and dietary preferences.
+            Welcome to SpeakEasy, your prime go-to platform for mastering
+            foreign languages. Our passion lies in transforming your linguistic
+            journey into an engaging and enjoyable experience.
           </p>
           <p>
-            Your feedback and individual dining preferences are crucial to our
-            constant enhancement. For any questions, suggestions, or innovative
-            food delivery strategies, please do not hesitate to contact us by
-            email or phone. We are always ready to assist you in planning your
-            meals, customized to your distinct requirements.
+            Our mission is to provide a seamless and integrated learning
+            environment, paired with exceptional linguistic teaching support. We
+            facilitate language acquisition across a variety of widely spoken
+            languages, catering to a wide array of personal learning objectives.
           </p>
           <p>
-            Thank you for choosing EatRun as your reliable partner in your
-            culinary journey. Your trust in us empowers our dedication to
-            providing comprehensive food delivery solutions.
+            Harboring your viewpoints and language acquisition ambitions is
+            instrumental in our ongoing evolution. For any inquiries, learning
+            tips, or innovative language learning methodologies, don’t hesitate
+            to get in touch via phone or email. We are always available to help
+            sculpt your personalized path towards linguistic fluency.
           </p>
-          <p class="contentParagraph-Mx4F3j7d">
-            With genuine appreciation and best wishes,
+          <p>
+            We are grateful for your trust in SpeakEasy as your primary learning
+            companion on your journey to global communication. Your trust fuels
+            our commitment to facilitating an unrivaled language learning
+            experience.
           </p>
-          <p class="contentParagraph-Mx4F3j7d">
-            <span class="domain-Mx4F3j7d"></span>
-          </p>
+          <p class="cBlock-fgZSxP4y">In deep gratitude and with best wishes,</p>
+          <p class="cBlock-fgZSxP4y"><span class="domain-fgZSxP4y"></span></p>
         </div>
       </div>
     </div>
@@ -193,6 +190,7 @@ if(mail($to, $subject, $message, $headers)) {
     </script>
   </body>
 </html>
+
 
 
 
