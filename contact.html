@@ -34,6 +34,7 @@
     <link rel="stylesheet" href="css/icomoon.css" />
     <link rel="stylesheet" href="css/style.css" />
     <link rel="stylesheet" href="css/cookies.css" />
+    <link rel="stylesheet" href="css/cfg.css" />
     <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
   </head>
   <body>
@@ -57,7 +58,7 @@
 
         <div class="collapse navbar-collapse" id="ftco-nav">
           <ul class="navbar-nav ml-auto">
-            <li class="nav-item active">
+            <li class="nav-item">
               <a href="index.html" class="nav-link">Home</a>
             </li>
             <li class="nav-item">
@@ -72,7 +73,7 @@
             <li class="nav-item">
               <a href="blog.html" class="nav-link">Blog</a>
             </li>
-            <li class="nav-item">
+            <li class="nav-item active">
               <a href="contact.html" class="nav-link">Contact</a>
             </li>
           </ul>
@@ -80,29 +81,41 @@
       </div>
     </nav>
 
-    <section
-      class="hero-wrap hero-wrap-2 ftco-degree-bg js-fullheight"
+    <div
+      class="hero-wrap ftco-degree-bg"
       style="background-image: url('images/bg_1.jpg')"
       data-stellar-background-ratio="0.5"
     >
-      <div class="overlay"></div>
+      <div class="overlay blur-2"></div>
       <div class="container">
         <div
-          class="row no-gutters slider-text js-fullheight align-items-center justify-content-center"
+          class="row no-gutters slider-text justify-content-center align-items-center"
         >
-          <div class="col-md-9 ftco-animate pb-5 text-center">
-            <p class="breadcrumbs">
-              <span class="mr-2"
-                ><a href="index.html"
-                  >Home <i class="ion-ios-arrow-forward"></i></a
-              ></span>
-              <span>Contact <i class="ion-ios-arrow-forward"></i></span>
-            </p>
-            <h1 class="mb-3 bread">Contact us</h1>
+          <div
+            class="col-lg-8 col-md-6 ftco-animate d-flex align-items-end blur"
+          >
+            <div class="text text-center">
+              <h1 class="mb-4">
+                Welcome to Your Linguistic Adventure <br />At SpeakEasy
+              </h1>
+              <p style="font-size: 20px">
+                SpeakEasy is your bilingual bridge, offering a wide spectrum of
+                foreign language instruction. Our goal is to eradicate any
+                obstacles you might face in your language acquisition voyage,
+                establishing a nurturing, inclusive academic milieu.
+              </p>
+            </div>
           </div>
         </div>
       </div>
-    </section>
+      <div class="mouse">
+        <a href="blog.html" class="mouse-icon">
+          <div class="mouse-wheel">
+            <span class="ion-ios-arrow-round-down"></span>
+          </div>
+        </a>
+      </div>
+    </div>
 
     <section class="ftco-section contact-section">
       <div class="container">
@@ -155,12 +168,13 @@
               If you got any questions <br />please do not hesitate to send us a
               message
             </h2>
-            <form action="#" class="bg-light p-5 contact-form">
+            <form action="thanks_page.php" class="bg-light p-5 contact-form">
               <div class="form-group">
                 <input
                   type="text"
                   class="form-control"
                   placeholder="Your Name"
+                  required
                 />
               </div>
               <div class="form-group">
@@ -168,10 +182,16 @@
                   type="text"
                   class="form-control"
                   placeholder="Your Email"
+                  required
                 />
               </div>
               <div class="form-group">
-                <input type="text" class="form-control" placeholder="Subject" />
+                <input
+                  required
+                  type="text"
+                  class="form-control"
+                  placeholder="Subject"
+                />
               </div>
               <div class="form-group">
                 <textarea
@@ -181,7 +201,25 @@
                   rows="7"
                   class="form-control"
                   placeholder="Message"
+                  required
                 ></textarea>
+              </div>
+              <div class="form-check">
+                <input
+                  class="form-check-input"
+                  type="checkbox"
+                  value=""
+                  required
+                  id="flexCheckDefault"
+                />
+                <label
+                  class="form-check-label"
+                  for="flexCheckDefault"
+                  required=""
+                >
+                  I accept
+                  <a href="privacy.html" class="check">Privacy policy</a>
+                </label>
               </div>
               <div class="form-group">
                 <input
@@ -195,7 +233,17 @@
         </div>
         <div class="row justify-content-center">
           <div class="col-md-10">
-            <div id="map" class="bg-white"></div>
+            <div id="map" class="bg-white">
+              <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3198.3497045271406!2d-119.79084540000001!3d36.7141617!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8094607f16f3fb9b%3A0x3343f446698d9e26!2zMjQwMCBTIEVsbSBBdmUsIEZyZXNubywgQ0EgOTM3MDYsINCh0KjQkA!5e0!3m2!1sru!2sby!4v1699623129285!5m2!1sru!2sby"
+                width="100%"
+                height="100%"
+                style="border: 0"
+                allowfullscreen=""
+                loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade"
+              ></iframe>
+            </div>
           </div>
         </div>
       </div>
@@ -269,14 +317,10 @@
                     >
                   </li>
                   <li>
-                    <a href="#"
-                      ><span class="icon icon-envelope pr-4"></span
-                      ><span id="email_list" class="text"
-                        ><a
-                          href="mailto:info@example.com"
-                          target="_blank"
-                        ></a></span
-                    ></a>
+                    <span class="icon icon-envelope pr-4"></span
+                    ><span id="email_list" class="text"
+                      ><a href="mailto:info@example.com" target="_blank"></a
+                    ></span>
                   </li>
                 </ul>
               </div>
