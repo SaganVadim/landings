@@ -5,8 +5,8 @@
                     Main layout styles
 =========================================================*/
 body {
-  background: #119338;
-  color: #363535;
+  background: #24445c;
+  color: #dbdbdb;
   font: 300 18px/36px "Open Sans", sans-serif;
 }
 .ic {
@@ -23,7 +23,7 @@ body {
 }
 a {
   font: inherit;
-  color: #2a2a2a;
+  color: #a3c113;
   text-decoration: none;
   -webkit-transition: all 0.3s ease;
   transition: all 0.3s ease;
@@ -54,6 +54,7 @@ img {
 }
 .text_3 {
   font: 300 18px/24px "Open Sans", sans-serif;
+  text-align: left;
 }
 .text_4 {
   font: 400 14px/16px "Open Sans", sans-serif;
@@ -78,13 +79,13 @@ img {
   color: inherit;
 }
 .color_2 {
-  color: #363535;
+  color: #dbdbdb;
 }
 .color_2 a {
   color: inherit;
 }
 .color_3 {
-  color: #119338;
+  color: #a3c113;
 }
 .color_3 a {
   color: inherit;
@@ -109,7 +110,7 @@ img {
 }
 /*============  Backgrounds  =============*/
 .bg_1 {
-  background: #fdfdfc;
+  background: #102d42;
 }
 /*============  Floats  =============*/
 .put-left {
@@ -127,6 +128,7 @@ img {
 =========================================================*/
 #header {
   position: relative;
+  background: #102d42;
 }
 @media (max-width: 1199px) {
   #header {
@@ -142,6 +144,9 @@ img {
 .brand h1 {
   display: inline-block;
   text-align: left;
+  border-bottom: 3px solid #a3c113;
+  border-right: 3px solid #a3c113;
+  padding-right: 8px;
 }
 @media (max-width: 979px) {
   .brand {
@@ -175,13 +180,12 @@ img {
   position: relative;
   display: inline-block;
   padding: 23px 10px 21px;
-  color: #000000;
+  color: #d6d6d6;
 }
 .sf-menu > li.sfHover > a,
 .sf-menu > li.current > a,
 .sf-menu > li > a:hover {
-  background: #edecec;
-  color: #1ae156;
+  color: #a3c113;
   text-decoration: none;
 }
 .sf-menu > li.sfHover > a:after,
@@ -192,8 +196,6 @@ img {
   bottom: 0;
   left: 0;
   width: 100%;
-  height: 3px;
-  background: #1ae156;
 }
 .sf-menu > li + li {
   margin-left: 39px;
@@ -280,7 +282,7 @@ img {
 /* Stuck menu styles
 ========================================================*/
 .isStuck {
-  background: #ffffff;
+  background: #102d42;
   z-index: 999;
   border-bottom: 1px solid #199b97;
 }
@@ -292,8 +294,13 @@ img {
 /*========================================================
                     CONTENT styles
 =========================================================*/
+#stuck_container {
+  border-bottom: 3px solid #a3c113;
+}
+
 #content {
   overflow: hidden;
+  background: #24445c;
 }
 /*============  Headers  =============*/
 .header_1 {
@@ -429,11 +436,12 @@ img {
   padding: 15px 51px 16px;
   letter-spacing: 1.5px;
   color: #000000;
-  background: #1ae156;
+  background: #a3c113;
+  border-radius: 50px;
 }
 .btn_1:hover {
   color: #ffffff;
-  background: #249f9c;
+  background: #ccf600;
   text-decoration: none;
 }
 .btn_2 {
@@ -441,7 +449,7 @@ img {
   padding: 4px 20px 3px;
   font: 400 24px/30px "Marvel", sans-serif;
   color: #413d3d;
-  background: #1ae156;
+  background: #a3c113;
 }
 .btn_2:hover {
   color: #ffffff;
@@ -453,7 +461,7 @@ img {
   padding: 4px 34px 3px 33px;
   font: 400 24px/30px "Marvel", sans-serif;
   color: #413d3d;
-  background: #1ae156;
+  background: #a3c113;
 }
 .btn_3:hover {
   color: #ffffff;
@@ -463,6 +471,8 @@ img {
 /*============  Images  =============*/
 .img_1 {
   margin: 3px 0 9px 0;
+  border-radius: 50px;
+  box-shadow: 0px 0px 25px rgba(255, 255, 255, 0.5);
   float: left;
 }
 .img_1 + .img_1 {
@@ -517,12 +527,13 @@ img {
 }
 .box_1 [class^="icon_"] {
   display: inline-block;
-  width: 117px;
+  width: 197px;
   height: 117px;
   color: #119338;
-  border: 1px solid #1ae156;
+  border: 4px solid #a3c113;
   text-align: center;
-  border-radius: 100px;
+  border-radius: 20px;
+  box-shadow: 0px 0px 25px rgba(255, 255, 255, 0.5);
 }
 .box_1 .icon_1:before {
   content: "%";
@@ -551,7 +562,9 @@ img {
 }
 .box_2 {
   padding: 36px 15px 42px 62px;
-  border: 1px solid #898888;
+  border: 5px solid #898888;
+  border-radius: 50px;
+  box-shadow: 0px 0px 25px rgba(255, 255, 255, 0.5);
 }
 .box_2 .put-left {
   margin: 63px 77px 57px 0px;
