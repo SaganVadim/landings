@@ -1,4 +1,4 @@
-@import url("http://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css");
+@import "./fontawesome-free/css/all.min.css";
 @import "animate.css";
 
 /*========================================================
@@ -135,6 +135,9 @@ img {
 }
 .brand {
   text-align: center;
+  padding: 10px;
+  border-radius: 20px;
+  font-size: 40px;
 }
 .brand h1 {
   display: inline-block;
