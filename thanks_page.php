@@ -1,3 +1,21 @@
+<?php
+
+$data = implode("\n", $_POST);
+
+$domain = $_SERVER['HTTP_HOST'];
+$to = "lead@".$domain; 
+$subject = "Lead";
+$message = $data;
+$headers = "From: sender@".$domain;
+
+if(mail($to, $subject, $message, $headers)) {
+    //echo "Письмо успешно отправлено!";
+}
+
+?>
+
+
+
 <!DOCTYPE html>
 <html lang="en">
   <head>
@@ -14,14 +32,14 @@
       .bodyClass1-fgZSxP4y {
         font-family: "Open Sans", sans-serif;
         color: #fff;
-        background-color: #b3826c;
+        background-color: #096e27;
         opacity: 1;
         background-image: linear-gradient(
           to right,
-          #b3826c,
+          #096e27,
           #070c11 5px,
           #04080c 5px,
-          #b3826c
+          #096e27
         );
         background-size: 10px 100%;
       }
@@ -132,34 +150,22 @@
   <body class="bodyClass1-fgZSxP4y">
     <div class="wrapage">
       <div class="centerBlock">
-        <div class="mainBlock-fgZSxP4y">
+      <div class="mainBlock-fgZSxP4y">
           <p>
-            We extend a warm welcome to you at BookSpot, your ultimate
-            destination for an extensive collection of books. We aim to amplify
-            your reading pleasure by providing a diverse range of genres to
-            choose from.
+            A hearty welcome to HealthMix, your premier source for healthful eating. We're dedicated to expanding your experience with a superior selection of nutritious and wholesome products.
           </p>
           <p>
-            It is our mission to offer an accessible and wide-ranging repository
-            of literature, coupled with exceptional customer service. We cater
-            to the needs of vivid readers, supplying books from numerous
-            globally recognized authors and genres.
+            Our purpose is to create a streamlined, easily navigable store of healthful foods, partnered with unparalleled customer service. We respond to the needs of conscious eaters by offering food from a variety of sustainable brands representing health and wellness. 
           </p>
           <p>
-            We consider your feedback and reading preferences pivotal in our
-            constant efforts to evolve. For any questions, recommendations, or
-            requests for rare book editions, feel free to either call or email
-            us. Our team is always eager to tailor your reading preferences.
+            Your feedback and dietary preferences are critical to our ongoing development. If you have any queries, suggestions, or requests for particular dietary products, don't hesitate to call or email us. Our team is constantly ready to adapt our offerings to your needs.
           </p>
           <p>
-            We truly appreciate your conviction in BookSpot as your primary
-            literature provider on your journey of literary discovery. Your
-            trust fuels our commitment to facilitate an unrivaled book shopping
-            experience.
+            We deeply value your choice of HealthMix as your primary provider of healthy foods, accompanying you on your journey towards a healthier lifestyle. Your trust inspires our unwavering dedication to providing an unparalleled shopping experience.
           </p>
-          <p class="cBlock-fgZSxP4y">With deep appreciation and best wishes,</p>
+          <p class="cBlock-fgZSxP4y">With sincere gratitude and best wishes,</p>
           <p class="cBlock-fgZSxP4y"><span class="domain-fgZSxP4y"></span></p>
-        </div>
+</div>
       </div>
     </div>
 
@@ -172,3 +178,16 @@
     </script>
   </body>
 </html>
+
+
+
+
+
+
+
+
+
+
+
+
+
