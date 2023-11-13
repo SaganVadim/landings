@@ -1,27 +1,26 @@
-@import url(http://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css);
+@import url("http://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css");
 @import "animate.css";
-@import url(http://fonts.googleapis.com/css?family=Marvel);
-@import url(http://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700);
+
 /*========================================================
                     Main layout styles
 =========================================================*/
 body {
   background: #129894;
   color: #363535;
-  font: 300 18px/36px 'Open Sans', sans-serif;
+  font: 300 18px/36px "Open Sans", sans-serif;
 }
 .ic {
-  border:0;
-  float:right;
-  background:#fff;
-  color:#f00;
-  width:50%;
-  line-height:10px;
-  font-size:10px;
-  margin:-220% 0 0 0;
-  overflow:hidden;
-  padding:0
-} 
+  border: 0;
+  float: right;
+  background: #fff;
+  color: #f00;
+  width: 50%;
+  line-height: 10px;
+  font-size: 10px;
+  margin: -220% 0 0 0;
+  overflow: hidden;
+  padding: 0;
+}
 a {
   font: inherit;
   color: #129894;
@@ -48,28 +47,28 @@ img {
 }
 /*============  Text  =============*/
 .text_1 {
-  font: 300 68px/60px 'Open Sans', sans-serif;
+  font: 300 68px/60px "Open Sans", sans-serif;
 }
 .text_2 {
-  font: 600 24px/30px 'Open Sans', sans-serif;
+  font: 600 24px/30px "Open Sans", sans-serif;
 }
 .text_3 {
-  font: 300 18px/24px 'Open Sans', sans-serif;
+  font: 300 18px/24px "Open Sans", sans-serif;
 }
 .text_4 {
-  font: 400 14px/16px 'Open Sans', sans-serif;
+  font: 400 14px/16px "Open Sans", sans-serif;
 }
 .text_5 {
-  font: 300 14px/20px 'Open Sans', sans-serif;
+  font: 300 14px/20px "Open Sans", sans-serif;
 }
 .text_6 {
-  font: 400 18px/26px 'Open Sans', sans-serif;
+  font: 400 18px/26px "Open Sans", sans-serif;
 }
 .text_7 {
-  font: 400 18px/20px 'Open Sans', sans-serif;
+  font: 400 18px/20px "Open Sans", sans-serif;
 }
 .text_8 {
-  font: 400 14px/20px 'Open Sans', sans-serif;
+  font: 400 14px/20px "Open Sans", sans-serif;
 }
 /*============  Colors  =============*/
 .color_1 {
@@ -164,7 +163,7 @@ img {
 .sf-menu > li {
   position: relative;
   float: left;
-  font: 400 22px/22px 'Marvel', sans-serif;
+  font: 400 22px/22px "Marvel", sans-serif;
   text-align: center;
   text-transform: capitalize;
   letter-spacing: 1.1px;
@@ -185,7 +184,7 @@ img {
 .sf-menu > li.sfHover > a:after,
 .sf-menu > li.current > a:after,
 .sf-menu > li > a:hover:after {
-  content: '';
+  content: "";
   position: absolute;
   bottom: 0;
   left: 0;
@@ -263,7 +262,7 @@ img {
     border-radius: 0;
     -webkit-appearance: none;
     outline: none;
-    font: normal 14px 'Open Sans', sans-serif;
+    font: normal 14px "Open Sans", sans-serif;
     cursor: pointer;
     -webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;
@@ -296,7 +295,7 @@ img {
 /*============  Headers  =============*/
 .header_1 {
   text-align: center;
-  font: 600 48px/60px 'Open Sans', sans-serif;
+  font: 600 48px/60px "Open Sans", sans-serif;
 }
 .header_1.indent_1 {
   padding-bottom: 56px;
@@ -317,7 +316,7 @@ img {
   }
 }
 .header_2 {
-  font: 600 36px/30px 'Open Sans', sans-serif;
+  font: 600 36px/30px "Open Sans", sans-serif;
 }
 .header_2.indent_1 {
   padding-bottom: 30px;
@@ -423,7 +422,7 @@ img {
 /*============  Butttons  =============*/
 .btn_1 {
   display: inline-block;
-  font: 400 30px/30px 'Marvel', sans-serif;
+  font: 400 30px/30px "Marvel", sans-serif;
   padding: 15px 51px 16px;
   letter-spacing: 1.5px;
   color: #000000;
@@ -437,7 +436,7 @@ img {
 .btn_2 {
   display: inline-block;
   padding: 4px 20px 3px;
-  font: 400 24px/30px 'Marvel', sans-serif;
+  font: 400 24px/30px "Marvel", sans-serif;
   color: #413d3d;
   background: #f1f045;
 }
@@ -449,7 +448,7 @@ img {
 .btn_3 {
   display: inline-block;
   padding: 4px 34px 3px 33px;
-  font: 400 24px/30px 'Marvel', sans-serif;
+  font: 400 24px/30px "Marvel", sans-serif;
   color: #413d3d;
   background: #f1f045;
 }
@@ -513,7 +512,7 @@ img {
   text-align: center;
   padding-bottom: 30px;
 }
-.box_1 [class^='icon_'] {
+.box_1 [class^="icon_"] {
   display: inline-block;
   width: 117px;
   height: 117px;
@@ -523,28 +522,28 @@ img {
   border-radius: 100px;
 }
 .box_1 .icon_1:before {
-  content: '%';
-  font: bold 48px/117px 'Arial', sans-serif;
+  content: "%";
+  font: bold 48px/117px "Arial", sans-serif;
 }
 .box_1 .icon_2:before {
-  content: '\f012';
-  font: 700 48px/117px 'FontAwesome';
+  content: "\f012";
+  font: 700 48px/117px "FontAwesome";
 }
 .box_1 .icon_3:before {
-  content: '\f007';
-  font: 700 48px/117px 'FontAwesome';
+  content: "\f007";
+  font: 700 48px/117px "FontAwesome";
 }
 .box_1 .icon_4:before {
-  content: '\f0ad';
-  font: 700 48px/117px 'FontAwesome';
+  content: "\f0ad";
+  font: 700 48px/117px "FontAwesome";
 }
-.box_1 [class^='icon_'] + .text_2 {
+.box_1 [class^="icon_"] + .text_2 {
   padding-top: 22px;
 }
-.box_1 [class^='icon_'] + .text_2 + .text_3 {
+.box_1 [class^="icon_"] + .text_2 + .text_3 {
   padding-top: 16px;
 }
-.box_1 [class^='icon_'] + .text_2 + .text_3 + .btn_2 {
+.box_1 [class^="icon_"] + .text_2 + .text_3 + .btn_2 {
   margin-top: 41px;
 }
 .box_2 {
@@ -612,7 +611,7 @@ img {
   text-align: center;
   color: #ffffff;
   background: #129894;
-  font: 700 36px/48px 'Open Sans', sans-serif;
+  font: 700 36px/48px "Open Sans", sans-serif;
 }
 .box_5 .text_2 + .text_3 {
   padding-top: 24px;
@@ -731,7 +730,7 @@ img {
   padding-left: 31px;
 }
 .list_2 li:before {
-  content: '';
+  content: "";
   position: absolute;
   left: 0;
   top: 9px;
@@ -822,21 +821,21 @@ address .text_7 + .text_8 {
   padding-top: 12px;
 }
 /*============  LightBox =============*/
-a[data-type='lightbox'] {
+a[data-type="lightbox"] {
   display: block;
-  background: url('../images/magnify.png') no-repeat center center;
+  background: url("../images/magnify.png") no-repeat center center;
 }
-a[data-type='lightbox'] img {
+a[data-type="lightbox"] img {
   width: 100%;
   height: auto;
 }
-a[data-type='lightbox']:hover img {
+a[data-type="lightbox"]:hover img {
   opacity: 0.2;
   -webkit-transition: 0.3s all ease;
   transition: 0.3s all ease;
 }
 @media (max-width: 767px) {
-  a[data-type='lightbox'].last-row {
+  a[data-type="lightbox"].last-row {
     margin-bottom: 8px;
   }
 }
