@@ -1,4 +1,5 @@
 /*parsed HTML*/
+      
 $(function(){
 	$(".maxheight").each(function(){
 		$(this).contents().wrapAll("<div class='box_inner'></div>");
@@ -6,9 +7,9 @@ $(function(){
 	$(".maxheight1").each(function(){
 		$(this).contents().wrapAll("<div class='box_inner'></div>");
 	})
-    $(".maxheight2").each(function(){
-        $(this).contents().wrapAll("<div class='box_inner'></div>");
-    })
+	$(".maxheight2").each(function(){
+		$(this).contents().wrapAll("<div class='box_inner'></div>");
+	})
 })
 /*add event*/
 $(window).bind("resize", height_handler).bind("load", height_handler)
@@ -23,11 +24,11 @@ function height_handler(){
 	}else{
 		$(".maxheight1").css({'height':'auto'});
 	}
-    if($(window).width()>767){
-        $(".maxheight2").equalHeights();
-    }else{
-        $(".maxheight2").css({'height':'auto'});
-    }
+	if($(window).width()>767){
+		$(".maxheight2").equalHeights();
+	}else{
+		$(".maxheight2").css({'height':'auto'});
+	}
 }
 /*glob function*/
 (function($){

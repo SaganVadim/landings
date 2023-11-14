@@ -1,86 +1,72 @@
-(function($,undefined){
-	var 
-		def={
-			stuckClass:'isStuck'			
+(function($){
+	$.fn.tmStickUp=function(options){ 
+		
+		var getOptions = {
+			corectionValue: 0
 		}
-		,doc=$(document)
+		$.extend(getOptions, options); 
 
-	$.fn.TMStickUp=function(opt){
-		opt=$.extend(true,{},def,opt)
+		var
+			_this = $(this)
+		,	_window = $(window)
+		,	_document = $(document)
+		,	thisOffsetTop = 0
+		,	thisOuterHeight = 0
+		,	thisMarginTop = 0
+		,	documentScroll = 0
+		,	pseudoBlock
+		,	lastScrollValue = 0
+		,	scrollDir = ''
+		,	tmpScrolled
+		,	gridWidth = 0
+		,	tmpTop = 0
+		;
 
-		$(this).each(function(){
-			var $this=$(this)
-				,posY//=$this.offset().top+$this.outerHeight()
-				,isStuck=false
-				,clone=$this.clone().appendTo($this.parent()).addClass(opt.stuckClass)
-				,height//=$this.outerHeight()
-				,stuckedHeight=clone.outerHeight()
-				,opened//=$.cookie&&$.cookie('panel1')==='opened'
-				,tmr
+		init();
+		function init(){
+			parentContainer = _this.parent();
+			thisOffsetTop = parseInt(_this.offset().top);
+			thisMarginTop = parseInt(_this.css("margin-top"));
+			thisOuterHeight = parseInt(_this.outerHeight(true));
+			gridWidth = parseInt($('.container').width());
 
-			$(window).resize(function(){
-				clearTimeout(tmr)				
-				clone.css({top:isStuck?0:-stuckedHeight,visibility:isStuck?'visible':'hidden'})
-				tmr=setTimeout(function(){
-					posY=$this.offset().top//+$this.outerHeight()				
-					height=$this.outerHeight()
-					stuckedHeight=clone.outerHeight()
-					opened=$.cookie&&$.cookie('panel1')==='opened'
+			$('<div class="pseudoStickyBlock"></div>').insertAfter(_this);
+			pseudoBlock = $('.pseudoStickyBlock');
+			pseudoBlock.css({"position":"relative", "display":"block"});
 
-					clone.css({top:isStuck?0:-stuckedHeight})
-				},40)
-			}).resize()
+			_this.on("rePosition",
+				function(e,d){
+					tmpTop = d;
+					_document.trigger('scroll');
+				}
+			)
 
-			clone.css({
-				position:'fixed'				
-				,width:'100%'
-			})
+			addEventsFunction();
+		}//end init
 
-			$this
-				.on('rePosition',function(e,d){
-					if(isStuck)
-						clone.animate({marginTop:d},{easing:'linear'})
-					if(d===0)
-						opened=false
-					else
-						opened=true
-				})
-			
-			doc
-				.on('scroll',function(){
-					var scrollTop=doc.scrollTop()
+		function addEventsFunction(){
+			_document.on('scroll', function() {
 
-					if(scrollTop>=posY&&!isStuck){						
-						clone
-							.stop()
-							.css({visibility:'visible'})
-							.animate({
-								top:0
-								,marginTop:opened?50:0
-							},{
-
-							})
-							
-						isStuck=true
+				tmpScrolled = $(this).scrollTop();
+					if (tmpScrolled > lastScrollValue){
+						scrollDir = 'down';
+					} else {
+						scrollDir = 'up';
 					}
-					
-					if(scrollTop<posY+height&&isStuck){
-						clone
-							.stop()
-							.animate({
-								top:-stuckedHeight
-								,marginTop:0
-							},{
-								duration:200
-								,complete:function(){
-									clone.css({visibility:'hidden'})
-								}
-							})
-						
-						isStuck=false
-					}			
-				})				
-				.trigger('scroll')
-		})
-	}
+				lastScrollValue = tmpScrolled;
+
+				documentScroll = parseInt(_document.scrollTop());
+				if(thisOffsetTop-thisMarginTop < documentScroll){
+					_this.addClass('isStuck');
+					_this.css({position:"fixed",top:tmpTop, zIndex:999, left:0, right:0, margin:"0 auto"})
+					pseudoBlock.css({"height":thisOuterHeight});
+				}else{
+					_this.removeClass('isStuck');
+					_this.css({position:"relative", top: 0});
+					pseudoBlock.css({"height":0});
+				}
+				
+			}).trigger('scroll');
+		}
+	}//end tmStickUp function
 })(jQuery)

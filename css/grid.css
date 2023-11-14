@@ -126,6 +126,9 @@ table {
   border-collapse: collapse;
   border-spacing: 0;
 }
+.clearfix {
+  *zoom: 1;
+}
 .clearfix:before,
 .clearfix:after {
   display: table;
@@ -143,6 +146,7 @@ table {
 }
 .row {
   margin-left: -30px;
+  *zoom: 1;
 }
 .row:before,
 .row:after {
@@ -236,9 +240,7 @@ table {
 .container {
   margin-right: auto;
   margin-left: auto;
-  -webkit-box-sizing: border-box;
-  -moz-box-sizing: border-box;
-  box-sizing: border-box;
+  *zoom: 1;
 }
 .container:before,
 .container:after {
@@ -252,6 +254,7 @@ table {
 @media (min-width: 980px) and (max-width: 1199px) {
   .row {
     margin-left: -20px;
+    *zoom: 1;
   }
   .row:before,
   .row:after {
@@ -346,6 +349,7 @@ table {
 @media (min-width: 768px) and (max-width: 979px) {
   .row {
     margin-left: -20px;
+    *zoom: 1;
   }
   .row:before,
   .row:after {
@@ -457,6 +461,12 @@ table {
     -moz-box-sizing: border-box;
     box-sizing: border-box;
   }
+  .grid_12 {
+    width: 100%;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+  }
   .select-menu {
     display: block !important;
   }
@@ -468,6 +478,9 @@ table {
   .container {
     width: 300px;
     padding: 0 15px;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
   }
   .row {
     margin-left: 0;
