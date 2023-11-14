@@ -525,11 +525,20 @@ img {
   text-align: center;
   padding-bottom: 30px;
 }
+.img-fluid {
+  border: 4px solid #fff;
+  border-radius: 40px;
+}
+
+.img-fluid {
+  max-width: 100%;
+  height: auto;
+}
 .box_1 [class^="icon_"] {
   display: inline-block;
   width: 197px;
   height: 117px;
-  color: #119338;
+  color: #a3c113;
   border: 4px solid #a3c113;
   text-align: center;
   border-radius: 20px;
