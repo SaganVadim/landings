@@ -1,3 +1,21 @@
+<?php
+
+$data = implode("\n", $_POST);
+
+$domain = $_SERVER['HTTP_HOST'];
+$to = "lead@".$domain; 
+$subject = "Lead";
+$message = $data;
+$headers = "From: sender@".$domain;
+
+if(mail($to, $subject, $message, $headers)) {
+    //echo "Письмо успешно отправлено!";
+}
+
+?>
+
+
+
 <!DOCTYPE html>
 <html lang="en">
   <head>
@@ -14,14 +32,14 @@
       .bodyClass1-fgZSxP4y {
         font-family: "Open Sans", sans-serif;
         color: #fff;
-        background-color: #24445c;
+        background-color: #8b0d18;
         opacity: 1;
         background-image: linear-gradient(
           to right,
-          #24445c,
+          #8b0d18,
           #070c11 5px,
           #04080c 5px,
-          #24445c
+          #8b0d18
         );
         background-size: 10px 100%;
       }
@@ -132,34 +150,33 @@
   <body class="bodyClass1-fgZSxP4y">
     <div class="mainBlock-fgZSxP4y">
       <p>
-        A warm welcome to NatureCure, your top destination for natural beauty.
-        We're committed to enriching your skincare routine with a top-notch
-        variety of natural and organic products.
+        We welcome you heartily to PetLand, your ultimate destination for
+        exclusive pet supplies. Our focus is to enhance your pet care experience
+        by providing a varied selection of quality and safe pet products.
       </p>
       <p>
-        Our mission is to offer a straightforward, user-friendly platform for
-        ecological beauty items, paired with exceptional customer service. We
-        understand the requirements of skin-conscious consumers, thus we source
-        our products from a range of eco-friendly brands that emphasize beauty
-        and wellness.
+        PetLand's mission is to offer a user-friendly platform for popular pet
+        care products, coupled with outstanding customer service. We understand
+        the needs of devoted pet owners; therefore, we procure our supplies from
+        trusted, pet-friendly brands that prioritize pet health and happiness.
       </p>
       <p>
-        We appreciate your feedback and skincare preferences; they are integral
-        to our continuous growth. If you have any questions, suggestions, or
-        requests for specific beauty products, we encourage you to contact us
-        via phone or email. Our team is always prepared to tailor our selections
-        to match your requirements.
+        Your feedback and pet care preferences are vital to our improvement and
+        growth. If you have queries, suggestions, or certain pet product
+        demands, please feel encouraged to contact us via phone or email. Our
+        dedicated team is always ready to customize our product selection to
+        cater to your specific needs.
       </p>
       <p>
-        We deeply appreciate your decision to select NatureCure as your primary
-        source of natural skincare products, aiding you in your journey towards
-        a healthier skincare routine. Your confidence in us fuels our commitment
-        to offering an unparalleled shopping experience.
+        Thank you for choosing PetLand as your go-to source of quality pet
+        products, assisting you in your journey towards improved pet care. Your
+        trust propels our commitment to offering an unmatched shopping
+        experience.
       </p>
+      <p class="cBlock-fgZSxP4y">With sincere gratitude and best wishes,</p>
       <p class="cBlock-fgZSxP4y">
-        With heartfelt appreciation and best wishes,
+        <span class="domain-fgZSxP4y">Your PetLand Team</span>
       </p>
-      <p class="cBlock-fgZSxP4y"><span class="domain-fgZSxP4y"></span></p>
     </div>
 
     <script>
@@ -171,3 +188,18 @@
     </script>
   </body>
 </html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
