@@ -38,7 +38,7 @@
 }
 .sf-menu > li + li:after {
   content: "";
-  background: url(../images/menu_sep.png) 0 0 no-repeat;
+  /* background: url(../images/menu_sep.png) 0 0 no-repeat; */
   height: 5px;
   width: 5px;
   position: absolute;
@@ -188,10 +188,11 @@ input,
 textarea {
   border-radius: 0 !important;
   outline: none !important;
-  -webkit-appearance: none;
+  /* -webkit-appearance: none; */
 }
 img {
   max-width: 100%;
+  border-radius: 20px;
 }
 /****Heads****/
 h1,
@@ -321,7 +322,7 @@ a:hover {
   float: left;
   width: auto !important;
   margin-right: 30px;
-  margin-bottom: 0px;
+  margin-bottom: 30px;
 }
 .img_inner.fleft.noresize {
   margin-right: 20px;
@@ -414,7 +415,7 @@ header h1.stuck_head {
   padding-top: 13px;
 }
 .page1_header .banner {
-  background-color: #088389;
+  /* background-color: #088389; */
   color: #ffffff;
   display: block;
   width: 50%;
@@ -422,6 +423,7 @@ header h1.stuck_head {
   float: left;
   font-size: 18px;
   padding: 59px 0 14px;
+  border-radius: 50px;
 }
 .page1_header .banner .fa {
   margin-bottom: 27px;
@@ -447,11 +449,11 @@ header h1.stuck_head {
 }
 /****Content****/
 #content {
-  background-color: #fff;
+  background-color: #ffbdbd;
   padding-bottom: 71px;
 }
 #content .content_gray {
-  background-color: #fafdfe;
+  background-color: #f38989;
   border-top: 1px solid #5c5c5c;
   border-bottom: 1px solid #5c5c5c;
   padding-bottom: 65px;
@@ -480,7 +482,7 @@ header h1.stuck_head {
 /****Blocks****/
 .block-1 {
   font: 20px/30px "Roboto Condensed", sans-serif;
-  background-color: #088389;
+  background-color: #8b0d18;
   color: #ffffff;
   font-size: 20px;
   line-height: 30px;
@@ -510,9 +512,9 @@ header h1.stuck_head {
 .bq1 {
   position: relative;
   top: 3px;
-  background-color: #f2f5f6;
+  background-color: #8b0d18;
   padding: 31px 57px 40px 58px;
-  color: #626161;
+  color: #ebdada;
 }
 .bq1 p {
   font-style: italic;
@@ -741,6 +743,13 @@ a.color1:hover {
 .copy_right {
   text-align: center;
   padding-top: 30px;
+}
+.row-form {
+  display: flex;
+  /* justify-content: center; */
+  align-items: center;
+  flex-wrap: wrap;
+  flex-direction: column;
 }
 /*==================================RESPONSIVE LAYOUTS===============================================*/
 @media only screen and (max-width: 1199px) {

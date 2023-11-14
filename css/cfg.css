@@ -1,5 +1,7 @@
 .dop-bg {
-  background: #393939;
+  background: #393939db;
+  padding: 10px;
+  border-radius: 30px;
 }
 /*.dop-cl {
   color: #eee;
@@ -56,6 +58,8 @@ img {
 .form-check {
   display: flex;
   justify-content: end;
+  align-items: baseline;
+  margin-top: 10px;
 }
 
 .form-check-label {
