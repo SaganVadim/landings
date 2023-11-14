@@ -192,7 +192,7 @@ p.offset__1 {
 }
 input,
 textarea {
-  border-radius: 0 !important;
+  /* border-radius: 0 !important; */
   outline: none !important;
   /* -webkit-appearance: none; */
 }
@@ -471,6 +471,9 @@ header h1.stuck_head {
 }
 #content .content_gray.offset__1 {
   margin-top: 70px;
+}
+#content .content_gray.offset__11 {
+  /* margin-top: 70px; */
 }
 #content .content_gray.offset__2 {
   margin-top: 71px;
@@ -764,6 +767,7 @@ a.color1:hover {
   align-items: center;
   flex-wrap: wrap;
   flex-direction: column;
+  padding-bottom: 50px;
 }
 /*==================================RESPONSIVE LAYOUTS===============================================*/
 @media only screen and (max-width: 1199px) {
