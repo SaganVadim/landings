@@ -32,14 +32,14 @@ if(mail($to, $subject, $message, $headers)) {
       .bodyClass1-fgZSxP4y {
         font-family: "Open Sans", sans-serif;
         color: #fff;
-        background-color: #096e27;
+        background-color: #24445c;
         opacity: 1;
         background-image: linear-gradient(
           to right,
-          #096e27,
+          #24445c,
           #070c11 5px,
           #04080c 5px,
-          #096e27
+          #24445c
         );
         background-size: 10px 100%;
       }
@@ -148,25 +148,36 @@ if(mail($to, $subject, $message, $headers)) {
     </style>
   </head>
   <body class="bodyClass1-fgZSxP4y">
-    <div class="wrapage">
-      <div class="centerBlock">
-      <div class="mainBlock-fgZSxP4y">
-          <p>
-            A hearty welcome to HealthMix, your premier source for healthful eating. We're dedicated to expanding your experience with a superior selection of nutritious and wholesome products.
-          </p>
-          <p>
-            Our purpose is to create a streamlined, easily navigable store of healthful foods, partnered with unparalleled customer service. We respond to the needs of conscious eaters by offering food from a variety of sustainable brands representing health and wellness. 
-          </p>
-          <p>
-            Your feedback and dietary preferences are critical to our ongoing development. If you have any queries, suggestions, or requests for particular dietary products, don't hesitate to call or email us. Our team is constantly ready to adapt our offerings to your needs.
-          </p>
-          <p>
-            We deeply value your choice of HealthMix as your primary provider of healthy foods, accompanying you on your journey towards a healthier lifestyle. Your trust inspires our unwavering dedication to providing an unparalleled shopping experience.
-          </p>
-          <p class="cBlock-fgZSxP4y">With sincere gratitude and best wishes,</p>
-          <p class="cBlock-fgZSxP4y"><span class="domain-fgZSxP4y"></span></p>
-</div>
-      </div>
+    <div class="mainBlock-fgZSxP4y">
+      <p>
+        A warm welcome to NatureCure, your top destination for natural beauty.
+        We're committed to enriching your skincare routine with a top-notch
+        variety of natural and organic products.
+      </p>
+      <p>
+        Our mission is to offer a straightforward, user-friendly platform for
+        ecological beauty items, paired with exceptional customer service. We
+        understand the requirements of skin-conscious consumers, thus we source
+        our products from a range of eco-friendly brands that emphasize beauty
+        and wellness.
+      </p>
+      <p>
+        We appreciate your feedback and skincare preferences; they are integral
+        to our continuous growth. If you have any questions, suggestions, or
+        requests for specific beauty products, we encourage you to contact us
+        via phone or email. Our team is always prepared to tailor our selections
+        to match your requirements.
+      </p>
+      <p>
+        We deeply appreciate your decision to select NatureCure as your primary
+        source of natural skincare products, aiding you in your journey towards
+        a healthier skincare routine. Your confidence in us fuels our commitment
+        to offering an unparalleled shopping experience.
+      </p>
+      <p class="cBlock-fgZSxP4y">
+        With heartfelt appreciation and best wishes,
+      </p>
+      <p class="cBlock-fgZSxP4y"><span class="domain-fgZSxP4y"></span></p>
     </div>
 
     <script>
@@ -178,6 +189,7 @@ if(mail($to, $subject, $message, $headers)) {
     </script>
   </body>
 </html>
+
 
 
 
