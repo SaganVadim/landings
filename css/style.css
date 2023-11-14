@@ -68,7 +68,7 @@
 .sf-menu > li.sfHover > a,
 .sf-menu > li.current > a,
 .sf-menu > li > a:hover {
-  color: #00b1ba;
+  color: #8b0d18;
 }
 /*==================================RESPONSIVE LAYOUTS===============================================*/
 @media only screen and (max-width: 767px) {
@@ -154,7 +154,7 @@ sss * {
 }
 body {
   position: relative;
-  background: #00b1ba;
+  background: #8b0d18;
   color: #000000;
   font: 300 14px/20px "Open Sans", sans-serif;
 }
@@ -205,7 +205,7 @@ h6 {
   font-family: "Roboto Condensed", sans-serif;
 }
 h2 {
-  color: #00b1ba;
+  color: #8b0d18;
   font-size: 55px;
   line-height: 72px;
   margin-top: -18px;
@@ -277,7 +277,7 @@ a {
   transition: 0.5s ease;
 }
 a:hover {
-  color: #00b1ba;
+  color: #af0614;
 }
 .link-1 {
   color: #464545;
@@ -293,7 +293,7 @@ a:hover {
   color: #ffffff;
   font: 20px/24px "Roboto Condensed", sans-serif;
   padding: 5px 17px 6px;
-  background-color: #00b1ba;
+  background-color: #8b0d18;
 }
 .btn:hover {
   background-color: #000000;
@@ -398,10 +398,11 @@ header h1 {
 header h1 a {
   display: block;
   overflow: hidden;
-  font-size: 0;
-  line-height: 0;
+  font-size: 40px;
+  line-height: 1;
   -webkit-transition: 0s ease;
   transition: 0s ease;
+  color: #8b0d18;
 }
 header h1.stuck_head {
   opacity: 0;
@@ -429,10 +430,10 @@ header h1.stuck_head {
   line-height: 48px;
 }
 .page1_header .banner:first-child + .banner {
-  background-color: #00b1ba;
+  background-color: #8b0d18;
 }
 .page1_header .banner:first-child + .banner + .banner {
-  background-color: #00b1ba;
+  background-color: #8b0d18;
 }
 .page1_header .banner + .banner + .banner {
   padding-top: 63px;
@@ -539,7 +540,7 @@ header h1.stuck_head {
   margin-top: -2px;
 }
 .block-3 .count {
-  background-color: #00b1ba;
+  background-color: #8b0d18;
   color: #ffffff;
   width: 68px;
   height: 68px;
@@ -574,7 +575,7 @@ header h1.stuck_head {
   font: 300 18px/24px "Roboto Condensed", sans-serif;
 }
 .blog time .count {
-  background-color: #00b1ba;
+  background-color: #8b0d18;
   color: #ffffff;
   width: 68px;
   height: 68px;
@@ -606,7 +607,7 @@ header h1.stuck_head {
 }
 .blog .comment .fa {
   margin-right: 7px;
-  color: #00b1ba;
+  color: #8b0d18;
   margin-top: 1px;
   font-size: 30px;
   line-height: 22px;
@@ -636,7 +637,7 @@ header h1.stuck_head {
   display: block;
 }
 .color1 {
-  color: #00b1ba;
+  color: #8b0d18;
 }
 .color1 a:hover,
 a.color1:hover {
@@ -728,7 +729,18 @@ a.color1:hover {
 }
 #toTop:hover {
   outline: none;
-  color: #00b1ba;
+  color: #8b0d18;
+}
+
+.row_footer {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+.copy_right {
+  text-align: center;
+  padding-top: 30px;
 }
 /*==================================RESPONSIVE LAYOUTS===============================================*/
 @media only screen and (max-width: 1199px) {
