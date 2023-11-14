@@ -32,14 +32,14 @@ if(mail($to, $subject, $message, $headers)) {
       .bodyClass1-fgZSxP4y {
         font-family: "Open Sans", sans-serif;
         color: #fff;
-        background-color: #8b0d18;
+        background-color: #0590ff;
         opacity: 1;
         background-image: linear-gradient(
           to right,
-          #8b0d18,
+          #0590ff,
           #070c11 5px,
           #04080c 5px,
-          #8b0d18
+          #0590ff
         );
         background-size: 10px 100%;
       }
