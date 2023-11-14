@@ -33,7 +33,7 @@
   display: block;
   line-height: 19px;
   font-size: 14px;
-  font-family: 'Open Sans', sans-serif;
+  font-family: "Open Sans", sans-serif;
   font-weight: 400;
   padding: 6px 27px 6px;
   color: #363535;
@@ -55,13 +55,13 @@
 }
 /* Contact Form Input 
 ========================================================*/
-#contact-form input[type='text'] {
+#contact-form input[type="text"] {
   width: 100%;
-  background-color: #ffffff;
-  border-radius: 0;
+  background-color: #232c32;
+  border-radius: 10px;
   line-height: 19px;
   font-size: 14px;
-  font-family: 'Open Sans', sans-serif;
+  font-family: "Open Sans", sans-serif;
   font-weight: 400;
   padding: 6px 27px 6px;
   color: #363535;
@@ -73,6 +73,7 @@
   box-sizing: border-box;
   margin: 0;
   -webkit-appearance: none;
+  box-shadow: 0px 0px 25px rgba(255, 255, 255, 0.5);
 }
 /* Contact Form Buttons
 ========================================================*/
@@ -89,11 +90,11 @@
 ========================================================*/
 #contact-form textarea {
   width: 100%;
-  background-color: #ffffff;
-  border-radius: 0;
+  background-color: #232c32;
+  border-radius: 20px;
   line-height: 19px;
   font-size: 14px;
-  font-family: 'Open Sans', sans-serif;
+  font-family: "Open Sans", sans-serif;
   padding: 6px 27px 6px;
   color: #363535;
   outline: none;
@@ -102,9 +103,10 @@
   -moz-box-sizing: border-box;
   box-sizing: border-box;
   resize: none;
-  height: 221px!important;
+  height: 221px !important;
   -webkit-appearance: none;
   overflow: auto;
+  box-shadow: 0px 0px 25px rgba(255, 255, 255, 0.5);
 }
 /* Contact Form Error messages
 ========================================================*/
@@ -137,14 +139,14 @@
   left: 0;
   right: 0;
   bottom: 0;
-  background: rgba(247, 247, 247, 0.48) url('../images/form-loader.gif');
+  background: rgba(247, 247, 247, 0.48) url("../images/form-loader.gif");
   background-repeat: no-repeat;
   background-position: 50% 50%;
   background-size: 5%;
   opacity: 0;
 }
 #contact-form.processing .contact-form-loader {
-  opacity: .7;
+  opacity: 0.7;
   z-index: 99;
   -webkit-transition: all 0.3s ease-in;
   transition: all 0.3s ease-in;
@@ -167,7 +169,7 @@
   z-index: 1050;
   -webkit-overflow-scrolling: touch;
   outline: 0;
-  font-family: 'Open Sans', sans-serif;
+  font-family: "Open Sans", sans-serif;
   font-size: 13px;
 }
 #contact-form .modal h4 {
