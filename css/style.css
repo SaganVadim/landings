@@ -68,7 +68,7 @@
 .sf-menu > li.sfHover > a,
 .sf-menu > li.current > a,
 .sf-menu > li > a:hover {
-  color: #8b0d18;
+  color: #d60013;
 }
 /*==================================RESPONSIVE LAYOUTS===============================================*/
 @media only screen and (max-width: 767px) {
@@ -323,6 +323,7 @@ a:hover {
   width: auto !important;
   margin-right: 30px;
   margin-bottom: 30px;
+  height: 230px;
 }
 .img_inner.fleft.noresize {
   margin-right: 20px;
@@ -342,6 +343,8 @@ a:hover {
 }
 .fright {
   float: right !important;
+  margin-left: 20px;
+  height: 230px;
 }
 .upp {
   text-transform: uppercase;
