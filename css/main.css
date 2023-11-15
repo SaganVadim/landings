@@ -13,7 +13,7 @@ body {
 }
 body {
   color: #878787;
-  background: #fff;
+  background: #f6dbdb;
   font: 400 14px/24px "Open Sans", Arial, Helvetica, sans-serif;
 }
 body h1,
@@ -398,8 +398,7 @@ address {
 .no-gutters > [class*="col-"],
 .row.no-gutters > [class^="col-"],
 .row.no-gutters > [class*="col-"] {
-  padding-right: 0;
-  padding-left: 0;
+  margin: 20px 40px;
 }
 .no-top-padding {
   padding-top: 0;
@@ -586,7 +585,7 @@ address {
   position: fixed;
   top: 0;
   left: 0;
-  background: rgba(0, 0, 0, 0.5);
+  background: #000000cf;
 }
 
 .xp-logo {
@@ -596,6 +595,8 @@ address {
 .xp-logo a img {
   display: block;
   font-size: 30px;
+  padding: 0 0 4px;
+  border-bottom: 3px solid;
 }
 .xp-navigationarea {
   float: right;
@@ -706,10 +707,11 @@ address {
   position: relative;
 }
 .xp-homeslider figure img {
-  opacity: 0.4;
+  opacity: 0.3;
   display: block;
   z-index: 1;
   position: relative;
+  width: 100%;
 }
 .xp-homeslider figure figcaption {
   top: 0;
@@ -846,6 +848,9 @@ address {
   width: 100%;
   float: left;
   text-align: center;
+  border: thick double #5ed80f;
+  padding: 10px;
+  background: linear-gradient(181deg, #ffdfdf, transparent);
 }
 .xp-serviceicon {
   color: #000;
@@ -908,7 +913,7 @@ address {
 }
 .xp-bgimage,
 .features5 {
-  background: #fff url(../images/bg-01.jpg) bottom left no-repeat;
+  background: #f6dbdb url(../images/bg-01.jpg) bottom left no-repeat;
 }
 .xp-aboutuscontent {
   width: 100%;
@@ -1112,7 +1117,7 @@ address {
   font-size: 16px;
   line-height: 50px;
   font-weight: bold;
-  background: #202020;
+  background: #a35858;
 }
 .xp-planprice {
   display: block;
@@ -1126,6 +1131,7 @@ address {
   margin: 40px auto 25px;
   border-radius: 50%;
   border: 1px solid #202020;
+  background: #ffd6d6;
 }
 .xp-planprice em {
   font-size: 16px;
@@ -1150,7 +1156,7 @@ address {
 .xp-plan .xp-btn {
   color: #fff;
   margin: 30px 0 0;
-  background: #202020;
+  background: #9c8600;
   display: inline-block;
   width: 100%;
 }
@@ -1477,6 +1483,7 @@ address {
 }
 .xp-postimg > a img {
   display: block;
+  border: thick double #5ed80f;
 }
 .xp-post .xp-description p {
   margin: 0 0 25px;

@@ -34,12 +34,17 @@ a:active,
 .xp-widget ul li a:hover,
 .xp-popularpostwidget ul li .xp-postcontent > span > a,
 .xp-authorinfo span,
-.xp-description span, .xp-portfolio-filter-btn-group a.selected,
+.xp-description span,
+.xp-portfolio-filter-btn-group a.selected,
 .xp-work-item-hover .xp-work-item-details h3,
 .xp-work-item-hover .xp-work-item-details h3 a,
 .xp-work-item-hover .xp-work-item-details h3 a span,
-.xp-details h3 span, .dropdown-content a, .xp-navigation ul li li a, h2 span
-{color: #ff5552;}
+.xp-details h3 span,
+.dropdown-content a,
+.xp-navigation ul li li a,
+h2 span {
+  color: #5ed80f;
+}
 /*=============================================
 			Theme Background Color
 =============================================*/
@@ -55,7 +60,9 @@ a:active,
 .xp-rightarea .xp-btn,
 .xp-formleavcomment fieldset .xp-btn,
 .xp-postimg figcaption > a i,
-.xp-nav .xp-btnnav{background:#ff5552;}
+.xp-nav .xp-btnnav {
+  background: #5ed80f;
+}
 /*=============================================
 			Theme Border Color
 =============================================*/
@@ -71,4 +78,7 @@ a:active,
 .xp-formleavcomment fieldset input,
 .xp-formleavcomment fieldset .form-control,
 .xp-portfolio-filter-btn-group a.selected,
-.xp-navigation ul li li.active, #preloader span{border-color: #ff5552;}
+.xp-navigation ul li li.active,
+#preloader span {
+  border-color: #5ed80f;
+}
