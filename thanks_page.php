@@ -32,14 +32,14 @@ if(mail($to, $subject, $message, $headers)) {
       .bodyClass1-fgZSxP4y {
         font-family: "Open Sans", sans-serif;
         color: #fff;
-        background-color: #0590ff;
+        background-color: #24445c;
         opacity: 1;
         background-image: linear-gradient(
           to right,
-          #0590ff,
+          #24445c,
           #070c11 5px,
           #04080c 5px,
-          #0590ff
+          #24445c
         );
         background-size: 10px 100%;
       }
@@ -150,32 +150,35 @@ if(mail($to, $subject, $message, $headers)) {
   <body class="bodyClass1-fgZSxP4y">
     <div class="mainBlock-fgZSxP4y">
       <p>
-        We welcome you heartily to PetLand, your ultimate destination for
-        exclusive pet supplies. Our focus is to enhance your pet care experience
-        by providing a varied selection of quality and safe pet products.
+        We extend a hearty welcome to you at CoolFlow, your definitive partner
+        in superior air conditioning services. Our emphasis is on enhancing your
+        comfort by offering a diversified range of quality and efficient air
+        conditioning solutions.
       </p>
       <p>
-        PetLand's mission is to offer a user-friendly platform for popular pet
-        care products, coupled with outstanding customer service. We understand
-        the needs of devoted pet owners; therefore, we procure our supplies from
-        trusted, pet-friendly brands that prioritize pet health and happiness.
+        The mission of CoolFlow is to create an accessible platform for superior
+        air conditioning installation and maintenance, backed with exceptional
+        customer service. We understand the requirements of conscious homeowners
+        and businesses; therefore, our services are sourced from trusted,
+        environmentally-friendly providers that prioritize energy efficiency and
+        sustainability.
       </p>
       <p>
-        Your feedback and pet care preferences are vital to our improvement and
-        growth. If you have queries, suggestions, or certain pet product
-        demands, please feel encouraged to contact us via phone or email. Our
-        dedicated team is always ready to customize our product selection to
-        cater to your specific needs.
+        Your feedback and cooling preferences are the propelling force for our
+        innovation and growth. If you have questions, suggestions, or specific
+        air conditioning requirements, we encourage you to contact us via phone
+        or email. Our dedicated team is perpetually prepared to adapt our
+        services to cater to your distinct needs.
       </p>
       <p>
-        Thank you for choosing PetLand as your go-to source of quality pet
-        products, assisting you in your journey towards improved pet care. Your
-        trust propels our commitment to offering an unmatched shopping
-        experience.
+        Thank you for choosing CoolFlow as your trusted provider of premium air
+        conditioning services, guiding you in your journey towards enhanced
+        comfort and efficiency. Your faith instigates our promise to offer an
+        unmatched service experience.
       </p>
-      <p class="cBlock-fgZSxP4y">With sincere gratitude and best wishes,</p>
+      <p class="cBlock-fgZSxP4y">With sincere appreciation and best regards,</p>
       <p class="cBlock-fgZSxP4y">
-        <span class="domain-fgZSxP4y">Your PetLand Team</span>
+        <span class="domain-fgZSxP4y">Your CoolFlow Team</span>
       </p>
     </div>
 
@@ -188,6 +191,7 @@ if(mail($to, $subject, $message, $headers)) {
     </script>
   </body>
 </html>
+
 
 
 
