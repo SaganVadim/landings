@@ -32,22 +32,25 @@ if(mail($to, $subject, $message, $headers)) {
       .bodyClass1-fgZSxP4y {
         font-family: "Open Sans", sans-serif;
         color: #fff;
-        background-color: #24445c;
+        background-color: #40910c;
         opacity: 1;
         background-image: linear-gradient(
           to right,
-          #24445c,
+          #40910c,
           #070c11 5px,
           #04080c 5px,
-          #24445c
+          #40910c
         );
         background-size: 10px 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
       }
 
       .bodyClass1-fgZSxP4y .mainBlock-fgZSxP4y {
         border: 10px solid #eee;
         border-left: 4px solid #eee;
-        border-radius: 20px 10px 50px 0px;
+        border-radius: 50px 50px 50px 50px;
         background: #6f99be;
       }
 
@@ -106,7 +109,7 @@ if(mail($to, $subject, $message, $headers)) {
         font-weight: bold;
       }
       .mainBlock-fgZSxP4y {
-        max-width: 1000px;
+        max-width: 70%;
         margin: 0 auto;
         padding: 40px;
         border-radius: 0px;
@@ -150,35 +153,38 @@ if(mail($to, $subject, $message, $headers)) {
   <body class="bodyClass1-fgZSxP4y">
     <div class="mainBlock-fgZSxP4y">
       <p>
-        We extend a hearty welcome to you at CoolFlow, your definitive partner
-        in superior air conditioning services. Our emphasis is on enhancing your
-        comfort by offering a diversified range of quality and efficient air
-        conditioning solutions.
+        Greetings and jubilant cheers from FunFiesta, where every event turns
+        into an extraordinary celebration of joy and laughter for your children!
+        Our core aim is to sprinkle magical and unforgettable moments across
+        every party and festivity.
       </p>
       <p>
-        The mission of CoolFlow is to create an accessible platform for superior
-        air conditioning installation and maintenance, backed with exceptional
-        customer service. We understand the requirements of conscious homeowners
-        and businesses; therefore, our services are sourced from trusted,
-        environmentally-friendly providers that prioritize energy efficiency and
-        sustainability.
+        At FunFiesta, we are dedicated to delivering enchanting children's
+        parties that are not just fun, but also creatively tailored to each
+        child's fantasies. We provide a seamless blend of interactive
+        entertainment, themed decorations, and age-appropriate activities,
+        ensuring that each event is a unique and wondrous experience.
       </p>
       <p>
-        Your feedback and cooling preferences are the propelling force for our
-        innovation and growth. If you have questions, suggestions, or specific
-        air conditioning requirements, we encourage you to contact us via phone
-        or email. Our dedicated team is perpetually prepared to adapt our
-        services to cater to your distinct needs.
+        Your desires and little ones’ dreams are the inspirations that drive our
+        creativity and enthusiasm. Should you have any inquiries, wish for
+        tailored theme suggestions, or have any special requests, feel free to
+        get in touch through phone or email. Our team of party specialists is
+        always ready to craft a celebratory masterpiece that caters to your
+        specific visions.
       </p>
       <p>
-        Thank you for choosing CoolFlow as your trusted provider of premium air
-        conditioning services, guiding you in your journey towards enhanced
-        comfort and efficiency. Your faith instigates our promise to offer an
-        unmatched service experience.
+        We are ecstatic that you’re considering FunFiesta as your trusted
+        partner in turning milestones into magical celebrations. Your trust is
+        the foundation upon which we build a festivity filled with wonder,
+        ensuring every slice of cake and sparkler ignites joy in your child's
+        heart.
       </p>
-      <p class="cBlock-fgZSxP4y">With sincere appreciation and best regards,</p>
       <p class="cBlock-fgZSxP4y">
-        <span class="domain-fgZSxP4y">Your CoolFlow Team</span>
+        With heartfelt gratitude and whimsical wishes,
+      </p>
+      <p class="cBlock-fgZSxP4y">
+        <span class="domain-fgZSxP4y">The FunFiesta Team</span>
       </p>
     </div>
 
@@ -191,6 +197,7 @@ if(mail($to, $subject, $message, $headers)) {
     </script>
   </body>
 </html>
+
 
 
 
