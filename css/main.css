@@ -596,8 +596,11 @@ address {
 .xp-logo a img {
   display: block;
   font-size: 30px;
-  padding: 0 0 4px;
-  border-bottom: 3px solid;
+  padding: 0 10px 0 10px;
+  border-left: 3px solid;
+  border-right: 3px solid;
+  text-shadow: blueviolet;
+  text-shadow: #23ff00 0px 0px 14px;
 }
 .xp-navigationarea {
   float: right;
@@ -849,7 +852,7 @@ address {
   width: 100%;
   float: left;
   text-align: center;
-  border: thick double #5ed80f;
+  border: thick double #e13232;
   padding: 10px;
   background: linear-gradient(181deg, #ffdfdf, transparent);
 }
@@ -1484,7 +1487,7 @@ address {
 }
 .xp-postimg > a img {
   display: block;
-  border: thick double #5ed80f;
+  border: thick double #e13232;
 }
 .xp-post .xp-description p {
   margin: 0 0 25px;
@@ -1541,7 +1544,7 @@ address {
   width: 100%;
   height: 55px;
   line-height: 55px;
-  border: 2px solid #5ed80f;
+  border: 2px solid #e13232;
   background: #eec2c2;
 }
 .xp-contactusform .form-control {
@@ -1550,7 +1553,7 @@ address {
   float: left;
   margin: 0 0 40px;
   resize: none;
-  border: 2px solid #5ed80f;
+  border: 2px solid #e13232;
   background: #eec2c2;
 }
 .xp-btn {
@@ -1560,7 +1563,7 @@ address {
   margin: 0 auto;
   padding: 0 30px;
   display: inline-block;
-  border: 2px solid #5ed80f;
+  border: 2px solid #e13232;
   /* width: 100%; */
   /* background: #3c763d; */
 }
@@ -1702,7 +1705,7 @@ address {
   margin: 0 15px 0 0;
   font-size: 18px;
   line-height: 25px;
-  color: #5ed80f;
+  color: #e13232;
 }
 .xp-twitterfeed ul li span {
   width: 85%;
@@ -1712,7 +1715,7 @@ address {
   color: #000;
 }
 .xp-twitterfeed ul li span a {
-  color: #5ed80f;
+  color: #e13232;
 }
 .xp-photostream ul {
   clear: both;
