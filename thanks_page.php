@@ -32,14 +32,14 @@ if(mail($to, $subject, $message, $headers)) {
       .bodyClass1-fgZSxP4y {
         font-family: "Open Sans", sans-serif;
         color: #fff;
-        background-color: #40910c;
+        background-color: #731b1b;
         opacity: 1;
         background-image: linear-gradient(
           to right,
-          #40910c,
+          #731b1b,
           #070c11 5px,
           #04080c 5px,
-          #40910c
+          #731b1b
         );
         background-size: 10px 100%;
         display: flex;
@@ -51,7 +51,7 @@ if(mail($to, $subject, $message, $headers)) {
         border: 10px solid #eee;
         border-left: 4px solid #eee;
         border-radius: 50px 50px 50px 50px;
-        background: #6f99be;
+        background: #731b1b;
       }
 
       body {
@@ -153,38 +153,36 @@ if(mail($to, $subject, $message, $headers)) {
   <body class="bodyClass1-fgZSxP4y">
     <div class="mainBlock-fgZSxP4y">
       <p>
-        Greetings and jubilant cheers from FunFiesta, where every event turns
-        into an extraordinary celebration of joy and laughter for your children!
-        Our core aim is to sprinkle magical and unforgettable moments across
-        every party and festivity.
+        Welcome to ToneX Fitness Studios! We extend cheerful greetings and
+        jubilant cheers from ToneX, where every fitness journey transforms into
+        an extraordinary celebration of health and well-being!
       </p>
       <p>
-        At FunFiesta, we are dedicated to delivering enchanting children's
-        parties that are not just fun, but also creatively tailored to each
-        child's fantasies. We provide a seamless blend of interactive
-        entertainment, themed decorations, and age-appropriate activities,
-        ensuring that each event is a unique and wondrous experience.
+        At ToneX, our dedicated team is committed to delivering invigorating
+        fitness experiences that go beyond the ordinary. We provide a seamless
+        blend of expertise, personalized workout programs, and a vibrant
+        community, ensuring that each session is a unique and empowering
+        experience.
       </p>
       <p>
-        Your desires and little ones’ dreams are the inspirations that drive our
-        creativity and enthusiasm. Should you have any inquiries, wish for
-        tailored theme suggestions, or have any special requests, feel free to
-        get in touch through phone or email. Our team of party specialists is
-        always ready to craft a celebratory masterpiece that caters to your
-        specific visions.
+        Your fitness goals and aspirations are the inspirations that drive our
+        commitment and enthusiasm. Should you have any inquiries, wish for
+        personalized workout recommendations, or have any special requests, feel
+        free to get in touch through phone or email. Our team of fitness
+        specialists is always ready to craft a transformative fitness journey
+        that caters to your specific visions.
       </p>
       <p>
-        We are ecstatic that you’re considering FunFiesta as your trusted
-        partner in turning milestones into magical celebrations. Your trust is
-        the foundation upon which we build a festivity filled with wonder,
-        ensuring every slice of cake and sparkler ignites joy in your child's
-        heart.
+        We are thrilled that you’re considering ToneX as your trusted partner in
+        turning fitness milestones into a celebration of well-being. Your
+        commitment is the foundation upon which we build a fitness haven,
+        ensuring every workout and achievement ignites strength and vitality.
       </p>
       <p class="cBlock-fgZSxP4y">
-        With heartfelt gratitude and whimsical wishes,
+        With heartfelt dedication and energetic wishes,
       </p>
       <p class="cBlock-fgZSxP4y">
-        <span class="domain-fgZSxP4y">The FunFiesta Team</span>
+        <span class="domain-fgZSxP4y">The ToneX Team</span>
       </p>
     </div>
 
@@ -197,6 +195,7 @@ if(mail($to, $subject, $message, $headers)) {
     </script>
   </body>
 </html>
+
 
 
 
