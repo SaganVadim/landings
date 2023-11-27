@@ -133,7 +133,7 @@ input[type="tel"],
 input[type="color"],
 .uneditable-input {
   outline: none;
-  color: #000;
+  color: #e0e0e0;
   height: 40px;
   background: none;
   font-size: 14px;
@@ -165,7 +165,7 @@ input:focus,
   box-shadow: none !important;
 }
 label {
-  color: #414141;
+  color: #cbc8c8;
   display: block;
   font-weight: 400;
   margin-bottom: 10px;
@@ -1610,7 +1610,9 @@ address {
   height: 55px;
   line-height: 55px;
   border: 2px solid #e13232;
-  background: #eec2c2;
+  background: #1a1a1a;
+  border-radius: 20px;
+  box-shadow: 0px 0px 25px;
 }
 .xp-contactusform .form-control {
   width: 100%;
@@ -1619,7 +1621,9 @@ address {
   margin: 0 0 40px;
   resize: none;
   border: 2px solid #e13232;
-  background: #eec2c2;
+  background: #1a1a1a;
+  border-radius: 20px;
+  box-shadow: 0px 0px 25px;
 }
 .xp-btn {
   background: none;
@@ -2149,6 +2153,7 @@ address {
   height: 400px;
   width: 84%;
   margin: 0 auto;
+  padding-top: 50px;
 }
 
 /*=============================================
