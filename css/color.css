@@ -63,6 +63,21 @@ h2 span {
 .xp-nav .xp-btnnav {
   background: #e13232;
 }
+.xp-navigation > ul > li > a::after,
+.xp-btn:hover,
+.xp-plan:hover h4,
+.xp-plan:hover .xp-btn,
+.xp-testimonials .owl-controls .owl-page.active span,
+.xp-testimonials .owl-controls.clickable .owl-page:hover span,
+.xp-skillbar,
+.xp-tagswidget ul li a:hover,
+.xp-commentheading:after,
+.xp-rightarea .xp-btn,
+.xp-formleavcomment fieldset .xp-btn,
+.xp-postimg figcaption > a i,
+.xp-nav .xp-btnnav {
+  background: #e13232;
+}
 /*=============================================
 			Theme Border Color
 =============================================*/
