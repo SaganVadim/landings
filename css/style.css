@@ -226,6 +226,8 @@ h5 {
 /* line 119, /Applications/MAMP/htdocs/palash/cl/july 2019/193 Travel/193 travel html/sass/_common.scss */
 img {
   max-width: 100%;
+  border-radius: 20px 20px 0 0;
+  border-top: 4px solid #c9cc2c;
 }
 
 /* line 122, /Applications/MAMP/htdocs/palash/cl/july 2019/193 Travel/193 travel html/sass/_common.scss */
@@ -510,6 +512,8 @@ ul {
   transition: 0.5s;
   background-color: #dd0af0;
   font-weight: 500;
+  border-radius: 20px 20px 0 0;
+  border-top: 3px solid #c9cc2c;
 }
 
 /* line 35, /Applications/MAMP/htdocs/palash/cl/july 2019/193 Travel/193 travel html/sass/_button.scss */
@@ -2559,6 +2563,8 @@ ul {
   margin-top: 60px;
   background-color: #57027a;
   padding: 23px 79px;
+  border-radius: 20px 20px 0 0;
+  border-top: 3px solid #c9cc2c;
 }
 
 /* line 110, /Applications/MAMP/htdocs/palash/cl/july 2019/193 Travel/193 travel html/sass/_banner.scss */
@@ -2925,6 +2931,8 @@ ul {
 .event_part .event_slider_content {
   background-color: #fff;
   padding: 50px;
+  border-radius: 20px 20px 0 0;
+  border-top: 3px solid #c9cc2c;
 }
 
 @media (max-width: 991px) {
@@ -3251,7 +3259,7 @@ ul {
 /******** client review part css *********/
 /* line 2, /Applications/MAMP/htdocs/palash/cl/july 2019/193 Travel/193 travel html/sass/_client_review.scss */
 .client_review {
-  background-color: #0c3e72;
+  background-color: #b281c6;
 }
 
 /* line 5, /Applications/MAMP/htdocs/palash/cl/july 2019/193 Travel/193 travel html/sass/_client_review.scss */
@@ -3263,6 +3271,10 @@ ul {
 .client_review .single_review_slider {
   background-color: #0e477d;
   padding: 30px;
+  background-color: #57027a;
+  padding: 30px;
+  border-radius: 20px 20px 0 0;
+  border-top: 3px solid #c9cc2c;
 }
 
 /* line 12, /Applications/MAMP/htdocs/palash/cl/july 2019/193 Travel/193 travel html/sass/_client_review.scss */
@@ -3304,7 +3316,7 @@ ul {
   line-height: 45px;
   text-align: center;
   display: inline-block;
-  background-color: #2493e0 !important;
+  background-color: #57027a !important;
   color: #fff !important;
 }
 
