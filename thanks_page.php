@@ -32,14 +32,14 @@ if(mail($to, $subject, $message, $headers)) {
       .bodyClass1-fgZSxP4y {
         font-family: "Open Sans", sans-serif;
         color: #fff;
-        background-color: #731b1b;
+        background-color: #4f1454;
         opacity: 1;
         background-image: linear-gradient(
           to right,
-          #731b1b,
+          #4f1454,
           #070c11 5px,
           #04080c 5px,
-          #731b1b
+          #4f1454
         );
         background-size: 10px 100%;
         display: flex;
@@ -51,7 +51,7 @@ if(mail($to, $subject, $message, $headers)) {
         border: 10px solid #eee;
         border-left: 4px solid #eee;
         border-radius: 50px 50px 50px 50px;
-        background: #731b1b;
+        background: #4f1454;
       }
 
       body {
@@ -153,36 +153,35 @@ if(mail($to, $subject, $message, $headers)) {
   <body class="bodyClass1-fgZSxP4y">
     <div class="mainBlock-fgZSxP4y">
       <p>
-        Welcome to ToneX Fitness Studios! We extend cheerful greetings and
-        jubilant cheers from ToneX, where every fitness journey transforms into
-        an extraordinary celebration of health and well-being!
+        Welcome to TourCraft Travel Agency! We extend warm greetings and
+        enthusiastic welcomes from TourCraft, where every journey becomes a
+        remarkable celebration of exploration and adventure!
       </p>
       <p>
-        At ToneX, our dedicated team is committed to delivering invigorating
-        fitness experiences that go beyond the ordinary. We provide a seamless
-        blend of expertise, personalized workout programs, and a vibrant
-        community, ensuring that each session is a unique and empowering
-        experience.
+        At TourCraft, our dedicated team is committed to delivering enriching
+        travel experiences that exceed expectations. We offer a seamless
+        combination of expertise, personalized travel itineraries, and a vibrant
+        community, ensuring that each trip is a unique and inspiring adventure.
       </p>
       <p>
-        Your fitness goals and aspirations are the inspirations that drive our
-        commitment and enthusiasm. Should you have any inquiries, wish for
-        personalized workout recommendations, or have any special requests, feel
-        free to get in touch through phone or email. Our team of fitness
-        specialists is always ready to craft a transformative fitness journey
-        that caters to your specific visions.
+        Your travel goals and dreams are the inspirations that drive our
+        dedication and passion. Should you have any inquiries, desire
+        personalized trip recommendations, or have any special requests, feel
+        free to get in touch via phone or email. Our team of travel specialists
+        is always ready to craft a transformative travel journey that caters to
+        your specific visions.
       </p>
       <p>
-        We are thrilled that you’re considering ToneX as your trusted partner in
-        turning fitness milestones into a celebration of well-being. Your
-        commitment is the foundation upon which we build a fitness haven,
-        ensuring every workout and achievement ignites strength and vitality.
+        We are thrilled that you’re considering TourCraft as your trusted
+        partner in turning travel aspirations into a celebration of exploration.
+        Your commitment is the foundation upon which we build a travel paradise,
+        ensuring every trip and experience ignites curiosity and inspiration.
       </p>
       <p class="cBlock-fgZSxP4y">
-        With heartfelt dedication and energetic wishes,
+        With heartfelt dedication and adventurous wishes,
       </p>
       <p class="cBlock-fgZSxP4y">
-        <span class="domain-fgZSxP4y">The ToneX Team</span>
+        <span class="domain-fgZSxP4y">The TourCraft Team</span>
       </p>
     </div>
 
@@ -195,6 +194,7 @@ if(mail($to, $subject, $message, $headers)) {
     </script>
   </body>
 </html>
+
 
 
 
