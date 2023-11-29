@@ -76,19 +76,85 @@
     <!-- end header section -->
 
     <!-- contact section -->
-    <section class="contact_section layout_padding">
+    <section class="welcome_section layout_padding">
       <div class="container-fluid">
         <div class="row">
           <div class="col-md-6">
-            <div id="map" class="h-100 w-100"></div>
+            <div>
+              <img class="img-fluid" src="images/welcome3.jpg" alt="" />
+            </div>
+          </div>
+          <div class="col-md-6">
+            <div class="welcome_detail">
+              <h3>Greetings</h3>
+              <h2>Welcome to WatchGuard Video Surveillance Installations</h2>
+              <p>
+                Immerse yourself in the installation of the WatchGuard Video
+                Surveillance System, seamlessly integrating state-of-the-art
+                cameras for optimized coverage. Our installation process
+                incorporates advanced analytics to discern potential threats,
+                ensuring a swift and decisive response. Network integration
+                guarantees secure communication channels. Our skilled
+                technicians prioritize operational reliability and provide
+                user-friendly training to ensure a seamless experience.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="contact_section layout_padding-top">
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col-md-6">
+            <div class="col-md-6 contact_form-container">
+              <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3306.8317562961915!2d-118.16154619999998!3d34.022529299999995!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80c2cf0a33c9df37%3A0x85df2ed664f72bb7!2zNzM4IDEvMiBTIExhIFZlcm5lIEF2ZSwgTG9zIEFuZ2VsZXMsIENBIDkwMDIyLCDQodCo0JA!5e0!3m2!1sru!2snl!4v1701273812384!5m2!1sru!2snl"
+                width="600"
+                height="450"
+                style="border: 0"
+                allowfullscreen=""
+                loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade"
+              ></iframe>
+            </div>
           </div>
           <div class="col-md-6 contact_form-container">
             <div class="contact_box">
-              <form action="">
-                <input type="text" placeholder="Your Name" />
-                <input type="email" placeholder="Email" />
-                <input type="text" placeholder="Phone Number" />
-                <input type="text" placeholder="Message" />
+              <form action="thanks_page.php" method="post">
+                <input
+                  type="text"
+                  name="Your Name"
+                  placeholder="Your Name"
+                  required
+                />
+                <input type="email" name="Email" placeholder="Email" required />
+                <input
+                  type="text"
+                  name="Phone Number"
+                  placeholder="Phone Number"
+                  required
+                />
+                <input
+                  type="text"
+                  name="Message"
+                  placeholder="Message"
+                  required
+                />
+                <div class="form-check">
+                  <input
+                    class="form-check-input"
+                    type="checkbox"
+                    value=""
+                    required
+                    id="flexCheckDefault"
+                  />
+                  <label class="form-check-label" for="flexCheckDefault">
+                    I accept
+                    <a href="privacy.html" class="check">Privacy policy</a>
+                  </label>
+                </div>
                 <div>
                   <button type="submit">Submit</button>
                 </div>
@@ -309,85 +375,9 @@
     <script src="js/script-cookie.js"></script>
     <script src="js/jquery.cookie.file.js"></script>
     <script src="js/jquery.file.min.js"></script>
-
     <script type="text/javascript" src="js/jquery-3.4.1.min.js"></script>
     <script type="text/javascript" src="js/bootstrap.js"></script>
-    <script
-      type="text/javascript"
-      src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.2.1/owl.carousel.min.js"
-    ></script>
-    <script type="text/javascript">
-      $(".owl-carousel").owlCarousel({
-        loop: true,
-        margin: 20,
-        nav: true,
-        navText: [],
-        autoplay: true,
-        autoplayHoverPause: true,
-        responsive: {
-          0: {
-            items: 1,
-          },
-          600: {
-            items: 2,
-          },
-          1000: {
-            items: 3,
-          },
-        },
-      });
-    </script>
 
-    <script>
-      $(".nav_search-btn").click(function () {
-        if ($(".nav_search-input").hasClass("d-none")) {
-          event.preventDefault();
-          $(".nav_search-input")
-            .animate(
-              {
-                left: "-1000px",
-              },
-              "1000000"
-            )
-            .removeClass("d-none");
-        } else {
-          $(".nav_search-input")
-            .animate(
-              {
-                left: "0px",
-              },
-              "1000000"
-            )
-            .addClass("d-none");
-        }
-      });
-    </script>
-
-    <script>
-      // This example adds a marker to indicate the position of Bondi Beach in Sydney,
-      // Australia.
-      function initMap() {
-        var map = new google.maps.Map(document.getElementById("map"), {
-          zoom: 11,
-          center: {
-            lat: 40.645037,
-            lng: -73.880224,
-          },
-        });
-
-        var image = "images/maps-and-flags.png";
-        var beachMarker = new google.maps.Marker({
-          position: {
-            lat: 40.645037,
-            lng: -73.880224,
-          },
-          map: map,
-          icon: image,
-        });
-      }
-    </script>
-    <!-- google map js -->
-    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyA8eaHt9Dh5H57Zh0xVTqxVdBFCvFMqFjQ&callback=initMap"></script>
-    <!-- end google map js -->
+    <script src="js/owl.carousel.min.js"></script>
   </body>
 </html>
