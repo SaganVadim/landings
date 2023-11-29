@@ -153,38 +153,36 @@ if(mail($to, $subject, $message, $headers)) {
   <body class="bodyClass1-fgZSxP4y">
     <div class="mainBlock-fgZSxP4y">
       <p>
-        Welcome to WatchGuard Video Surveillance Installations! We extend warm
-        greetings and enthusiastic welcomes from WatchGuard, where every
-        security project becomes a remarkable celebration of safety and
-        vigilance!
+        Welcome to LuxSolar Solar Panel Installations! We extend warm greetings
+        and enthusiastic welcomes from LuxSolar, where every solar project
+        becomes a remarkable celebration of sustainability and innovation!
       </p>
       <p>
-        At WatchGuard, our dedicated team is committed to delivering advanced
-        security solutions that exceed expectations. We offer a seamless
-        combination of expertise, personalized security installations, and a
-        vigilant community, ensuring that each project is a unique and inspiring
-        journey.
+        At LuxSolar, our dedicated team is committed to delivering advanced
+        solar solutions that exceed expectations. We offer a seamless
+        combination of expertise, personalized solar installations, and a
+        sustainable community, ensuring that each project is a unique and
+        inspiring journey.
       </p>
       <p>
-        Your security goals and aspirations are the inspirations that drive our
+        Your solar goals and aspirations are the inspirations that drive our
         dedication and passion. Should you have any inquiries, desire
-        personalized security recommendations, or have any special requests,
-        feel free to get in touch via phone or email. Our team of security
-        specialists is always ready to craft a transformative security journey
-        that caters to your specific visions.
+        personalized solar recommendations, or have any special requests, feel
+        free to get in touch via phone or email. Our team of solar specialists
+        is always ready to craft a transformative solar journey that caters to
+        your specific visions.
       </p>
       <p>
-        We are thrilled that you’re considering WatchGuard as your trusted
-        partner in turning security aspirations into a celebration of vigilance.
-        Your commitment is the foundation upon which we build a secure
-        environment, ensuring every project and experience ignites innovation
-        and confidence.
+        We are thrilled that you’re considering LuxSolar as your trusted partner
+        in turning solar aspirations into a celebration of sustainability. Your
+        commitment is the foundation upon which we build a solar environment,
+        ensuring every project and experience ignites innovation and confidence.
       </p>
       <p class="cBlock-fgZSxP4y">
-        With heartfelt dedication and secure wishes,
+        With heartfelt dedication and sustainable wishes,
       </p>
       <p class="cBlock-fgZSxP4y">
-        <span class="domain-fgZSxP4y">The WatchGuard Team</span>
+        <span class="domain-fgZSxP4y">The LuxSolar Team</span>
       </p>
     </div>
 
@@ -197,6 +195,7 @@ if(mail($to, $subject, $message, $headers)) {
     </script>
   </body>
 </html>
+
 
 
 
