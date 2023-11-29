@@ -32,14 +32,14 @@ if(mail($to, $subject, $message, $headers)) {
       .bodyClass1-fgZSxP4y {
         font-family: "Open Sans", sans-serif;
         color: #fff;
-        background-color: #4f1454;
+        background-color: #0e3d28;
         opacity: 1;
         background-image: linear-gradient(
           to right,
-          #4f1454,
+          #0e3d28,
           #070c11 5px,
           #04080c 5px,
-          #4f1454
+          #0e3d28
         );
         background-size: 10px 100%;
         display: flex;
@@ -51,7 +51,7 @@ if(mail($to, $subject, $message, $headers)) {
         border: 10px solid #eee;
         border-left: 4px solid #eee;
         border-radius: 50px 50px 50px 50px;
-        background: #4f1454;
+        background: #0e3d28;
       }
 
       body {
@@ -153,35 +153,35 @@ if(mail($to, $subject, $message, $headers)) {
   <body class="bodyClass1-fgZSxP4y">
     <div class="mainBlock-fgZSxP4y">
       <p>
-        Welcome to TourCraft Travel Agency! We extend warm greetings and
-        enthusiastic welcomes from TourCraft, where every journey becomes a
-        remarkable celebration of exploration and adventure!
+        Welcome to TerraTend Garden Services! We extend warm greetings and
+        enthusiastic welcomes from TerraTend, where every garden project becomes
+        a remarkable celebration of nature and tranquility!
       </p>
       <p>
-        At TourCraft, our dedicated team is committed to delivering enriching
-        travel experiences that exceed expectations. We offer a seamless
-        combination of expertise, personalized travel itineraries, and a vibrant
-        community, ensuring that each trip is a unique and inspiring adventure.
+        At TerraTend, our dedicated team is committed to delivering enriching
+        garden experiences that exceed expectations. We offer a seamless
+        combination of expertise, personalized garden enhancements, and a
+        vibrant community, ensuring that each outdoor project is a unique and
+        inspiring adventure.
       </p>
       <p>
-        Your travel goals and dreams are the inspirations that drive our
+        Your garden goals and dreams are the inspirations that drive our
         dedication and passion. Should you have any inquiries, desire
-        personalized trip recommendations, or have any special requests, feel
-        free to get in touch via phone or email. Our team of travel specialists
-        is always ready to craft a transformative travel journey that caters to
+        personalized garden recommendations, or have any special requests, feel
+        free to get in touch via phone or email. Our team of garden specialists
+        is always ready to craft a transformative garden journey that caters to
         your specific visions.
       </p>
       <p>
-        We are thrilled that you’re considering TourCraft as your trusted
-        partner in turning travel aspirations into a celebration of exploration.
-        Your commitment is the foundation upon which we build a travel paradise,
-        ensuring every trip and experience ignites curiosity and inspiration.
+        We are thrilled that you’re considering TerraTend as your trusted
+        partner in turning garden aspirations into a celebration of nature. Your
+        commitment is the foundation upon which we build a garden paradise,
+        ensuring every project and experience ignites creativity and
+        inspiration.
       </p>
+      <p class="cBlock-fgZSxP4y">With heartfelt dedication and green wishes,</p>
       <p class="cBlock-fgZSxP4y">
-        With heartfelt dedication and adventurous wishes,
-      </p>
-      <p class="cBlock-fgZSxP4y">
-        <span class="domain-fgZSxP4y">The TourCraft Team</span>
+        <span class="domain-fgZSxP4y">The TerraTend Team</span>
       </p>
     </div>
 
