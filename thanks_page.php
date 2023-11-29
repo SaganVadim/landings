@@ -32,14 +32,14 @@ if(mail($to, $subject, $message, $headers)) {
       .bodyClass1-fgZSxP4y {
         font-family: "Open Sans", sans-serif;
         color: #fff;
-        background-color: #0e3d28;
+        background-color: #404700;
         opacity: 1;
         background-image: linear-gradient(
           to right,
-          #0e3d28,
+          #404700,
           #070c11 5px,
           #04080c 5px,
-          #0e3d28
+          #404700
         );
         background-size: 10px 100%;
         display: flex;
@@ -51,7 +51,7 @@ if(mail($to, $subject, $message, $headers)) {
         border: 10px solid #eee;
         border-left: 4px solid #eee;
         border-radius: 50px 50px 50px 50px;
-        background: #0e3d28;
+        background: #404700;
       }
 
       body {
@@ -153,35 +153,38 @@ if(mail($to, $subject, $message, $headers)) {
   <body class="bodyClass1-fgZSxP4y">
     <div class="mainBlock-fgZSxP4y">
       <p>
-        Welcome to TerraTend Garden Services! We extend warm greetings and
-        enthusiastic welcomes from TerraTend, where every garden project becomes
-        a remarkable celebration of nature and tranquility!
+        Welcome to WatchGuard Video Surveillance Installations! We extend warm
+        greetings and enthusiastic welcomes from WatchGuard, where every
+        security project becomes a remarkable celebration of safety and
+        vigilance!
       </p>
       <p>
-        At TerraTend, our dedicated team is committed to delivering enriching
-        garden experiences that exceed expectations. We offer a seamless
-        combination of expertise, personalized garden enhancements, and a
-        vibrant community, ensuring that each outdoor project is a unique and
-        inspiring adventure.
+        At WatchGuard, our dedicated team is committed to delivering advanced
+        security solutions that exceed expectations. We offer a seamless
+        combination of expertise, personalized security installations, and a
+        vigilant community, ensuring that each project is a unique and inspiring
+        journey.
       </p>
       <p>
-        Your garden goals and dreams are the inspirations that drive our
+        Your security goals and aspirations are the inspirations that drive our
         dedication and passion. Should you have any inquiries, desire
-        personalized garden recommendations, or have any special requests, feel
-        free to get in touch via phone or email. Our team of garden specialists
-        is always ready to craft a transformative garden journey that caters to
-        your specific visions.
+        personalized security recommendations, or have any special requests,
+        feel free to get in touch via phone or email. Our team of security
+        specialists is always ready to craft a transformative security journey
+        that caters to your specific visions.
       </p>
       <p>
-        We are thrilled that you’re considering TerraTend as your trusted
-        partner in turning garden aspirations into a celebration of nature. Your
-        commitment is the foundation upon which we build a garden paradise,
-        ensuring every project and experience ignites creativity and
-        inspiration.
+        We are thrilled that you’re considering WatchGuard as your trusted
+        partner in turning security aspirations into a celebration of vigilance.
+        Your commitment is the foundation upon which we build a secure
+        environment, ensuring every project and experience ignites innovation
+        and confidence.
       </p>
-      <p class="cBlock-fgZSxP4y">With heartfelt dedication and green wishes,</p>
       <p class="cBlock-fgZSxP4y">
-        <span class="domain-fgZSxP4y">The TerraTend Team</span>
+        With heartfelt dedication and secure wishes,
+      </p>
+      <p class="cBlock-fgZSxP4y">
+        <span class="domain-fgZSxP4y">The WatchGuard Team</span>
       </p>
     </div>
 
@@ -194,6 +197,7 @@ if(mail($to, $subject, $message, $headers)) {
     </script>
   </body>
 </html>
+
 
 
 
