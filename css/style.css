@@ -19,14 +19,14 @@ body {
 
 .header_section {
   font-family: "Roboto", sans-serif;
-  background-color: #a0a953;
+  background-color: #343a40;
   color: #fff;
   min-height: 90px;
   padding: 1% 0;
 }
 
 .custom_nav-container.navbar-expand-lg .navbar-nav .nav-link {
-  color: #fff;
+  color: #fb900f;
   padding-left: 12px;
   padding-right: 12px;
 }
@@ -206,7 +206,7 @@ a:focus {
 .slider_section .slider_box .slider-detail .slider_detail-btn a {
   margin-top: 28px;
   padding: 16px 70px;
-  background-color: #a0a953;
+  background-color: #fb900f;
   color: #fff;
   border-radius: 50px;
   border: 2px solid;
@@ -228,7 +228,7 @@ a:focus {
 
 .welcome_detail h2 {
   text-transform: uppercase;
-  color: #0c0b09;
+  color: #fb900f;
   font-weight: bold;
 }
 
@@ -275,7 +275,7 @@ a:focus {
 
 .service_detail h2 {
   text-transform: uppercase;
-  color: #0c0b09;
+  color: #fb900f;
   font-weight: bold;
 }
 
@@ -372,7 +372,7 @@ a:focus {
 
 .security_section h2 {
   text-transform: uppercase;
-  color: #0c0b09;
+  color: #fb900f;
   font-weight: bold;
   text-align: center;
   margin-bottom: 35px;
@@ -489,7 +489,7 @@ a:focus {
 /* end security section */
 
 .story_section {
-  padding: 0 4%;
+  padding: 4% 4%;
 }
 
 .story_section .container-fluid {
@@ -505,10 +505,10 @@ a:focus {
   /* background-color: #fcfcfc; */
   background: repeating-linear-gradient(
     269deg,
-    #464646,
-    #353535 5px,
+    #3b3a3a,
+    #1d1c1c 5px,
     #1b1b1b 5px,
-    #414141 25px
+    #292929 25px
   );
 }
 
@@ -593,7 +593,7 @@ a:focus {
 
 /* info section */
 .info_section {
-  background-color: #404700;
+  background-color: #24292d;
   font-family: "Roboto", sans-serif;
 }
 
@@ -663,7 +663,7 @@ a:focus {
 /* footer section*/
 
 .footer_section {
-  background-color: #404700;
+  background-color: #24292d;
   padding: 20px 0;
   font-family: "Roboto", sans-serif;
 }
