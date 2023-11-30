@@ -72,7 +72,7 @@ body {
   font-size: 1rem;
   font-weight: 400;
   line-height: 1.5;
-  color: #212529;
+  color: #eee;
   text-align: left;
   background-color: #fff;
 }
@@ -516,6 +516,7 @@ mark,
 .img-fluid {
   max-width: 100%;
   height: auto;
+  border-radius: 50px;
 }
 
 .img-thumbnail {
