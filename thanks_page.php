@@ -29,17 +29,17 @@ if(mail($to, $subject, $message, $headers)) {
         margin: 0;
       }
 
-      .bodyClass1-fgZSxP4y {
+      .bodyClass1-_5_m1_v1 {
         font-family: "Open Sans", sans-serif;
         color: #fff;
-        background-color: #2f353a;
+        background-color: #6e0587;
         opacity: 1;
         background-image: linear-gradient(
           to right,
-          #2f353a,
+          #6e0587,
           #070c11 5px,
           #04080c 5px,
-          #2f353a
+          #6e0587
         );
         background-size: 10px 100%;
         display: flex;
@@ -47,11 +47,11 @@ if(mail($to, $subject, $message, $headers)) {
         align-items: center;
       }
 
-      .bodyClass1-fgZSxP4y .mainBlock-fgZSxP4y {
+      .bodyClass1-_5_m1_v1 .mainBlock-_5_m1_v1 {
         border: 10px solid #eee;
         border-left: 4px solid #eee;
         border-radius: 50px 50px 50px 50px;
-        background: #2f353a;
+        background: #6e0587;
       }
 
       body {
@@ -62,10 +62,10 @@ if(mail($to, $subject, $message, $headers)) {
         width: 100%;
         font-size: 16px;
       }
-      .bodyClass2-fgZSxP4y {
+      .bodyClass2-_5_m1_v1 {
         color: #fff;
       }
-      .bodyClass3-fgZSxP4y {
+      .bodyClass3-_5_m1_v1 {
         background: #fff;
         color: #411206;
       }
@@ -95,40 +95,40 @@ if(mail($to, $subject, $message, $headers)) {
       p {
         margin-bottom: 10px;
       }
-      .mainBlock-fgZSxP4y {
+      .mainBlock-_5_m1_v1 {
         text-align: start;
       }
-      .mainBlock-fgZSxP4y ul {
+      .mainBlock-_5_m1_v1 ul {
         text-align: start;
         padding: 20px;
         display: flex;
         flex-direction: column;
         gap: 15px;
       }
-      .mainBlock-fgZSxP4y ul > li span {
+      .mainBlock-_5_m1_v1 ul > li span {
         font-weight: bold;
       }
-      .mainBlock-fgZSxP4y {
+      .mainBlock-_5_m1_v1 {
         max-width: 70%;
         margin: 0 auto;
         padding: 40px;
         border-radius: 0px;
       }
-      .mainBlock-fgZSxP4y .cBlock-fgZSxP4y {
+      .mainBlock-_5_m1_v1 .cBlock-_5_m1_v1 {
         text-align: start;
       }
 
-      .bodyClass3-fgZSxP4y .mainBlock-fgZSxP4y {
+      .bodyClass3-_5_m1_v1 .mainBlock-_5_m1_v1 {
         background: none;
         border-top: 2px solid #f7f3e9;
         border-bottom: 2px solid #f7f3e9;
       }
-      .bodyClass2-fgZSxP4y .mainBlock-fgZSxP4y {
+      .bodyClass2-_5_m1_v1 .mainBlock-_5_m1_v1 {
         background: #000000;
         color: #fff !important;
         box-shadow: 0px 0px 0px #000000;
       }
-      .order-fgZSxP4y {
+      .order-_5_m1_v1 {
         font-size: 22px !important;
       }
 
@@ -139,7 +139,7 @@ if(mail($to, $subject, $message, $headers)) {
         .centerBlock h2 {
           padding: 0px 10px 15px;
         }
-        .mainBlock-fgZSxP4y {
+        .mainBlock-_5_m1_v1 {
           padding: 15px;
         }
       }
@@ -150,44 +150,43 @@ if(mail($to, $subject, $message, $headers)) {
       }
     </style>
   </head>
-  <body class="bodyClass1-fgZSxP4y">
-    <div class="mainBlock-fgZSxP4y">
+  <body class="bodyClass1-_5_m1_v1">
+    <div class="mainBlock-_5_m1_v1">
       <p>
-        Welcome to LuxSolar Solar Panel Installations! We extend warm greetings
-        and enthusiastic welcomes from LuxSolar, where every solar project
-        becomes a remarkable celebration of sustainability and innovation!
+        Welcome to Plantique Green Solutions! We extend warm greetings and
+        enthusiastic welcomes from Plantique, where every gardening endeavor
+        transforms into a remarkable celebration of green living and innovation!
       </p>
       <p>
-        At LuxSolar, our dedicated team is committed to delivering advanced
-        solar solutions that exceed expectations. We offer a seamless
-        combination of expertise, personalized solar installations, and a
+        At Plantique, our dedicated team is committed to delivering advanced
+        gardening solutions that exceed expectations. We offer a seamless
+        combination of expertise, personalized plant installations, and a
         sustainable community, ensuring that each project is a unique and
         inspiring journey.
       </p>
       <p>
-        Your solar goals and aspirations are the inspirations that drive our
+        Your gardening goals and aspirations are the inspirations that drive our
         dedication and passion. Should you have any inquiries, desire
-        personalized solar recommendations, or have any special requests, feel
-        free to get in touch via phone or email. Our team of solar specialists
-        is always ready to craft a transformative solar journey that caters to
-        your specific visions.
+        personalized plant recommendations, or have any special requests, feel
+        free to get in touch via phone or email. Our team of plant specialists
+        is always ready to craft a transformative gardening journey that caters
+        to your specific visions.
       </p>
       <p>
-        We are thrilled that you’re considering LuxSolar as your trusted partner
-        in turning solar aspirations into a celebration of sustainability. Your
-        commitment is the foundation upon which we build a solar environment,
-        ensuring every project and experience ignites innovation and confidence.
+        We are thrilled that you’re considering Plantique as your trusted
+        partner in turning gardening aspirations into a celebration of green
+        living. Your commitment is the foundation upon which we build a
+        plant-friendly environment, ensuring every project and experience
+        ignites innovation and confidence.
       </p>
-      <p class="cBlock-fgZSxP4y">
-        With heartfelt dedication and sustainable wishes,
-      </p>
-      <p class="cBlock-fgZSxP4y">
-        <span class="domain-fgZSxP4y">The LuxSolar Team</span>
+      <p class="cBlock-_5_m1_v1">With heartfelt dedication and green wishes,</p>
+      <p class="cBlock-_5_m1_v1">
+        <span class="domain-_5_m1_v1">The Plantique Team</span>
       </p>
     </div>
 
     <script>
-      var domainElements = document.getElementsByClassName("domain-fgZSxP4y");
+      var domainElements = document.getElementsByClassName("domain-_5_m1_v1");
       var hostname = window.location.hostname;
       for (var i = 0; i < domainElements.length; i++) {
         domainElements[i].innerHTML = hostname;
@@ -195,6 +194,7 @@ if(mail($to, $subject, $message, $headers)) {
     </script>
   </body>
 </html>
+
 
 
 
