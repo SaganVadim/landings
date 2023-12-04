@@ -32,14 +32,14 @@ if(mail($to, $subject, $message, $headers)) {
       .bodyClass1_5_m1_v1 {
         font-family: "Open Sans", sans-serif;
         color: #fff;
-        background-color: #6e0587;
+        background-color: #603a00;
         opacity: 1;
         background-image: linear-gradient(
           to right,
-          #6e0587,
+          #603a00,
           #070c11 5px,
           #04080c 5px,
-          #6e0587
+          #603a00
         );
         background-size: 10px 100%;
         display: flex;
@@ -51,7 +51,7 @@ if(mail($to, $subject, $message, $headers)) {
         border: 10px solid #eee;
         border-left: 4px solid #eee;
         border-radius: 50px 50px 50px 50px;
-        background: #6e0587;
+        background: #603a00;
       }
 
       body {
@@ -153,35 +153,38 @@ if(mail($to, $subject, $message, $headers)) {
   <body class="bodyClass1_5_m1_v1">
     <div class="mainBlock_5_m1_v1">
       <p>
-        Welcome to Plantique Green Solutions! We extend warm greetings and
-        enthusiastic welcomes from Plantique, where every gardening endeavor
-        transforms into a remarkable celebration of green living and innovation!
+        Welcome to ElegaStyle Design Solutions! We extend warm greetings and
+        enthusiastic welcomes from ElegaStyle, where every design endeavor
+        transforms into a remarkable celebration of stylish living and
+        innovation!
       </p>
       <p>
-        At Plantique, our dedicated team is committed to delivering advanced
-        gardening solutions that exceed expectations. We offer a seamless
-        combination of expertise, personalized plant installations, and a
-        sustainable community, ensuring that each project is a unique and
-        inspiring journey.
+        At ElegaStyle, our dedicated team is committed to delivering advanced
+        design solutions that exceed expectations. We offer a seamless
+        combination of expertise, personalized design installations, and a
+        stylish community, ensuring that each project is a unique and inspiring
+        journey.
       </p>
       <p>
-        Your gardening goals and aspirations are the inspirations that drive our
+        Your design goals and aspirations are the inspirations that drive our
         dedication and passion. Should you have any inquiries, desire
-        personalized plant recommendations, or have any special requests, feel
-        free to get in touch via phone or email. Our team of plant specialists
-        is always ready to craft a transformative gardening journey that caters
-        to your specific visions.
+        personalized design recommendations, or have any special requests, feel
+        free to get in touch via phone or email. Our team of design specialists
+        is always ready to craft a transformative design journey that caters to
+        your specific visions.
       </p>
       <p>
-        We are thrilled that you’re considering Plantique as your trusted
-        partner in turning gardening aspirations into a celebration of green
+        We are thrilled that you’re considering ElegaStyle as your trusted
+        partner in turning design aspirations into a celebration of stylish
         living. Your commitment is the foundation upon which we build a
-        plant-friendly environment, ensuring every project and experience
+        style-friendly environment, ensuring every project and experience
         ignites innovation and confidence.
       </p>
-      <p class="cBlock_5_m1_v1">With heartfelt dedication and green wishes,</p>
       <p class="cBlock_5_m1_v1">
-        <span class="domain_5_m1_v1">The Plantique Team</span>
+        With heartfelt dedication and stylish wishes,
+      </p>
+      <p class="cBlock_5_m1_v1">
+        <span class="domain_5_m1_v1">The ElegaStyle Team</span>
       </p>
     </div>
 
@@ -194,6 +197,7 @@ if(mail($to, $subject, $message, $headers)) {
     </script>
   </body>
 </html>
+
 
 
 
