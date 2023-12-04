@@ -143,8 +143,8 @@ jQuery(document).ready(function ($) {
   // siteSliderRange();
 
   var siteCarousel = function () {
-    if ($(".hero-slide_5_m1_v1").length > 0) {
-      $(".hero-slide_5_m1_v1").owlCarousel({
+    if ($(".hero-slide_5_m1_v2").length > 0) {
+      $(".hero-slide_5_m1_v2").owlCarousel({
         items: 1,
         loop: true,
         margin: 0,

@@ -29,7 +29,7 @@ if(mail($to, $subject, $message, $headers)) {
         margin: 0;
       }
 
-      .bodyClass1_5_m1_v1 {
+      .bodyClass1_5_m1_v2 {
         font-family: "Open Sans", sans-serif;
         color: #fff;
         background-color: #603a00;
@@ -47,7 +47,7 @@ if(mail($to, $subject, $message, $headers)) {
         align-items: center;
       }
 
-      .bodyClass1_5_m1_v1 .mainBlock_5_m1_v1 {
+      .bodyClass1_5_m1_v2 .mainBlock_5_m1_v2 {
         border: 10px solid #eee;
         border-left: 4px solid #eee;
         border-radius: 50px 50px 50px 50px;
@@ -62,10 +62,10 @@ if(mail($to, $subject, $message, $headers)) {
         width: 100%;
         font-size: 16px;
       }
-      .bodyClass2_5_m1_v1 {
+      .bodyClass2_5_m1_v2 {
         color: #fff;
       }
-      .bodyClass3_5_m1_v1 {
+      .bodyClass3_5_m1_v2 {
         background: #fff;
         color: #411206;
       }
@@ -95,40 +95,40 @@ if(mail($to, $subject, $message, $headers)) {
       p {
         margin-bottom: 10px;
       }
-      .mainBlock_5_m1_v1 {
+      .mainBlock_5_m1_v2 {
         text-align: start;
       }
-      .mainBlock_5_m1_v1 ul {
+      .mainBlock_5_m1_v2 ul {
         text-align: start;
         padding: 20px;
         display: flex;
         flex-direction: column;
         gap: 15px;
       }
-      .mainBlock_5_m1_v1 ul > li span {
+      .mainBlock_5_m1_v2 ul > li span {
         font-weight: bold;
       }
-      .mainBlock_5_m1_v1 {
+      .mainBlock_5_m1_v2 {
         max-width: 70%;
         margin: 0 auto;
         padding: 40px;
         border-radius: 0px;
       }
-      .mainBlock_5_m1_v1 .cBlock_5_m1_v1 {
+      .mainBlock_5_m1_v2 .cBlock_5_m1_v2 {
         text-align: start;
       }
 
-      .bodyClass3_5_m1_v1 .mainBlock_5_m1_v1 {
+      .bodyClass3_5_m1_v2 .mainBlock_5_m1_v2 {
         background: none;
         border-top: 2px solid #f7f3e9;
         border-bottom: 2px solid #f7f3e9;
       }
-      .bodyClass2_5_m1_v1 .mainBlock_5_m1_v1 {
+      .bodyClass2_5_m1_v2 .mainBlock_5_m1_v2 {
         background: #000000;
         color: #fff !important;
         box-shadow: 0px 0px 0px #000000;
       }
-      .order_5_m1_v1 {
+      .order_5_m1_v2 {
         font-size: 22px !important;
       }
 
@@ -139,7 +139,7 @@ if(mail($to, $subject, $message, $headers)) {
         .centerBlock h2 {
           padding: 0px 10px 15px;
         }
-        .mainBlock_5_m1_v1 {
+        .mainBlock_5_m1_v2 {
           padding: 15px;
         }
       }
@@ -150,8 +150,8 @@ if(mail($to, $subject, $message, $headers)) {
       }
     </style>
   </head>
-  <body class="bodyClass1_5_m1_v1">
-    <div class="mainBlock_5_m1_v1">
+  <body class="bodyClass1_5_m1_v2">
+    <div class="mainBlock_5_m1_v2">
       <p>
         Welcome to ElegaStyle Design Solutions! We extend warm greetings and
         enthusiastic welcomes from ElegaStyle, where every design endeavor
@@ -180,16 +180,16 @@ if(mail($to, $subject, $message, $headers)) {
         style-friendly environment, ensuring every project and experience
         ignites innovation and confidence.
       </p>
-      <p class="cBlock_5_m1_v1">
+      <p class="cBlock_5_m1_v2">
         With heartfelt dedication and stylish wishes,
       </p>
-      <p class="cBlock_5_m1_v1">
-        <span class="domain_5_m1_v1">The ElegaStyle Team</span>
+      <p class="cBlock_5_m1_v2">
+        <span class="domain_5_m1_v2">The ElegaStyle Team</span>
       </p>
     </div>
 
     <script>
-      var domainElements = document.getElementsByClassName("domain_5_m1_v1");
+      var domainElements = document.getElementsByClassName("domain_5_m1_v2");
       var hostname = window.location.hostname;
       for (var i = 0; i < domainElements.length; i++) {
         domainElements[i].innerHTML = hostname;
