@@ -208,6 +208,7 @@ body._lock {
   display: flex;
   justify-content: center;
   align-items: center;
+  padding-bottom: 20px;
 }
 .special_ico img {
   width: 85px;
@@ -370,6 +371,270 @@ body._lock {
   margin: 0 auto;
 }
 
+/* ---------------------price hero--------------------- */
+
+.hero_price_container {
+  background: url(../images/hero.jpg);
+  width: 100%;
+  height: 30vh;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.hero_price_title {
+  background: #c7c7c7bf;
+  padding: 10px;
+}
+.hero_price_title h2 {
+  font-size: 35px;
+  text-align: center;
+  margin-bottom: 20px;
+}
+.hero_price_title p {
+  text-align: center;
+}
+.hero_price_castom {
+  width: 100%;
+  display: flex;
+  padding-top: 20px;
+}
+.hero_price_castom_container {
+  margin: 0 auto;
+  padding: 5px;
+  background: #c7c7c7bf;
+}
+
+/* ---------------------price--------------------- */
+.price {
+  margin-top: 100px;
+}
+.price_container {
+  margin: 0 auto;
+}
+.price_container h2 {
+  font-size: 35px;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.card_container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+.price_card {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 30%;
+  min-width: 200px;
+  border: 1px solid #333;
+  padding: 10px;
+}
+.price_card_img {
+  position: relative;
+}
+.price_price {
+  position: absolute;
+  right: 10px;
+  bottom: 10px;
+  background: #3deebc;
+  padding: 15px;
+}
+.price_card_img img {
+  width: 100%;
+}
+.price_card_title {
+  font-size: 24px;
+  margin: 20px 0;
+  background: #54bd9f;
+  width: 100%;
+  padding: 5px;
+  text-align: center;
+}
+.price_button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px 0px;
+  width: 100%;
+}
+.price_btn {
+  background: #54bd9f;
+  border: 2px solid #c9c6c6;
+  padding: 10px;
+  width: 100%;
+}
+.price_btn:hover {
+  background: #3deebc;
+  border: 2px solid #000000;
+  padding: 10px;
+  width: 100%;
+}
+.price_link {
+  width: 100%;
+}
+.about_dopbg {
+  margin-top: 100px;
+  background: url(/images/dopbg.jpg);
+  width: 100%;
+  background-size: cover;
+  padding: 30px;
+  color: #eee;
+}
+
+/* ---------------------price_about--------------------- */
+.price_about {
+  margin-top: 100px;
+}
+
+.price_about_container {
+  margin: 0 auto;
+}
+.price_about_container h2 {
+  font-size: 35px;
+  text-align: center;
+  margin-bottom: 20px;
+}
+.price_about_container p {
+  margin: 20px 0;
+}
+
+/* ---------------------team--------------------- */
+.team {
+  margin-top: 100px;
+}
+.team_container {
+  margin: 0 auto;
+}
+.team_title h2 {
+  font-size: 35px;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.team_container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  padding: 30px 0px;
+}
+.team_card {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 25%;
+  min-width: 200px;
+}
+.card_figure {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 120px;
+  height: 120px;
+  background: #cfcfcf;
+  border-radius: 50%;
+  border: 1px solid #646464;
+}
+.team_img img {
+  width: 100%;
+}
+.team_img {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.team_card_item {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.team_card_info {
+  width: 100%;
+  text-align: center;
+  padding: 25px 0px;
+  background: #e3e3e3;
+}
+.team_card_info h4 {
+  padding-bottom: 15px;
+}
+.team_title {
+  text-align: center;
+}
+
+/* ---------------------contact--------------------- */
+.contact {
+  padding: 60px 0px;
+}
+.contact_container {
+  display: flex;
+  justify-content: center;
+  background: #54bd9f;
+  margin: 0 auto;
+  max-width: 800px;
+}
+.contact_form {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  padding: 30px;
+}
+.contact_form_nameemail {
+  display: flex;
+  justify-content: space-between;
+  gap: 30px;
+}
+input,
+textarea {
+  width: 100%;
+  padding: 10px 20px;
+  margin-top: 10px;
+}
+textarea {
+  height: 200px;
+  resize: none;
+}
+.contact_form_name {
+  width: 100%;
+}
+.contact_form_email {
+  width: 100%;
+}
+.form-control {
+  width: 100%;
+}
+.form-check {
+  display: flex;
+  align-items: center;
+}
+.form-check-input {
+  width: 14px;
+  margin-right: 4px;
+  margin-top: 0;
+}
+.user_name {
+  margin-bottom: 10px;
+}
+.contact_btn {
+  padding: 20px 40px;
+  border-radius: 6px;
+  outline: none;
+  border: none;
+  background: #60ffd2;
+}
+.contact_btn:hover {
+  background: #00fbb4;
+}
+
 @media (max-width: 767px) {
   .header_burger {
     z-index: 5;
@@ -420,12 +685,15 @@ body._lock {
     left: -150%;
     width: 100%;
     height: 100%;
-    background-color: #fffdfd;
+    background: #ffffff;
     padding: 100px 30px 30px 30px;
     transition: left 0.3s ease 0s;
   }
   .header_list_menu._active {
     left: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
   }
   .hearder_list {
     display: flex;
@@ -433,13 +701,14 @@ body._lock {
     align-items: center;
   }
   .hearder_list > li {
-    margin: 0 0 30px 0;
+    margin: 0 0 70px 0;
   }
   .hearder_list > li:last-child {
     margin-bottom: 0;
   }
   .hearder_list_link {
     font-size: 24px;
+    font-weight: 700;
   }
   .peculiarities_card {
     width: 100%;
@@ -479,5 +748,46 @@ body._lock {
   .card_figure {
     width: 100px;
     height: 100px;
+  }
+  .hero_price_title {
+    margin-top: 20px;
+  }
+  .hero_price_container {
+    height: 40vh;
+  }
+  .price_card {
+    width: 100%;
+    margin: 15px 0px;
+  }
+  .hearder_list_link_active a {
+    font-size: 24px;
+    font-weight: 700;
+  }
+  .about_dopbg {
+    padding: 20px 0px;
+    margin-top: 30px;
+  }
+  .footer_container {
+    margin: 0 0;
+  }
+  .footer {
+    margin-top: 0;
+  }
+  .price_about {
+    margin-top: 30px;
+  }
+  .price {
+    margin-top: 30px;
+  }
+  .team_card {
+    width: 60%;
+    padding-bottom: 20px;
+  }
+  .contact_form_nameemail {
+    flex-direction: column;
+  }
+  textarea {
+    height: 100px;
+    resize: none;
   }
 }
