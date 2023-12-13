@@ -1,0 +1,141 @@
+* {
+  padding: 0;
+  margin: 0;
+  border: 0;
+}
+html,
+body {
+  height: 100%;
+  width: 100%;
+  font-size: 100%;
+  font-family: Arial, Helvetica, sans-serif;
+  line-height: 1;
+  -ms-text-size-adjust: 100%;
+  -moz-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+}
+a,
+a:visited {
+  text-decoration: none;
+  color: inherit;
+}
+a {
+}
+a:hover {
+  text-decoration: none;
+}
+ul li {
+  list-style: none;
+}
+img {
+  vertical-align: top;
+}
+.logo {
+  color: #c32767;
+}
+.logo h1:hover {
+  color: #ff006a;
+  text-shadow: 0 0 10px #d5709a;
+  transition: all 0.3s ease;
+}
+.header_cont {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 70px;
+}
+.menu_list {
+  display: flex;
+  gap: 70px;
+  padding-right: 50px;
+}
+.menu_link_activ {
+  color: #c32767;
+}
+.menu_link a:hover {
+  color: #ff006a;
+  transition: all 0.3s ease;
+}
+.wrapper {
+  padding: 0 50px;
+}
+
+@media (max-width: 767px) {
+  .header_burger {
+    z-index: 5;
+    display: block;
+    position: relative;
+    width: 30px;
+    height: 18px;
+    cursor: pointer;
+  }
+  .header_burger span,
+  .header_burger::before,
+  .header_burger::after {
+    left: 0;
+    position: absolute;
+    height: 10%;
+    width: 100%;
+    transition: all 0.3s ease 0s;
+    background-color: #000000;
+  }
+  .header_burger::before,
+  .header_burger::after {
+    content: "";
+  }
+  .header_burger::before {
+    top: 0;
+  }
+  .header_burger::after {
+    bottom: 0;
+  }
+  .header_burger span {
+    top: 50%;
+    transform: scale(1) translate(0px, -50%);
+  }
+  .header_burger._active span {
+    transform: scale(0) translate(0px, -50%);
+  }
+  .header_burger._active::before {
+    top: 50%;
+    transform: rotate(-45deg) translate(0px, -50%);
+  }
+  .header_burger._active::after {
+    bottom: 50%;
+    transform: rotate(45deg) translate(0px, 50%);
+  }
+  .menu_list {
+    position: fixed;
+    top: 0;
+    left: -100%;
+    width: 100%;
+    height: 100%;
+    background: #ffffff;
+    transition: left 0.3s ease 0s;
+  }
+  .menu_list._active {
+    left: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .menu_list {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .menu_list > li {
+    margin: 0 0 70px 0;
+  }
+  .menu_list > li:last-child {
+    margin-bottom: 0;
+  }
+  .menu_link {
+    font-size: 24px;
+    font-weight: 700;
+  }
+  .menu_link_activ {
+    font-size: 24px;
+    font-weight: 700;
+  }
+}
