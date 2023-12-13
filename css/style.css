@@ -119,7 +119,8 @@ body._lock {
 
 /* ---------------------hero--------------------- */
 .hero_container {
-  background: url(../images/hero.jpg);
+  background: url(../images/hero.jpg) no-repeat;
+  background-position: center;
   width: 100%;
   height: 60vh;
   background-size: cover;
@@ -374,7 +375,7 @@ body._lock {
 /* ---------------------price hero--------------------- */
 
 .hero_price_container {
-  background: url(../images/hero_2.jpg);
+  background: url(../images/hero_2.jpg) no-repeat;
   width: 100%;
   height: 30vh;
   background-size: cover;
@@ -410,7 +411,7 @@ body._lock {
 /* ---------------------contact hero--------------------- */
 
 .hero_contact_container {
-  background: url(../images/hero_2.jpg);
+  background: url(../images/hero_2.jpg) no-repeat;
   width: 100%;
   height: 30vh;
   background-size: cover;
@@ -518,7 +519,8 @@ body._lock {
 }
 .about_dopbg {
   margin-top: 100px;
-  background: url(/images/dopbg.jpg);
+  background: url(../images/dopbg.jpg) no-repeat;
+  background-position: center;
   width: 100%;
   background-size: cover;
   padding: 30px;
