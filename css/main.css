@@ -74,7 +74,8 @@ img {
   display: flex;
   flex-direction: column;
   width: 50%;
-  gap: 30px;
+  justify-content: space-between;
+  align-items: flex-start;
 }
 .hero span:first-child {
   margin-top: 35px;
@@ -86,6 +87,7 @@ img {
   border-radius: 5px;
   color: #eee;
   font-weight: 600;
+  margin-bottom: 10px;
 }
 .hero_img {
   width: 50%;
@@ -185,7 +187,7 @@ img {
     margin-top: 5px;
   }
 }
-@media (max-width: 424px) {
+@media (max-width: 550px) {
   .wrapper {
     padding: 0 20px;
     transition: all 0.5s ease;
