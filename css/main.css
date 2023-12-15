@@ -95,7 +95,49 @@ img {
 .hero_img img {
   width: 100%;
 }
-
+/* services */
+.services {
+  display: flex;
+  justify-content: space-between;
+  gap: 10px;
+}
+.services_cont {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  border: 1px solid #c8c8c8;
+  padding: 15px;
+  min-width: 110px;
+  max-width: 190px;
+}
+.services_item {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  gap: 10px;
+}
+.services span:first-child {
+  margin-top: 35px;
+}
+.services_btn {
+  background: #ffffff;
+  padding: 10px 19px;
+  width: 100%;
+  border-radius: 5px;
+  color: #c32767;
+  font-weight: 600;
+  margin-bottom: 10px;
+  border: 2px solid;
+}
+.services_img {
+  width: 70%;
+}
+.services_img img {
+  width: 100%;
+  border-radius: 50%;
+}
 @media (max-width: 767px) {
   .header_burger {
     z-index: 5;
