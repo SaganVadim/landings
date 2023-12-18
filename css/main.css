@@ -88,6 +88,19 @@ img {
   color: #eee;
   font-weight: 600;
   margin-bottom: 10px;
+  border: 2px solid #c32767;
+  transition: all 0.5s ease 0s;
+}
+.hero_btn:hover {
+  background: #ffffff;
+  color: #c32767;
+  border: 2px solid #c32767;
+  padding: 10px 19px;
+  width: 150px;
+  border-radius: 5px;
+  font-weight: 600;
+  margin-bottom: 10px;
+  transition: all 0.5s ease 0s;
 }
 .hero_img {
   width: 50%;
@@ -95,8 +108,14 @@ img {
 .hero_img img {
   width: 100%;
 }
+.prev img {
+  width: 50px;
+}
+.next img {
+  width: 50px;
+}
 /* services */
-.services {
+/* .services {
   display: flex;
   justify-content: space-between;
   gap: 10px;
@@ -137,6 +156,266 @@ img {
 .services_img img {
   width: 100%;
   border-radius: 50%;
+}
+.services_section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+} */
+/*  */
+.services-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(201px, 1fr));
+  gap: 1rem;
+  padding: 1rem;
+}
+.services_card {
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  padding: 1rem;
+  text-align: center;
+}
+.services_card img {
+  max-width: 60%;
+  height: auto;
+  border-radius: 50%;
+}
+
+.services_card-name {
+  margin-top: 0.5rem;
+  font-weight: bold;
+  margin-bottom: 0.5rem;
+}
+.services_btn {
+  background: #ffffff;
+  padding: 10px 19px;
+  width: 100%;
+  border-radius: 5px;
+  color: #c32767;
+  font-weight: 600;
+  margin-bottom: 10px;
+  margin-top: 30px;
+  border: 2px solid;
+  transition: all 0.5s;
+}
+.services_btn:hover {
+  background: #c32767;
+  color: #eee;
+  transition: all 0.5s;
+}
+
+/*  */
+
+.advantages {
+  margin: 20px auto;
+  text-align: center;
+  /* padding: 20px; */
+}
+
+h1 {
+  font-size: 36px;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+.advantages-card-container {
+  display: flex;
+  justify-content: space-around;
+}
+
+.advantages-card {
+  background-color: #fff;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  margin: 10px;
+  width: 250px;
+  text-align: left;
+  border-radius: 8px;
+  display: flex;
+  gap: 20px;
+}
+
+.advantages-card h3 {
+  color: #333;
+  font-size: 24px;
+}
+
+.advantages-card p {
+  color: #666;
+}
+.advantages-icon img {
+  width: 100%;
+}
+.advantages-icon {
+  width: 30%;
+}
+/*  */
+.about-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+.about-img {
+  width: 50%;
+}
+.about-img img {
+  width: 80%;
+  border-radius: 50%;
+}
+.about-text {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  gap: 20px;
+}
+.about-text ul li {
+  list-style: disc;
+  margin: 10px 0;
+}
+.about_btn {
+  background: #ffffff;
+  padding: 10px 19px;
+  width: 50%;
+  border-radius: 5px;
+  color: #c32767;
+  font-weight: 600;
+  margin-bottom: 10px;
+  margin-top: 30px;
+  border: 2px solid;
+  transition: all 0.5s;
+}
+.about_btn:hover {
+  background: #c32767;
+  color: #eee;
+  transition: all 0.5s;
+}
+/*  */
+/* Стили для блока отзывов и слайдера */
+.reviews-slider-container {
+  position: relative;
+  width: 80%;
+  margin: auto;
+}
+
+.reviews-slider {
+  display: flex;
+  overflow: hidden;
+}
+
+.review {
+  min-width: 100%;
+  box-sizing: border-box;
+  padding: 10px;
+  border: 1px solid #ddd;
+  margin-right: 10px;
+  display: flex;
+  align-items: center;
+}
+
+.review img {
+  width: 50px; /* Регулируйте размер изображения по вашему усмотрению */
+  height: 50px;
+  border-radius: 50%; /* Для круглого изображения */
+  margin-right: 10px;
+}
+
+.review-content {
+  flex-grow: 1;
+}
+
+.author-name {
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+/* Стили для кнопок предыдущего и следующего слайда */
+.prev,
+.next {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  font-size: 24px;
+  cursor: pointer;
+  background-color: #ddd0;
+  border: none;
+  color: #555;
+  padding: 10px;
+}
+
+.prev {
+  left: 0;
+}
+
+.next {
+  right: 0;
+}
+.testimonials-prev img {
+  width: 50px;
+}
+.testimonials-next img {
+  width: 50px;
+}
+
+/* footer */
+.footer-container {
+}
+.footer-top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #c32767;
+  padding: 10px;
+  margin: 20px 0px;
+}
+.footer-top-text {
+  color: #eee;
+}
+.footer-btn {
+  background: #c32767;
+  padding: 10px 19px;
+  width: 150px;
+  border-radius: 5px;
+  color: #eeeeee;
+  font-weight: 600;
+  border: 2px solid;
+  transition: all 0.5s ease 0s;
+}
+.footer-btn:hover {
+  background: #ffffff;
+  padding: 10px 19px;
+  width: 150px;
+  border-radius: 5px;
+  color: #c32767;
+  font-weight: 600;
+  border: 2px solid #c32767;
+  transition: all 0.5s ease 0s;
+}
+.footer-bottom {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+.footer-bottom a:hover {
+  color: #c32767;
+}
+.footer-section {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  flex-direction: column;
+  gap: 30px;
+  width: 30%;
+}
+.footer-copyright {
+  text-align: center;
+  background: #c32767;
+  padding: 20px;
+  margin: 30px 0px;
+  color: #eee;
 }
 @media (max-width: 767px) {
   .header_burger {
@@ -227,6 +506,9 @@ img {
   }
   .hero span:first-child {
     margin-top: 5px;
+  }
+  .advantages-card-container {
+    flex-wrap: wrap;
   }
 }
 @media (max-width: 550px) {
