@@ -68,6 +68,7 @@ img {
 
   padding: 0 50px;
   transition: all 0.5s ease;
+  z-index: 1;
 }
 
 /* hero */
@@ -541,7 +542,7 @@ h3 {
 }
 @media (max-width: 767px) {
   .header_burger {
-    z-index: 5;
+    z-index: 999;
     display: block;
     position: relative;
     width: 30px;
@@ -591,6 +592,7 @@ h3 {
     height: 100%;
     background: #ffffff;
     transition: left 0.3s ease 0s;
+    z-index: 800;
   }
   .menu_list._active {
     left: 0;
