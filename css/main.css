@@ -671,6 +671,12 @@ h3 {
   .contact-block {
     flex-direction: column;
   }
+  .testimonials-prev {
+    display: none;
+  }
+  .testimonials-next {
+    display: none;
+  }
 }
 @media (max-width: 550px) {
   .wrapper {

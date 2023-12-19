@@ -38,6 +38,7 @@ body {
   padding: 10px;
   font-size: 16px;
   cursor: pointer;
+  display: none;
 }
 
 .prev {
@@ -158,7 +159,7 @@ body {
       overflow: hidden;
       margin: 30px auto;
       position: relative;
-      height: 80vh;
+      height: 65vh;
     }
     .slider-wrapper {
       height: 100%;
