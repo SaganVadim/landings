@@ -71,6 +71,9 @@ img {
 }
 
 /* hero */
+.slider-container {
+  padding: 30px 0;
+}
 .hero_cont {
   display: flex;
   flex-direction: row;
@@ -121,60 +124,13 @@ img {
   width: 50px;
 }
 /* services */
-/* .services {
-  display: flex;
-  justify-content: space-between;
-  gap: 10px;
-}
-.services_cont {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  width: 100%;
-  border: 1px solid #c8c8c8;
-  padding: 15px;
-  min-width: 110px;
-  max-width: 190px;
-}
-.services_item {
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-  align-items: center;
-  gap: 10px;
-}
-.services span:first-child {
-  margin-top: 35px;
-}
-.services_btn {
-  background: #ffffff;
-  padding: 10px 19px;
-  width: 100%;
-  border-radius: 5px;
-  color: #c32767;
-  font-weight: 600;
-  margin-bottom: 10px;
-  border: 2px solid;
-}
-.services_img {
-  width: 70%;
-}
-.services_img img {
-  width: 100%;
-  border-radius: 50%;
-}
-.services_section {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  gap: 10px;
-} */
+
 /*  */
 .services-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(201px, 1fr));
+  grid-template-columns: repeat(auto-fill, minmax(210px, 1fr));
   gap: 1rem;
-  padding: 1rem;
+  padding: 30px 0;
 }
 .services_card {
   border: 1px solid #ccc;
@@ -214,9 +170,8 @@ img {
 /*  */
 
 .advantages {
-  margin: 20px auto;
+  margin: 30px auto;
   text-align: center;
-  /* padding: 20px; */
 }
 
 h1 {
@@ -254,9 +209,12 @@ h1 {
   width: 100%;
 }
 .advantages-icon {
-  width: 30%;
+  width: 70%;
 }
 /*  */
+.about {
+  padding: 30px 0;
+}
 .about-container {
   display: flex;
   justify-content: center;
@@ -323,9 +281,9 @@ h1 {
 }
 
 .review img {
-  width: 50px; /* Регулируйте размер изображения по вашему усмотрению */
+  width: 50px;
   height: 50px;
-  border-radius: 50%; /* Для круглого изображения */
+  border-radius: 50%;
   margin-right: 10px;
 }
 
@@ -338,7 +296,6 @@ h1 {
   margin-bottom: 5px;
 }
 
-/* Стили для кнопок предыдущего и следующего слайда */
 .prev,
 .next {
   position: absolute;
