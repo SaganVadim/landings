@@ -27,10 +27,88 @@ a:hover {
 ul li {
   list-style: none;
 }
-/* .main-container {
+.main-container {
   max-width: 1170px;
   margin-left: auto;
   margin-right: auto;
   padding-left: 16px;
   padding-right: 16px;
-} */
+}
+/* -------------------------- */
+.header {
+}
+.header-line {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 70px;
+}
+.header-logo {
+  font-weight: 700;
+  font-size: 24px;
+  color: cadetblue;
+  transition: color 0.2s linear;
+}
+
+.header-logo span {
+  color: brown;
+}
+.header-logo:hover {
+  color: blueviolet;
+  transition: color 0.2s linear;
+}
+
+.header-menu a {
+  padding-right: 40px;
+}
+.header-menu a:hover {
+  color: brown;
+  transition: color 0.2s linear;
+}
+/* ------------------------ */
+.hero-container {
+  width: 100%;
+  height: 70vh;
+  background-image: url(../imgs/hero.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  transition: all 0.3s linear;
+}
+.hero-desc {
+  position: absolute;
+  left: 50px;
+  bottom: 240px;
+  color: #eee;
+  max-width: 450px;
+  background: #3333339c;
+  padding: 20px;
+  margin-right: 20px;
+  transition: all 0.3s linear;
+}
+.hero-desc h2 {
+  padding-bottom: 30px;
+}
+@media (max-width: 767px) {
+  .hero-container {
+    height: 50vh;
+    transition: all 0.3s linear;
+  }
+  .hero-desc {
+    left: 20px;
+    bottom: 160px;
+    transition: all 0.3s linear;
+  }
+}
+@media (max-width: 424px) {
+  .hero-container {
+    height: 40vh;
+
+    transition: all 0.3s linear;
+  }
+  .hero-desc {
+    left: 20px;
+    bottom: 80px;
+    transition: all 0.3s linear;
+  }
+}
