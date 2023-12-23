@@ -53,7 +53,7 @@ ul li {
 .header-logo {
   font-weight: 700;
   font-size: 24px;
-  color: cadetblue;
+  color: #cd8900;
   margin-left: 40px;
   transition: color 0.2s linear;
 }
@@ -196,7 +196,7 @@ ul li {
   width: 50%;
   margin-left: 50px;
   font-size: 24px;
-  color: aqua;
+  color: #9f7928;
   margin-top: 30px;
 }
 .history-stat-item {
@@ -206,7 +206,7 @@ ul li {
 .history-stat-item span {
   display: block;
   font-size: 16px;
-  color: blueviolet;
+  color: #c4a642;
   text-align: center;
 }
 .history-container {
@@ -460,7 +460,7 @@ ul li {
 .reviews {
   margin: 50px 0;
 }
-.rewievs-title {
+.reviews-title {
   margin: 20px 0;
   text-align: center;
 }
@@ -520,7 +520,10 @@ ul li {
 .blog {
   padding: 40px 0;
 }
-
+.blog-title{
+  text-align: center;
+  margin: 30px 0;
+}
 .custom-container {
   max-width: 1200px;
   margin: 0 auto;
