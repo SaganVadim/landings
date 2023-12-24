@@ -110,11 +110,10 @@ ul li {
 }
 
 .header_burger span {
-  height: 5px;
   width: 30px;
-  background: #fff;
-  margin: 6px 0;
+  
 }
+.menu-logo{width: 100%;}
 
 .header-menu {
   display: flex;
@@ -166,6 +165,7 @@ ul li {
   background-image: url(../imgs/hero.jpg);
   background-repeat: no-repeat;
   background-size: cover;
+  background-position: center;
   position: relative;
   transition: all 0.3s linear;
 }
@@ -196,7 +196,7 @@ ul li {
 }
 @media (max-width: 424px) {
   .hero-container {
-    height: 40vh;
+    height: 50vh;
 
     transition: all 0.3s linear;
   }
