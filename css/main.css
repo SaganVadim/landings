@@ -596,7 +596,10 @@ label {
   .link-addres{
     color: #eee;
   }
-
+  @media screen and (max-width: 991px){
+  .nav-menu-wrapper.show {
+      display: block;
+  }}
   @media screen and (max-width: 991px) {
     .nav-menu-wrapper {
       background-color: rgba(0, 0, 0, 0);
