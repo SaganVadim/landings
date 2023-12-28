@@ -126,6 +126,10 @@ blockquote {
   font-size: 18px;
   line-height: 28px;
 }
+
+.menu-icon{
+    display: none;
+  }
 .w-button {
     color: #fff;
     line-height: inherit;
@@ -854,6 +858,10 @@ blockquote {
   align-items: baseline;
   gap: 10px;}
 
+  .link-addres{
+    color: #eee;
+  }
+
   @media screen and (max-width: 991px) {
     .nav-menu-wrapper {
       background-color: rgba(0, 0, 0, 0);
@@ -1240,23 +1248,7 @@ blockquote {
       color: #fff;
     }
   
-    .nav-menu {
-      height: 100vh;
-      grid-column-gap: 0px;
-      grid-row-gap: 40px;
-      text-align: center;
-      background-color: #12486b;
-      border-radius: 0;
-      flex-flow: column wrap;
-      justify-content: center;
-      align-items: center;
-      margin-top: 0;
-      padding-bottom: 20px;
-      padding-left: 60px;
-      padding-right: 60px;
-      display: flex;
-      box-shadow: 0 8px 50px rgba(0, 0, 0, .05);
-    }
+    
   
     .pricing-grid {
       grid-column-gap: 15px;
@@ -1585,13 +1577,7 @@ blockquote {
       max-width: 160px;
     }
   
-    .nav-menu {
-      width: 50vw;
-      height: auto;
-      grid-row-gap: 30px;
-      border-radius: 0;
-      padding: 100px 40px;
-    }
+   
   
     .changelog-section {
       margin-top: 40px;
@@ -2430,13 +2416,7 @@ blockquote {
       max-width: 160px;
     }
   
-    .nav-menu {
-      width: 50vw;
-      height: auto;
-      grid-row-gap: 30px;
-      border-radius: 0;
-      padding: 100px 40px;
-    }
+    
   
     .changelog-section {
       margin-top: 40px;
@@ -2963,3 +2943,55 @@ blockquote {
       padding: 7px 20px;
     }
   }
+  @media screen and (max-width: 991px) {
+    .nav-menu-wrapper {
+        display: none;
+        position: absolute;
+        top: 80px; 
+        left: 0;
+        width: 100%;
+        background-color: #ffffff; 
+        z-index: 1000;
+    }
+  
+    .nav-menu-wrapper.show {
+        display: block;
+    }
+  
+    .nav-menu {
+        list-style: none;
+        padding: 0;
+        margin: 0;
+    }
+  
+    .nav-list {
+        position: relative;
+    }
+  
+    .nav-link {
+        display: block;
+        padding: 15px 20px;
+        text-decoration: none;
+        color: #333333; 
+    }
+  
+    .nav-link:hover {
+        background-color: #e6e6e6; 
+    }
+  
+    .nav-menu-border {
+        position: absolute;
+        bottom: 0;
+        left: 50%;
+        transform: translateX(-50%);
+        height: 1px;
+        width: calc(100% - 40px);
+        background-color: #e0e0e0; 
+    }
+    .menu-icon{
+      display: block;
+    }
+    .menu-icon img{
+      width: 40px;
+    }
+  } 

@@ -1,196 +1,195 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-BR">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-    <title>PhotoPros - Disclaimer</title>
+    <title>Aviso Legal - FitFury</title>
     <meta
       name="keywords"
-      content="PhotoPros, disclaimer, legal information, terms of use, policies"
+      content="FitFury, responsabilidade legal, termos de serviço, isenção de responsabilidade"
     />
     <meta
       name="description"
-      content="Read the disclaimer for PhotoPros to understand the legal information and terms of use. Explore our policies for a transparent user experience."
+      content="Leia nosso aviso legal. Informações importantes sobre o uso do site FitFury e os termos de serviço que se aplicam. Sua utilização do site está sujeita a estas condições."
     />
     <link rel="icon" href="favicon.ico" />
-
-    <link rel="stylesheet" href="style/style.css" />
-    <link rel="stylesheet" href="style/menu.css" />
+    <link rel="stylesheet" href="css/main.css" />
   </head>
   <body>
-    <div class="header">
-      <div class="main-container">
-        <div class="header-line">
-          <div class="header-logo">
-            <a href="index.html">Photo<span>Pros</span></a>
+    <div class="navbar w-nav">
+      <nav class="container">
+        <div class="navbar-wrapper">
+          <a
+            href="index.html"
+            class="navbar-logo-wrapper w-nav-brand w--current"
+            >FitFury</a
+          >
+          <div class="menu-button w-nav-button">
+            <div class="menu-icon w-icon-nav-menu">
+              <img src="./img/menu.svg" alt="" />
+            </div>
           </div>
-          <div class="header_burger" onclick="toggleMenu()">
-            <span><img class="menu-logo" src="./imgs/menu.svg" alt=""></span>
-          </div>
-          <div class="header-menu">
-            <a href="index.html#1">Home</a>
-            <a href="index.html#2">Price</a>
-            <a href="index.html#3">Services</a>
-            <a href="index.html#4">Contact</a>
-          </div>
+          <nav class="nav-menu-wrapper w-nav-menu">
+            <ul class="nav-menu">
+              <li class="nav-list">
+                <a href="index.html" class="nav-link">Página Inicial</a>
+                <div class="nav-menu-border"></div>
+              </li>
+              <li class="nav-list">
+                <a href="about.html" class="nav-link">Sobre Nós</a>
+                <div class="nav-menu-border"></div>
+              </li>
+              <li class="nav-list">
+                <a href="contact.html" class="nav-link">Contato</a>
+                <div class="nav-menu-border"></div>
+              </li>
+            </ul>
+          </nav>
         </div>
-      </div>
+      </nav>
     </div>
 
-    <div class="disclaimer-container">
-      <div class="main-container">
-        <h1>Disclaimer</h1>
+    <div class="page-wrapper">
+      <section>
+        <div class="container">
+          <h2>Aviso Legal</h2>
 
-        <p>
-          The information contained on the PhotoPros website (the "Service") is
-          for general information purposes only. PhotoPros assumes no
-          responsibility for errors or omissions in the contents on the Service.
-        </p>
-
-        <p>
-          In no event shall PhotoPros be liable for any special, direct,
-          indirect, consequential, or incidental damages or any damages
-          whatsoever, whether in an action of contract, negligence, or other
-          torts, arising out of or in connection with the use of the Service or
-          the contents of the Service. PhotoPros reserves the right to make
-          additions, deletions, or modifications to the content at any time
-          without prior notice.
-        </p>
-
-        <p>
-          PhotoPros does not warrant that the website is free of viruses or
-          other harmful components.
-        </p>
-        <h2>External Links Disclaimer</h2>
-        <p>
-          The PhotoPros website may contain links to external websites that are
-          not provided or maintained by or in any way affiliated with PhotoPros.
-          Please note that PhotoPros does not guarantee the accuracy, relevance,
-          timeliness, or completeness of any information on these external
-          websites.
-        </p>
-        <p>
-          PhotoPros does not warrant that external sites are free of viruses or
-          other harmful components.
-        </p>
-        <h2>Errors and Omissions Disclaimer</h2>
-        <p>
-          The information given by the Service is for general guidance on
-          matters of interest only. Even if PhotoPros takes every precaution to
-          ensure that the content is both current and accurate, errors can
-          occur. Plus, given the changing nature of laws, rules, and
-          regulations, there may be delays, omissions, or inaccuracies in the
-          information contained on the Service.
-        </p>
-        <p>
-          PhotoPros is not responsible for any errors or omissions, or for the
-          results obtained from the use of this information.
-        </p>
-        <h2>Fair Use Disclaimer</h2>
-        <p>
-          PhotoPros may use copyrighted material that has not always been
-          specifically authorized by the copyright owner. PhotoPros makes such
-          material available for criticism, comment, news reporting, teaching,
-          scholarship, or research.
-        </p>
-        <p>
-          PhotoPros believes this constitutes a "fair use" of any such
-          copyrighted material as provided for in section 107 of the United
-          States Copyright law.
-        </p>
-        <p>
-          If you wish to use copyrighted material from the Service for your own
-          purposes that go beyond fair use, you must obtain permission from the
-          copyright owner.
-        </p>
-        <h2>Contact Us</h2>
-        <p>
-          If you have any questions about this Disclaimer, please contact us
-          <a href="mailto:PhotoPros@gmail.com" target="_blank"
-            >PhotoPros@gmail.com</a
-          >.
-        </p>
-      </div>
-    </div>
-
-    <div id="4" class="contact">
-      <div class="main-container">
-        <div class="contact-title"><h3>Our contact</h3></div>
-        <div class="contact-cont">
-          <form action="thanks_form.php" method="post" id="contactForm">
-            <label for="name">Name:</label>
-            <input type="text" id="name" name="name" required />
-
-            <label for="email">Email:</label>
-            <input type="email" id="email" name="email" required />
-
-            <label for="message">Message:</label>
-
-            <textarea id="message" name="message" rows="4" required></textarea>
-            <div class="check-block">
-              <input
-                class="check-block-cont"
-                type="checkbox"
-                value=""
-                id="privacy_policy_check"
-                required
-              />
-              <label class="form-check-block" for="privacy_policy_check">
-                I accept the
-                <a href="privacy.html" target="_blank" class="check"
-                  >Privacy Policy</a
-                >
-              </label>
-            </div>
-
-            <button type="submit">Send</button>
-          </form>
-
-          <div class="contact-info">
-            <h2>Contact Information</h2>
-            <p>
-              Address:
-              <a
-                href="https://www.google.com/maps/place/M%2Fs.+M.S.+Khurana+%26+Co.+Ludhiana/@20.9319532,77.7505258,19z/data=!3m1!4b1!4m15!1m8!3m7!1s0x30635ff06b92b791:0xd78c4fa1854213a6!2z0JjQvdC00LjRjw!3b1!8m2!3d20.593684!4d78.96288!16zL20vMDNyazA!3m5!1s0x3bd6a4a96309bc67:0x86f2b6ecb913cf8d!8m2!3d20.9319532!4d77.7511695!16s%2Fg%2F11c5rsq0hp?authuser=0&entry=ttu"
-                target="_blank"
-                >WQJ2+QFM, Mochi Galli, Amrawati Tahsil, Amravati, Maharashtra
-                444601, India</a
-              >
-            </p>
-            <p>
-              Telephone:
-              <a href="tel:+91 84621 89454" target="_blank">
-                +91 84621 89454
-              </a>
-            </p>
-            <p>
-              Email:
-              <a href="mailto:PhotoPros@gmail.com" target="_blank"
-                >PhotoPros@gmail.com</a
-              >
-            </p>
-          </div>
-        </div>
-        <div class="privacy">
-          <h3>Privacy</h3>
-          <div class="privacy-cont">
-            <div class="privacy-item">
-              <a href="disclaimer.html">Disclaimer</a>
-            </div>
-            <div class="privacy-item"><a href="privacy.html">Privacy</a></div>
-            <div class="privacy-item"><a href="terms.html">Terms</a></div>
-          </div>
-        </div>
-        <div class="copyright">
           <p>
-            Copyright &copy; All the rights
-            <a href="index.html">PhotoPros</a>
+            As informações fornecidas pela FitFury ("nós," "nos" ou "nosso") no
+            FitFury (o "Site") e em nosso aplicativo móvel são para fins
+            informativos gerais apenas. Todas as informações no Site e em nosso
+            aplicativo móvel são fornecidas de boa fé; no entanto, não fazemos
+            nenhuma representação ou garantia de qualquer tipo, expressa ou
+            implícita, sobre a precisão, adequação, validade, confiabilidade,
+            disponibilidade ou completude de qualquer informação no Site ou em
+            nosso aplicativo móvel.
           </p>
-        </div>
-      </div>
-    </div>
 
-    <script src="js/menu.js"></script>
+          <p>
+            Em nenhuma circunstância teremos qualquer responsabilidade para você
+            por qualquer perda ou dano de qualquer tipo incorrido como resultado
+            do uso do site ou de nosso aplicativo móvel ou confiança em qualquer
+            informação fornecida no site e em nosso aplicativo móvel. Seu uso do
+            site e nosso aplicativo móvel e sua confiança em qualquer informação
+            no site e em nosso aplicativo móvel são de sua responsabilidade
+            exclusiva.
+          </p>
+
+          <h2>Aviso de Links Externos</h2>
+
+          <p>
+            O Site e nosso aplicativo móvel podem conter (ou você pode ser
+            direcionado através do Site ou nosso aplicativo móvel) links para
+            outros sites ou conteúdos pertencentes ou originados de terceiros,
+            bem como links para sites e recursos. Tais links externos não são
+            investigados, monitorados ou verificados quanto à precisão,
+            adequação, validade, confiabilidade, disponibilidade ou completude
+            por nós.
+          </p>
+
+          <p>
+            Não garantimos, endossamos, garantimos ou assumimos responsabilidade
+            pela precisão ou confiabilidade de qualquer informação oferecida por
+            sites de terceiros vinculados através do site ou qualquer site ou
+            recurso vinculado em qualquer banner ou outra publicidade. Não
+            seremos parte ou de qualquer forma seremos responsáveis por
+            monitorar qualquer transação entre você e provedores terceirizados
+            de produtos ou serviços.
+          </p>
+
+          <h2>Aviso Profissional</h2>
+
+          <p>
+            O Site não pode e não contém conselhos de fitness. A informação de
+            fitness é fornecida apenas para fins informativos e educacionais
+            gerais e não é um substituto para aconselhamento profissional.
+          </p>
+
+          <p>
+            Portanto, antes de tomar qualquer ação com base nessas informações,
+            recomendamos que você consulte os profissionais apropriados. Não
+            fornecemos nenhum tipo de conselho de fitness. O uso ou confiança em
+            qualquer informação contida neste site ou em nosso aplicativo móvel
+            é de sua responsabilidade exclusiva.
+          </p>
+
+          <h2>Alterações a Este Aviso Legal</h2>
+
+          <p>
+            Podemos atualizar nosso Aviso Legal de tempos em tempos.
+            Notificaremos você de quaisquer alterações postando o novo Aviso
+            Legal nesta página.
+          </p>
+
+          <p>
+            Recomenda-se revisar este Aviso Legal periodicamente para quaisquer
+            alterações. As alterações a este Aviso Legal entram em vigor quando
+            são postadas nesta página.
+          </p>
+
+          <h2>Entre em Contato Conosco</h2>
+
+          <p>
+            Se você tiver alguma dúvida sobre este Aviso Legal, entre em contato
+            conosco:
+          </p>
+
+          <ul>
+            <li>
+              Por e-mail:
+              <a href="mailto:fitfury@gmail.com">FitFury@gmail.com</a>
+            </li>
+            <li>
+              Por número de telefone:
+              <a target="_blank" href="tel:+55 67 3574-8976"
+                >+55 67 3574-8976</a
+              >
+            </li>
+          </ul>
+        </div>
+      </section>
+
+      <footer class="footer">
+        <div class="container">
+          <div class="footer-wrapper">
+            <div class="footer-block first-block">
+              <h3>FitFury</h3>
+              <div class="information-container">
+                <p class="footer-paragraph">
+                  Explore o mundo da excelência atlética e redefina sua jornada
+                  de fitness conosco.
+                </p>
+              </div>
+            </div>
+
+            <div class="links-and-menu">
+              <div class="footer-block">
+                <div class="footer-title">Empresa</div>
+                <div class="list-block">
+                  <a href="index.html" class="footer-link">Início</a
+                  ><a href="about.html" class="footer-link">Sobre</a
+                  ><a href="contact.html" class="footer-link">Contato</a>
+                </div>
+              </div>
+              <div class="footer-block">
+                <div class="footer-title">Páginas</div>
+                <div class="list-block">
+                  <a href="disclaimer.html" class="footer-link">Aviso Legal</a
+                  ><a href="privacy.html" class="footer-link">Privacidade</a
+                  ><a href="terms.html" class="footer-link">Termos</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="footer-bottom">
+          <div class="footer-copyright">
+            Copyright ©<a href="index.html" class="webflow-link">FitFury</a>
+          </div>
+        </div>
+      </footer>
+    </div>
+    <script src="js/burger.js"></script>
   </body>
 </html>
