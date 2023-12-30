@@ -641,7 +641,7 @@ blockquote {
 
 .button {
   border: 1px solid var(--white);
-  background-color: rgba(255, 255, 255, 0);
+  background-color: #0000008a;
   padding: 25px 50px;
   transition: background-color 0.5s;
 }
@@ -1804,15 +1804,15 @@ blockquote {
 
 .mobile-menu-content a {
   display: block;
-  padding: 10px;
+  padding: 20px 10px;
   font-size: 18px;
-  color: #333;
+  color: #cbcbcb;
   text-decoration: none;
   transition: background-color 0.3s ease;
 }
 
 .mobile-menu-content a:hover {
-  background-color: #f0f0f0; 
+  background-color: #4b4b4b; 
 }
 .check-block{
     display: flex;
