@@ -60,7 +60,6 @@ html {
     font-style: normal;
   }
   
-  [class^="w-icon-"],
   [class*=" w-icon-"] {
     speak: none;
     font-variant: normal;
@@ -71,14 +70,6 @@ html {
     font-weight: normal;
     line-height: 1;
     font-family: webflow-icons !important;
-  }
-  
-  .w-icon-slider-right:before {
-    content: "î˜€";
-  }
-  
-  .w-icon-slider-left:before {
-    content: "î˜";
   }
   
   .w-icon-nav-menu:before {
@@ -284,111 +275,6 @@ html {
     position: relative;
   }
   
-  .w-slider-nav {
-    z-index: 2;
-    height: 40px;
-    text-align: center;
-    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
-    tap-highlight-color: rgba(0, 0, 0, 0);
-    margin: auto;
-    padding-top: 10px;
-    position: absolute;
-    top: auto;
-    bottom: 0;
-    left: 0;
-    right: 0;
-  }
-  
-  .w-slider-nav.w-round > div {
-    border-radius: 100%;
-  }
-  
-  .w-slider-dot {
-    width: 1em;
-    height: 1em;
-    cursor: pointer;
-    background-color: rgba(255, 255, 255, 0.4);
-    margin: 0 3px 0.5em;
-    transition: background-color 0.1s, color 0.1s;
-    display: inline-block;
-    position: relative;
-  }
-  
-  .w-slider-dot.w-active {
-    background-color: #fff;
-  }
-  
-  .w-slider-dot:focus {
-    outline: none;
-    box-shadow: 0 0 0 2px #fff;
-  }
-  
-  .w-slider-dot:focus.w-active {
-    box-shadow: none;
-  }
-  
-  .w-slider-arrow-left,
-  .w-slider-arrow-right {
-    width: 80px;
-    cursor: pointer;
-    color: #fff;
-    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
-    tap-highlight-color: rgba(0, 0, 0, 0);
-    -webkit-user-select: none;
-    -ms-user-select: none;
-    user-select: none;
-    margin: auto;
-    font-size: 40px;
-    position: absolute;
-    top: 0;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    overflow: hidden;
-  }
-  
-  .w-slider-arrow-left [class^="w-icon-"],
-  .w-slider-arrow-right [class^="w-icon-"] {
-    position: absolute;
-  }
-  
-  .w-slider-arrow-left:focus,
-  .w-slider-arrow-right:focus {
-    outline: 0;
-  }
-  
-  .w-slider-arrow-left {
-    z-index: 3;
-    right: auto;
-  }
-  
-  .w-slider-arrow-right {
-    z-index: 4;
-    left: auto;
-  }
-  
-  .w-icon-slider-left,
-  .w-icon-slider-right {
-    width: 1em;
-    height: 1em;
-    margin: auto;
-    top: 0;
-    bottom: 0;
-    left: 0;
-    right: 0;
-  }
-  
-  .w-slider-aria-label {
-    clip: rect(0 0 0 0);
-    height: 1px;
-    width: 1px;
-    border: 0;
-    margin: -1px;
-    padding: 0;
-    position: absolute;
-    overflow: hidden;
-  }
-  
   .w-dropdown {
     text-align: left;
     z-index: 900;
@@ -529,70 +415,6 @@ html {
     .w-nav-brand {
       padding-left: 10px;
     }
-  }
-  
-  .w-tabs {
-    position: relative;
-  }
-  
-  .w-tabs:before,
-  .w-tabs:after {
-    content: " ";
-    grid-area: 1 / 1 / 2 / 2;
-    display: table;
-  }
-  
-  .w-tabs:after {
-    clear: both;
-  }
-  
-  .w-tab-menu {
-    position: relative;
-  }
-  
-  .w-tab-link {
-    vertical-align: top;
-    text-align: left;
-    cursor: pointer;
-    color: #222;
-    background-color: #ddd;
-    padding: 9px 30px;
-    text-decoration: none;
-    display: inline-block;
-    position: relative;
-  }
-  
-  .w-tab-link.w--current {
-    background-color: #c8c8c8;
-  }
-  
-  .w-tab-link:focus {
-    outline: 0;
-  }
-  
-  .w-tab-content {
-    display: block;
-    position: relative;
-    overflow: hidden;
-  }
-  
-  .w-tab-pane {
-    display: none;
-    position: relative;
-  }
-  
-  .w--tab-active {
-    display: block;
-  }
-  
-  @media screen and (max-width: 479px) {
-    .w-tab-link {
-      display: block;
-    }
-  }
-  
-  .w-condition-invisible {
-    display: none !important;
   }
   
   :root {
@@ -926,26 +748,12 @@ html {
     display: flex;
   }
   
-  .slider-wrapper._2nd-slider {
-    background-image: url("https://assets-global.website-files.com/65324bac8ab95a0467cd1a31/6535f7f23268205b9f2b0a13_pexels-pixabay-164634%201.webp");
-  }
-  
-  .slider-wrapper._3rd-slider {
-    background-image: url("https://assets-global.website-files.com/65324bac8ab95a0467cd1a31/6535f42fa1841692bc3c9c23_pexels-aleksey-kuprikov-3786091%201.webp");
-  }
-  
   .page-title {
     max-width: 1000px;
     color: #fff;
     margin-top: 0;
     margin-bottom: 0;
     line-height: 78px;
-  }
-  
-  .slider-navigation {
-    font-size: 12px;
-    line-height: 12px;
-    bottom: 25px;
   }
   
   .hero-slider-content {
@@ -967,10 +775,6 @@ html {
   
   .hero-slider {
     height: 100%;
-  }
-  
-  .hidden {
-    display: none;
   }
   
   .low-opacity-paragraph {
@@ -1015,21 +819,6 @@ html {
     padding: 14px;
     font-size: 30px;
     line-height: 30px;
-  }
-  
-  .icon.link-to-car-page {
-    color: var(--heading);
-    background-color: #f6f6f6;
-    padding: 6px;
-    font-size: 18px;
-    line-height: 18px;
-    transition: background-color 0.2s, color 0.2s;
-    display: block;
-  }
-  
-  .icon.link-to-car-page:hover {
-    background-color: var(--primary);
-    color: var(--primary-white);
   }
   
   .section {
@@ -1104,11 +893,6 @@ html {
     color: var(--primary-white);
   }
   
-  .heading.margin-both-sides {
-    margin-top: 180px;
-    margin-bottom: 120px;
-  }
-  
   .about-carhub {
     height: 100%;
     max-height: 665px;
@@ -1153,32 +937,6 @@ html {
     display: flex;
   }
   
-  .subscription-form {
-    margin-top: 21px;
-    position: relative;
-  }
-  
-  .subscription-field {
-    min-height: 56px;
-    border: 2px solid #dadada;
-    border-radius: 30px;
-    margin-bottom: 0;
-    padding: 15px 27px;
-  }
-  
-  .subscription-button {
-    color: var(--primary);
-    background-color: rgba(56, 152, 236, 0);
-    padding: 15px 27px 15px 0;
-    font-family: Icofont, sans-serif;
-    font-size: 26px;
-    position: absolute;
-    top: 0%;
-    bottom: auto;
-    left: auto;
-    right: 0%;
-  }
-  
   .limited-width-paragraph {
     max-width: 700px;
     margin-top: 12px;
@@ -1196,41 +954,6 @@ html {
     transform: scale3d(1.4, 1.2, 1);
   }
   
-  .car-tabs {
-    width: 100%;
-    flex-direction: column;
-    align-items: flex-start;
-    display: flex;
-  }
-  
-  .car-tabs-menu {
-    width: 100%;
-    grid-column-gap: 30px;
-    grid-row-gap: 30px;
-    border-bottom: 1px solid #bdbdbd;
-    flex-direction: row;
-    margin-bottom: 40px;
-    padding-bottom: 12px;
-    display: flex;
-  }
-  
-  .car-tab {
-    color: var(--paragraph);
-    background-color: #fff;
-    padding: 0;
-    font-weight: 500;
-  }
-  
-  .car-tab.w--current {
-    color: var(--primary);
-    background-color: rgba(255, 255, 255, 0);
-  }
-  
-  .car-tab-contents {
-    width: 100%;
-    overflow: visible;
-  }
-  
   ._4-column-grid {
     width: 100%;
     grid-column-gap: 30px;
@@ -1239,18 +962,6 @@ html {
     grid-template-columns: 1fr 1fr 1fr 1fr;
     grid-auto-columns: 1fr;
     display: grid;
-  }
-  
-  ._4-column-grid.flex-in-desktop {
-    flex-wrap: wrap;
-    justify-content: flex-start;
-    display: flex;
-  }
-  
-  .car-card {
-    width: 100%;
-    max-width: 375px;
-    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.05);
   }
   
   .mask {
@@ -1262,56 +973,9 @@ html {
     width: 100%;
   }
   
-  .car-body {
-    text-align: left;
-    flex-direction: column;
-    align-items: flex-start;
-    padding: 17px 24px 34px;
-    display: flex;
-  }
-  
-  .car-thumbnail {
-    width: 375px;
-    height: 294px;
-    object-fit: cover;
-  }
-  
   .text-merge {
     grid-column-gap: 5px;
     grid-row-gap: 5px;
-    display: flex;
-  }
-  
-  .text-merge.model-year {
-    background-color: #ececec;
-    padding: 4px 10px;
-    font-size: 12px;
-    line-height: 24px;
-  }
-  
-  .car-name {
-    margin-top: 0;
-    margin-bottom: 0;
-    font-size: 16px;
-    line-height: 26px;
-  }
-  
-  .car-name.car-name-margin {
-    margin-top: 16px;
-    margin-bottom: 6px;
-  }
-  
-  .price {
-    color: var(--primary);
-    font-size: 20px;
-    font-weight: 500;
-    line-height: 30px;
-  }
-  
-  .car-footer {
-    background-color: #fbfbfb;
-    justify-content: space-between;
-    padding: 15px 18px;
     display: flex;
   }
   
@@ -1330,29 +994,6 @@ html {
   .flex-horizontal._30px-gap {
     grid-column-gap: 30px;
     grid-row-gap: 30px;
-  }
-  
-  ._20px-image {
-    width: 20px;
-    height: 20px;
-  }
-  
-  .car-status {
-    background-color: var(--primary);
-    color: var(--primary-white);
-    padding: 10px;
-    font-size: 14px;
-    font-weight: 600;
-    line-height: 18px;
-    position: absolute;
-    top: 20px;
-    bottom: auto;
-    left: 0%;
-    right: auto;
-  }
-  
-  .car-status.used {
-    background-color: var(--secondary-color);
   }
   
   .cta-section {
@@ -1563,14 +1204,6 @@ html {
     display: flex;
   }
   
-  .social-icon-container {
-    grid-column-gap: 16px;
-    flex-direction: row;
-    margin-top: 10px;
-    margin-left: -5px;
-    display: flex;
-  }
-  
   .footer-copyright {
     grid-column-gap: 5px;
     color: #8e8e99;
@@ -1607,66 +1240,9 @@ html {
     display: flex;
   }
   
-  .footer-block.subscribe-block {
-    max-width: 370px;
-  }
-  
   .footer-block.first-block {
     width: 100%;
     max-width: 380px;
-  }
-  
-  .social-icon {
-    width: 18px;
-    height: 18px;
-    color: rgba(0, 0, 0, 0.2);
-    background-color: rgba(0, 0, 0, 0);
-    border: 1px solid #fff;
-    border-radius: 50%;
-    justify-content: center;
-    align-items: center;
-    padding: 15px;
-    font-family: Icofont, sans-serif;
-    font-size: 19px;
-    line-height: 19px;
-    transition: border-color 0.4s, color 0.5s ease-in-out, background-color 0.2s,
-      transform 0.4s;
-    display: flex;
-  }
-  
-  .social-icon:hover {
-    border-color: rgba(0, 0, 0, 0);
-    transform: translate(0, -3px);
-  }
-  
-  .social-icon.linkedin:hover {
-    color: #fff;
-    background-color: #0077b5;
-  }
-  
-  .social-icon.twitter {
-    font-size: 18px;
-    line-height: 18px;
-  }
-  
-  .social-icon.twitter:hover {
-    color: #fff;
-    background-color: #1da1f2;
-  }
-  
-  .social-icon.pinterest:hover {
-    color: #fff;
-    background-color: #e60023;
-  }
-  
-  .social-icon.youtube:hover {
-    color: #fff;
-    background-color: red;
-  }
-  
-  .social-icon.facebook:hover {
-    color: #fff;
-    background-color: #4267b2;
   }
   
   .footer-wrapper {
@@ -1741,34 +1317,6 @@ html {
     font-family: Inter, sans-serif;
     font-weight: 300;
     line-height: 26px;
-  }
-  
-  .footer-logo-grid {
-    grid-column-gap: 8px;
-    grid-row-gap: 10px;
-    grid-template-rows: auto auto;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
-    grid-auto-columns: 1fr;
-    display: grid;
-  }
-  
-  .card-images-wrapper {
-    grid-column-gap: 10px;
-    grid-row-gap: 10px;
-    display: flex;
-  }
-  
-  .credit-cards {
-    height: 30px;
-    max-width: 50px;
-  }
-  
-  .partner-logos {
-    height: 100%;
-    max-width: 88px;
-    min-width: 60px;
-    background-color: #f3f3f3;
-    padding: 14px;
   }
   
   .banner {
@@ -2146,22 +1694,6 @@ html {
     transform: scale(1.2);
   }
   
-  .relative-wrapper {
-    width: 100%;
-    position: relative;
-  }
-  
-  .navigation-wrapper {
-    grid-column-gap: 4px;
-    grid-row-gap: 4px;
-    display: flex;
-    position: absolute;
-    top: 0%;
-    bottom: auto;
-    left: auto;
-    right: 0%;
-  }
-  
   @media screen and (max-width: 991px) {
   
     .container {
@@ -2287,11 +1819,6 @@ html {
       padding-bottom: 100px;
     }
   
-    .heading.margin-both-sides {
-      margin-top: 100px;
-      margin-bottom: 100px;
-    }
-  
     .about-carhub {
       max-height: none;
       flex-direction: column;
@@ -2321,15 +1848,6 @@ html {
       grid-template-columns: 1fr 1fr;
     }
   
-    ._4-column-grid.flex-in-desktop {
-      grid-column-gap: 30px;
-      grid-row-gap: 30px;
-      grid-template-rows: auto;
-      grid-template-columns: 1fr 1fr;
-      grid-auto-columns: 1fr;
-      display: grid;
-    }
-  
     .three-column-grid {
       grid-template-columns: 1fr 1fr;
     }
@@ -2354,10 +1872,6 @@ html {
       padding-bottom: 40px;
     }
   
-    .footer-block.subscribe-block {
-      max-width: none;
-    }
-  
     .footer-block.first-block {
       max-width: none;
       border-bottom: 1px solid #bdbdbd;
@@ -2370,10 +1884,6 @@ html {
       grid-auto-columns: 1fr;
       padding-top: 40px;
       padding-bottom: 40px;
-    }
-  
-    .partner-logos {
-      max-width: 100px;
     }
   
     .about-us-image,
@@ -2495,10 +2005,6 @@ html {
       line-height: 60px;
     }
   
-    .slider-navigation {
-      bottom: 15px;
-    }
-  
     .hero-slider-content {
       height: 100%;
       max-width: none;
@@ -2508,11 +2014,6 @@ html {
     .section {
       padding-top: 80px;
       padding-bottom: 80px;
-    }
-  
-    .heading.margin-both-sides {
-      margin-top: 80px;
-      margin-bottom: 60px;
     }
   
     .property-cta-block {
@@ -2527,23 +2028,6 @@ html {
   
     .featured-image.scale {
       transform: none;
-    }
-  
-    ._4-column-grid.flex-in-desktop {
-      grid-template-columns: 1fr;
-      align-items: center;
-      justify-items: center;
-    }
-  
-    .car-card {
-      max-width: 531px;
-    }
-  
-    .car-thumbnail {
-      width: 100%;
-      height: 100%;
-      max-height: none;
-      max-width: none;
     }
   
     .cta-section {
@@ -2602,11 +2086,6 @@ html {
     .footer-block {
       max-width: 150px;
       flex-direction: column;
-    }
-  
-    .footer-block.subscribe-block {
-      max-width: none;
-      border-top: 1px solid #d2d2d2;
     }
   
     .footer-wrapper {
@@ -2686,11 +2165,6 @@ html {
   
     .subscription-form-wrapper {
       max-width: 90%;
-    }
-  
-    .map-wrapper {
-      max-height: 290px;
-      overflow: hidden;
     }
   }
   
@@ -2821,11 +2295,6 @@ html {
       grid-row-gap: 15px;
     }
   
-    .heading.margin-both-sides {
-      margin-top: 60px;
-      margin-bottom: 40px;
-    }
-  
     .about-carhub {
       padding-top: 40px;
       padding-bottom: 40px;
@@ -2838,11 +2307,6 @@ html {
   
     ._4-column-grid {
       grid-template-columns: 1fr;
-    }
-  
-    .car-footer {
-      font-size: 12px;
-      line-height: 22px;
     }
   
     .flex-horizontal._30px-gap {
@@ -3002,15 +2466,7 @@ html {
   #w-node-a6246899-e2c9-b8fc-4830-dfb7f6050b08-67cd1a42,
   #w-node-d367e463-d1b0-b940-ec0b-609a5b2d9a36-67cd1a42,
   #w-node-d7fd3768-e0ad-01d6-56b6-bb0066fa672d-67cd1a42,
-  #w-node-_843bdd58-90bb-cf41-39de-ccb03916b972-67cd1a42,
-  #w-node-eb749b8b-f826-b590-2732-fee77c28cfa0-7c28cf44,
-  #w-node-eb749b8b-f826-b590-2732-fee77c28cfa1-7c28cf44,
-  #w-node-eb749b8b-f826-b590-2732-fee77c28cfa2-7c28cf44,
-  #w-node-eb749b8b-f826-b590-2732-fee77c28cfa3-7c28cf44,
-  #w-node-eb749b8b-f826-b590-2732-fee77c28cfa4-7c28cf44,
-  #w-node-eb749b8b-f826-b590-2732-fee77c28cfa5-7c28cf44,
-  #w-node-eb749b8b-f826-b590-2732-fee77c28cfa6-7c28cf44,
-  #w-node-eb749b8b-f826-b590-2732-fee77c28cfa7-7c28cf44 {
+  #w-node-_843bdd58-90bb-cf41-39de-ccb03916b972-67cd1a42 {
     grid-area: span 1 / span 1 / span 1 / span 1;
   }
   
