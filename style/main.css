@@ -422,7 +422,7 @@ html {
     --paragraph: #666;
     --secondary-color: #ffb11b;
     --primary-white: white;
-    --primary: #d01818;
+    --primary: #e00a87;
     --heading: #292b31;
   }
   
@@ -737,10 +737,10 @@ html {
   .slider-wrapper {
     width: 100%;
     height: 100%;
-    background-image: url("https://assets-global.website-files.com/65324bac8ab95a0467cd1a31/6535f7f217ca225f10bc4dc9_pexels-s-von-hoerst-2676096%201.webp");
-    background-position: 50%;
+    background-image: url(../img/hero.jpg);
+    background-position: bottom;
     background-repeat: no-repeat;
-    background-size: 1920px;
+    background-size: cover;
     justify-content: flex-start;
     align-items: center;
     padding-top: 120px;
@@ -762,8 +762,8 @@ html {
     max-width: 820px;
     background-image: linear-gradient(
       to right,
-      rgba(0, 0, 0, 0.7),
-      rgba(255, 255, 255, 0)
+      rgb(0 0 0 / 77%),
+      rgb(19 19 19 / 38%)
     );
     border-radius: 4px;
     flex-direction: column;
@@ -997,7 +997,7 @@ html {
   }
   
   .cta-section {
-    background-image: url("https://assets-global.website-files.com/65324bac8ab95a0467cd1a31/6535f42d8dd72174524b77a1_13841402_2010.i123.005.%201.webp");
+    background-image: url("../img/cta.jpg");
     background-position: 0 42%;
     background-repeat: no-repeat;
     background-size: cover;
@@ -1321,7 +1321,7 @@ html {
   
   .banner {
     max-height: 200px;
-    background-image: url("https://assets-global.website-files.com/65324bac8ab95a0467cd1a31/6536641e3417ac1f08933e95_pexels-s-von-hoerst-2676096%201%20(1).webp");
+    background-image: url("../img/ban.jpg");
     background-position: 50%;
     background-size: cover;
     margin-bottom: 2px;
@@ -1389,7 +1389,7 @@ html {
     grid-column-gap: 30px;
     grid-row-gap: 30px;
     color: var(--primary-white);
-    background-color: #000407;
+    background-color: #b5228c;
     border: 1px solid rgba(236, 236, 236, 0.5);
     flex-direction: column;
     justify-content: center;
@@ -1452,7 +1452,7 @@ html {
   }
   
   .team-member-image {
-    max-height: 420px;
+    height: 420px;
     max-width: 378px;
     margin-bottom: 30px;
   }
