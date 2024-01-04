@@ -1,6 +1,6 @@
 const burger = document.querySelector(".hamburger-icon");
 const kgjijkfmdkMenu = document.querySelector(".kgjijkfmdk-menu-wrapper");
-const mobMenu = document.querySelector(".mob-menu");
+const mobMenu = document.querySelector(".tehwr");
 const mobMenuDell = document.querySelector(".kgjijkfmdk-menu-mob");
 
 burger.addEventListener("click", () => {
