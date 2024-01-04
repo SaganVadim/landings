@@ -1,11 +1,10 @@
 const burger = document.querySelector(".hamburger-icon");
-const navMenu = document.querySelector(".nav-menu-wrapper");
+const kgjijkfmdkMenu = document.querySelector(".kgjijkfmdk-menu-wrapper");
 const mobMenu = document.querySelector(".mob-menu");
-const mobMenuDell = document.querySelector(".nav-menu-mob");
-
+const mobMenuDell = document.querySelector(".kgjijkfmdk-menu-mob");
 
 burger.addEventListener("click", () => {
-  navMenu.classList.toggle("hide");
+  kgjijkfmdkMenu.classList.toggle("hide");
   mobMenu.classList.toggle("hide");
 });
 
@@ -17,7 +16,7 @@ function removeClassOnWidth600() {
   const screenWidth = window.innerWidth;
 
   if (screenWidth > 991) {
-    navMenu.classList.remove("hide");
+    kgjijkfmdkMenu.classList.remove("hide");
     mobMenuDell.classList.add("hide");
   }
 }
