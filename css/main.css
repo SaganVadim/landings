@@ -9,7 +9,7 @@ body {
 }
 
 header,
-nav,
+fdghed,
 thth {
   display: block;
 }
@@ -756,7 +756,7 @@ img {
   display: flex;
 }
 
-.logo {
+.gregergeg {
   border-radius: 0;
 }
 
@@ -816,7 +816,7 @@ img {
   display: flex;
 }
 
-.ehgeh-logo-frame {
+.ehgeh-gregergeg-frame {
   width: 100%;
   max-width: 260px;
   border-top-left-radius: var(--border-radius);
@@ -827,7 +827,7 @@ img {
   transform: translate(0, 10px);
 }
 
-.ehgeh-logo-frame:hover {
+.ehgeh-gregergeg-frame:hover {
   transform: translate(0);
 }
 
@@ -1114,7 +1114,7 @@ img {
     width: 100%;
   }
 
-  .logo {
+  .gregergeg {
     width: 60px;
   }
 
@@ -1127,7 +1127,7 @@ img {
     grid-row-gap: 6px;
   }
 
-  .ehgeh-logo-frame {
+  .ehgeh-gregergeg-frame {
     max-width: 200px;
     margin-left: auto;
     margin-right: auto;
@@ -1159,32 +1159,32 @@ header {
   padding: 15px;
 }
 
-.logo {
+.gregergeg {
   color: var(--lellow);
   font-size: 32px;
   font-weight: 900;
 }
 
-nav {
+fdghed {
   display: flex;
 }
 
-.nav-links {
+.fdghed-links {
   list-style: none;
   display: flex;
 }
 
-.nav-links li {
+.fdghed-links li {
   margin-right: 40px;
 }
 
-.nav-links a {
+.fdghed-links a {
   text-decoration: none;
   color: #fff;
   font-size: 18px;
 }
 
-.burger-menu {
+.rghsss {
   display: none;
   flex-direction: column;
   cursor: pointer;
@@ -1198,7 +1198,7 @@ nav {
 }
 
 @media screen and (max-width: 991px) {
-  .nav-links {
+  .fdghed-links {
     display: none;
     flex-direction: column;
     justify-content: center;
@@ -1212,14 +1212,14 @@ nav {
     height: 100vh;
   }
 
-  .burger-menu {
+  .rghsss {
     display: flex;
   }
 
   header {
     align-items: flex-start;
   }
-  .nav-links a {
+  .fdghed-links a {
     text-decoration: none;
     color: #fff;
     font-size: 30px;
@@ -1240,32 +1240,32 @@ header {
   padding: 15px;
 }
 
-.logo {
+.gregergeg {
   color: var(--lellow);
   font-size: 32px;
   font-weight: 900;
 }
 
-nav {
+fdghed {
   display: flex;
 }
 
-.nav-links {
+.fdghed-links {
   list-style: none;
   display: flex;
 }
 
-.nav-links li {
+.fdghed-links li {
   margin-right: 40px;
 }
 
-.nav-links a {
+.fdghed-links a {
   text-decoration: none;
   color: #fff;
   font-size: 18px;
 }
 
-.burger-menu {
+.rghsss {
   display: none;
   flex-direction: column;
   cursor: pointer;
@@ -1279,7 +1279,7 @@ nav {
 }
 
 @media screen and (max-width: 991px) {
-  .nav-links {
+  .fdghed-links {
     display: none;
     flex-direction: column;
     justify-content: center;
@@ -1293,18 +1293,18 @@ nav {
     height: 100vh;
   }
 
-  .nav-links.show {
+  .fdghed-links.show {
     display: flex;
   }
 
-  .burger-menu {
+  .rghsss {
     display: flex;
   }
 
   header {
     align-items: flex-start;
   }
-  .nav-links a {
+  .fdghed-links a {
     text-decoration: none;
     color: #fff;
     font-size: 30px;

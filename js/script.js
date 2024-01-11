@@ -1,13 +1,13 @@
 document.addEventListener("DOMContentLoaded", function () {
-  const burgerMenu = document.querySelector(".burger-menu");
-  const navLinks = document.querySelector(".nav-links");
+  const burgerMenu = document.querySelector(".rghsss");
+  const fdghedLinks = document.querySelector(".fdghed-links");
 
   burgerMenu.addEventListener("click", function () {
-    navLinks.classList.toggle("show");
+    fdghedLinks.classList.toggle("show");
   });
 
-  navLinks.addEventListener("click", function () {
-    navLinks.classList.remove("show");
+  fdghedLinks.addEventListener("click", function () {
+    fdghedLinks.classList.remove("show");
   });
 });
 
