@@ -3327,7 +3327,7 @@ figure {
 
 .footer-logo-frame {
   width: 100%;
-  max-width: 320px;
+  max-width: 260px;
   border-top-left-radius: var(--border-radius);
   border-top-right-radius: var(--border-radius);
   background-color: var(--lellow);
@@ -4598,4 +4598,10 @@ header {
         font-size: 30px;
       }
       
+  }
+
+  .darker{
+    background-color: #333;
+    background-color: #333333b3;
+    padding: 10px;
   }
