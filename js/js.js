@@ -1,0 +1,21 @@
+
+
+
+document.addEventListener('DOMContentLoaded', function () {
+    const tabs = document.querySelectorAll('.tabs-tab-link');
+    const tabContents = document.querySelectorAll('.w-tab-pane');
+  
+    tabs.forEach((tab, index) => {
+      tab.addEventListener('click', () => {
+        // Убираем класс 'w--current' у текущей активной вкладки
+        document.querySelector('.tabs-tab-link.w--current').classList.remove('w--current');
+        // Добавляем класс 'w--current' к выбранной вкладке
+        tab.classList.add('w--current');
+  
+        // Скрываем текущий активный контент
+        document.querySelector('.w-tab-pane.w--tab-active').classList.remove('w--tab-active');
+        // Показываем выбранный контент
+        tabContents[index].classList.add('w--tab-active');
+      });
+    });
+  });
