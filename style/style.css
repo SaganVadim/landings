@@ -1103,7 +1103,7 @@ html {
   }
   
   .accreditation-logos {
-    max-height: 5rem;
+    max-height: 7rem;
   }
   
   .footer-links-wrap {
@@ -1996,13 +1996,17 @@ html {
     justify-self: start;
   }
   /* ------------------ */
+  .open{
+    display: flex !important;
+    
+}
   .header{
       display: flex;
       align-items: center;
       justify-content: space-between;
       min-height: 100px;
-      background-color: #333;
-      color: #eee;
+      background-color:  var(--colors--honeydew-light);
+      color: #333;
       padding: 0 40px;
   }
   .logo{
@@ -2010,6 +2014,20 @@ html {
       justify-content: center;
       align-items: center;
       z-index: 60;
+  }
+  .logo span{
+    
+    text-decoration: none;
+  }
+  .logo a{
+    font-size: 32px;
+    font-weight: 700;
+    text-decoration: none;
+    color: #333;
+  }
+  .logo a:hover{
+    color: #884949;
+    transition: color 0.5s ease ;
   }
   .nav{
       display: flex;
@@ -2027,7 +2045,7 @@ html {
   }
   .nav a{
       text-decoration: none;
-      color: #eee;
+      color: #333;
   }
   .burger{
       display: none;
@@ -2042,7 +2060,7 @@ html {
       height: 2px;
       width: 80%;
       transform: scale(1);
-      background-color: #eee;
+      background-color: #333;
   
   }
   .burger::before, .burger::after{
@@ -2050,7 +2068,7 @@ html {
       position: absolute;
       height: 2px;
       width: 100%;
-      background-color: #eee;
+      background-color: #333;
       transition: all 0.5s ease 0s;
   }
   .burger::before{
@@ -2059,6 +2077,17 @@ html {
   .burger::after{
       bottom: 0;
   }
+  .burger.active span{
+    transform: scale(0);
+}
+  .burger.active::before{
+    top: 50%;
+    transform: rotate(-45deg) translate(0, -50%);
+}
+.burger.active::after{
+    top: 50%;
+    transform: rotate(45deg) translate(0, 50%);
+}
   
   @media (max-width: 991px) {
       .burger{
@@ -2078,16 +2107,29 @@ html {
           z-index: 50;
           overflow-y: auto;
           padding: 50px 40px;
-          background-color: #000;
+          background-color:  var(--colors--honeydew-light);
           animation: burgerAnimation 0.5s;
       }
       .nav ul{
           flex-direction: column;
           row-gap: 30px;
       }    
+      .nav li{
+        
+      }
+      .nav a{
+        font-size: 2.5rem;
+        border: 2px solid;
+        border-radius: 30px;
+        padding: 10px 30px;
+      }
   }
   
   @keyframes burgerAnimation{
       from {opacity: 0;}
       to {opacity: 1;}
+  }
+
+  .check{
+    text-decoration: none;
   }
