@@ -22,3 +22,21 @@ document.addEventListener('DOMContentLoaded', function () {
       });
     });
   });
+
+
+  document.addEventListener('DOMContentLoaded', function () {
+    const faqs = document.querySelectorAll('.faqs-accordion');
+
+    faqs.forEach(function (faq) {
+        const question = faq.querySelector('.faqs-question');
+        const answer = faq.querySelector('.faqs-answer');
+
+        question.addEventListener('click', function () {
+            // Скрыть или показать ответ на вопрос
+            answer.style.height = answer.clientHeight === 0 ? `${answer.scrollHeight}px` : 0;
+
+            // Переключить активное состояние
+            faq.classList.toggle('active');
+        });
+    });
+});
