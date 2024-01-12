@@ -569,7 +569,7 @@ ghg {
   display: block;
 }
 
-.w-input,
+.sdv,
 .w-select {
   width: 100%;
   height: 38px;
@@ -584,47 +584,47 @@ ghg {
   display: block;
 }
 
-.w-input:-moz-placeholder,
+.sdv:-moz-placeholder,
 .w-select:-moz-placeholder {
   color: #999;
 }
 
-.w-input::-moz-placeholder,
+.sdv::-moz-placeholder,
 .w-select::-moz-placeholder {
   color: #999;
   opacity: 1;
 }
 
-.w-input::-webkit-input-placeholder,
+.sdv::-webkit-input-placeholder,
 .w-select::-webkit-input-placeholder {
   color: #999;
 }
 
-.w-input:focus,
+.sdv:focus,
 .w-select:focus {
   border-color: #3898ec;
   outline: 0;
 }
 
-.w-input[disabled],
+.sdv[disabled],
 .w-select[disabled],
-.w-input[readonly],
+.sdv[readonly],
 .w-select[readonly],
-fieldset[disabled] .w-input,
+fieldset[disabled] .sdv,
 fieldset[disabled] .w-select {
   cursor: not-allowed;
 }
 
-.w-input[disabled]:not(.w-input-disabled),
-.w-select[disabled]:not(.w-input-disabled),
-.w-input[readonly],
+.sdv[disabled]:not(.sdv-disabled),
+.w-select[disabled]:not(.sdv-disabled),
+.sdv[readonly],
 .w-select[readonly],
-fieldset[disabled]:not(.w-input-disabled) .w-input,
-fieldset[disabled]:not(.w-input-disabled) .w-select {
+fieldset[disabled]:not(.sdv-disabled) .sdv,
+fieldset[disabled]:not(.sdv-disabled) .w-select {
   background-color: #eee;
 }
 
-textarea.w-input,
+textarea.sdv,
 textarea.w-select {
   height: auto;
 }
@@ -2125,18 +2125,18 @@ textarea.w-select {
   }
 }
 
-.w-tabs {
+.sdfs {
   position: relative;
 }
 
-.w-tabs:before,
-.w-tabs:after {
+.sdfs:before,
+.sdfs:after {
   content: " ";
   grid-area: 1 / 1 / 2 / 2;
   display: table;
 }
 
-.w-tabs:after {
+.sdfs:after {
   clear: both;
 }
 
