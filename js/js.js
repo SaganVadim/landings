@@ -7,14 +7,12 @@ document.querySelector(".burger").addEventListener("click", function () {
 });
 
 document.addEventListener("DOMContentLoaded", function () {
-  const tabs = document.querySelectorAll(".tabs-tab-link");
+  const tabs = document.querySelectorAll(".rtyijkk");
   const tabContents = document.querySelectorAll(".yrds");
 
   tabs.forEach((tab, index) => {
     tab.addEventListener("click", () => {
-      document
-        .querySelector(".tabs-tab-link.sgvfdb")
-        .classList.remove("sgvfdb");
+      document.querySelector(".rtyijkk.sgvfdb").classList.remove("sgvfdb");
       tab.classList.add("sgvfdb");
 
       document.querySelector(".yrds.sgtrhsedg").classList.remove("sgtrhsedg");
@@ -27,7 +25,7 @@ document.addEventListener("DOMContentLoaded", function () {
   const faqs = document.querySelectorAll(".wefehtyjk");
 
   faqs.forEach(function (faq) {
-    const question = faq.querySelector(".faqs-question");
+    const question = faq.querySelector(".gntbv");
     const answer = faq.querySelector(".swgvav");
 
     question.addEventListener("click", function () {
