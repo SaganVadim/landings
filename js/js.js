@@ -24,7 +24,7 @@ document.addEventListener("DOMContentLoaded", function () {
 });
 
 document.addEventListener("DOMContentLoaded", function () {
-  const faqs = document.querySelectorAll(".faqs-accordion");
+  const faqs = document.querySelectorAll(".wefehtyjk");
 
   faqs.forEach(function (faq) {
     const question = faq.querySelector(".faqs-question");
