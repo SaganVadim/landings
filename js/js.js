@@ -28,7 +28,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
   faqs.forEach(function (faq) {
     const question = faq.querySelector(".faqs-question");
-    const answer = faq.querySelector(".faqs-answer");
+    const answer = faq.querySelector(".swgvav");
 
     question.addEventListener("click", function () {
       answer.style.height =
