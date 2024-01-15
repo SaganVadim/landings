@@ -264,7 +264,7 @@ textarea.sdv {
   --colors--light-navy: #1f2937;
   --colors--dark-navy: #111827;
   --fonts--heading-font: Inter, sans-serif;
-  --colors--white: white;
+  --colors--white: #fff2b0;
   --max-width--small: 26rem;
   --fonts--body-font: Inter, sans-serif;
   --colors--dim-grey: #4b5563;
@@ -273,10 +273,10 @@ textarea.sdv {
   --containers--large-container: 80rem;
   --border-radius--button: 0.25rem;
   --colors--dark-olive-green: #346042;
-  --colors--honeydew: #c3e3ca;
-  --colors--honeydew-light: #e4f2e7;
-  --colors--medium-sea-green: #5da772;
-  --border-radius--large: 1rem;
+  --colors--honeydew: #d43aff;
+  --colors--honeydew-light: #f6b0ff;
+  --colors--medium-sea-green: #0023ea;
+  --border-radius--large: 8rem;
   --max-width--medium-large: 40rem;
 }
 
@@ -455,6 +455,7 @@ lable {
 .ertehj.text-area {
   min-height: 8rem;
   padding-top: 0.75rem;
+  resize: none;
 }
 
 .fgjrfh {
@@ -659,9 +660,9 @@ lable {
 }
 
 .wergeg {
-  border-radius: 4rem;
-  padding: 0.5rem 1rem;
-  display: inline-block;
+  border-radius: 0.5rem;
+    padding: 0.5rem 4rem;
+    display: inline-block;
 }
 
 .wergeg.w3rfe {
@@ -699,6 +700,7 @@ lable {
   padding-bottom: 100%;
   position: relative;
   overflow: hidden;
+  border: 5px solid #ff00f7;
 }
 
 .uiyiyiyi {
@@ -729,6 +731,7 @@ lable {
   bottom: 0%;
   left: 0%;
   right: 0%;
+  border: 5px dashed #fd00ff;
 }
 
 .fbhgt.asdzx {
@@ -840,8 +843,8 @@ lable {
 
 .rgnyjtb {
   background-color: var(--colors--white);
-  border-radius: 0.25rem;
-  padding: 0.75rem 1rem;
+    border-radius: 0.25rem 2.5rem;
+    padding: 0.75rem 1rem;
 }
 
 .qewqeqf {
@@ -874,6 +877,7 @@ lable {
   align-items: center;
   padding: 2rem 1.5rem;
   transition: all 0.2s;
+  background-color: #e294ff5e;
 }
 
 .wrghwf:hover {
