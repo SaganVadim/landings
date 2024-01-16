@@ -19,108 +19,33 @@
     <link rel="stylesheet" href="./css/main.css" />
   </head>
   <body class="body">
-    <nav class="navbar">
+    <header class="header">
       <div class="nav-container">
-        <div class="nav-column">
-          <a
-            href="/"
-            aria-current="page"
-            class="logo-placeholder w-inline-block w--current"
-            ><img
-              src="https://uploads-ssl.webflow.com/64060f6d2d10b74e692ad393/64060f6d2d10b756a22ad3aa_logo-mindcure.svg"
-              loading="lazy"
-              height="40"
-              width="Auto"
-              alt=""
-              class="logo"
-          /></a>
-          <div class="nav-menu">
-            <a href="/" aria-current="page" class="nav-link w--current">Home</a
-            ><a href="/about" class="nav-link">About Me</a
-            ><a href="/services" class="nav-link">Services</a
-            ><a href="/contact" class="nav-link">Contact</a>
-          </div>
-        </div>
-        <div class="nav-column">
-          <div class="nav-menu template">
-            <a href="/template/style-guide" class="nav-link">Style Guide</a
-            ><a href="/template/changelog" class="nav-link">Changelog</a
-            ><a href="/template/licenses" class="nav-link">Licenses</a>
-          </div>
-          <div class="nav-actions">
-            <a
-              data-w-id="82d689c2-e3f4-4bdf-1ef5-015a71f11ae1"
-              href="#"
-              class="button is-button-small w-button"
-              >Schedule a free call</a
-            >
-          </div>
-        </div>
-        <a href="#" class="mobile-button w-inline-block"
-          ><div
-            data-w-id="82d689c2-e3f4-4bdf-1ef5-015a71f11ae6"
-            class="icon-embed-xxsmall w-embed"
-          >
-            <svg
-              xmlns="http://www.w3.org/2000/svg"
-              xmlns:xlink="http://www.w3.org/1999/xlink"
-              aria-hidden="true"
-              role="img"
-              class="iconify iconify--ph"
-              width="100%"
-              height="100%"
-              preserveAspectRatio="xMidYMid meet"
-              viewBox="0 0 256 256"
-            >
-              <path
-                fill="currentColor"
-                d="M224 128a8 8 0 0 1-8 8H40a8 8 0 0 1 0-16h176a8 8 0 0 1 8 8ZM40 72h176a8 8 0 0 0 0-16H40a8 8 0 0 0 0 16Zm176 112H40a8 8 0 0 0 0 16h176a8 8 0 0 0 0-16Z"
-              ></path>
-            </svg></div
-        ></a>
-        <div class="mobile-menu">
-          <div class="mobile-close-container">
-            <a
-              data-w-id="82d689c2-e3f4-4bdf-1ef5-015a71f11ae9"
-              href="#"
-              class="mobile-close-button w-inline-block"
-              ><div class="mobile-close-icon w-embed">
-                <svg
-                  xmlns="http://www.w3.org/2000/svg"
-                  xmlns:xlink="http://www.w3.org/1999/xlink"
-                  aria-hidden="true"
-                  role="img"
-                  class="iconify iconify--ph"
-                  width="100%"
-                  height="100%"
-                  preserveAspectRatio="xMidYMid meet"
-                  viewBox="0 0 256 256"
-                >
-                  <path
-                    fill="currentColor"
-                    d="M205.7 194.3a8.1 8.1 0 0 1 0 11.4a8.2 8.2 0 0 1-11.4 0L128 139.3l-66.3 66.4a8.2 8.2 0 0 1-11.4 0a8.1 8.1 0 0 1 0-11.4l66.4-66.3l-66.4-66.3a8.1 8.1 0 0 1 11.4-11.4l66.3 66.4l66.3-66.4a8.1 8.1 0 0 1 11.4 11.4L139.3 128Z"
-                  ></path>
-                </svg></div
-            ></a>
-          </div>
-          <div class="mobile-nav-menu">
-            <a href="/" aria-current="page" class="mobile-nav-link w--current"
-              >Home</a
-            ><a href="/about" class="mobile-nav-link">About Me</a
-            ><a href="/services" class="mobile-nav-link">Services</a
-            ><a href="/contact" class="mobile-nav-link">Contact</a>
-          </div>
-        </div>
+      <div class="logo">
+          <a href="index.html">ScentGrove</a>
       </div>
-    </nav>
+  
+      <nav class="nav">
+          <ul>
+              <li><a href="index.html">Home</a></li>
+              <li><a href="about.html">About</a></li>
+              <li><a href="service.html">Service</a></li>
+              <li><a href="contact.html">Contact</a></li>
+          </ul>
+      </nav>
+  
+      <div class="burger">
+          <span></span>
+      </div>
+    </div>
+  </header>
 
     <div class="main-content">
       <div class="hero-section for-navbar">
         <div class="container left-align">
           <div class="hero-content">
             <img
-              src="https://uploads-ssl.webflow.com/64060f6d2d10b74e692ad393/64060f6d2d10b717cc2ad3b5_decorative-bg.svg"
-              loading="lazy"
+              src="./img/dec-bg.svg"
               alt=""
               class="hero-bg-image"
             /><img
@@ -135,12 +60,7 @@
               life.
             </p>
             <div class="action-group">
-              <a
-                data-w-id="223d31b7-c3e1-dde9-5863-5e7f14bc9653"
-                href="#"
-                class="button w-button"
-                >Schedule a free call</a
-              ><a href="/contact" class="button button-secondary w-button"
+              <a href="/contact" class="button button-secondary w-button"
                 >Contact me</a
               >
             </div>
@@ -151,11 +71,10 @@
         <div class="container horizontal">
           <div class="services-content">
             <img
-              src="https://uploads-ssl.webflow.com/64060f6d2d10b74e692ad393/64060f6d2d10b77d772ad3ac_avatar-online-therapy.png"
-              loading="lazy"
+              src="./img/s.png"
               height="192"
               width="192"
-              alt="Image of a patient in an online therapy session."
+              alt=""
               class="image-4"
             />
             <div class="services-details">
@@ -168,22 +87,7 @@
               <div class="services-type">
                 <div class="services-item">
                   <div class="phosphor-icon icon32px-relative w-embed">
-                    <svg
-                      xmlns="http://www.w3.org/2000/svg"
-                      xmlns:xlink="http://www.w3.org/1999/xlink"
-                      aria-hidden="true"
-                      role="img"
-                      class="iconify iconify--ph"
-                      width="100%"
-                      height="100%"
-                      preserveAspectRatio="xMidYMid meet"
-                      viewBox="0 0 256 256"
-                    >
-                      <path
-                        fill="currentColor"
-                        d="M231.9 212a120.7 120.7 0 0 0-67.1-54.2a72 72 0 1 0-73.6 0A120.7 120.7 0 0 0 24.1 212a8 8 0 1 0 13.8 8a104.1 104.1 0 0 1 180.2 0a8 8 0 1 0 13.8-8ZM72 96a56 56 0 1 1 56 56a56 56 0 0 1-56-56Z"
-                      ></path>
-                    </svg>
+                   <img src="./img/1.svg" alt="">
                   </div>
                   <div class="services-item-content">
                     <div>Individual</div>
@@ -192,22 +96,7 @@
                 </div>
                 <div class="services-item">
                   <div class="phosphor-icon icon32px-relative w-embed">
-                    <svg
-                      xmlns="http://www.w3.org/2000/svg"
-                      xmlns:xlink="http://www.w3.org/1999/xlink"
-                      aria-hidden="true"
-                      role="img"
-                      class="iconify iconify--ph"
-                      width="100%"
-                      height="100%"
-                      preserveAspectRatio="xMidYMid meet"
-                      viewBox="0 0 256 256"
-                    >
-                      <path
-                        fill="currentColor"
-                        d="M121.2 157.9a60 60 0 1 0-66.4 0a95.5 95.5 0 0 0-45.3 34.9a8 8 0 1 0 13 9.2a80.1 80.1 0 0 1 131 0a8 8 0 1 0 13-9.2a95.5 95.5 0 0 0-45.3-34.9ZM44 108a44 44 0 1 1 44 44a44 44 0 0 1-44-44Zm202.1 95.9A7.9 7.9 0 0 1 235 202a80.2 80.2 0 0 0-65.5-34a8 8 0 0 1 0-16a44 44 0 0 0 0-88a47.4 47.4 0 0 0-11.9 1.6a8 8 0 0 1-9.9-5.5a8.1 8.1 0 0 1 5.5-9.9a64 64 0 0 1 16.3-2.2a59.9 59.9 0 0 1 33.2 109.9a96.3 96.3 0 0 1 45.4 34.9a8 8 0 0 1-2 11.1Z"
-                      ></path>
-                    </svg>
+                    <img src="./img/2.svg" alt="">
                   </div>
                   <div class="services-item-content">
                     <div>Couples</div>
@@ -216,22 +105,7 @@
                 </div>
                 <div class="services-item">
                   <div class="phosphor-icon icon32px-relative w-embed">
-                    <svg
-                      xmlns="http://www.w3.org/2000/svg"
-                      xmlns:xlink="http://www.w3.org/1999/xlink"
-                      aria-hidden="true"
-                      role="img"
-                      class="iconify iconify--ph"
-                      width="100%"
-                      height="100%"
-                      preserveAspectRatio="xMidYMid meet"
-                      viewBox="0 0 256 256"
-                    >
-                      <path
-                        fill="currentColor"
-                        d="M27.2 126.4A7.7 7.7 0 0 0 32 128a8 8 0 0 0 6.4-3.2a52 52 0 0 1 83.1-.1l.6.7h.1l.5.5h.2l.3.3h.1a4.7 4.7 0 0 0 .9.6l.3.2l.9.4h4.5l.7-.2h.1l.8-.3h.2l.5-.3l.3-.2l.3-.2a.1.1 0 0 0 .1-.1l.3-.3a.8.8 0 0 0 .4-.4h.2l.5-.6h.1a52 52 0 0 1 83.2 0a8.1 8.1 0 0 0 11.2 1.6a8 8 0 0 0 1.6-11.2A67.8 67.8 0 0 0 203 93.5a40 40 0 1 0-54 0a68.1 68.1 0 0 0-21 14.3a68.1 68.1 0 0 0-21-14.3a40 40 0 1 0-54 0a67.8 67.8 0 0 0-27.4 21.7a8 8 0 0 0 1.6 11.2ZM152 64a24 24 0 1 1 24 24a24.1 24.1 0 0 1-24-24Zm-96 0a24 24 0 1 1 24 24a24.1 24.1 0 0 1-24-24Zm147 133.5a40 40 0 1 0-54 0a68.1 68.1 0 0 0-21 14.3a68.1 68.1 0 0 0-21-14.3a40 40 0 1 0-54 0a67.8 67.8 0 0 0-27.4 21.7a8 8 0 0 0 1.6 11.2A7.7 7.7 0 0 0 32 232a8 8 0 0 0 6.4-3.2a52 52 0 0 1 83.1-.1l.6.7h.1l.5.5h.2l.3.3h.1l.9.6l.3.2l.9.4h4.5l.7-.2h.1l.8-.3h.2l.5-.3l.3-.2l.3-.2h.1l.3-.3a.8.8 0 0 0 .4-.4h.2l.5-.6h.1a52 52 0 0 1 83.2 0a8.1 8.1 0 0 0 11.2 1.6a8 8 0 0 0 1.6-11.2a67.8 67.8 0 0 0-27.4-21.8ZM56 168a24 24 0 1 1 24 24a24.1 24.1 0 0 1-24-24Zm96 0a24 24 0 1 1 24 24a24.1 24.1 0 0 1-24-24Z"
-                      ></path>
-                    </svg>
+                    <img src="./img/3.svg" alt="">
                   </div>
                   <div class="services-item-content">
                     <div>For Family</div>
@@ -243,17 +117,9 @@
           </div>
           <div class="services-card-list">
             <div
-              data-delay="3000"
-              data-animation="cross"
+              
               class="services-slider w-slider"
-              data-autoplay="true"
-              data-easing="ease"
-              data-hide-arrows="false"
-              data-disable-swipe="true"
-              data-autoplay-limit="0"
-              data-nav-spacing="3"
-              data-duration="500"
-              data-infinite="true"
+              
             >
               <div
                 class="services-slider-mask w-slider-mask"
@@ -265,11 +131,9 @@
                 >
                   <div class="services-card card-shadow" aria-hidden="true">
                     <img
-                      src="https://uploads-ssl.webflow.com/64060f6d2d10b74e692ad393/64060f6d2d10b738b62ad3a5_assessments-graphic-astrology.svg"
-                      loading="lazy"
-                      alt="Icon illustrating the online astrology service."
+                      src="./img/4.svg"
+                      alt=""
                       class="services-card-illustration"
-                      aria-hidden="true"
                     />
                     <h4 aria-hidden="true">Astrology</h4>
                     <div class="divider" aria-hidden="true"></div>
@@ -279,13 +143,7 @@
                       />with psychology to offer a holistic approach to
                       self-discovery.
                     </p>
-                    <a
-                      href="#"
-                      class="button is-button-small button-secondary w-button"
-                      tabindex="-1"
-                      aria-hidden="true"
-                      >Learn More</a
-                    >
+                   
                   </div>
                 </div>
                 
@@ -308,16 +166,7 @@
               >
                 <div class="w-icon-slider-left"></div>
               </div>
-              <div
-                class="right-arrow w-slider-arrow-right"
-                role="button"
-                tabindex="0"
-                aria-controls="w-slider-mask-0"
-                aria-label="next slide"
-                style=""
-              >
-                <div class="w-icon-slider-right"></div>
-              </div>
+              
               
             </div>
             <div class="html-embed w-embed">
@@ -339,8 +188,7 @@
       </div>
       <div class="about-section">
         <img
-          src="https://uploads-ssl.webflow.com/64060f6d2d10b74e692ad393/64060f6d2d10b717cc2ad3b5_decorative-bg.svg"
-          loading="lazy"
+          src="./img/dec-bg.svg"
           alt=""
           class="about-section-image"
         />
@@ -366,16 +214,11 @@
         </div>
         <div class="about-section-container">
           <img
-            src="https://uploads-ssl.webflow.com/64060f6d2d10b74e692ad393/64060f6d2d10b788532ad3ad_about-me-profile.png"
-            loading="lazy"
+            src="./img/m.jpg"
             width="808"
             height="472"
-            srcset="
-              https://uploads-ssl.webflow.com/64060f6d2d10b74e692ad393/64060f6d2d10b788532ad3ad_about-me-profile-p-500.png 500w,
-              https://uploads-ssl.webflow.com/64060f6d2d10b74e692ad393/64060f6d2d10b788532ad3ad_about-me-profile.png       819w
-            "
-            sizes="(max-width: 479px) 93vw, (max-width: 991px) 94vw, 808px"
-            alt="Image of a therapist online focused."
+            
+            alt=""
             class="about-card-image"
           />
           <div class="about-card">
@@ -392,7 +235,7 @@
       </div>
       <div class="section-slider">
         <img
-          src="https://uploads-ssl.webflow.com/64060f6d2d10b74e692ad393/64060f6d2d10b7d0372ad3a7_decorative-bg-two.svg"
+          src="./img/dec-bg2.svg"
           loading="lazy"
           alt=""
           class="bg-section-slider"
@@ -401,35 +244,35 @@
           <div class="specialities-images">
             <div class="specialities-avatars">
               <img
-                src="https://uploads-ssl.webflow.com/64060f6d2d10b74e692ad393/64060f6d2d10b725882ad3b2_avatar-four.png"
+                src="./img/s1.png"
                 loading="lazy"
                 height="96"
                 width="96"
                 alt="Picture of a patient of an online therapist smiling."
                 class="small-avatar-item"
               /><img
-                src="https://uploads-ssl.webflow.com/64060f6d2d10b74e692ad393/64060f6d2d10b793402ad3b3_avatar-three.png"
+                src="./img/s2.png"
                 loading="lazy"
                 width="96"
                 height="96"
                 alt="Picture of a patient of an online therapist smiling."
                 class="small-avatar-item"
               /><img
-                src="https://uploads-ssl.webflow.com/64060f6d2d10b74e692ad393/64060f6d2d10b73e882ad3b1_avatar-two.png"
+                src="./img/s3.png"
                 loading="lazy"
                 height="96"
                 width="96"
                 alt="Picture of a patient of an online therapist smiling."
                 class="small-avatar-item"
               /><img
-                src="https://uploads-ssl.webflow.com/64060f6d2d10b74e692ad393/64060f6d2d10b7a3ab2ad3b4_avatar-one.png"
+                src="./img/s4.png"
                 loading="lazy"
                 alt="Picture of a patient of an online therapist smiling."
                 class="small-avatar-item"
               />
             </div>
             <img
-              src="https://uploads-ssl.webflow.com/64060f6d2d10b74e692ad393/64060f6d2d10b733012ad3ae_therapist-profile.png"
+              src="./img/s5.jpg"
               loading="lazy"
               width="264"
               height="454"
@@ -441,209 +284,26 @@
             <h2 class="maxw482">
               Range of specialties to meet your specific needs.
             </h2>
-            <div class="specialties-slider-wrapper">
-              <div
-                data-delay="1500"
-                data-animation="slide"
-                class="specialties-slider w-slider"
-                data-autoplay="true"
-                data-easing="ease"
-                data-hide-arrows="false"
-                data-disable-swipe="false"
-                data-autoplay-limit="0"
-                data-nav-spacing="3"
-                data-duration="500"
-                data-infinite="true"
-                role="region"
-                aria-label="carousel"
-              >
-                <div
-                  class="specialties-slider-mask w-slider-mask"
-                  id="w-slider-mask-1"
-                >
-                  <div
-                    class="specialties-slider-item w-slide"
-                    aria-label="1 of 4"
-                    role="group"
-                    style="
-                      transform: translateX(0px);
-                      opacity: 1;
-                      transition: transform 500ms ease 0s;
-                    "
-                  >
-                    <div class="specialities-cards">
-                      <div class="content">
-                        <h4>Anxiety disorders</h4>
-                        <p class="text-small text-light">
-                          This is a sample description for a specialties item.
-                          Feel free to replace it as desired.
-                        </p>
-                      </div>
-                    </div>
-                  </div>
-                  <div
-                    class="specialties-slider-item w-slide"
-                    aria-label="2 of 4"
-                    role="group"
-                    style="
-                      transform: translateX(0px);
-                      opacity: 1;
-                      transition: transform 500ms ease 0s;
-                    "
-                    aria-hidden="true"
-                  >
-                    <div class="specialities-cards" aria-hidden="true">
-                      <div class="content" aria-hidden="true">
-                        <h4 aria-hidden="true">Anxiety disorders</h4>
-                        <p class="text-small text-light" aria-hidden="true">
-                          This is a sample description for a specialties item.
-                          Feel free to replace it as desired.
-                        </p>
-                      </div>
-                    </div>
-                  </div>
-                  <div
-                    class="specialties-slider-item w-slide"
-                    aria-label="3 of 4"
-                    role="group"
-                    style="
-                      transform: translateX(0px);
-                      opacity: 1;
-                      transition: transform 500ms ease 0s;
-                    "
-                    aria-hidden="true"
-                  >
-                    <div class="specialities-cards" aria-hidden="true">
-                      <div class="content" aria-hidden="true">
-                        <h4 aria-hidden="true">Anxiety disorders</h4>
-                        <p class="text-small text-light" aria-hidden="true">
-                          This is a sample description for a specialties item.
-                          Feel free to replace it as desired.
-                        </p>
-                      </div>
-                    </div>
-                  </div>
-                  <div
-                    class="specialties-slider-item w-slide"
-                    aria-label="4 of 4"
-                    role="group"
-                    style="
-                      transform: translateX(-1120px);
-                      opacity: 1;
-                      transition: transform 500ms ease 0s;
-                    "
-                    aria-hidden="true"
-                  >
-                    <div class="specialities-cards" aria-hidden="true">
-                      <div class="content" aria-hidden="true">
-                        <h4 aria-hidden="true">Anxiety disorders</h4>
-                        <p class="text-small text-light" aria-hidden="true">
-                          This is a sample description for a specialties item.
-                          Feel free to replace it as desired.
-                        </p>
-                      </div>
-                    </div>
-                  </div>
-                  <div
-                    aria-live="off"
-                    aria-atomic="true"
-                    class="w-slider-aria-label"
-                    data-wf-ignore=""
-                  >
-                    Slide 1 of 4.
-                  </div>
-                </div>
-                <div
-                  class="specialties-left-arrow w-slider-arrow-left"
-                  role="button"
-                  tabindex="0"
-                  aria-controls="w-slider-mask-1"
-                  aria-label="previous slide"
-                >
-                  <div class="phosphor-icon icon32px-absolute w-embed">
-                    <svg
-                      xmlns="http://www.w3.org/2000/svg"
-                      xmlns:xlink="http://www.w3.org/1999/xlink"
-                      aria-hidden="true"
-                      role="img"
-                      class="iconify iconify--ph"
-                      width="100%"
-                      height="100%"
-                      preserveAspectRatio="xMidYMid meet"
-                      viewBox="0 0 256 256"
-                    >
-                      <path
-                        fill="currentColor"
-                        d="M224 128a8 8 0 0 1-8 8H59.3l58.4 58.3a8.1 8.1 0 0 1 0 11.4a8.2 8.2 0 0 1-11.4 0l-72-72a8.1 8.1 0 0 1 0-11.4l72-72a8.1 8.1 0 0 1 11.4 11.4L59.3 120H216a8 8 0 0 1 8 8Z"
-                      ></path>
-                    </svg>
-                  </div>
-                </div>
-                <div
-                  class="specialties-right-arrow w-slider-arrow-right"
-                  role="button"
-                  tabindex="0"
-                  aria-controls="w-slider-mask-1"
-                  aria-label="next slide"
-                >
-                  <div class="phosphor-icon icon32px-absolute w-embed">
-                    <svg
-                      xmlns="http://www.w3.org/2000/svg"
-                      xmlns:xlink="http://www.w3.org/1999/xlink"
-                      aria-hidden="true"
-                      role="img"
-                      class="iconify iconify--ph"
-                      width="100%"
-                      height="100%"
-                      preserveAspectRatio="xMidYMid meet"
-                      viewBox="0 0 256 256"
-                    >
-                      <path
-                        fill="currentColor"
-                        d="m221.7 133.7l-72 72a8.2 8.2 0 0 1-11.4 0a8.1 8.1 0 0 1 0-11.4l58.4-58.3H40a8 8 0 0 1 0-16h156.7l-58.4-58.3a8.1 8.1 0 0 1 11.4-11.4l72 72a8.1 8.1 0 0 1 0 11.4Z"
-                      ></path>
-                    </svg>
-                  </div>
-                </div>
-                <div class="specialties-slider-nav w-slider-nav w-round">
-                  <div
-                    class="w-slider-dot w-active"
-                    data-wf-ignore=""
-                    aria-label="Show slide 1 of 4"
-                    aria-pressed="true"
-                    role="button"
-                    tabindex="0"
-                    style="margin-left: 3px; margin-right: 3px"
-                  ></div>
-                  <div
-                    class="w-slider-dot"
-                    data-wf-ignore=""
-                    aria-label="Show slide 2 of 4"
-                    aria-pressed="false"
-                    role="button"
-                    tabindex="-1"
-                    style="margin-left: 3px; margin-right: 3px"
-                  ></div>
-                  <div
-                    class="w-slider-dot"
-                    data-wf-ignore=""
-                    aria-label="Show slide 3 of 4"
-                    aria-pressed="false"
-                    role="button"
-                    tabindex="-1"
-                    style="margin-left: 3px; margin-right: 3px"
-                  ></div>
-                  <div
-                    class="w-slider-dot"
-                    data-wf-ignore=""
-                    aria-label="Show slide 4 of 4"
-                    aria-pressed="false"
-                    role="button"
-                    tabindex="-1"
-                    style="margin-left: 3px; margin-right: 3px"
-                  ></div>
+            <div class="services-specialities-column">
+              <div class="specialities-cards">
+                <div class="content">
+                  <h4>Anxiety disorders</h4>
+                  <p class="text-small text-light">
+                    This is a sample description for a specialties item. Feel
+                    free to replace it as desired.
+                  </p>
                 </div>
               </div>
+              <div class="specialities-cards">
+                <div class="content">
+                  <h4>Relationship issues</h4>
+                  <p class="text-small text-light">
+                    This is a sample description for a specialties item. Feel
+                    free to replace it as desired.
+                  </p>
+                </div>
+              </div>
+              
             </div>
           </div>
         </div>
@@ -679,15 +339,9 @@
           <div class="about-header-content">
             <div class="hero-about-image">
               <img
-                src="https://uploads-ssl.webflow.com/64060f6d2d10b74e692ad393/64060f6d2d10b7135d2ad3af_therapist-profile-2.png"
-                loading="lazy"
-                sizes="(max-width: 479px) 90vw, (max-width: 991px) 94vw, 928px"
-                srcset="
-                  https://uploads-ssl.webflow.com/64060f6d2d10b74e692ad393/64060f6d2d10b7135d2ad3af_therapist-profile-2-p-500.png  500w,
-                  https://uploads-ssl.webflow.com/64060f6d2d10b74e692ad393/64060f6d2d10b7135d2ad3af_therapist-profile-2-p-800.png  800w,
-                  https://uploads-ssl.webflow.com/64060f6d2d10b74e692ad393/64060f6d2d10b7135d2ad3af_therapist-profile-2.png       1104w
-                "
-                alt="Therapist looking to outside."
+                src="./img/h2.jpg"
+                
+                alt=""
                 class="image-3"
               />
             </div>
@@ -808,7 +462,7 @@
           <div class="services-main-list">
             <div class="services-card card-shadow">
               <img
-                src="https://uploads-ssl.webflow.com/64060f6d2d10b74e692ad393/64060f6d2d10b729362ad3a6_assessments-graphic-psychotherapy.svg"
+                src="./img/5.svg"
                 loading="lazy"
                 alt="Icon illustrating the online psychotherapy service."
                 class="services-card-illustration"
@@ -828,7 +482,7 @@
             </div>
             <div class="services-card card-shadow">
               <img
-                src="https://uploads-ssl.webflow.com/64060f6d2d10b74e692ad393/64060f6d2d10b738b62ad3a5_assessments-graphic-astrology.svg"
+              src="./img/6.svg"
                 loading="lazy"
                 alt="Icon illustrating the online astrology service."
                 class="services-card-illustration"
@@ -848,7 +502,7 @@
             </div>
             <div class="services-card card-shadow">
               <img
-                src="https://uploads-ssl.webflow.com/64060f6d2d10b74e692ad393/64060f6d2d10b74df42ad3a4_assessments-graphic-assessments.svg"
+              src="./img/7.svg"
                 loading="lazy"
                 alt="Icon illustrating the online assessments services."
                 class="services-card-illustration"
@@ -869,8 +523,7 @@
         </div>
         <div class="container">
           <img
-            src="https://uploads-ssl.webflow.com/64060f6d2d10b74e692ad393/64060f6d2d10b717cc2ad3b5_decorative-bg.svg"
-            loading="lazy"
+            src="./img/dec-bg.svg"
             alt=""
             class="services-bg-image"
           />
@@ -963,9 +616,7 @@
       <div class="section">
         <div class="container">
           <div class="cta-content">
-            <div class="tag">
-              <p class="text-small text-dark-secondary">Schedule a free call</p>
-            </div>
+           
             <h2 class="text-center">
               Taking the first step can be overwhelming
             </h2>
@@ -992,9 +643,7 @@
           
           <div class="contact-header-content">
             <div class="contact-header-headline">
-              <div class="tag">
-                <p class="text-small text-dark-secondary">Get in touch</p>
-              </div>
+              
               <h1>Talk with me or schedule a session.</h1>
               <div class="contact-header-text">
                 <p>
@@ -1006,14 +655,9 @@
             </div>
             <div class="contact-header-image">
               <img
-                src="https://uploads-ssl.webflow.com/64060f6d2d10b74e692ad393/64060f6d2d10b749fa2ad3b0_therapist-profile-3.png"
-                loading="lazy"
-                sizes="(max-width: 479px) 93vw, (max-width: 767px) 94vw, (max-width: 991px) 45vw, (max-width: 1279px) 57vw, 608px"
-                srcset="
-                  https://uploads-ssl.webflow.com/64060f6d2d10b74e692ad393/64060f6d2d10b749fa2ad3b0_therapist-profile-3-p-500.png 500w,
-                  https://uploads-ssl.webflow.com/64060f6d2d10b74e692ad393/64060f6d2d10b749fa2ad3b0_therapist-profile-3.png       900w
-                "
-                alt="Online therapist talking with clients on her smartphone."
+                src="./img/c.jpg"
+                
+                alt=""
               />
             </div>
           </div>
@@ -1024,22 +668,7 @@
           <div class="contact-details-options">
             <div class="contact-item">
               <div class="phosphor-icon icon-is-green w-embed">
-                <svg
-                  xmlns="http://www.w3.org/2000/svg"
-                  xmlns:xlink="http://www.w3.org/1999/xlink"
-                  aria-hidden="true"
-                  role="img"
-                  class="iconify iconify--ph"
-                  width="100%"
-                  height="100%"
-                  preserveAspectRatio="xMidYMid meet"
-                  viewBox="0 0 256 256"
-                >
-                  <path
-                    fill="currentColor"
-                    d="M200.1 224h-49.4a266.5 266.5 0 0 0 23.5-23.8c27.4-31.5 41.9-64.8 41.9-96.2a88 88 0 0 0-176 0c0 31.4 14.5 64.7 42 96.2a253.6 253.6 0 0 0 23.5 23.8H56.1a8 8 0 0 0 0 16h144a8 8 0 1 0 0-16Zm-144-120a72 72 0 0 1 144 0c0 57.2-55.5 105-72 118c-16.5-13-72-60.8-72-118Zm112 0a40 40 0 1 0-40 40a40 40 0 0 0 40-40Zm-64 0a24 24 0 1 1 24 24a24.1 24.1 0 0 1-24-24Z"
-                  ></path>
-                </svg>
+                <img src="./img/lo.svg" alt="">
               </div>
               <h4>Location</h4>
               <div class="text-small text-light">
@@ -1049,22 +678,7 @@
             </div>
             <div class="contact-item">
               <div class="phosphor-icon icon-is-green w-embed">
-                <svg
-                  xmlns="http://www.w3.org/2000/svg"
-                  xmlns:xlink="http://www.w3.org/1999/xlink"
-                  aria-hidden="true"
-                  role="img"
-                  class="iconify iconify--ph"
-                  width="100%"
-                  height="100%"
-                  preserveAspectRatio="xMidYMid meet"
-                  viewBox="0 0 256 256"
-                >
-                  <path
-                    fill="currentColor"
-                    d="M176 224C96.6 224 32 159.4 32 80a56.2 56.2 0 0 1 48.9-55.6A16.3 16.3 0 0 1 97.6 34l20.1 46.9a15.9 15.9 0 0 1-1.4 15.1l-16.6 25.4a76.5 76.5 0 0 0 35.2 35l25.1-16.7a15.6 15.6 0 0 1 15.1-1.3l46.9 20a16.3 16.3 0 0 1 9.6 16.7A56.2 56.2 0 0 1 176 224ZM82.9 40.3A40 40 0 0 0 48 80a128.1 128.1 0 0 0 128 128a40 40 0 0 0 39.7-34.9l-46.9-20l-25 16.7a16 16 0 0 1-15.7 1.1a92.5 92.5 0 0 1-42.8-42.6a16 16 0 0 1 1-15.7L103 87.2ZM135 156.5Z"
-                  ></path>
-                </svg>
+                <img src="./img/ph.svg" alt="">
               </div>
               <h4>Phone</h4>
               <div class="text-small text-light">
@@ -1074,22 +688,7 @@
             </div>
             <div class="contact-item">
               <div class="phosphor-icon icon-is-green w-embed">
-                <svg
-                  xmlns="http://www.w3.org/2000/svg"
-                  xmlns:xlink="http://www.w3.org/1999/xlink"
-                  aria-hidden="true"
-                  role="img"
-                  class="iconify iconify--ph"
-                  width="100%"
-                  height="100%"
-                  preserveAspectRatio="xMidYMid meet"
-                  viewBox="0 0 256 256"
-                >
-                  <path
-                    fill="currentColor"
-                    d="M224 48H32a8 8 0 0 0-8 8v136a16 16 0 0 0 16 16h176a16 16 0 0 0 16-16V56a8 8 0 0 0-8-8Zm-20.6 16L128 133.1L52.6 64ZM216 192H40V74.2l82.6 75.7a8 8 0 0 0 10.8 0L216 74.2V192Z"
-                  ></path>
-                </svg>
+                <img src="./img/em.svg" alt="">
               </div>
               <h4>Mail</h4>
               <div class="text-small text-light">
@@ -1111,7 +710,7 @@
                 id="wf-form-Contact-Form"
                 name="wf-form-Contact-Form"
                 data-name="Contact Form"
-                method="get"
+                method="post"
                 class="contact-form"
                 aria-label="Contact Form"
               >
@@ -1121,38 +720,19 @@
                       type="text"
                       class="form-input w-input"
                       maxlength="256"
-                      name="First-Name"
-                      data-name="First Name"
-                      placeholder="First Name"
-                      id="First-Name-Contact"
-                    /><input
+                      name="Name"
+                      data-name="Name"
+                      placeholder="Name"
+                    />
+                  </div>
+                  <div class="contact-form-column">
+                    <input
                       type="email"
                       class="form-input w-input"
                       maxlength="256"
                       name="Email"
                       data-name="Email"
                       placeholder="Email"
-                      id="Email-Contact"
-                      required=""
-                    />
-                  </div>
-                  <div class="contact-form-column">
-                    <input
-                      type="text"
-                      class="form-input w-input"
-                      maxlength="256"
-                      name="Last-Name"
-                      data-name="Last Name"
-                      placeholder="Last Name"
-                      id="Last-Name-Contact"
-                    /><input
-                      type="tel"
-                      class="form-input w-input"
-                      maxlength="256"
-                      name="Phone"
-                      data-name="Phone"
-                      placeholder="Phone"
-                      id="Phone-Contact"
                       required=""
                     />
                   </div>
@@ -1164,8 +744,28 @@
                   name="Message"
                   data-name="Message"
                   class="form-input text-area w-input"
+                  required=""
                 ></textarea
-                ><input
+                >
+                <div class="dyjdjtjyjyjyjyj">
+                  <input
+                    class="dyjdjtjyjyjyjyj-cont"
+                    name="Checkbox"
+                    type="checkbox"
+                    value="on"
+                    id="privacy_policy_check"
+                    required
+                  />
+                  <ejydj
+                    class="form-dyjdjtjyjyjyjyj"
+                    for="privacy_policy_check"
+                  >
+                    I accept the
+                    <a href="privacy.html" target="_blank" class="check"
+                      >Privacy Policy</a
+                    >
+                  </ejydj>
+                </div><input
                   type="submit"
                   value="Submit"
                   data-wait="Please wait..."
@@ -1202,9 +802,7 @@
       <div class="section">
         <div class="container">
           <div class="cta-content">
-            <div class="tag">
-              <p class="text-small text-dark-secondary">Schedule a free call</p>
-            </div>
+            
             <h2 class="text-center">
               Taking the first step can be overwhelming
             </h2>
@@ -1226,85 +824,17 @@
     <footer class="footer">
       <div class="footer-container">
         <div class="text-block">
-          Mindcure by Strides Digital |
+          
           <a href="/template/licenses">Licensing</a> |
-          <a href="https://webflow.com" target="_blank">Powered by Webflow</a
-          ><br />
+          <a href="/template/licenses">Licensing</a> |
+          <a href="/template/licenses">Licensing</a> |
+          <a href="/template/licenses">Licensing</a> |
+          <br />
         </div>
         <div class="social-list">
-          <a href="#" target="_blank" class="social-channel w-inline-block"
-            ><div class="instagram-logo w-embed">
-              <svg
-                xmlns="http://www.w3.org/2000/svg"
-                xmlns:xlink="http://www.w3.org/1999/xlink"
-                aria-hidden="true"
-                role="img"
-                class="iconify iconify--ph"
-                width="100%"
-                height="100%"
-                preserveAspectRatio="xMidYMid meet"
-                viewBox="0 0 256 256"
-              >
-                <path
-                  fill="currentColor"
-                  d="M128 80a48 48 0 1 0 48 48a48 48 0 0 0-48-48Zm0 80a32 32 0 1 1 32-32a32.1 32.1 0 0 1-32 32Zm44-132H84a56 56 0 0 0-56 56v88a56 56 0 0 0 56 56h88a56 56 0 0 0 56-56V84a56 56 0 0 0-56-56Zm40 144a40 40 0 0 1-40 40H84a40 40 0 0 1-40-40V84a40 40 0 0 1 40-40h88a40 40 0 0 1 40 40Zm-20-96a12 12 0 1 1-12-12a12 12 0 0 1 12 12Z"
-                ></path>
-              </svg></div></a
-          ><a href="#" target="_blank" class="social-channel w-inline-block"
-            ><div class="twitter-logo w-embed">
-              <svg
-                xmlns="http://www.w3.org/2000/svg"
-                xmlns:xlink="http://www.w3.org/1999/xlink"
-                aria-hidden="true"
-                role="img"
-                class="iconify iconify--ph"
-                width="100%"
-                height="100%"
-                preserveAspectRatio="xMidYMid meet"
-                viewBox="0 0 256 256"
-              >
-                <path
-                  fill="currentColor"
-                  d="m245.7 77.7l-30.2 30.1c-6 69.9-65 124.2-135.5 124.2c-14.5 0-26.5-2.3-35.6-6.8c-7.3-3.7-10.3-7.6-11.1-8.8a8 8 0 0 1 3.9-11.9c.2-.1 23.8-9.1 39.1-26.4a108.6 108.6 0 0 1-24.7-24.4c-13.7-18.6-28.2-50.9-19.5-99.1a8.1 8.1 0 0 1 5.5-6.2a8 8 0 0 1 8.1 1.9c.3.4 33.6 33.2 74.3 43.8V88a48.3 48.3 0 0 1 48.6-48a48.2 48.2 0 0 1 41 24H240a8 8 0 0 1 7.4 4.9a8.4 8.4 0 0 1-1.7 8.8Z"
-                ></path>
-              </svg></div></a
-          ><a href="#" target="_blank" class="social-channel w-inline-block"
-            ><div class="linkedin-logo w-embed">
-              <svg
-                xmlns="http://www.w3.org/2000/svg"
-                xmlns:xlink="http://www.w3.org/1999/xlink"
-                aria-hidden="true"
-                role="img"
-                class="iconify iconify--ph"
-                width="100%"
-                height="100%"
-                preserveAspectRatio="xMidYMid meet"
-                viewBox="0 0 256 256"
-              >
-                <path
-                  fill="currentColor"
-                  d="M212 28H44a16 16 0 0 0-16 16v168a16 16 0 0 0 16 16h168a16 16 0 0 0 16-16V44a16 16 0 0 0-16-16ZM96 176a8 8 0 0 1-16 0v-64a8 8 0 0 1 16 0Zm-8-84a12 12 0 1 1 12-12a12 12 0 0 1-12 12Zm96 84a8 8 0 0 1-16 0v-36a20 20 0 0 0-40 0v36a8 8 0 0 1-16 0v-64a8 8 0 0 1 15.8-1.8A36 36 0 0 1 184 140Z"
-                ></path>
-              </svg></div></a
-          ><a href="#" target="_blank" class="social-channel w-inline-block"
-            ><div class="figma-logo w-embed">
-              <svg
-                xmlns="http://www.w3.org/2000/svg"
-                xmlns:xlink="http://www.w3.org/1999/xlink"
-                aria-hidden="true"
-                role="img"
-                class="iconify iconify--ph"
-                width="100%"
-                height="100%"
-                preserveAspectRatio="xMidYMid meet"
-                viewBox="0 0 256 256"
-              >
-                <path
-                  fill="currentColor"
-                  d="M186.6 94A42 42 0 0 0 162 18H94a42 42 0 0 0-24.6 76a41.9 41.9 0 0 0 0 68a42 42 0 1 0 66.6 34v-35.1A42 42 0 1 0 186.6 94Zm1.4-34a26.1 26.1 0 0 1-26 26h-26V34h26a26.1 26.1 0 0 1 26 26ZM68 60a26.1 26.1 0 0 1 26-26h26v52H94a26.1 26.1 0 0 1-26-26Zm0 68a26.1 26.1 0 0 1 26-26h26v52H94a26.1 26.1 0 0 1-26-26Zm26 94a26 26 0 0 1 0-52h26v26a26.1 26.1 0 0 1-26 26Zm68-68a26 26 0 0 1 0-52a26 26 0 0 1 0 52Z"
-                ></path>
-              </svg></div
-          ></a>
+          <a href="/template/licenses">Licensing</a> |
+          <a href="/template/licenses">Licensing</a> |
+          <a href="/template/licenses">Licensing</a> |
         </div>
       </div>
     </footer>
