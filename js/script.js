@@ -23,23 +23,20 @@ document.querySelectorAll(".bnv-question").forEach((question) => {
 });
 
 document.addEventListener("DOMContentLoaded", function () {
-  const accordionContents = document.querySelectorAll(".accordion-content");
+  const xbvContents = document.querySelectorAll(".xbv-content");
 
-  accordionContents.forEach((content) => {
-    const accordionUpper = content.querySelector(".accordion-upper");
-    const accordionLower = content.querySelector(".accordion-lower");
+  xbvContents.forEach((content) => {
+    const xbvUpper = content.querySelector(".xbv-upper");
+    const xbvLower = content.querySelector(".xbv-lower");
 
-    accordionUpper.addEventListener("click", function () {
-      if (
-        accordionLower.style.height === "0px" ||
-        accordionLower.style.height === ""
-      ) {
-        accordionLower.style.height = `${accordionLower.scrollHeight}px`;
+    xbvUpper.addEventListener("click", function () {
+      if (xbvLower.style.height === "0px" || xbvLower.style.height === "") {
+        xbvLower.style.height = `${xbvLower.scrollHeight}px`;
       } else {
-        accordionLower.style.height = "0px";
+        xbvLower.style.height = "0px";
       }
 
-      const arrowIcon = accordionUpper.querySelector(".accordion-arrow");
+      const arrowIcon = xbvUpper.querySelector(".xbv-arrow");
       arrowIcon.classList.toggle("rotate-arrow");
     });
   });
