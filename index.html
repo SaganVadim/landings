@@ -17,331 +17,2044 @@
     />
 
     <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
-    <link rel="stylesheet" href="./css/style.css" />
+    <link rel="stylesheet" href="./css/main.css" />
   </head>
   <body>
-    <div class="page">
-      <div class="thrn tehbr ehbrbh">
-        <header class="header">
-          <div class="rhjr">
-            <a href="index.html">TrailTrove</a>
-          </div>
-
-          <nav class="nav">
-            <ul>
-              <li><a href="index.html">Home</a></li>
-              <li><a href="about.html">About</a></li>
-              <li><a href="Contact.html">Contact</a></li>
-            </ul>
-          </nav>
-
-          <div class="nfrnr">
-            <span></span>
-          </div>
-        </header>
-      </div>
-
-      <section class="section">
-        <div class="thrn tehb ehbrbh">
-          <div class="row-2">
-            <div class="ynjrt">
-              <h1 class="tumk">
-                TrailTrove Gear - Explore the Wilderness with Style
-              </h1>
+    <div class="page-wrapper">
+      <header class="header">
+        <div class="global-padding">
+          <div class="padding-vertical padding-s">
+            <div class="header-container">
+              <div class="header-navigation-wrapper left" style="">
+                <ul role="list" class="header-nav-list w-list-unstyled">
+                  <li class="header-nav-list-item">
+                    <a
+                      href="/"
+                      aria-current="page"
+                      class="header-nav-link w-inline-block w--current"
+                      ><div>Home</div>
+                      <div
+                        class="nav-link-underline"
+                        style="
+                          transform: translate3d(-101%, 0px, 0px)
+                            scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg)
+                            rotateZ(0deg) skew(0deg, 0deg);
+                          transform-style: preserve-3d;
+                        "
+                      ></div
+                    ></a>
+                  </li>
+                  <li class="header-nav-list-item">
+                    <a href="/about" class="header-nav-link w-inline-block"
+                      ><div>About</div>
+                      <div
+                        class="nav-link-underline"
+                        style="
+                          transform: translate3d(-101%, 0px, 0px)
+                            scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg)
+                            rotateZ(0deg) skew(0deg, 0deg);
+                          transform-style: preserve-3d;
+                        "
+                      ></div
+                    ></a>
+                  </li>
+                  <li class="header-nav-list-item">
+                    <a href="/portfolio" class="header-nav-link w-inline-block"
+                      ><div>Portfolio</div>
+                      <div
+                        class="nav-link-underline"
+                        style="
+                          transform: translate3d(-101%, 0px, 0px)
+                            scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg)
+                            rotateZ(0deg) skew(0deg, 0deg);
+                          transform-style: preserve-3d;
+                        "
+                      ></div
+                    ></a>
+                  </li>
+                  <li class="header-nav-list-item">
+                    <a href="/services" class="header-nav-link w-inline-block"
+                      ><div>Services</div>
+                      <div
+                        class="nav-link-underline"
+                        style="
+                          transform: translate3d(-101%, 0px, 0px)
+                            scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg)
+                            rotateZ(0deg) skew(0deg, 0deg);
+                          transform-style: preserve-3d;
+                        "
+                      ></div
+                    ></a>
+                  </li>
+                  <li class="header-nav-list-item mobile-only">
+                    <a href="/contact" class="header-nav-link w-inline-block"
+                      ><div>Contact</div>
+                      <div
+                        class="nav-link-underline"
+                        style="
+                          transform: translate3d(-101%, 0px, 0px)
+                            scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg)
+                            rotateZ(0deg) skew(0deg, 0deg);
+                          transform-style: preserve-3d;
+                        "
+                      ></div
+                    ></a>
+                  </li>
+                  <li class="header-nav-list-item mobile-only">
+                    <a href="#" class="header-social-link w-inline-block"
+                      ><div class="social-icon w-embed">
+                        <svg
+                          xmlns="http://www.w3.org/2000/svg"
+                          width="100%"
+                          height="100%"
+                          viewBox="0 0 9 15"
+                          fill="currentColor"
+                        >
+                          <path
+                            d="M8.47019 8.4375L8.88679 5.72285H6.282V3.96123C6.282 3.21856 6.64587 2.49463 7.81247 2.49463H8.99665V0.183398C8.99665 0.183398 7.92204 0 6.8946 0C4.74948 0 3.34733 1.3002 3.34733 3.65391V5.72285H0.96286V8.4375H3.34733V15H6.282V8.4375H8.47019Z"
+                          ></path>
+                        </svg></div></a
+                    ><a href="#" class="header-social-link w-inline-block"
+                      ><div class="social-icon w-embed">
+                        <svg
+                          xmlns="http://www.w3.org/2000/svg"
+                          width="100%"
+                          height="100%"
+                          viewBox="0 0 16 15"
+                          fill="currentColor"
+                        >
+                          <path
+                            d="M8.5 3.65419C6.37125 3.65419 4.65419 5.37125 4.65419 7.5C4.65419 9.62875 6.37125 11.3458 8.5 11.3458C10.6287 11.3458 12.3458 9.62875 12.3458 7.5C12.3458 5.37125 10.6287 3.65419 8.5 3.65419ZM8.5 10.0003C7.12434 10.0003 5.99972 8.879 5.99972 7.5C5.99972 6.121 7.121 4.99972 8.5 4.99972C9.879 4.99972 11.0003 6.121 11.0003 7.5C11.0003 8.879 9.87565 10.0003 8.5 10.0003ZM13.4001 3.49688C13.4001 3.99559 12.9985 4.3939 12.5031 4.3939C12.0044 4.3939 11.6061 3.99225 11.6061 3.49688C11.6061 3.00151 12.0078 2.59985 12.5031 2.59985C12.9985 2.59985 13.4001 3.00151 13.4001 3.49688ZM15.9473 4.40729C15.8904 3.20568 15.6159 2.1413 14.7356 1.26436C13.8587 0.387426 12.7943 0.112964 11.5927 0.0527167C10.3543 -0.0175722 6.64236 -0.0175722 5.40394 0.0527167C4.20568 0.109617 3.1413 0.384079 2.26102 1.26102C1.38073 2.13796 1.10962 3.20233 1.04937 4.40394C0.979078 5.64236 0.979078 9.35429 1.04937 10.5927C1.10627 11.7943 1.38073 12.8587 2.26102 13.7356C3.1413 14.6126 4.20233 14.887 5.40394 14.9473C6.64236 15.0176 10.3543 15.0176 11.5927 14.9473C12.7943 14.8904 13.8587 14.6159 14.7356 13.7356C15.6126 12.8587 15.887 11.7943 15.9473 10.5927C16.0176 9.35429 16.0176 5.64571 15.9473 4.40729ZM14.3474 11.9215C14.0863 12.5775 13.5809 13.083 12.9215 13.3474C11.9341 13.739 9.59115 13.6486 8.5 13.6486C7.40885 13.6486 5.06253 13.7356 4.07849 13.3474C3.42246 13.0863 2.91705 12.5809 2.65263 11.9215C2.26102 10.9341 2.35139 8.59115 2.35139 7.5C2.35139 6.40885 2.26436 4.06253 2.65263 3.07849C2.9137 2.42246 3.41911 1.91705 4.07849 1.65263C5.06588 1.26102 7.40885 1.35139 8.5 1.35139C9.59115 1.35139 11.9375 1.26436 12.9215 1.65263C13.5775 1.9137 14.0829 2.41911 14.3474 3.07849C14.739 4.06588 14.6486 6.40885 14.6486 7.5C14.6486 8.59115 14.739 10.9375 14.3474 11.9215Z"
+                          ></path>
+                        </svg></div></a
+                    ><a href="#" class="header-social-link w-inline-block"
+                      ><div class="social-icon w-embed">
+                        <svg
+                          xmlns="http://www.w3.org/2000/svg"
+                          width="100%"
+                          height="100%"
+                          viewBox="0 0 15 15"
+                          fill="currentColor"
+                        >
+                          <path
+                            d="M3.35759 15H0.247768V4.98527H3.35759V15ZM1.801 3.61917C0.806585 3.61917 0 2.79549 0 1.80104C7.11763e-09 1.32338 0.189748 0.865275 0.527502 0.527514C0.865256 0.189752 1.32335 0 1.801 0C2.27866 0 2.73675 0.189752 3.07451 0.527514C3.41226 0.865275 3.60201 1.32338 3.60201 1.80104C3.60201 2.79549 2.79509 3.61917 1.801 3.61917ZM14.9967 15H11.8935V10.1249C11.8935 8.96303 11.8701 7.47305 10.2767 7.47305C8.65982 7.47305 8.41205 8.73535 8.41205 10.0412V15H5.30558V4.98527H8.28817V6.35137H8.3317C8.74687 5.56452 9.76105 4.73415 11.2741 4.73415C14.4214 4.73415 15 6.80674 15 9.49876V15H14.9967Z"
+                          ></path>
+                        </svg></div
+                    ></a>
+                  </li>
+                </ul>
+              </div>
+              <a
+                href="/"
+                aria-current="page"
+                class="header-logo-link w-inline-block w--current"
+                ><img
+                  src="https://assets-global.website-files.com/65527f18270735d5ecb2bdf3/65527f18270735d5ecb2be03_Archvista%20Logo.svg"
+                  loading="lazy"
+                  alt=""
+                  class="header-logo"
+              /></a>
+              <div class="header-navigation-wrapper right">
+                <ul role="list" class="header-nav-list w-list-unstyled">
+                  <li class="header-nav-list-item">
+                    <a href="#" class="header-social-link w-inline-block"
+                      ><div class="social-icon w-embed">
+                        <svg
+                          xmlns="http://www.w3.org/2000/svg"
+                          width="100%"
+                          height="100%"
+                          viewBox="0 0 9 15"
+                          fill="currentColor"
+                        >
+                          <path
+                            d="M8.47019 8.4375L8.88679 5.72285H6.282V3.96123C6.282 3.21856 6.64587 2.49463 7.81247 2.49463H8.99665V0.183398C8.99665 0.183398 7.92204 0 6.8946 0C4.74948 0 3.34733 1.3002 3.34733 3.65391V5.72285H0.96286V8.4375H3.34733V15H6.282V8.4375H8.47019Z"
+                          ></path>
+                        </svg></div></a
+                    ><a href="#" class="header-social-link w-inline-block"
+                      ><div class="social-icon w-embed">
+                        <svg
+                          xmlns="http://www.w3.org/2000/svg"
+                          width="100%"
+                          height="100%"
+                          viewBox="0 0 16 15"
+                          fill="currentColor"
+                        >
+                          <path
+                            d="M8.5 3.65419C6.37125 3.65419 4.65419 5.37125 4.65419 7.5C4.65419 9.62875 6.37125 11.3458 8.5 11.3458C10.6287 11.3458 12.3458 9.62875 12.3458 7.5C12.3458 5.37125 10.6287 3.65419 8.5 3.65419ZM8.5 10.0003C7.12434 10.0003 5.99972 8.879 5.99972 7.5C5.99972 6.121 7.121 4.99972 8.5 4.99972C9.879 4.99972 11.0003 6.121 11.0003 7.5C11.0003 8.879 9.87565 10.0003 8.5 10.0003ZM13.4001 3.49688C13.4001 3.99559 12.9985 4.3939 12.5031 4.3939C12.0044 4.3939 11.6061 3.99225 11.6061 3.49688C11.6061 3.00151 12.0078 2.59985 12.5031 2.59985C12.9985 2.59985 13.4001 3.00151 13.4001 3.49688ZM15.9473 4.40729C15.8904 3.20568 15.6159 2.1413 14.7356 1.26436C13.8587 0.387426 12.7943 0.112964 11.5927 0.0527167C10.3543 -0.0175722 6.64236 -0.0175722 5.40394 0.0527167C4.20568 0.109617 3.1413 0.384079 2.26102 1.26102C1.38073 2.13796 1.10962 3.20233 1.04937 4.40394C0.979078 5.64236 0.979078 9.35429 1.04937 10.5927C1.10627 11.7943 1.38073 12.8587 2.26102 13.7356C3.1413 14.6126 4.20233 14.887 5.40394 14.9473C6.64236 15.0176 10.3543 15.0176 11.5927 14.9473C12.7943 14.8904 13.8587 14.6159 14.7356 13.7356C15.6126 12.8587 15.887 11.7943 15.9473 10.5927C16.0176 9.35429 16.0176 5.64571 15.9473 4.40729ZM14.3474 11.9215C14.0863 12.5775 13.5809 13.083 12.9215 13.3474C11.9341 13.739 9.59115 13.6486 8.5 13.6486C7.40885 13.6486 5.06253 13.7356 4.07849 13.3474C3.42246 13.0863 2.91705 12.5809 2.65263 11.9215C2.26102 10.9341 2.35139 8.59115 2.35139 7.5C2.35139 6.40885 2.26436 4.06253 2.65263 3.07849C2.9137 2.42246 3.41911 1.91705 4.07849 1.65263C5.06588 1.26102 7.40885 1.35139 8.5 1.35139C9.59115 1.35139 11.9375 1.26436 12.9215 1.65263C13.5775 1.9137 14.0829 2.41911 14.3474 3.07849C14.739 4.06588 14.6486 6.40885 14.6486 7.5C14.6486 8.59115 14.739 10.9375 14.3474 11.9215Z"
+                          ></path>
+                        </svg></div></a
+                    ><a href="#" class="header-social-link w-inline-block"
+                      ><div class="social-icon w-embed">
+                        <svg
+                          xmlns="http://www.w3.org/2000/svg"
+                          width="100%"
+                          height="100%"
+                          viewBox="0 0 15 15"
+                          fill="currentColor"
+                        >
+                          <path
+                            d="M3.35759 15H0.247768V4.98527H3.35759V15ZM1.801 3.61917C0.806585 3.61917 0 2.79549 0 1.80104C7.11763e-09 1.32338 0.189748 0.865275 0.527502 0.527514C0.865256 0.189752 1.32335 0 1.801 0C2.27866 0 2.73675 0.189752 3.07451 0.527514C3.41226 0.865275 3.60201 1.32338 3.60201 1.80104C3.60201 2.79549 2.79509 3.61917 1.801 3.61917ZM14.9967 15H11.8935V10.1249C11.8935 8.96303 11.8701 7.47305 10.2767 7.47305C8.65982 7.47305 8.41205 8.73535 8.41205 10.0412V15H5.30558V4.98527H8.28817V6.35137H8.3317C8.74687 5.56452 9.76105 4.73415 11.2741 4.73415C14.4214 4.73415 15 6.80674 15 9.49876V15H14.9967Z"
+                          ></path>
+                        </svg></div
+                    ></a>
+                  </li>
+                  <li class="header-nav-list-item">
+                    <a
+                      href="/contact"
+                      class="primary-button darkest w-inline-block"
+                      ><div
+                        class="primary-button-background background-light"
+                        style="width: 0%"
+                      ></div>
+                      <div class="primary-button-inner">
+                        <div class="text-size-small">Contact Us</div>
+                        <div class="button-icon-wrapper">
+                          <div
+                            class="button-icon main w-embed"
+                            style="
+                              transform: translate3d(0%, 0%, 0px)
+                                scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg)
+                                rotateZ(0deg) skew(0deg, 0deg);
+                              transform-style: preserve-3d;
+                            "
+                          >
+                            <svg
+                              xmlns="http://www.w3.org/2000/svg"
+                              width="100%"
+                              height="100%"
+                              viewBox="0 0 16 11"
+                              fill="none"
+                              stroke="currentColor"
+                            >
+                              <path
+                                d="M0.5 5.5H14.5M14.5 5.5L9.5 0.5M14.5 5.5L9.5 10.5"
+                              ></path>
+                            </svg>
+                          </div>
+                          <div
+                            class="button-icon alt w-embed"
+                            style="
+                              transform: translate3d(-100%, -100%, 0px)
+                                scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg)
+                                rotateZ(0deg) skew(0deg, 0deg);
+                              transform-style: preserve-3d;
+                            "
+                          >
+                            <svg
+                              xmlns="http://www.w3.org/2000/svg"
+                              width="100%"
+                              height="100%"
+                              viewBox="0 0 16 11"
+                              fill="none"
+                              stroke="currentColor"
+                            >
+                              <path
+                                d="M0.5 5.5H14.5M14.5 5.5L9.5 0.5M14.5 5.5L9.5 10.5"
+                              ></path>
+                            </svg>
+                          </div>
+                        </div></div
+                    ></a>
+                  </li>
+                </ul>
+              </div>
+              <div
+                data-w-id="5b48b945-c78d-cf14-317b-6b67e6404ab9"
+                class="header-menu-button"
+              >
+                <div class="menu-button-line top" style=""></div>
+                <div class="menu-button-line bottom" style=""></div>
+              </div>
             </div>
-            <div id="wetr4" class="wgrethn">
-              <div class="row-2">
-                <p class="vwvwvw">
-                  Embark on your outdoor adventures with TrailTrove Gear, where
-                  our commitment is to design for a sustainable journey. We
-                  believe that camping and travel gear should not only be
-                  visually appealing but also contribute to environmental
-                  well-being.
-                </p>
-                <div class="col-1-flex">
-                  <a href="Contact.html" class="nnmm wergew-2 qrwe"
-                    ><div>Contact Us</div></a
+          </div>
+        </div>
+      </header>
+
+      <main class="main-wrapper">
+        <section class="page-section">
+          <div class="global-padding">
+            <div class="padding-vertical padding-hero">
+              <div class="hero-one-container">
+                <div class="hero-one-side-content left">
+                  <div class="heading-five text-color-accent">
+                    Home design since 1984
+                  </div>
+                </div>
+                <div class="hero-one-middle-content">
+                  <div class="hero-one-title">
+                    <h1 class="text-align-center">Contemporary</h1>
+                    <h1 class="text-align-center">Architecture</h1>
+                  </div>
+                  <div class="hero-one-image image-bg">
+                    <div class="background-image">
+                      <img
+                        src="https://assets-global.website-files.com/65527f18270735d5ecb2bdf3/65527f18270735d5ecb2be0e_r-architecture-T6d96Qrb5MY-unsplash%20(1).webp"
+                        alt=""
+                        class="image parallax"
+                      />
+                    </div>
+                  </div>
+                </div>
+                <div class="hero-one-side-content right">
+                  <div class="heading-five text-color-accent">
+                    Based in Portland, OR
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <section class="page-section">
+          <div class="global-padding">
+            <div class="padding-vertical padding-xxxl">
+              <div class="container-large">
+                <div class="margin-bottom margin-xl">
+                  <h2>
+                    An architecture firm like no other; crafting beautiful,
+                    modern properties with a focus on sustainability.
+                  </h2>
+                </div>
+                <div class="divider-line background-light"></div>
+                <div class="margin-top margin-xl">
+                  <div class="text-component-one-lower">
+                    <p class="text-color-accent">
+                      Occaecat non fugiat anim nisi ad sint elit. Non labore ut
+                      eu pariatur laboris consectetur sint consequat pariatur
+                      excepteur dolore nulla ad. Aliquip eiusmod amet anim sunt
+                      cillum laboris esse. Ullamco id et aliqua commodo. Fugiat
+                      anim nisi ad sint elit. Non labore ut eu pariatur laboris
+                      consectetur sint consequat pariatur excepteur dolore nulla
+                      ad. Aliquip eiusmod amet anim sunt cillum laboris esse.
+                      Ullamco id et aliqua commodo.
+                    </p>
+                    <div class="text-component-one-button-wrapper">
+                      <a
+                        href="/about"
+                        class="primary-button darkest w-inline-block"
+                        ><div
+                          class="primary-button-background background-light"
+                        ></div>
+                        <div class="primary-button-inner">
+                          <div class="text-size-small">About Us</div>
+                          <div class="button-icon-wrapper">
+                            <div class="button-icon main w-embed">
+                              <svg
+                                xmlns="http://www.w3.org/2000/svg"
+                                width="100%"
+                                height="100%"
+                                viewBox="0 0 16 11"
+                                fill="none"
+                                stroke="currentColor"
+                              >
+                                <path
+                                  d="M0.5 5.5H14.5M14.5 5.5L9.5 0.5M14.5 5.5L9.5 10.5"
+                                ></path>
+                              </svg>
+                            </div>
+                            <div class="button-icon alt w-embed"></div>
+                          </div></div
+                      ></a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <section class="page-section">
+          <div class="global-padding">
+            <div class="padding-vertical padding-none">
+              <div class="grid-content-component-one">
+                <div
+                  id="w-node-_8c4c475a-1ea3-d249-ac13-21e3583998df-583998de"
+                  class="grid-content-upper-box image-bg"
+                >
+                  <div class="background-image">
+                    <div class="image-overlay darkest-600"></div>
+                    <img
+                      src="https://assets-global.website-files.com/65527f18270735d5ecb2bdf3/65527f18270735d5ecb2be18_r-architecture-wJAOeXvxudM-unsplash%20(1).webp"
+                      alt=""
+                      class=""
+                    />
+                  </div>
+                  <div class="padding-xl">
+                    <div class="grid-content-upper-box-inner">
+                      <div class="container">
+                        <div class="margin-bottom margin-s">
+                          <div class="heading-five text-color-light">
+                            Our services
+                          </div>
+                        </div>
+                        <h2 class="heading-three text-color-lightest">
+                          From exteriors, to interiors, we'll guide your project
+                          from start to finish.
+                        </h2>
+                      </div>
+                      <div class="grid-content-button-container">
+                        <a
+                          href="/services"
+                          class="secondary-button lightest w-inline-block"
+                          ><div class="secondary-button-inner">
+                            <div class="text-size-small">View our services</div>
+                            <div class="button-icon w-embed">
+                              <svg
+                                xmlns="http://www.w3.org/2000/svg"
+                                width="100%"
+                                height="100%"
+                                viewBox="0 0 16 11"
+                                fill="none"
+                                stroke="currentColor"
+                              >
+                                <path
+                                  d="M0.5 5.5H14.5M14.5 5.5L9.5 0.5M14.5 5.5L9.5 10.5"
+                                ></path>
+                              </svg>
+                            </div></div
+                        ></a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="grid-content-lower-left-box background-darkest">
+                  <div class="padding-xl">
+                    <div class="grid-content-lower-left-box-inner">
+                      <div class="container">
+                        <div class="margin-bottom margin-s">
+                          <div class="heading-five text-color-light">
+                            Get in touch
+                          </div>
+                        </div>
+                        <h2 class="heading-three text-color-lightest">
+                          Ready to get started?
+                        </h2>
+                      </div>
+                      <div class="grid-content-button-container">
+                        <a
+                          href="/contact"
+                          class="secondary-button lightest w-inline-block"
+                          ><div class="secondary-button-inner">
+                            <div class="text-size-small">Contact us</div>
+                            <div class="button-icon w-embed">
+                              <svg
+                                xmlns="http://www.w3.org/2000/svg"
+                                width="100%"
+                                height="100%"
+                                viewBox="0 0 16 11"
+                                fill="none"
+                                stroke="currentColor"
+                              >
+                                <path
+                                  d="M0.5 5.5H14.5M14.5 5.5L9.5 0.5M14.5 5.5L9.5 10.5"
+                                ></path>
+                              </svg>
+                            </div></div
+                        ></a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div
+                  id="w-node-_8c4c475a-1ea3-d249-ac13-21e3583998f6-583998de"
+                  class="grid-content-lower-right-box image-bg"
+                >
+                  <div class="background-image">
+                    <div class="image-overlay darkest-600"></div>
+                    <img
+                      src="https://assets-global.website-files.com/65527f18270735d5ecb2bdf3/65527f18270735d5ecb2be15_r-architecture-WQCkior21Gc-unsplash%20(1).webp"
+                      alt=""
+                      class="image parallax"
+                    />
+                  </div>
+                  <div class="padding-xl">
+                    <div class="grid-content-lower-right-box-inner">
+                      <div class="container">
+                        <div class="margin-bottom margin-s">
+                          <div class="heading-five text-color-light">
+                            Our portfolio
+                          </div>
+                        </div>
+                        <h2 class="heading-three text-color-lightest">
+                          Browse our collection of previous projects to get a
+                          feel for our work.
+                        </h2>
+                      </div>
+                      <div class="grid-content-button-container">
+                        <a
+                          href="/portfolio"
+                          class="secondary-button lightest w-inline-block"
+                          ><div class="secondary-button-inner">
+                            <div class="text-size-small">
+                              View the portfolio
+                            </div>
+                            <div class="button-icon w-embed">
+                              <svg
+                                xmlns="http://www.w3.org/2000/svg"
+                                width="100%"
+                                height="100%"
+                                viewBox="0 0 16 11"
+                                fill="none"
+                                stroke="currentColor"
+                              >
+                                <path
+                                  d="M0.5 5.5H14.5M14.5 5.5L9.5 0.5M14.5 5.5L9.5 10.5"
+                                ></path>
+                              </svg>
+                            </div></div
+                        ></a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <section class="page-section">
+          <div class="global-padding">
+            <div class="padding-vertical padding-none">
+              <div class="faq-component">
+                <div class="faq-component-aside">
+                  <div class="heading-five text-color-accent">
+                    Common Questions<br />
+                  </div>
+                </div>
+                <div class="faq-component-questions">
+                  <div class="margin-bottom margin-xl">
+                    <h2>
+                      From drafting and planning, right through to
+                      implementation and turn key, we're with you every step of
+                      the way.
+                    </h2>
+                  </div>
+                  <div class="faq-list">
+                    <div
+                      data-w-id="6d82535b-1463-274f-b2db-60cb0efd97e2"
+                      class="faq-question"
+                    >
+                      <div class="faq-question-upper">
+                        <div class="padding-vertical padding-m">
+                          <div class="faq-upper-inner">
+                            <div class="faq-number">
+                              <div class="text-size-small">01</div>
+                            </div>
+                            <div class="faq-question-text">
+                              <h3 class="heading-four">
+                                Is there a minimum budget to work with you?
+                              </h3>
+                            </div>
+                            <div class="faq-arrow-icon">
+                              <div class="faq-arrow w-embed">
+                                <svg
+                                  xmlns="http://www.w3.org/2000/svg"
+                                  width="100%"
+                                  height="100%"
+                                  viewBox="0 0 29 22"
+                                  stroke="currentColor"
+                                >
+                                  <path
+                                    d="M0.460144 11H28M28 11L18.1643 1M28 11L18.1643 21"
+                                  ></path>
+                                </svg>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      <div
+                        class="divider-line background-light"
+                        style="width: 0%"
+                      ></div>
+                      <div class="faq-question-lower" style="height: 0px">
+                        <div class="margin-vertical margin-m">
+                          <p class="text-color-accent">
+                            Nisi aliquip nisi proident esse duis sit nisi sint
+                            deserunt magna ipsum sint. Amet dolore eiusmod
+                            eiusmod reprehenderit. Quis fugiat ea pariatur id
+                            dolor culpa esse minim occaecat in nostrud culpa est
+                            dolor amet.
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+                    <div
+                      data-w-id="6d82535b-1463-274f-b2db-60cb0efd97e3"
+                      class="faq-question"
+                    >
+                      <div class="faq-question-upper">
+                        <div class="padding-vertical padding-m">
+                          <div class="faq-upper-inner">
+                            <div class="faq-number">
+                              <div class="text-size-small">02</div>
+                            </div>
+                            <div class="faq-question-text">
+                              <h3 class="heading-four">
+                                How long do your projects take?
+                              </h3>
+                            </div>
+                            <div class="faq-arrow-icon">
+                              <div class="faq-arrow w-embed">
+                                <svg
+                                  xmlns="http://www.w3.org/2000/svg"
+                                  width="100%"
+                                  height="100%"
+                                  viewBox="0 0 29 22"
+                                  stroke="currentColor"
+                                >
+                                  <path
+                                    d="M0.460144 11H28M28 11L18.1643 1M28 11L18.1643 21"
+                                  ></path>
+                                </svg>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      <div
+                        class="divider-line background-light"
+                        style="width: 0%"
+                      ></div>
+                      <div class="faq-question-lower" style="height: 0px">
+                        <div class="margin-vertical margin-m">
+                          <p class="text-color-accent">
+                            Nisi aliquip nisi proident esse duis sit nisi sint
+                            deserunt magna ipsum sint. Amet dolore eiusmod
+                            eiusmod reprehenderit. Quis fugiat ea pariatur id
+                            dolor culpa esse minim occaecat in nostrud culpa est
+                            dolor amet.
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+                    <div
+                      data-w-id="6d82535b-1463-274f-b2db-60cb0efd97e4"
+                      class="faq-question"
+                    >
+                      <div class="faq-question-upper">
+                        <div class="padding-vertical padding-m">
+                          <div class="faq-upper-inner">
+                            <div class="faq-number">
+                              <div class="text-size-small">03</div>
+                            </div>
+                            <div class="faq-question-text">
+                              <h3 class="heading-four">
+                                Does it matter where I am located?
+                              </h3>
+                            </div>
+                            <div class="faq-arrow-icon">
+                              <div class="faq-arrow w-embed">
+                                <svg
+                                  xmlns="http://www.w3.org/2000/svg"
+                                  width="100%"
+                                  height="100%"
+                                  viewBox="0 0 29 22"
+                                  stroke="currentColor"
+                                >
+                                  <path
+                                    d="M0.460144 11H28M28 11L18.1643 1M28 11L18.1643 21"
+                                  ></path>
+                                </svg>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      <div
+                        class="divider-line background-light"
+                        style="width: 0%"
+                      ></div>
+                      <div class="faq-question-lower" style="height: 0px">
+                        <div class="margin-vertical margin-m">
+                          <p class="text-color-accent">
+                            Nisi aliquip nisi proident esse duis sit nisi sint
+                            deserunt magna ipsum sint. Amet dolore eiusmod
+                            eiusmod reprehenderit. Quis fugiat ea pariatur id
+                            dolor culpa esse minim occaecat in nostrud culpa est
+                            dolor amet.
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+                    <div
+                      data-w-id="6d82535b-1463-274f-b2db-60cb0efd97e5"
+                      class="faq-question"
+                    >
+                      <div class="faq-question-upper">
+                        <div class="padding-vertical padding-m">
+                          <div class="faq-upper-inner">
+                            <div class="faq-number">
+                              <div class="text-size-small">04</div>
+                            </div>
+                            <div class="faq-question-text">
+                              <h3 class="heading-four">
+                                Can I hire you for just one step of the process?
+                              </h3>
+                            </div>
+                            <div class="faq-arrow-icon">
+                              <div class="faq-arrow w-embed">
+                                <svg
+                                  xmlns="http://www.w3.org/2000/svg"
+                                  width="100%"
+                                  height="100%"
+                                  viewBox="0 0 29 22"
+                                  stroke="currentColor"
+                                >
+                                  <path
+                                    d="M0.460144 11H28M28 11L18.1643 1M28 11L18.1643 21"
+                                  ></path>
+                                </svg>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      <div
+                        class="divider-line background-light"
+                        style="width: 0%"
+                      ></div>
+                      <div class="faq-question-lower" style="height: 0px">
+                        <div class="margin-vertical margin-m">
+                          <p class="text-color-accent">
+                            Nisi aliquip nisi proident esse duis sit nisi sint
+                            deserunt magna ipsum sint. Amet dolore eiusmod
+                            eiusmod reprehenderit. Quis fugiat ea pariatur id
+                            dolor culpa esse minim occaecat in nostrud culpa est
+                            dolor amet.
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <section class="page-section">
+          <div class="global-padding">
+            <div class="padding-vertical padding-xxxl">
+              <div class="testimonial-component-one">
+                <div class="testimonial-image-wrapper image-bg">
+                  <div class="background-image">
+                    <img
+                      src="https://assets-global.website-files.com/65527f18270735d5ecb2bdf3/65527f18270735d5ecb2be0d_r-architecture-wot0Q5sg91E-unsplash%20(1).webp"
+                      alt=""
+                      class=""
+                    />
+                  </div>
+                </div>
+                <div class="testimonial-text-wrapper">
+                  <div class="margin-bottom margin-s">
+                    <div class="heading-five text-color-accent">Kind words</div>
+                  </div>
+                  <div class="margin-bottom margin-s">
+                    <h2>
+                      “Archvista designed me an absolutely stunning summer
+                      house.”
+                    </h2>
+                  </div>
+                  <div class="margin-bottom margin-l">
+                    <p class="text-color-accent">
+                      “Ex reprehenderit officia dolore deserunt ad. Excepteur
+                      tempor et eiusmod anim commodo tempor dolor culpa
+                      voluptate exercitation occaecat do excepteur id sint.
+                      Laboris sint cupidatat ipsum minim et sunt minim ut dolore
+                      ipsum.”
+                    </p>
+                  </div>
+                  <div class="container">
+                    <a
+                      href="/contact"
+                      class="primary-button darkest w-inline-block"
+                      ><div
+                        class="primary-button-background background-light"
+                        style="width: 0%"
+                      ></div>
+                      <div class="primary-button-inner">
+                        <div class="text-size-small">Get in touch</div>
+                        <div class="button-icon-wrapper">
+                          <div class="button-icon main w-embed">
+                            <svg
+                              xmlns="http://www.w3.org/2000/svg"
+                              width="100%"
+                              height="100%"
+                              viewBox="0 0 16 11"
+                              fill="none"
+                              stroke="currentColor"
+                            >
+                              <path
+                                d="M0.5 5.5H14.5M14.5 5.5L9.5 0.5M14.5 5.5L9.5 10.5"
+                              ></path>
+                            </svg>
+                          </div>
+                          <div class="button-icon alt w-embed">
+                            <svg
+                              xmlns="http://www.w3.org/2000/svg"
+                              width="100%"
+                              height="100%"
+                              viewBox="0 0 16 11"
+                              fill="none"
+                              stroke="currentColor"
+                            >
+                              <path
+                                d="M0.5 5.5H14.5M14.5 5.5L9.5 0.5M14.5 5.5L9.5 10.5"
+                              ></path>
+                            </svg>
+                          </div>
+                        </div></div
+                    ></a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <section class="page-section">
+          <div class="global-padding">
+            <div class="padding-bottom padding-xxxl">
+              <div class="cta-layout-two">
+                <div class="cta-two-text-container">
+                  <h2 class="heading-three">Want to see what we offer?</h2>
+                  <h3 class="text-color-accent">
+                    <a href="/services" class="link-style-one"
+                      >View our full list of services.</a
+                    >
+                  </h3>
+                </div>
+                <div class="cta-two-button-container">
+                  <a
+                    href="/services"
+                    class="primary-button darkest w-inline-block"
+                    ><div
+                      class="primary-button-background background-light"
+                      style="width: 0%"
+                    ></div>
+                    <div class="primary-button-inner">
+                      <div class="text-size-small">View our services</div>
+                      <div class="button-icon-wrapper">
+                        <div class="button-icon main w-embed">
+                          <svg
+                            xmlns="http://www.w3.org/2000/svg"
+                            width="100%"
+                            height="100%"
+                            viewBox="0 0 16 11"
+                            fill="none"
+                            stroke="currentColor"
+                          >
+                            <path
+                              d="M0.5 5.5H14.5M14.5 5.5L9.5 0.5M14.5 5.5L9.5 10.5"
+                            ></path>
+                          </svg>
+                        </div>
+                        <div class="button-icon alt w-embed">
+                          <svg
+                            xmlns="http://www.w3.org/2000/svg"
+                            width="100%"
+                            height="100%"
+                            viewBox="0 0 16 11"
+                            fill="none"
+                            stroke="currentColor"
+                          >
+                            <path
+                              d="M0.5 5.5H14.5M14.5 5.5L9.5 0.5M14.5 5.5L9.5 10.5"
+                            ></path>
+                          </svg>
+                        </div>
+                      </div></div
+                  ></a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+      </main>
+
+      <!-- ------------ -->
+      <main class="main-wrapper">
+        <section class="page-section">
+          <div class="global-padding">
+            <div class="padding-vertical padding-hero">
+              <div class="hero-component-two-container">
+                <div class="hero-component-two-image-wrapper image-bg">
+                  <div class="background-image">
+                    <img
+                      src="https://assets-global.website-files.com/65527f18270735d5ecb2bdf3/65527f18270735d5ecb2be10_r-architecture-GGupkreKwxA-unsplash%20(1).webp"
+                      alt=""
+                      class="image parallax"
+                    />
+                  </div>
+                </div>
+                <div class="hero-component-two-text-wrapper">
+                  <div class="hero-component-two-h1-wrapper">
+                    <div class="margin-bottom margin-l">
+                      <h1>About Us</h1>
+                    </div>
+                  </div>
+                  <div class="margin-bottom margin-l">
+                    <p class="text-color-accent">
+                      Occaecat non fugiat anim nisi ad sint elit. Non labore ut
+                      eu pariatur laboris consectetur sint consequat pariatur
+                      excepteur dolore nulla ad. Aliquip eiusmod amet anim sunt
+                      cillum.
+                    </p>
+                  </div>
+                  <div class="hero-component-two-stats-wrapper">
+                    <div class="hero-component-two-stat">
+                      <div class="margin-bottom margin-xs">
+                        <div class="heading-two">36+</div>
+                      </div>
+                      <div class="text-color-accent">
+                        Year’s experience<br />
+                      </div>
+                    </div>
+                    <div class="hero-component-two-stat">
+                      <div class="margin-bottom margin-xs">
+                        <div class="heading-two">50+</div>
+                      </div>
+                      <div class="text-color-accent">Happy clients<br /></div>
+                    </div>
+                    <div class="hero-component-two-stat">
+                      <div class="margin-bottom margin-xs">
+                        <div class="heading-two">98%</div>
+                      </div>
+                      <div class="text-color-accent">
+                        Satisfaction rate<br />
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <section class="page-section">
+          <div class="global-padding">
+            <div class="padding-top padding-xxxl">
+              <div class="content-title-component-one">
+                <div class="margin-bottom margin-s">
+                  <h2 class="heading-five text-color-accent">Our ethos</h2>
+                </div>
+                <div class="content-title-component-one-container">
+                  <h3 class="heading-two">
+                    Beautiful designs, affordable pricing and eco-friendly
+                    options.
+                  </h3>
+                  <p class="text-color-accent">
+                    Occaecat non fugiat anim nisi ad sint elit. Non labore ut eu
+                    pariatur laboris consectetur sint consequat pariatur
+                    excepteur dolore nulla ad.
+                  </p>
+                  <p class="text-color-accent">
+                    Occaecat non fugiat anim nisi ad sint elit. Non labore ut eu
+                    pariatur laboris consectetur sint consequat pariatur
+                    excepteur dolore nulla ad.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <section class="page-section">
+          <div class="global-padding">
+            <div class="padding-top padding-xxl">
+              <div class="accordion-content">
+                <div class="accordion-upper">
+                  <div class="padding-vertical padding-m">
+                    <div class="accordion-upper-inner">
+                      <div class="accordion-number">
+                        <div class="text-size-small">01</div>
+                      </div>
+                      <div class="accordion-upper-text">
+                        <h2 class="heading-three">
+                          Design solutions that push creative boundaries
+                        </h2>
+                      </div>
+                      <div class="accordion-arrow-icon">
+                        <div class="accordion-arrow w-embed">
+                          <svg
+                            xmlns="http://www.w3.org/2000/svg"
+                            width="100%"
+                            height="100%"
+                            viewBox="0 0 29 22"
+                            stroke="currentColor"
+                          >
+                            <path
+                              d="M0.460144 11H28M28 11L18.1643 1M28 11L18.1643 21"
+                            ></path>
+                          </svg>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div
+                  class="divider-line background-light"
+                  style="width: 100%; height: 1px"
+                ></div>
+                <div class="accordion-lower" style="height: 0px">
+                  <div class="margin-vertical margin-l">
+                    <div class="accordion-lower-inner">
+                      <div class="accordion-lower-text">
+                        <div class="margin-bottom margin-s">
+                          <h3 class="heading-four text-color-dark">
+                            Id sint ullamco elit ipsum id culpa est sit duis
+                            reprehenderit esse et est non.
+                          </h3>
+                        </div>
+                        <p class="text-color-accent">
+                          Aliqua adipisicing eiusmod sunt eiusmod amet mollit
+                          amet mollit in est. Aliqua ullamco deserunt sint ex
+                          occaecat amet et occaecat cupidatat. Ipsum elit
+                          consequat aute nostrud sunt sit sunt est id id quis
+                          velit officia. Consequat labore magna laborum anim
+                          dolore consectetur excepteur do velit sit consectetur
+                          Lorem elit reprehenderit eiusmod.
+                        </p>
+                      </div>
+                      <div class="accordion-lower-image image-bg">
+                        <div class="background-image">
+                          <img
+                            src="https://assets-global.website-files.com/65527f18270735d5ecb2bdf3/65527f18270735d5ecb2be12_r-architecture-Eh_It1hg4Hs-unsplash%20(1).webp"
+                            alt=""
+                            sizes="(max-width: 991px) 100vw, 50vw"
+                            class="image parallax"
+                          />
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="accordion-content">
+                <div class="accordion-upper">
+                  <div class="padding-vertical padding-m">
+                    <div class="accordion-upper-inner">
+                      <div class="accordion-number">
+                        <div class="text-size-small">02</div>
+                      </div>
+                      <div class="accordion-upper-text">
+                        <h2 class="heading-three">
+                          Committed to eco-conscious practices
+                        </h2>
+                      </div>
+                      <div class="accordion-arrow-icon">
+                        <div class="accordion-arrow w-embed">
+                          <svg
+                            xmlns="http://www.w3.org/2000/svg"
+                            width="100%"
+                            height="100%"
+                            viewBox="0 0 29 22"
+                            stroke="currentColor"
+                          >
+                            <path
+                              d="M0.460144 11H28M28 11L18.1643 1M28 11L18.1643 21"
+                            ></path>
+                          </svg>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div
+                  class="divider-line background-light"
+                  style="width: 100%; height: 1px"
+                ></div>
+                <div class="accordion-lower" style="height: 0px">
+                  <div class="margin-vertical margin-l">
+                    <div class="accordion-lower-inner">
+                      <div class="accordion-lower-text">
+                        <div class="margin-bottom margin-s">
+                          <h3 class="heading-four text-color-dark">
+                            Id sint ullamco elit ipsum id culpa est sit duis
+                            reprehenderit esse et est non.
+                          </h3>
+                        </div>
+                        <p class="text-color-accent">
+                          Aliqua adipisicing eiusmod sunt eiusmod amet mollit
+                          amet mollit in est. Aliqua ullamco deserunt sint ex
+                          occaecat amet et occaecat cupidatat. Ipsum elit
+                          consequat aute nostrud sunt sit sunt est id id quis
+                          velit officia. Consequat labore magna laborum anim
+                          dolore consectetur excepteur do velit sit consectetur
+                          Lorem elit reprehenderit eiusmod.
+                        </p>
+                      </div>
+                      <div class="accordion-lower-image image-bg">
+                        <div class="background-image">
+                          <img
+                            src="https://assets-global.website-files.com/65527f18270735d5ecb2bdf3/65527f18270735d5ecb2be0b_r-architecture-M66lRZPX-hU-unsplash%20(1).webp"
+                            alt=""
+                            class="image parallax"
+                          />
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="accordion-content">
+                <div class="accordion-upper">
+                  <div class="padding-vertical padding-m">
+                    <div class="accordion-upper-inner">
+                      <div class="accordion-number">
+                        <div class="text-size-small">03</div>
+                      </div>
+                      <div class="accordion-upper-text">
+                        <h2 class="heading-three">
+                          Fostering teamwork and client partnerships
+                        </h2>
+                      </div>
+                      <div class="accordion-arrow-icon">
+                        <div class="accordion-arrow w-embed">
+                          <svg
+                            xmlns="http://www.w3.org/2000/svg"
+                            width="100%"
+                            height="100%"
+                            viewBox="0 0 29 22"
+                            stroke="currentColor"
+                          >
+                            <path
+                              d="M0.460144 11H28M28 11L18.1643 1M28 11L18.1643 21"
+                            ></path>
+                          </svg>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="divider-line background-light"></div>
+                <div class="accordion-lower" style="height: 0px">
+                  <div class="margin-vertical margin-l">
+                    <div class="accordion-lower-inner">
+                      <div class="accordion-lower-text">
+                        <div class="margin-bottom margin-s">
+                          <h3 class="heading-four text-color-dark">
+                            Id sint ullamco elit ipsum id culpa est sit duis
+                            reprehenderit esse et est non.
+                          </h3>
+                        </div>
+                        <p class="text-color-accent">
+                          Aliqua adipisicing eiusmod sunt eiusmod amet mollit
+                          amet mollit in est. Aliqua ullamco deserunt sint ex
+                          occaecat amet et occaecat cupidatat. Ipsum elit
+                          consequat aute nostrud sunt sit sunt est id id quis
+                          velit officia. Consequat labore magna laborum anim
+                          dolore consectetur excepteur do velit sit consectetur
+                          Lorem elit reprehenderit eiusmod.
+                        </p>
+                      </div>
+                      <div class="accordion-lower-image image-bg">
+                        <div class="background-image">
+                          <img
+                            src="https://assets-global.website-files.com/65527f18270735d5ecb2bdf3/65527f18270735d5ecb2be14_r-architecture-rOk4VSMS3Ck-unsplash%20(1).webp"
+                            alt=""
+                            class="image parallax"
+                          />
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <section class="page-section">
+          <div class="global-padding">
+            <div class="padding-vertical padding-xxxl">
+              <div class="cta-component-one-container image-bg">
+                <div class="background-image">
+                  <div class="image-overlay darkest-600"></div>
+                  <img
+                    src="https://assets-global.website-files.com/65527f18270735d5ecb2bdf3/65527f18270735d5ecb2be17_r-architecture-eswMmfnL9Qk-unsplash%20(1).webp"
+                    alt=""
+                    class="image parallax"
+                  />
+                </div>
+                <div class="padding-xl">
+                  <div class="cta-component-one-inner">
+                    <div class="cta-component-one-title">
+                      <div class="margin-bottom margin-s">
+                        <div class="heading-five text-color-light">
+                          Have an idea?
+                        </div>
+                      </div>
+                      <h2 class="heading-three text-color-lightest">
+                        We'd love to hear from you and get your project
+                        underway.
+                      </h2>
+                    </div>
+                    <div class="cta-component-button-wrapper">
+                      <a
+                        href="/contact"
+                        class="secondary-button lightest w-inline-block"
+                        ><div class="secondary-button-inner">
+                          <div class="text-size-small">Get in touch</div>
+                          <div class="button-icon w-embed">
+                            <svg
+                              xmlns="http://www.w3.org/2000/svg"
+                              width="100%"
+                              height="100%"
+                              viewBox="0 0 16 11"
+                              fill="none"
+                              stroke="currentColor"
+                            >
+                              <path
+                                d="M0.5 5.5H14.5M14.5 5.5L9.5 0.5M14.5 5.5L9.5 10.5"
+                              ></path>
+                            </svg>
+                          </div></div
+                      ></a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+      </main>
+
+      <!-- ------------------ -->
+
+      <main class="main-wrapper">
+        <section class="page-section">
+          <div class="global-padding">
+            <div class="padding-vertical padding-hero">
+              <div class="hero-component-two-container reverse">
+                <div class="hero-component-two-text-wrapper">
+                  <div class="hero-component-two-h1-wrapper reverse">
+                    <div class="margin-bottom margin-l">
+                      <h1>Our Services</h1>
+                    </div>
+                  </div>
+                  <div class="margin-bottom margin-l">
+                    <p class="text-color-accent">
+                      Occaecat non fugiat anim nisi ad sint elit. Non labore ut
+                      eu pariatur laboris consectetur sint consequat pariatur
+                      excepteur dolore nulla ad. Aliquip eiusmod amet anim sunt
+                      cillum.
+                    </p>
+                  </div>
+                  <div class="hero-component-two-button-wrapper">
+                    <a
+                      href="/contact"
+                      class="primary-button darkest w-inline-block"
+                      ><div
+                        class="primary-button-background background-light"
+                      ></div>
+                      <div class="primary-button-inner">
+                        <div class="text-size-small">Get in touch</div>
+                        <div class="button-icon-wrapper">
+                          <div class="button-icon main w-embed">
+                            <svg
+                              xmlns="http://www.w3.org/2000/svg"
+                              width="100%"
+                              height="100%"
+                              viewBox="0 0 16 11"
+                              fill="none"
+                              stroke="currentColor"
+                            >
+                              <path
+                                d="M0.5 5.5H14.5M14.5 5.5L9.5 0.5M14.5 5.5L9.5 10.5"
+                              ></path>
+                            </svg>
+                          </div>
+                          <div class="button-icon alt w-embed">
+                            <svg
+                              xmlns="http://www.w3.org/2000/svg"
+                              width="100%"
+                              height="100%"
+                              viewBox="0 0 16 11"
+                              fill="none"
+                              stroke="currentColor"
+                            >
+                              <path
+                                d="M0.5 5.5H14.5M14.5 5.5L9.5 0.5M14.5 5.5L9.5 10.5"
+                              ></path>
+                            </svg>
+                          </div>
+                        </div></div
+                    ></a>
+                  </div>
+                </div>
+                <div class="hero-component-two-image-wrapper image-bg">
+                  <div class="background-image">
+                    <img
+                      src="https://assets-global.website-files.com/65527f18270735d5ecb2bdf3/65527f18270735d5ecb2be16_r-architecture-UpAX8YLpRBM-unsplash%20(1).webp"
+                      alt=""
+                      class="image parallax"
+                    />
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <section class="page-section">
+          <div class="global-padding">
+            <div class="padding-top padding-xxxl">
+              <div class="anchor-link-content-layout-container">
+                <div class="anchor-link-content-menu-wrapper">
+                  <div class="anchor-link-content-menu">
+                    <div class="anchor-link-menu-title">
+                      <div class="padding-vertical padding-m">
+                        <div class="heading-five text-color-accent">
+                          Our Services
+                        </div>
+                      </div>
+                    </div>
+                    <a href="#Content-One" class="anchor-link w-inline-block"
+                      ><div class="padding-vertical padding-m">
+                        <div class="heading-five text-color-darkest">
+                          Exteriors
+                        </div>
+                      </div></a
+                    ><a href="#Content-Two" class="anchor-link w-inline-block"
+                      ><div class="padding-vertical padding-m">
+                        <div class="heading-five text-color-darkest">
+                          Interiors
+                        </div>
+                      </div></a
+                    ><a href="#Content-Three" class="anchor-link w-inline-block"
+                      ><div class="padding-vertical padding-m">
+                        <div class="heading-five text-color-darkest">
+                          Implementation
+                        </div>
+                      </div></a
+                    >
+                  </div>
+                </div>
+                <div class="anchor-link-container-top-buffer"></div>
+                <div class="anchor-link-content">
+                  <div id="Content-One" class="anchor-content-one">
+                    <div class="padding-vertical padding-xxxl">
+                      <div class="text-layout-four-component">
+                        <div class="margin-bottom margin-l">
+                          <div class="text-layout-four-title-wrapper">
+                            <h2>
+                              It's not always what's inside that counts...
+                            </h2>
+                          </div>
+                        </div>
+                        <div class="text-layout-four-lower-wrapper">
+                          <div class="text-layout-four-paragraph-wrapper">
+                            <p class="text-color-accent">
+                              Nostrud tempor do sit ipsum quis ea incididunt
+                              ullamco reprehenderit laboris laboris aliquip
+                              ullamco quis deserunt. Ipsum magna labore proident
+                              in excepteur elit sit. Labore ex elit ad eu dolore
+                              proident ea ipsum labore culpa dolor ullamco.
+                              Aliquip et consectetur ea qui do et dolore
+                              incididunt id elit velit. Est eiusmod eu
+                              incididunt fugiat non.
+                            </p>
+                          </div>
+                          <div class="text-layout-four-paragraph-wrapper">
+                            <p class="text-color-accent">
+                              Nostrud tempor do sit ipsum quis ea incididunt
+                              ullamco reprehenderit laboris laboris aliquip
+                              ullamco quis deserunt. Ipsum magna labore proident
+                              in excepteur elit sit. Labore ex elit ad eu dolore
+                              proident ea ipsum labore culpa dolor ullamco.
+                              Aliquip et consectetur ea qui do et dolore
+                              incididunt id elit velit. Est eiusmod eu
+                              incididunt fugiat non.
+                            </p>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="padding-bottom padding-xxxl">
+                      <div class="cta-component-one-container image-bg">
+                        <div class="background-image">
+                          <div class="image-overlay darkest-600"></div>
+                          <img
+                            src="https://assets-global.website-files.com/65527f18270735d5ecb2bdf3/65527f18270735d5ecb2be0f_r-architecture-Cn87TISYij8-unsplash%20(1).webp"
+                            alt=""
+                            class="image parallax"
+                          />
+                        </div>
+                        <div class="padding-xl">
+                          <div class="cta-component-one-inner">
+                            <div class="cta-component-one-title">
+                              <div class="margin-bottom margin-s">
+                                <div class="heading-five text-color-light">
+                                  Looking to start a new project?
+                                </div>
+                              </div>
+                              <h2 class="heading-three text-color-lightest">
+                                Our artists will conceptualize the perfect
+                                exterior for your next big idea.
+                              </h2>
+                            </div>
+                            <div class="cta-component-button-wrapper">
+                              <a
+                                href="/contact"
+                                class="secondary-button lightest w-inline-block"
+                                ><div class="secondary-button-inner">
+                                  <div class="text-size-small">
+                                    Get in touch
+                                  </div>
+                                  <div class="button-icon w-embed">
+                                    <svg
+                                      xmlns="http://www.w3.org/2000/svg"
+                                      width="100%"
+                                      height="100%"
+                                      viewBox="0 0 16 11"
+                                      fill="none"
+                                      stroke="currentColor"
+                                    >
+                                      <path
+                                        d="M0.5 5.5H14.5M14.5 5.5L9.5 0.5M14.5 5.5L9.5 10.5"
+                                      ></path>
+                                    </svg>
+                                  </div></div
+                              ></a>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="divider-line background-light"></div>
+                  <div id="Content-Two" class="anchor-content-two">
+                    <div class="padding-vertical padding-xxxl">
+                      <div class="text-layout-four-component">
+                        <div class="margin-bottom margin-l">
+                          <div class="text-layout-four-title-wrapper">
+                            <h2>
+                              Keep the dropped jaws coming with a stunning
+                              interior.
+                            </h2>
+                          </div>
+                        </div>
+                        <div class="text-layout-four-lower-wrapper">
+                          <div class="text-layout-four-paragraph-wrapper">
+                            <p class="text-color-accent">
+                              Nostrud tempor do sit ipsum quis ea incididunt
+                              ullamco reprehenderit laboris laboris aliquip
+                              ullamco quis deserunt. Ipsum magna labore proident
+                              in excepteur elit sit. Labore ex elit ad eu dolore
+                              proident ea ipsum labore culpa dolor ullamco.
+                              Aliquip et consectetur ea qui do et dolore
+                              incididunt id elit velit. Est eiusmod eu
+                              incididunt fugiat non.
+                            </p>
+                          </div>
+                          <div class="text-layout-four-paragraph-wrapper">
+                            <p class="text-color-accent">
+                              Nostrud tempor do sit ipsum quis ea incididunt
+                              ullamco reprehenderit laboris laboris aliquip
+                              ullamco quis deserunt. Ipsum magna labore proident
+                              in excepteur elit sit. Labore ex elit ad eu dolore
+                              proident ea ipsum labore culpa dolor ullamco.
+                              Aliquip et consectetur ea qui do et dolore
+                              incididunt id elit velit. Est eiusmod eu
+                              incididunt fugiat non.
+                            </p>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="padding-bottom padding-xxxl">
+                      <div class="double-small-image-component-container">
+                        <div class="double-small-image-image-container">
+                          <div class="margin-bottom margin-xs">
+                            <div
+                              class="double-small-image-image-wrapper image-bg"
+                            >
+                              <div class="background-image">
+                                <img
+                                  src="https://assets-global.website-files.com/65527f18270735d5ecb2bdf3/65527f18270735d5ecb2be13_r-architecture-khpWE85ge38-unsplash%20(1).webp"
+                                  alt=""
+                                  class="image parallax"
+                                />
+                              </div>
+                            </div>
+                          </div>
+                          <div class="text-size-small text-color-accent">
+                            Incididunt nostrud elit pariatur tempor tempor do
+                            excepteur.
+                          </div>
+                        </div>
+                        <div class="double-small-image-image-container">
+                          <div class="margin-bottom margin-xs">
+                            <div
+                              class="double-small-image-image-wrapper image-bg"
+                            >
+                              <div class="background-image">
+                                <img
+                                  src="https://assets-global.website-files.com/65527f18270735d5ecb2bdf3/65527f18270735d5ecb2be0e_r-architecture-T6d96Qrb5MY-unsplash%20(1).webp"
+                                  alt=""
+                                  class="image parallax"
+                                />
+                              </div>
+                            </div>
+                          </div>
+                          <div class="text-size-small text-color-accent">
+                            Incididunt nostrud elit pariatur tempor tempor do
+                            excepteur.
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div
+                    class="divider-line background-light"
+                    style="width: 100%; height: 1px"
+                  ></div>
+                  <div id="Content-Three" class="anchor-content-three">
+                    <div class="padding-vertical padding-xxxl">
+                      <div class="text-layout-four-component">
+                        <div class="margin-bottom margin-l">
+                          <div class="text-layout-four-title-wrapper">
+                            <h2>
+                              We're with you every step of the way, right to
+                              turn key.
+                            </h2>
+                          </div>
+                        </div>
+                        <div class="text-layout-four-lower-wrapper">
+                          <div class="text-layout-four-paragraph-wrapper">
+                            <p class="text-color-accent">
+                              Nostrud tempor do sit ipsum quis ea incididunt
+                              ullamco reprehenderit laboris laboris aliquip
+                              ullamco quis deserunt. Ipsum magna labore proident
+                              in excepteur elit sit. Labore ex elit ad eu dolore
+                              proident ea ipsum labore culpa dolor ullamco.
+                              Aliquip et consectetur ea qui do et dolore
+                              incididunt id elit velit. Est eiusmod eu
+                              incididunt fugiat non.
+                            </p>
+                          </div>
+                          <div class="text-layout-four-paragraph-wrapper">
+                            <p class="text-color-accent">
+                              Nostrud tempor do sit ipsum quis ea incididunt
+                              ullamco reprehenderit laboris laboris aliquip
+                              ullamco quis deserunt. Ipsum magna labore proident
+                              in excepteur elit sit. Labore ex elit ad eu dolore
+                              proident ea ipsum labore culpa dolor ullamco.
+                              Aliquip et consectetur ea qui do et dolore
+                              incididunt id elit velit. Est eiusmod eu
+                              incididunt fugiat non.
+                            </p>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="padding-bottom padding-xxxl">
+                      <div class="large-single-image-component-container">
+                        <div class="margin-bottom margin-xs">
+                          <div
+                            class="large-single-image-component-image-wrapper image-bg"
+                          >
+                            <div class="background-image">
+                              <img
+                                src="https://assets-global.website-files.com/65527f18270735d5ecb2bdf3/65527f18270735d5ecb2be11_r-architecture-uFQOmuz8JVY-unsplash%20(1).webp"
+                                alt=""
+                                class="image parallax"
+                              />
+                            </div>
+                          </div>
+                        </div>
+                        <div class="text-size-small text-color-accent">
+                          Incididunt nostrud elit pariatur tempor tempor do
+                          excepteur.
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="divider-line background-light"></div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <section class="page-section">
+          <div class="global-padding">
+            <div class="padding-bottom padding-xxxl">
+              <div class="text-layout-five">
+                <div class="margin-bottom margin-l">
+                  <div class="text-layout-five-upper">
+                    <div class="text-layout-five-title-wrapper">
+                      <h2
+                        
+                      >
+                        Our team is full of talent, passion and experience.
+                      </h2>
+                    </div>
+                    <div
+                      class="text-layout-five-button-wrapper"
+                      
+                    >
+                      <a
+                        href="/about"
+                        class="primary-button darkest w-inline-block"
+                        ><div
+                          class="primary-button-background background-light"
+                          style="width: 0%"
+                        ></div>
+                        <div class="primary-button-inner">
+                          <div class="text-size-small">About us</div>
+                          <div class="button-icon-wrapper">
+                            <div
+                              class="button-icon main w-embed"
+                              
+                            >
+                              <svg
+                                xmlns="http://www.w3.org/2000/svg"
+                                width="100%"
+                                height="100%"
+                                viewBox="0 0 16 11"
+                                fill="none"
+                                stroke="currentColor"
+                              >
+                                <path
+                                  d="M0.5 5.5H14.5M14.5 5.5L9.5 0.5M14.5 5.5L9.5 10.5"
+                                ></path>
+                              </svg>
+                            </div>
+                            <div
+                              class="button-icon alt w-embed"
+                              style="
+                                transform: translate3d(-100%, -100%, 0px)
+                                  scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg)
+                                  rotateZ(0deg) skew(0deg, 0deg);
+                                transform-style: preserve-3d;
+                              "
+                            >
+                              <svg
+                                xmlns="http://www.w3.org/2000/svg"
+                                width="100%"
+                                height="100%"
+                                viewBox="0 0 16 11"
+                                fill="none"
+                                stroke="currentColor"
+                              >
+                                <path
+                                  d="M0.5 5.5H14.5M14.5 5.5L9.5 0.5M14.5 5.5L9.5 10.5"
+                                ></path>
+                              </svg>
+                            </div>
+                          </div></div
+                      ></a>
+                    </div>
+                  </div>
+                </div>
+                <div class="text-layout-five-lower">
+                  <div
+                    class="text-layout-five-lower-content-wrapper"
+                    
+                  >
+                    <div class="margin-vertical margin-s">
+                      <div class="text-layout-five-lower-content-title">
+                        <div class="text-size-small">01</div>
+                        <h3 class="heading-four">We push boundaries.</h3>
+                      </div>
+                    </div>
+                    <div
+                      class="divider-line background-light"
+                    ></div>
+                    <div class="margin-top margin-s">
+                      <div class="margin-right margin-l">
+                        <p class="text-color-accent">
+                          Nostrud tempor do sit ipsum quis ea incididunt ullamco
+                          reprehenderit laboris laboris aliquip ullamco quis
+                          deserunt. Ipsum magna labore proident in excepteur
+                          elit sit.
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                  <div
+                    class="text-layout-five-lower-content-wrapper"
+                    
+                  >
+                    <div class="margin-vertical margin-s">
+                      <div class="text-layout-five-lower-content-title">
+                        <div class="text-size-small">02</div>
+                        <h3 class="heading-four">We're eco-conscious</h3>
+                      </div>
+                    </div>
+                    <div
+                      class="divider-line background-light"
+                    ></div>
+                    <div class="margin-top margin-s">
+                      <div class="margin-right margin-l">
+                        <p class="text-color-accent">
+                          Nostrud tempor do sit ipsum quis ea incididunt ullamco
+                          reprehenderit laboris laboris aliquip ullamco quis
+                          deserunt. Ipsum magna labore proident in excepteur
+                          elit sit.
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                  <div
+                    class="text-layout-five-lower-content-wrapper"
+                    
+                  >
+                    <div class="margin-vertical margin-s">
+                      <div class="text-layout-five-lower-content-title">
+                        <div class="text-size-small">03</div>
+                        <h3 class="heading-four">
+                          We love making 
+                        </h3>
+                      </div>
+                    </div>
+                    <div
+                      class="divider-line background-light"
+                    ></div>
+                    <div class="margin-top margin-s">
+                      <div class="margin-right margin-l">
+                        <p class="text-color-accent">
+                          Nostrud tempor do sit ipsum quis ea incididunt ullamco
+                          reprehenderit laboris laboris aliquip ullamco quis
+                          deserunt. Ipsum magna labore proident in excepteur
+                          elit sit.
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+      </main>
+
+      <!-- ---------------- -->
+
+      <main class="main-wrapper">
+        <section class="page-section">
+          <div class="global-padding">
+            <div class="padding-vertical padding-hero">
+              <div class="hero-component-three-container">
+                <div class="margin-bottom margin-s">
+                  <div class="hero-component-three-upper">
+                    <div class="hero-component-three-title">
+                      <h1
+                        class="heading-2"
+                        
+                      >
+                        Contact Us
+                      </h1>
+                    </div>
+                    <div class="hero-component-three-paragraph">
+                      <p
+                        class="text-color-dark"
+                        
+                      >
+                        Occaecat non fugiat anim nisi ad sint elit. Non labore
+                        ut eu pariatur laboris consectetur sint consequat
+                        pariatur excepteur dolore nulla ad.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+                <div
+                  class="divider-line background-light"
+                ></div>
+              </div>
+            </div>
+          </div>
+        </section>
+        <section class="page-section">
+          <div class="global-padding">
+            <div class="padding-vertical padding-xxxl">
+              <div class="contact-form-component-container">
+                <div
+                  class="contact-details-container"
+                >
+                  <div
+                    class="margin-bottom margin-l"
+                    
+                  >
+                    <div class="margin-bottom margin-xs">
+                      <div class="text-color-accent">Phone</div>
+                    </div>
+                    <div class="heading-four">
+                      <a href="#" class="link-style-one text-color-darkest"
+                        >(+44) 4444-444</a
+                      >
+                    </div>
+                  </div>
+                  <div
+                    class="margin-bottom margin-l"
+                   
+                  >
+                    <div class="margin-bottom margin-xs">
+                      <div class="text-color-accent">Location</div>
+                    </div>
+                    <div class="heading-four">
+                      <a href="#" class="link-style-one text-color-darkest"
+                        >Portland, OR</a
+                      >
+                    </div>
+                  </div>
+                  <div
+                    class="margin-bottom margin-l"
+                    
+                  >
+                    <div class="margin-bottom margin-xs">
+                      <div class="text-color-accent">Email Address</div>
+                    </div>
+                    <div class="heading-four">
+                      <a href="#" class="link-style-one text-color-darkest"
+                        >hello@archvista.co</a
+                      >
+                    </div>
+                  </div>
+                </div>
+                <div
+                  class="contact-form-container"
+                  
+                >
+                  <div class="contact-form-block w-form">
+                    <form
+                      name="Contact-Form"
+                      data-name="Contact Form"
+                      method="post"
+                      class="contact-form"
+                      
+                    >
+                      <div class="margin-bottom margin-m">
+                        <div class="form-horizontal">
+                          <div class="form-vertical">
+                            <label for="First-name" class="form-main-label"
+                              >Name *</label
+                            ><input
+                              class="form-text-input w-input"
+                              maxlength="256"
+                              name="name"
+                              data-name="name"
+                              placeholder=""
+                              type="text"
+                              required=""
+                            />
+                          </div>
+                          
+                        </div>
+                      </div>
+                      <div class="margin-bottom margin-m">
+                        <label for="Email" class="form-main-label"
+                          >Email *</label
+                        ><input
+                          class="form-text-input w-input"
+                          maxlength="256"
+                          name="Email"
+                          data-name="Email"
+                          placeholder=""
+                          type="email"
+                          id="Email"
+                          required=""
+                        />
+                      </div>
+                      
+                      <div class="margin-bottom margin-m">
+                        <label for="Message" class="form-main-label"
+                          >Message *</label
+                        ><textarea
+                          required=""
+                          placeholder=""
+                          maxlength="5000"
+                          id="Message"
+                          name="Message"
+                          data-name="Message"
+                          class="form-text-input w-input"
+                        ></textarea>
+                      </div>
+                      <div class="form-submit-button-component-container">
+                        <input
+                          type="submit"
+                          data-wait="Please wait..."
+                          class="form-submit-button dark w-button"
+                          value="Submit"
+                        />
+                        <div class="form-submit-button-icon-wrapper">
+                          <div
+                            class="button-icon main w-embed"
+                           
+                          >
+                            <svg
+                              xmlns="http://www.w3.org/2000/svg"
+                              width="100%"
+                              height="100%"
+                              viewBox="0 0 16 11"
+                              fill="none"
+                              stroke="currentColor"
+                            >
+                              <path
+                                d="M0.5 5.5H14.5M14.5 5.5L9.5 0.5M14.5 5.5L9.5 10.5"
+                              ></path>
+                            </svg>
+                          </div>
+                          <div
+                            class="button-icon alt w-embed"
+                            
+                          >
+                            <svg
+                              xmlns="http://www.w3.org/2000/svg"
+                              width="100%"
+                              height="100%"
+                              viewBox="0 0 16 11"
+                              fill="none"
+                              stroke="currentColor"
+                            >
+                              <path
+                                d="M0.5 5.5H14.5M14.5 5.5L9.5 0.5M14.5 5.5L9.5 10.5"
+                              ></path>
+                            </svg>
+                          </div>
+                        </div>
+                        <div
+                          class="form-submit-button-background"
+                          style="width: 0%"
+                        ></div>
+                      </div>
+                    </form>
+                    
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        
+      </main>
+      <footer class="footer background-darkest">
+        <div class="global-padding">
+          <div class="padding-vertical padding-xxxl">
+            <div class="padding-bottom padding-xl">
+              <div class="footer-upper">
+                <div class="footer-upper-title">
+                  <a
+                    href="/contact"
+                    class="footer-upper-title-link text-color-lightest w-inline-block"
+                    ><h2 class="display-inline">
+                      Let’s build your dream home together.
+                    </h2>
+                    <div class="footer-upper-link-icon w-embed">
+                      <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        width="100%"
+                        height="100%"
+                        viewBox="0 0 44 32"
+                        fill="none"
+                        stroke="currentColor"
+                      >
+                        <path
+                          d="M0 16H41M41 16L26.3571 2M41 16L26.3571 30"
+                          stroke-width="1"
+                        ></path>
+                      </svg></div
+                  ></a>
+                </div>
+                <div class="footer-upper-links-wrapper">
+                  <div
+                    class="footer-upper-link"
+                  >
+                    <div class="margin-bottom margin-xs">
+                      <div class="text-size-small text-color-accent">
+                        Facebook
+                      </div>
+                    </div>
+                    <a href="#" class="link-style-one text-color-lightest"
+                      >@template</a
+                    >
+                  </div>
+                  <div
+                    class="footer-upper-link"
+                  >
+                    <div class="margin-bottom margin-xs">
+                      <div class="text-size-small text-color-accent">
+                        Instagram
+                      </div>
+                    </div>
+                    <a href="#" class="link-style-one text-color-lightest"
+                      >@template</a
+                    >
+                  </div>
+                  <div
+                    class="footer-upper-link"
+                  >
+                    <div class="margin-bottom margin-xs">
+                      <div class="text-size-small text-color-accent">
+                        LinkedIn
+                      </div>
+                    </div>
+                    <a href="#" class="link-style-one text-color-lightest"
+                      >@template</a
+                    >
+                  </div>
+                  <div
+                    class="footer-upper-link"
+                  >
+                    <div class="margin-bottom margin-xs">
+                      <div class="text-size-small text-color-accent">Phone</div>
+                    </div>
+                    <a href="#" class="link-style-one text-color-lightest"
+                      >(0034) 971480</a
+                    >
+                  </div>
+                  <div
+                    class="footer-upper-link"
+                  >
+                    <div class="margin-bottom margin-xs">
+                      <div class="text-size-small text-color-accent">
+                        Location
+                      </div>
+                    </div>
+                    <a href="#" class="link-style-one text-color-lightest"
+                      >Portland, OR</a
+                    >
+                  </div>
+                  <div
+                    class="footer-upper-link"
+                  >
+                    <div class="margin-bottom margin-xs">
+                      <div class="text-size-small text-color-accent">Email</div>
+                    </div>
+                    <a href="#" class="link-style-one text-color-lightest"
+                      >hello@template.co</a
+                    >
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div
+              class="divider-line background-lightest"
+            ></div>
+            <div class="padding-top padding-m">
+              <div class="footer-lower">
+                <div class="text-size-small text-color-light">
+                  © Copyright ClimateCare 2024
+                </div>
+                <div class="footer-lower-link-container">
+                  <a href="/template-help/licences" class="footer-sub-link"
+                    >Licensing</a
+                  ><a href="#" class="footer-sub-link">Built by FlowForge</a
+                  ><a
+                    href="https://webflow.com/?r=0"
+                    class="footer-sub-link"
+                    >Powered by Webflow</a
                   >
                 </div>
               </div>
             </div>
           </div>
         </div>
-      </section>
-
-      <div class="erghe">
-        <div class="thrn tehb ehbrbh">
-          <div class="wefgtwb">
-            <p class="wefwq ehbn qqwwee">
-              Immerse yourself in nature-friendly bliss — our latest camping
-              gear collection seamlessly blends organic elements and sustainable
-              materials, turning any outdoor space into a tranquil haven.
-            </p>
-          </div>
-        </div>
-      </div>
-
-      <section class="section wgfv">
-        <div class="thrn tehb ehbrbh">
-          <div class="col-3">
-            <div class="lhgfh">TrailTrove's Purpose</div>
-            <p class="wefwq">
-              At TrailTrove, our mission centers around the conviction that
-              exceptional design can elevate experiences. We are fervent about
-              crafting spaces that not only boast visual allure but also
-              function seamlessly. Understanding our customers' needs,
-              preferences, and lifestyles is paramount, enabling us to provide
-              tailored solutions that authentically represent their distinct
-              identity. With meticulous attention to detail and a dedication to
-              innovation, our team strives to surpass expectations.
-            </p>
-            <p class="wefwq">
-              Sustainability is ingrained in TrailTrove's ethos. We are
-              committed to infusing sustainable practices into every facet of
-              our work. From selecting eco-conscious materials to implementing
-              energy-efficient systems, we prioritize environmentally
-              responsible choices. Our approach transcends mere environmental
-              impact reduction; we also emphasize durability and timeless
-              design, ensuring that our creations endure the test of time.
-            </p>
-          </div>
-        </div>
-      </section>
-
-      <section class="section">
-        <div class="thrn tehb ehbrbh">
-          <div class="hbe">
-            <div class="row-1">
-              <div class="erwgewg">TrailTrove Philosophy</div>
-              <h2>
-                Embracing the Inherent Beauty of Nature - Integrating
-                Sustainably Sourced Wood, Stone, and Organic Textiles
-              </h2>
-            </div>
-            <div>
-              <div class="cms-projects-home w-dyn-list">
-                <div class="jhj w-dyn-items">
-                  <div class="cwergh w-dyn-item">
-                    <div
-                      style="background-image: url('./images/a1.jpg')"
-                      class="nyrtne"
-                    ></div>
-                    <h3>TrailTrove's Wilderness Retreat</h3>
-                    <p>
-                      A celebration of the raw beauty of our planet,
-                      TrailTrove's Wilderness Retreat employs natural materials
-                      and textures, curating interiors that serve as a serene
-                      getaway, grounding inhabitants in nature's embrace.
-                    </p>
-                  </div>
-                  <div class="cwergh w-dyn-item">
-                    <div
-                      style="background-image: url('./images/a2.jpg')"
-                      class="nyrtne"
-                    ></div>
-                    <h3>Sustainable Expedition</h3>
-                    <p>
-                      Where luxury meets responsibility, Sustainable Expedition
-                      crafts spaces that epitomize sophistication while staying
-                      true to eco-friendly principles and practices.
-                    </p>
-                  </div>
-                  <div class="cwergh w-dyn-item">
-                    <div
-                      style="background-image: url('./images/a3.jpg')"
-                      class="nyrtne"
-                    ></div>
-                    <h3>Reclaimed Wanderlust</h3>
-                    <p>
-                      A nod to sustainability and history, Reclaimed Wanderlust
-                      uses repurposed materials to craft spaces filled with
-                      stories, character, and a minimized carbon footprint.
-                    </p>
-                  </div>
-                  <div class="cwergh w-dyn-item">
-                    <div
-                      style="background-image: url('./images/a4.jpg')"
-                      class="nyrtne"
-                    ></div>
-                    <h3>Green Horizon</h3>
-                    <p>
-                      An oasis of sustainability, Green Horizon is a residential
-                      retreat that prioritizes eco-friendly materials and
-                      practices, seamlessly integrating the best of nature with
-                      modern living.
-                    </p>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
-
-      <section class="section engew">
-        <div class="thrn tehb ehbrbh">
-          <div class="hbe">
-            <div class="ynjrt">
-              <div class="row-3">
-                <div class="row-1">
-                  <div class="erwgewg">TrailTrove Services</div>
-                  <h3 class="ehbn">
-                    Delivering Excellence in Every Detail - Ensuring
-                    Craftsmanship, Attention to Detail, and Lasting Satisfaction
-                    for Adventurous Souls.
-                  </h3>
-                </div>
-                <a id="rh" href="contact.html" class="nnmm wergew-5 qrwe"
-                  ><div>Discover More</div></a
-                >
-              </div>
-            </div>
-            <div class="ehb">
-              <div class="line"></div>
-              <div class="cms-services-home w-dyn-list">
-                <div class="wefvb w-dyn-items">
-                  <div class="ewqfewfv w-dyn-item">
-                    <div class="lhgfh ehbn">Gear Management</div>
-                    <div class="tmjk">
-                      <div class="row-1">
-                        <p class="ehbn">
-                          Our gear management service ensures that your camping
-                          and travel essentials are well-organized and ready for
-                          any adventure. We handle logistics, quality control,
-                          and timely delivery, allowing you to focus on the
-                          thrill of exploration without worrying about equipment
-                          details.
-                        </p>
-                        <a
-                          id="jhm"
-                          href="contact.html"
-                          class="nnmm wergew-5 jtn qrwe"
-                          ><div>Learn More</div></a
-                        >
-                      </div>
-                    </div>
-                  </div>
-                  <div class="ewqfewfv w-dyn-item">
-                    <div id="njfrtn" class="lhgfh ehbn">
-                      Eco-Friendly Products
-                    </div>
-                    <div class="tmjk">
-                      <div class="row-1">
-                        <p class="ehbn">
-                          Choosing eco-friendly products is crucial for nature
-                          enthusiasts. Our service guides you in selecting
-                          sustainable camping gear, ensuring durability,
-                          eco-friendliness, and budget alignment. Explore our
-                          curated selection to embark on eco-conscious
-                          adventures.
-                        </p>
-                        <a
-                          id="jhm"
-                          href="contact.html"
-                          class="nnmm wergew-5 jtn qrwe"
-                          ><div>Discover More</div></a
-                        >
-                      </div>
-                    </div>
-                  </div>
-                  <div class="ewqfewfv w-dyn-item">
-                    <div id="njfrtn" class="lhgfh ehbn">Adventure Planning</div>
-                    <div class="tmjk">
-                      <div class="row-1">
-                        <p class="ehbn">
-                          Our adventure planning service focuses on optimizing
-                          your travel experiences. Whether it's a camping trip
-                          or a backpacking adventure, our team plans the route,
-                          selects scenic spots, and ensures you have all the
-                          necessary gear for a seamless and memorable journey.
-                        </p>
-                        <a
-                          id="jhm"
-                          href="contact.html"
-                          class="nnmm wergew-5 jtn qrwe"
-                          ><div>Explore More</div></a
-                        >
-                      </div>
-                    </div>
-                  </div>
-                  <div class="ewqfewfv w-dyn-item">
-                    <div id="njfrtn" class="lhgfh ehbn">
-                      Sustainable Exploration
-                    </div>
-                    <div class="tmjk">
-                      <div class="row-1">
-                        <p class="ehbn">
-                          Our commitment to sustainability extends to our
-                          exploration service. We guide you in discovering
-                          eco-friendly trails, minimizing your environmental
-                          impact. Explore the beauty of nature responsibly with
-                          our sustainable exploration service.
-                        </p>
-                        <a
-                          id="jhm"
-                          href="contact.html"
-                          class="nnmm wergew-5 jtn qrwe"
-                          ><div>Learn More</div></a
-                        >
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
-
-      <section class="section gwrgeg">
-        <div class="thrn tehb thtnt ehbrbh">
-          <div class="row-1">
-            <div class="rthrl">
-              <div class="col-1-flex thtnt">
-                <img src="./images/1.svg" loading="lazy" width="22" alt="" />
-                <div>TrailTrove.</div>
-              </div>
-            </div>
-            <a href="Contact.html" class="wvswv">Contact</a>
-          </div>
-        </div>
-      </section>
-
-      <section class="section engew">
-        <div class="thrn tehb ehbrbh">
-          <div class="wghbsaq">
-            <div class="ehvge egwqwbwqw">
-              <div class="tmjk wefgtwb">
-                <img src="./images/1.svg" width="32" alt="" class="wrbetn" />
-                <h4 class="ehbn">Exploring Sustainable Horizons</h4>
-              </div>
-              <div class="tmjk">
-                <h5 class="ehbn">Pages</h5>
-                <div class="rhjrr">
-                  <a href="index.html" class="eheg">Home</a
-                  ><a href="about.html" class="eheg">About</a
-                  ><a href="Contact.html" class="eheg">Contact</a>
-                </div>
-              </div>
-
-              <div class="tmjk">
-                <h5 class="ehbn">Compliance</h5>
-                <div class="rhjrr">
-                  <a href="disclaimer.html" class="eheg">Disclaimer</a
-                  ><a href="privacy.html" class="eheg">Privacy</a
-                  ><a href="terms.html" class="eheg">Terms</a>
-                </div>
-              </div>
-            </div>
-            <div class="line"></div>
-            <div class="ehvge rtyhbgs">
-              <div class="nmtvb">Copyright 2024</div>
-            </div>
-          </div>
-        </div>
-      </section>
-
-      
+      </footer>
     </div>
     <script src="js/script.js"></script>
   </body>
