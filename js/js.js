@@ -1,3 +1,13 @@
+document.querySelector(".nfrnr").addEventListener("click", function () {
+    this.classList.toggle("active");
+    document.querySelector(".nav").classList.toggle("open");
+  
+    document.body.style.overflow =
+      document.body.style.overflow === "hidden" ? "auto" : "hidden";
+  });
+
+
+
 document.addEventListener("DOMContentLoaded", function () {
     // Получаем все заголовки аккордеона
     var accordionTitles = document.querySelectorAll(".accordion-title");
