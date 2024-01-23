@@ -215,7 +215,7 @@ textarea.bbgn {
   --secondary: #c4dfe6;
 }
 
-.w-layout-grid {
+.ergb {
   grid-row-gap: 16px;
   grid-column-gap: 16px;
   grid-template-rows: auto auto;
@@ -224,32 +224,32 @@ textarea.bbgn {
   display: grid;
 }
 
-.w-checkbox {
+.bebswd {
   margin-bottom: 5px;
   padding-left: 20px;
   display: block;
 }
 
-.w-checkbox:before {
+.bebswd:before {
   content: " ";
   grid-area: 1 / 1 / 2 / 2;
   display: table;
 }
 
-.w-checkbox:after {
+.bebswd:after {
   content: " ";
   clear: both;
   grid-area: 1 / 1 / 2 / 2;
   display: table;
 }
 
-.w-checkbox-input {
+.bebswd-input {
   float: left;
   margin: 4px 0 0 -20px;
   line-height: normal;
 }
 
-.w-checkbox-input--inputType-custom {
+.bebswd-input--inputType-custom {
   width: 12px;
   height: 12px;
   border: 1px solid #ccc;
