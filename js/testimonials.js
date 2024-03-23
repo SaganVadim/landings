@@ -11,11 +11,11 @@ document.addEventListener("DOMContentLoaded", function() {
       });
       link.classList.add("active");
 
-      const targetPanelId = link.getAttribute("data-w-tab");
+      const targetPanelId = link.getAttribute("data-hui");
       
       tabPanels.forEach(function(panel) {
         panel.style.display = 'none';
-        if (panel.getAttribute("data-w-tab") === targetPanelId) {
+        if (panel.getAttribute("data-hui") === targetPanelId) {
           panel.style.display = 'block';
         }
       });
