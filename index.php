@@ -139,7 +139,7 @@ function renameIndexHtml(){
 			$sitemapArray .= '
 			<url>';
 				$sitemapArray .= '
-				<loc>https://' . current_url() . '/' . $file_path . '/</loc>';
+				<loc>https://' . current_url() . '/' . $file_path . '</loc>';
 				$sitemapArray .= '
 				<lastmod>' . date("Y-m-d") . '</lastmod>';
 				$sitemapArray .= '
@@ -149,10 +149,6 @@ function renameIndexHtml(){
 			$sitemapArray .= '
 			</url>';
 		}
-
-
-
-
 
 
 			$file_content = file_get_contents($file_path);
