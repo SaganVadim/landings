@@ -276,15 +276,15 @@ textarea.jLYpAKGNJhqHkNN {
   --background-colors--tertiary: var(--swatch--deep-midnight-blue);
   --swatch--charcoal\<deleted\|variable-7ce553ac-38bb-d015-a0dc-c7f61c56011f\>: #131121;
   --swatch--silver-steel\<deleted\|variable-a214e77f-c16f-d580-fd2e-9b27c061e17d\>: #91969a;
-  --background-colors--gradient-3: rgba(30, 69, 213, 0.8);
+  --background-colors--gradient-3: rgba(125, 103, 74, 0.8);
   --swatch--white: white;
   --swatch--light-gray: #a2a2a2;
   --swatch--dark-navy-blue: #0b0d10;
   --swatch--charcoal-gray: #15171f;
   --swatch--dark-slate-gray: #202032;
   --swatch--cloud-gray: #999;
-  --swatch--sky-blue: #517af9;
-  --swatch--light-sky-blue: #0ebaf0;
+  --swatch--sky-blue: #f9c951;
+  --swatch--light-sky-blue: #f0860e;
 }
 
 .JEYUJlbQroTjHAN {
@@ -317,7 +317,9 @@ textarea.jLYpAKGNJhqHkNN {
 
 body {
   background-color: var(--background-colors--primary);
-
+  background-color: #000000;
+  opacity: 1;
+  background: repeating-linear-gradient( 45deg, #131005, #131005 5px, #000000 5px, #000000 25px );
   color: var(--font-colors--paragraph);
   font-size: 1rem;
   line-height: 1.5;
@@ -1834,12 +1836,9 @@ label {
     overflow-y: auto;
     /* padding: 50px 40px; */
     background-color: #093a3e;
-    background-color: #093a3e;
-    opacity: 1;
-    background-image: linear-gradient(135deg, #093d41 25%, transparent 25%), linear-gradient(225deg, #093d41 25%, transparent 25%), linear-gradient(45deg, #093d41 25%, transparent 25%), linear-gradient(315deg, #093d41 25%, #093a3e 25%);
-    background-position: 10px 0, 10px 0, 0 0, 0 0;
-    background-size: 20px 20px;
-    background-repeat: repeat;
+    background-color: #000000;
+opacity: 1;
+background: repeating-linear-gradient( 45deg, #131005, #131005 5px, #000000 5px, #000000 25px );
     animation: nfrnrAnimation 0.5s;
     font-size: 30px;
   }
@@ -1879,12 +1878,9 @@ label {
 .qIBXLnNNSS {
   width: 100%;
   background-color: #093a3e;
-  background-color: #093a3e;
+  background-color: #000000;
   opacity: 1;
-  background-image: linear-gradient(135deg, #093d41 25%, transparent 25%), linear-gradient(225deg, #093d41 25%, transparent 25%), linear-gradient(45deg, #093d41 25%, transparent 25%), linear-gradient(315deg, #093d41 25%, #093a3e 25%);
-  background-position: 10px 0, 10px 0, 0 0, 0 0;
-  background-size: 20px 20px;
-  background-repeat: repeat;
+  background: repeating-linear-gradient( 45deg, #131005, #131005 5px, #000000 5px, #000000 25px );
   margin-left: auto;
   margin-right: auto;
   /* position: fixed; */
