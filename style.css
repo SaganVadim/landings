@@ -2050,7 +2050,7 @@ background-repeat: repeat;
     justify-content: space-between;
     min-height: 80px;
     /* background-color: var(--secondary-light); */
-    color: #000;
+    color: #eeee;
     /* padding: 0 40px; */
   }
   
@@ -2066,7 +2066,7 @@ background-repeat: repeat;
   .atbUevjMMy a {
     font-size: 30px;
     text-decoration: none;
-    color: #000;
+    color: #eeee;
     font-weight: 900;
   }
   
@@ -2078,7 +2078,7 @@ background-repeat: repeat;
   }
   
   .rIEenSoLUM a {
-    color: #000;
+    color: #eeee;
     text-decoration: none;
     font-weight: 600;
   }
@@ -2110,7 +2110,7 @@ background-repeat: repeat;
     height: 2px;
     width: 80%;
     transform: scale(1);
-    background-color: #000;
+    background-color: #eeee;
   }
   
   .nFwUCswWCW::before,
@@ -2119,7 +2119,7 @@ background-repeat: repeat;
     position: absolute;
     height: 2px;
     width: 100%;
-    background-color: #000;
+    background-color: #eeee;
     transition: all 0.5s ease 0s;
   }
   
@@ -2162,11 +2162,12 @@ background-repeat: repeat;
       overflow-y: auto;
       /* padding: 50px 40px; */
       background-color: #05515a;
-      background-color: #ffffff;
-      opacity: 1;
-      background-image: radial-gradient(#fdb99e 0.5px, transparent 0.5px), radial-gradient(#fdb99e 0.5px, #ffffff 0.5px);
-      background-size: 20px 20px;
-      background-position: 0 0, 10px 10px;
+      background-color: #05515a;
+    opacity: 1;
+    background-image: linear-gradient(135deg, #045760 25%, transparent 25%), linear-gradient(225deg, #045760 25%, transparent 25%), linear-gradient(45deg, #045760 25%, transparent 25%), linear-gradient(315deg, #045760 25%, #05515a 25%);
+    background-position: 10px 0, 10px 0, 0 0, 0 0;
+    background-size: 20px 20px;
+    background-repeat: repeat;
       
       
       
@@ -2209,11 +2210,12 @@ background-repeat: repeat;
   .qIBXLnNNSS {
     width: 100%;
     background-color: #05515a;
-    background-color: #ffffff;
+    background-color: #05515a;
     opacity: 1;
-    background-image: radial-gradient(#fdb99e 0.5px, transparent 0.5px), radial-gradient(#fdb99e 0.5px, #ffffff 0.5px);
+    background-image: linear-gradient(135deg, #045760 25%, transparent 25%), linear-gradient(225deg, #045760 25%, transparent 25%), linear-gradient(45deg, #045760 25%, transparent 25%), linear-gradient(315deg, #045760 25%, #05515a 25%);
+    background-position: 10px 0, 10px 0, 0 0, 0 0;
     background-size: 20px 20px;
-    background-position: 0 0, 10px 10px;
+    background-repeat: repeat;
     
     margin-left: auto;
     margin-right: auto;
