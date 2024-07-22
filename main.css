@@ -1603,11 +1603,10 @@ background-size: 20px 20px;
       overflow-y: auto;
       /* padding: 50px 40px; */
       background-color: #05515a;
-      background-color: #ffffff;
-      opacity: 1;
-      background-image: radial-gradient(#fdb99e 0.5px, transparent 0.5px), radial-gradient(#fdb99e 0.5px, #ffffff 0.5px);
-      background-size: 20px 20px;
-      background-position: 0 0, 10px 10px;
+      background-color: #f6f6f3;
+    opacity: 1;
+    background: repeating-linear-gradient(45deg, #faf2ec, #faf2ec 5px, #f6f6f3 5px, #f6f6f3 25px);
+    margin: 0;
       
       
       
@@ -1650,11 +1649,10 @@ background-size: 20px 20px;
   .qIBXLnNNSS {
     width: 100%;
     background-color: #05515a;
-    background-color: #ffffff;
+    background-color: #f6f6f3;
     opacity: 1;
-    background-image: radial-gradient(#fdb99e 0.5px, transparent 0.5px), radial-gradient(#fdb99e 0.5px, #ffffff 0.5px);
-    background-size: 20px 20px;
-    background-position: 0 0, 10px 10px;
+    background: repeating-linear-gradient(45deg, #faf2ec, #faf2ec 5px, #f6f6f3 5px, #f6f6f3 25px);
+    margin: 0;
     
     margin-left: auto;
     margin-right: auto;
