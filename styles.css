@@ -1813,12 +1813,7 @@ figcaption {
     overflow-y: auto;
     /* padding: 50px 40px; */
     background-color: #05515a;
-    background-color: #ffffff;
-    opacity: 1;
-    background-image: radial-gradient(#fdb99e 0.5px, transparent 0.5px), radial-gradient(#fdb99e 0.5px, #ffffff 0.5px);
-    background-size: 20px 20px;
-    background-position: 0 0, 10px 10px;
-    
+    background: linear-gradient(90deg, #ead2d2, #fffafa);
     
     
     animation: nfrnrAnimation 0.5s;
@@ -1860,11 +1855,7 @@ figcaption {
 .qIBXLnNNSS {
   width: 100%;
   background-color: #05515a;
-  background-color: #ffffff;
-  opacity: 1;
-  background-image: radial-gradient(#fdb99e 0.5px, transparent 0.5px), radial-gradient(#fdb99e 0.5px, #ffffff 0.5px);
-  background-size: 20px 20px;
-  background-position: 0 0, 10px 10px;
+  background: linear-gradient(90deg, #ead2d2, #fffafa);
   
   margin-left: auto;
   margin-right: auto;
