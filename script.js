@@ -13,6 +13,6 @@ menuItems.forEach((e) => {
   e.addEventListener("click", () => {
     menu.classList.remove("header-menu--open");
     toggler.classList.remove("header-toggler--open");
-    html.classList.remove("unscroll"); // Удаление класса unscroll
+    html.classList.remove("unscroll"); 
   });
 });
