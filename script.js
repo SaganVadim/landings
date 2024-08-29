@@ -6,13 +6,13 @@ const html = document.querySelector("html");
 toggler.addEventListener("click", () => {
   menu.classList.toggle("header-menu--open");
   toggler.classList.toggle("header-toggler--open");
-  html.classList.toggle("unscroll"); 
+  html.classList.toggle("unscroll");
 });
 
-menuItems.forEach(item => {
-  item.addEventListener("click", () => {
+menuItems.forEach((e) => {
+  e.addEventListener("click", () => {
     menu.classList.remove("header-menu--open");
     toggler.classList.remove("header-toggler--open");
-    html.classList.remove("unscroll"); 
+    html.classList.remove("unscroll"); // Удаление класса unscroll
   });
 });
