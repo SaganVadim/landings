@@ -160,7 +160,6 @@ label {
 
 .WApzHdqZeB,.GYWJeXvsDG {
   color: #333;
-  vertical-align: middle;
   background-color: #fff;
   border: 1px solid #ccc;
   width: 100%;
@@ -322,7 +321,7 @@ textarea.WApzHdqZeB,textarea.GYWJeXvsDG {
 
 .dMgFZacupE.KxyrCGSIdr {
   background-color: #3898ec;
-  background-image: url(https://d3e54v103j8qbb.cloudfront.net/static/custom-checkbox-checkmark.589d534424.svg);
+  
   background-position: 50%;
   background-repeat: no-repeat;
   background-size: cover;
@@ -766,7 +765,8 @@ strong {
 
 .zAnYacaBLB.QtwDFJpaGY {
   border-bottom-color: var(--bw--white);
-  color: var(--bw--white)
+  color: var(--bw--white);
+  resize: none;
 }
 
 .zAnYacaBLB.QtwDFJpaGY::placeholder {
@@ -1316,7 +1316,7 @@ strong {
 }
 
 .rruuCbxUmp {
-  background-image: url(https://cdn.prod.website-files.com/66c89364185e1e1e19cac5ce/66d08cf7f22e10b1e5937c08_Results%20Vector.svg),linear-gradient(135deg,#3399c6,#4ecddb);
+  background-image: linear-gradient(135deg,#3399c6,#4ecddb);
   background-position: 50%,0 0;
   background-repeat: no-repeat,repeat;
   background-size: cover,auto
@@ -2920,16 +2920,15 @@ strong {
   padding: 0 20px; 
 }
 
-headerr {
+.head {
   display: flex;
   justify-content: space-between;
   align-items: center;
   padding: 15px 0;
   background-color: #fff;
   color: #388fe0;
-  
-  
 }
+
 
 .logo {
   font-size: 24px;
@@ -2960,9 +2959,10 @@ nav ul li a {
   }
 
   nav ul {
-    flex-direction: column;
+    flex-direction: row;
     align-items: flex-end; 
     width: 100%;
+    gap: 10px;
   }
 
   nav ul li {
