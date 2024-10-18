@@ -17,3 +17,17 @@ images.forEach((image) => {
     image.style.transform = 'scale(1) rotateX(0) rotateY(0)';
   });
 });
+
+document.addEventListener('scroll', () => {
+    const blocks = document.querySelectorAll('.animated-block');
+    
+    blocks.forEach(block => {
+      const blockPosition = block.getBoundingClientRect().top;
+      const windowHeight = window.innerHeight;
+      
+      if (blockPosition < windowHeight - 100) { 
+        block.classList.add('visible');
+      }
+    });
+  });
+  
