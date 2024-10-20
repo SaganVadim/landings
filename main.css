@@ -342,9 +342,7 @@ html {
   body {
     color: #1b1b1b;
     background-color: #fafafa;
-    background-color: #fafafa;
-opacity: 1;
-background: repeating-linear-gradient( 45deg, #f7f7f7, #f7f7f7 5px, #fafafa 5px, #fafafa 25px );
+    background: linear-gradient(90deg, rgb(215, 215, 215), rgba(255, 255, 255, 1));
     font-size: 18px;
     line-height: 130%;
   }
@@ -459,7 +457,7 @@ background: repeating-linear-gradient( 45deg, #f7f7f7, #f7f7f7 5px, #fafafa 5px,
   
   .ZcfSnZJmoq {
     width: 100%;
-    background-image: linear-gradient(rgba(27, 27, 27, 0.525), rgba(27, 27, 27, 0.848)), url("imgs/1.webp");
+    background-image: linear-gradient(rgba(27, 27, 27, 0.525), rgba(27, 27, 27, 0.848)), url("img/1.webp");
     background-position: 0 0, 50%;
     background-size: auto, cover;
     border-radius: 24px;
@@ -605,7 +603,7 @@ background: repeating-linear-gradient( 45deg, #f7f7f7, #f7f7f7 5px, #fafafa 5px,
   }
   
   .nDYwgjGFYO {
-    font-size: 52px;
+    font-size: 45px;
     line-height: 120%;
   }
   
@@ -724,7 +722,7 @@ background: repeating-linear-gradient( 45deg, #f7f7f7, #f7f7f7 5px, #fafafa 5px,
   
   .sjhkDtcIfa {
     height: 120%;
-    background-image: url("imgs/3.webp");
+    background-image: url("img/3.webp");
     background-position: 50%;
     background-repeat: no-repeat;
     background-size: cover;
@@ -862,7 +860,7 @@ background: repeating-linear-gradient( 45deg, #f7f7f7, #f7f7f7 5px, #fafafa 5px,
   
   .PuSnOQJRSz {
     min-height: 520px;
-    background-image: url("imgs/15.webp");
+    background-image: url("img/15.webp");
     background-position: 50%;
     background-size: cover;
     border-radius: 12px;
@@ -870,7 +868,7 @@ background: repeating-linear-gradient( 45deg, #f7f7f7, #f7f7f7 5px, #fafafa 5px,
   
   .LDtUFPMKHH {
     min-height: 520px;
-    background-image: url("imgs/5.webp");
+    background-image: url("img/5.webp");
     background-position: 50%;
     background-size: cover;
     border-radius: 12px;
@@ -1150,7 +1148,7 @@ background: repeating-linear-gradient( 45deg, #f7f7f7, #f7f7f7 5px, #fafafa 5px,
   
   .DXXmqlIyFq {
     min-height: 500px;
-    background-image: url("imgs/21.webp");
+    background-image: url("img/21.webp");
     background-position: 50%;
     background-size: cover;
     border-radius: 8px;
@@ -1559,13 +1557,13 @@ background: repeating-linear-gradient( 45deg, #f7f7f7, #f7f7f7 5px, #fafafa 5px,
   }
   
   .ZCrJTmGTCP a {
-    color: #eee;
+    color: #333;
     font-size: 32px;
     text-decoration: none;
     transition: color 0.3s;
   }
   .ZCrJTmGTCP a:hover {
-    color: #ff934f;
+    color: #5e5e5e;
     text-decoration: none;
   }
   
@@ -1586,13 +1584,13 @@ background: repeating-linear-gradient( 45deg, #f7f7f7, #f7f7f7 5px, #fafafa 5px,
   }
   
   .GxfqDSsMmP a {
-    color: #fff;
+    color: #333;
     text-decoration: none;
     transition: color 0.3s;
   }
   
   .GxfqDSsMmP a:hover {
-    color: #ff934f;
+    color: #5e5e5e;
   }
   
   @media (max-width: 768px) {
@@ -1616,3 +1614,28 @@ background: repeating-linear-gradient( 45deg, #f7f7f7, #f7f7f7 5px, #fafafa 5px,
       margin: 5px 0;
     }
   }
+
+  .accordion-content {
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.3s ease;
+    padding: 0 15px;
+    margin-bottom: 10px;
+  }
+  
+  .accordion-header {
+    cursor: pointer;
+    margin: 10px 0;
+    font-weight: bold;
+  }
+  
+  .accordion-item.active .accordion-content {
+    max-height: 200px;
+    padding: 10px 15px;
+  }
+  
+  .animate {
+    opacity: 0; 
+    transform: translateY(20px); 
+    transition: opacity 0.6s ease, transform 0.6s ease; 
+}
