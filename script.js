@@ -24,13 +24,9 @@ function isInViewport(element) {
     );
 }
 
-const h1Element = document.querySelector('.atUDpQBCRn');
 
-window.addEventListener('scroll', function () {
-    if (isInViewport(h1Element)) {
-        h1Element.classList.add('scrolled');
-    }
-});
+
+
 
 function isInViewport(element) {
     const rect = element.getBoundingClientRect();
