@@ -1,33 +1,32 @@
 document.addEventListener("DOMContentLoaded", () => {
-    const slides = document.querySelectorAll(".testimonial-slide");
-    const dots = document.querySelectorAll(".w-slider-dot");
-    const prevButton = document.querySelector(".w-slider-arrow-left");
-    const nextButton = document.querySelector(".w-slider-arrow-right");
+    const slides = document.querySelectorAll(".VMqzPPaDJU");
+    const dots = document.querySelectorAll(".DeOYtVwrsH-dot");
+    const prevButton = document.querySelector(".DeOYtVwrsH-arrow-left");
+    const nextButton = document.querySelector(".DeOYtVwrsH-arrow-right");
     let currentIndex = 0;
     const slideCount = slides.length;
     const autoSwitchInterval = 4000; 
-  
+
     function showSlide(index) {
       currentIndex = (index + slideCount) % slideCount;
-  
+
       slides.forEach((slide, i) => {
-        slide.style.display = i === currentIndex ? "block" : "none";
-        slide.style.opacity = i === currentIndex ? "1" : "0";
+        slide.classList.toggle("active", i === currentIndex);
       });
-  
+
       dots.forEach((dot, i) => {
         dot.classList.toggle("w-active", i === currentIndex);
       });
     }
-  
+
     function goToNextSlide() {
       showSlide(currentIndex + 1);
     }
-  
+
     function goToPreviousSlide() {
       showSlide(currentIndex - 1);
     }
-  
+
     function setDotNavigation() {
       dots.forEach((dot, i) => {
         dot.addEventListener("click", () => {
@@ -36,14 +35,14 @@ document.addEventListener("DOMContentLoaded", () => {
         });
       });
     }
-  
+
     let autoSwitch = setInterval(goToNextSlide, autoSwitchInterval);
-  
+
     function resetAutoSwitch() {
       clearInterval(autoSwitch);
       autoSwitch = setInterval(goToNextSlide, autoSwitchInterval);
     }
-  
+
     nextButton.addEventListener("click", () => {
       goToNextSlide();
       resetAutoSwitch();
@@ -52,10 +51,11 @@ document.addEventListener("DOMContentLoaded", () => {
       goToPreviousSlide();
       resetAutoSwitch();
     });
-  
+
     setDotNavigation();
     showSlide(currentIndex);
-  });
+});
+
   
 
   
@@ -69,3 +69,25 @@ document.addEventListener("DOMContentLoaded", () => {
         answer.style.height = answer.scrollHeight + 'px';
     }
 }
+
+
+document.addEventListener("DOMContentLoaded", function () {
+    const elements = document.querySelectorAll(".fade-in");
+  
+    function checkVisibility() {
+      elements.forEach(element => {
+        const rect = element.getBoundingClientRect();
+        const windowHeight = window.innerHeight || document.documentElement.clientHeight;
+  
+       
+        if (rect.top <= windowHeight && rect.bottom >= 0) {
+          element.classList.add("visible");
+        }
+      });
+    }
+  
+    
+    checkVisibility();
+    window.addEventListener("scroll", checkVisibility);
+  });
+  
