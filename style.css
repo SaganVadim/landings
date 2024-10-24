@@ -1728,29 +1728,26 @@ nav {
   list-style: none;
   display: flex;
   flex-direction: row;
+  padding: 0; 
+  margin: 0; 
 }
 
 .GxfqDSsMmP li {
-  margin: 0 35px;
+  margin: 0 20px; 
 }
 
 .GxfqDSsMmP a {
   color: #333;
   text-decoration: none;
-  transition: color 0.3s;
-  transition: transform 1s, background-color 1s;
+  transition: color 0.3s ease, transform 0.3s ease; 
+  padding: 10px 15px; 
 }
 
-.GxfqDSsMmP a:hover {
-  color: #5e5e5e;
+.GxfqDSsMmP li:hover a {
+  color: #fff; 
   background-color: var(--red);
-    color: #fff;
-    border-radius: 50px;
-    height: auto;
-    
-    padding: 10px 10px;
-    font-weight: 600;
-    transition: transform 1s, background-color 1s;
+  border-radius: 50px;
+  font-weight: 600;
 }
 
 @media (max-width: 768px) {
@@ -1764,13 +1761,11 @@ nav {
   }
 
   .GxfqDSsMmP {
-    flex-direction: row;
-    align-items: center;
-    gap: 30px;
-    padding: 0;
+    align-items: center; 
+    gap: 10px; 
   }
 
   .GxfqDSsMmP li {
-    margin: 5px 0;
+    margin: 5px 0; 
   }
 }
