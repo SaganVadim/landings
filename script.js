@@ -1,71 +1,72 @@
-document.addEventListener("DOMContentLoaded", () => {
-    const slides = document.querySelectorAll(".testimonial-slide");
-    const dots = document.querySelectorAll(".w-slider-dot");
-    const prevButton = document.querySelector(".w-slider-arrow-left");
-    const nextButton = document.querySelector(".w-slider-arrow-right");
-    let currentIndex = 0;
-    const slideCount = slides.length;
-    const autoSwitchInterval = 4000; 
-  
-    function showSlide(index) {
-      currentIndex = (index + slideCount) % slideCount;
-  
-      slides.forEach((slide, i) => {
-        slide.style.display = i === currentIndex ? "block" : "none";
-        slide.style.opacity = i === currentIndex ? "1" : "0";
-      });
-  
-      dots.forEach((dot, i) => {
-        dot.classList.toggle("w-active", i === currentIndex);
-      });
-    }
-  
-    function goToNextSlide() {
-      showSlide(currentIndex + 1);
-    }
-  
-    function goToPreviousSlide() {
-      showSlide(currentIndex - 1);
-    }
-  
-    function setDotNavigation() {
-      dots.forEach((dot, i) => {
-        dot.addEventListener("click", () => {
-          showSlide(i);
-          resetAutoSwitch();
-        });
-      });
-    }
-  
-    let autoSwitch = setInterval(goToNextSlide, autoSwitchInterval);
-  
-    function resetAutoSwitch() {
-      clearInterval(autoSwitch);
-      autoSwitch = setInterval(goToNextSlide, autoSwitchInterval);
-    }
-  
-    nextButton.addEventListener("click", () => {
-      goToNextSlide();
-      resetAutoSwitch();
-    });
-    prevButton.addEventListener("click", () => {
-      goToPreviousSlide();
-      resetAutoSwitch();
-    });
-  
-    setDotNavigation();
-    showSlide(currentIndex);
-  });
-  
+document.querySelectorAll('.accordion-button').forEach(button => {
+  button.addEventListener('click', () => {
+    const accordionItem = button.parentElement;
+    const isActive = accordionItem.classList.contains('active');
 
-  
-  function toggleFAQ(element) {
-    const answer = element.nextElementSibling;
-    const isOpen = answer.style.height && answer.style.height !== '0px';
-    
-    if (isOpen) {
-        answer.style.height = '0px';
-    } else {
-        answer.style.height = answer.scrollHeight + 'px';
+    document
+      .querySelectorAll('.accordion-item')
+      .forEach(item => item.classList.remove('active'));
+
+    if (!isActive) {
+      accordionItem.classList.add('active');
     }
+  });
+});
+
+const createPixel = container => {
+  if (container) {
+    const pixel = document.createElement('div');
+    pixel.classList.add('pixel');
+    pixel.style.left = `${Math.random() * 100}%`;
+    pixel.style.backgroundColor = getRandomColor();
+    pixel.style.animationDuration = `${Math.random() * 3 + 3}s`;
+    container.appendChild(pixel);
+    setTimeout(() => pixel.remove(), 5000);
+  }
+};
+
+const getRandomColor = () => {
+  const colors = [
+    '#ff57332e',
+    '#33c9ff2e',
+    '#00ff002e',
+    '#ff33f62e',
+    '#faff332e',
+  ];
+  return colors[Math.floor(Math.random() * colors.length)];
+};
+
+const container = document.querySelector('.MFoyeiIrsN');
+setInterval(() => createPixel(container), 100);
+const hosDdwQHFCContainer = document.querySelector('.HosDdwQHFC');
+setInterval(() => createPixel(hosDdwQHFCContainer), 100);
+
+function isElementInViewport(el) {
+  const rect = el.getBoundingClientRect();
+  return rect.top >= 0;
 }
+
+function animateOnScroll() {
+  const elements = document.querySelectorAll('.animate-on-scroll');
+  elements.forEach(el => {
+    if (isElementInViewport(el)) {
+      el.classList.add('visible');
+    }
+  });
+}
+
+window.addEventListener('scroll', animateOnScroll);
+window.addEventListener('load', animateOnScroll);
+
+document.addEventListener('mousemove', e => {
+  const x = e.clientX;
+  const y = e.clientY;
+
+  const headers = document.querySelectorAll(
+    '.MSioBHrRAj, .UIsskwIyOw, .IKcwcRZoyS, .PGjjXmQGAa, .pGogHOFzNK, .yEEgNWAAnR, .MmXWPahTsL, .acxKcLmgyU'
+  );
+
+  headers.forEach(header => {
+    header.style.background = `radial-gradient(circle at ${x}px ${y}px, rgb(0, 53, 59), rgb(5, 81, 90))`;
+  });
+});
