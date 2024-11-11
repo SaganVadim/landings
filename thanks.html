@@ -4,21 +4,21 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>
-      Thank You for Choosing EnergyEmporium - Your Power Tool Partner
+      Thank You for Choosing ToneThrive - Let's Achieve Your Goals Together
     </title>
     <meta
       name="keywords"
-      content="EnergyEmporium, thank you, customer appreciation, power tools, tool store, shopping, support, loyalty"
+      content="Thank You, ToneThrive, Fitness Studio, Welcome, Fitness Journey, Membership"
     />
     <meta
       name="description"
-      content="Thank you for choosing EnergyEmporium! We appreciate your trust in us for your power tool needs. Our team is committed to providing you with top-notch products and excellent service. We look forward to supporting your projects and being your go-to source for all things tools!"
+      content="Thank you for choosing ToneThrive. We're excited to have you on board and can't wait to be a part of your fitness journey. Get ready to reach your goals with the support of our dedicated trainers and community. Together, we’ll thrive!"
     />
 
     <style>
       body {
         font-family: "Helvetica Neue", Arial, sans-serif;
-        background-color: #f0f4f8;
+        background-color: #12141d;
         margin: 0;
         padding: 0;
         display: flex;
@@ -36,24 +36,33 @@
         max-width: 650px;
         padding: 30px;
         background: rgba(255, 255, 255, 0.9);
+        --s: 37px;
+        --c: #0000, #1d1f28 0.5deg 119.5deg, #0000 120deg;
+        --g1: conic-gradient(from 60deg at 56.25% calc(425% / 6), var(--c));
+        --g2: conic-gradient(from 180deg at 43.75% calc(425% / 6), var(--c));
+        --g3: conic-gradient(from -60deg at 50% calc(175% / 12), var(--c));
+        background: var(--g1), var(--g1) var(--s) calc(1.73 * var(--s)),
+          var(--g2), var(--g2) var(--s) calc(1.73 * var(--s)),
+          var(--g3) var(--s) 0, var(--g3) 0 calc(1.73 * var(--s)) #1e212c;
+        background-size: calc(2 * var(--s)) calc(3.46 * var(--s));
         border-radius: 8px;
         box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.1);
       }
 
       h1 {
-        color: #175858;
+        color: #248b8b;
         font-size: 2.2em;
         margin-bottom: 20px;
       }
 
       p {
-        color: #333;
+        color: #eee;
         margin-bottom: 25px;
         font-size: 1.1em;
       }
 
       .btn {
-        background-color: #175858;
+        background-color: #228b8b;
         color: white;
         padding: 12px 24px;
         text-align: center;
@@ -66,7 +75,7 @@
       }
 
       .btn:hover {
-        background-color: rgb(30, 131, 131);
+        background-color: rgb(63, 184, 184);
       }
     </style>
   </head>
@@ -75,12 +84,8 @@
     <main>
       <section>
         <div class="container">
-          <h1>Thank You for Choosing EnergyEmporium!</h1>
-          <p>
-            The EnergyEmporium team is thrilled to have you as part of our
-            community of power tool enthusiasts. We’re here to fuel your
-            projects with top-quality tools and unmatched service.
-          </p>
+          <h1>Thank You for Joining ToneThrive!</h1>
+          <p>We're excited to welcome you to the ToneThrive community!</p>
           <a href="index.html" class="btn">Back to Home</a>
         </div>
       </section>
