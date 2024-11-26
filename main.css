@@ -866,6 +866,8 @@ background-image:  repeating-radial-gradient( circle at 0 0, transparent 0, #fdf
 }
 
 .hgOfJoeVwT {
+  position: relative;
+  z-index: 99;
   grid-column-gap: 80px;
   align-items: flex-start;
   padding-top: 100px;
