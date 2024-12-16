@@ -940,7 +940,7 @@ background: repeating-linear-gradient( 45deg, #f9f9fc, #f9f9fc 5px, #ffffff 5px,
   
   .nPQaaMCHTE {
     
-    font-size: 180px;
+    font-size: 150px;
     line-height: 120px;
   }
   
@@ -1355,6 +1355,7 @@ background: repeating-linear-gradient( 45deg, #f9f9fc, #f9f9fc 5px, #ffffff 5px,
   .GpCcrtRqlG {
     align-items: flex-start;
     display: flex;
+    
   }
   
   .cgqLLOFoln {
@@ -1380,6 +1381,8 @@ background: repeating-linear-gradient( 45deg, #f9f9fc, #f9f9fc 5px, #ffffff 5px,
     margin-bottom: 0;
     font-size: 22px;
     line-height: 125%;
+    padding-top: 32px;
+    padding-bottom: 32px;
   }
   
   .xhniKshGIz {
@@ -1388,8 +1391,7 @@ background: repeating-linear-gradient( 45deg, #f9f9fc, #f9f9fc 5px, #ffffff 5px,
     border-bottom: 1px solid #181818;
     justify-content: space-between;
     align-items: flex-start;
-    padding-top: 32px;
-    padding-bottom: 32px;
+    
     display: flex;
   }
   
@@ -2012,7 +2014,212 @@ nav {
   }
 }
 
-
+.ZiMkWNNepN {
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.3s ease, padding 0.3s ease;
+  padding: 0 16px;
+}
+.ZiMkWNNepN.active {
+  max-height: 200px; 
+  padding: 8px 16px;
+}
+.eEGqUFxWqh {
+  cursor: pointer;
+}
 
   
   
+.hidden {
+  opacity: 0;
+  transform: translateY(20px);
+  transition: all 0.6s ease-out;
+}
+
+.visible {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+#HthioNTjJt{
+  animation: myAniml 2s ease 0s 1 normal forwards;
+}
+@keyframes myAniml {
+	0% {
+		animation-timing-function: ease-in;
+		opacity: 0;
+		transform: translateX(-250px);
+	}
+
+	38% {
+		animation-timing-function: ease-out;
+		opacity: 1;
+		transform: translateX(0);
+	}
+
+	55% {
+		animation-timing-function: ease-in;
+		transform: translateX(-68px);
+	}
+
+	72% {
+		animation-timing-function: ease-out;
+		transform: translateX(0);
+	}
+
+	81% {
+		animation-timing-function: ease-in;
+		transform: translateX(-28px);
+	}
+
+	90% {
+		animation-timing-function: ease-out;
+		transform: translateX(0);
+	}
+
+	95% {
+		animation-timing-function: ease-in;
+		transform: translateX(-8px);
+	}
+
+	100% {
+		animation-timing-function: ease-out;
+		transform: translateX(0);
+	}
+}
+
+#mwKPaaOyXO{
+  animation: myAnimr 2s ease 0s 1 normal forwards;
+}
+@keyframes myAnimr {
+	0% {
+		animation-timing-function: ease-in;
+		opacity: 0;
+		transform: translateX(250px);
+	}
+
+	38% {
+		animation-timing-function: ease-out;
+		opacity: 1;
+		transform: translateX(0);
+	}
+
+	55% {
+		animation-timing-function: ease-in;
+		transform: translateX(68px);
+	}
+
+	72% {
+		animation-timing-function: ease-out;
+		transform: translateX(0);
+	}
+
+	81% {
+		animation-timing-function: ease-in;
+		transform: translateX(32px);
+	}
+
+	90% {
+		animation-timing-function: ease-out;
+		transform: translateX(0);
+	}
+
+	95% {
+		animation-timing-function: ease-in;
+		transform: translateX(8px);
+	}
+
+	100% {
+		animation-timing-function: ease-out;
+		transform: translateX(0);
+	}
+}
+.QFjbLgwSCm{
+  animation: myAnimb 2s ease 0s 1 normal forwards;
+}
+
+@keyframes myAnimb {
+	0% {
+		animation-timing-function: ease-in;
+		opacity: 0;
+		transform: translateY(250px);
+	}
+
+	38% {
+		animation-timing-function: ease-out;
+		opacity: 1;
+		transform: translateY(0);
+	}
+
+	55% {
+		animation-timing-function: ease-in;
+		transform: translateY(65px);
+	}
+
+	72% {
+		animation-timing-function: ease-out;
+		transform: translateY(0);
+	}
+
+	81% {
+		animation-timing-function: ease-in;
+		transform: translateY(28px);
+	}
+
+	90% {
+		animation-timing-function: ease-out;
+		transform: translateY(0);
+	}
+
+	95% {
+		animation-timing-function: ease-in;
+		transform: translateY(8px);
+	}
+
+	100% {
+		animation-timing-function: ease-out;
+		transform: translateY(0);
+	}
+}
+
+.hiddenl {
+  opacity: 0;
+  transform: translateX(-50px);
+  transition: opacity 0.3s, transform 0.3s;
+}
+
+.animll {
+  animation: myAnimll 2s ease 0s 1 normal forwards;
+}
+
+@keyframes myAnimll {
+  0% {
+    opacity: 0;
+    transform: translateX(-50px);
+  }
+
+  100% {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+.hiddenr {
+  opacity: 0;
+  transform: translateX(50px);
+  transition: opacity 0.3s, transform 0.3s;
+}
+.animrr{
+  animation: myAnimrr 2s ease 0s 1 normal forwards;
+}
+@keyframes myAnimrr {
+	0% {
+		opacity: 0;
+		transform: translateX(50px);
+	}
+
+	100% {
+		opacity: 1;
+		transform: translateX(0);
+	}
+}
