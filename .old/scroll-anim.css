@@ -1,0 +1,53 @@
+.hidden {
+    opacity: 0;
+    transform: translateY(20px);
+    transition: all 0.6s ease-out;
+  }
+  
+  .visible {
+    opacity: 1;
+    transform: translateY(0);
+  }
+
+  /*  */
+
+  /* Базовый класс для скрытия элементов */
+.hiddenAnim {
+    opacity: 0;
+    transform: translateY(50px);
+    transition: all 1.5s ease;
+  }
+  
+  /* Анимация для появления снизу вверх */
+  .fade-in-up {
+    opacity: 0;
+    transform: translateY(50px);
+  }
+  
+  .fade-in-up.visible {
+    opacity: 1;
+    transform: translateY(0);
+  }
+  
+  /* Анимация для появления слева */
+  .fade-in-left {
+    opacity: 0;
+    transform: translateX(-50px);
+  }
+  
+  .fade-in-left.visible {
+    opacity: 1;
+    transform: translateX(0);
+  }
+  
+  /* Анимация для увеличения элемента */
+  .zoom-in {
+    opacity: 0;
+    transform: scale(0.8);
+  }
+  
+  .zoom-in.visible {
+    opacity: 1;
+    transform: scale(1);
+  }
+  
