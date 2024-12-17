@@ -11,14 +11,12 @@
 
   /*  */
 
-  /* Базовый класс для скрытия элементов */
 .hiddenAnim {
     opacity: 0;
     transform: translateY(50px);
     transition: all 1.5s ease;
   }
   
-  /* Анимация для появления снизу вверх */
   .fade-in-up {
     opacity: 0;
     transform: translateY(50px);
@@ -29,7 +27,6 @@
     transform: translateY(0);
   }
   
-  /* Анимация для появления слева */
   .fade-in-left {
     opacity: 0;
     transform: translateX(-50px);
@@ -39,8 +36,16 @@
     opacity: 1;
     transform: translateX(0);
   }
+  .fade-in-right {
+    opacity: 0;
+    transform: translateX(50px);
+  }
   
-  /* Анимация для увеличения элемента */
+  .fade-in-right.visible {
+    opacity: 1;
+    transform: translateX(0);
+  }
+  
   .zoom-in {
     opacity: 0;
     transform: scale(0.8);
