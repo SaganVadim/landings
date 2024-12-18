@@ -11,7 +11,9 @@ html {
    footer, main, section {
     display: block;
   }
-  
+  main {
+    overflow-x: hidden;
+  }
   a {
     background-color: rgba(0, 0, 0, 0);
   }
@@ -2852,3 +2854,5 @@ background: repeating-linear-gradient( 45deg, #39725e, #39725e 5px, #346d59 5px,
     opacity: 1;
     transform: scale(1);
   }
+
+  
