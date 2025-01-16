@@ -1,31 +1,28 @@
 document.addEventListener('DOMContentLoaded', () => {
-    const slides = document.querySelectorAll('.KsZbgDykJN');
-    const nextButton = document.querySelector('.iKIiiLaEnM');
-    const prevButton = document.querySelector('.RABnstjoPP');
+    const slides = document.querySelectorAll('.milium'); // All slides
+    const nextButton = document.querySelector('.bedlamp'); // Next button
+    const prevButton = document.querySelector('.ghostliest'); // Previous button
+    const pagination = document.querySelector('.pantalet'); // Pagination
     let currentIndex = 0;
     let autoSlideInterval;
 
     function showSlide(index) {
         slides.forEach((slide, i) => {
-            slide.classList.remove('active');
-            slide.style.zIndex = i === index ? '1' : '0';
+            slide.style.display = i === index ? 'block' : 'none';
         });
-        slides[index].classList.add('active');
+
+        if (pagination) {
+            pagination.textContent = `Slide ${index + 1} / ${slides.length}`;
+        }
     }
 
     function nextSlide() {
-        currentIndex++;
-        if (currentIndex >= slides.length) {
-            currentIndex = 0;
-        }
+        currentIndex = (currentIndex + 1) % slides.length;
         showSlide(currentIndex);
     }
 
     function prevSlide() {
-        currentIndex--;
-        if (currentIndex < 0) {
-            currentIndex = slides.length - 1;
-        }
+        currentIndex = (currentIndex - 1 + slides.length) % slides.length;
         showSlide(currentIndex);
     }
 
@@ -36,7 +33,6 @@ document.addEventListener('DOMContentLoaded', () => {
     function stopAutoSlide() {
         clearInterval(autoSlideInterval);
     }
-
 
     nextButton.addEventListener('click', () => {
         nextSlide();
@@ -50,7 +46,6 @@ document.addEventListener('DOMContentLoaded', () => {
         startAutoSlide();
     });
 
-    
     showSlide(currentIndex);
-    startAutoSlide(); 
+    startAutoSlide();
 });
