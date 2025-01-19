@@ -1,0 +1,3325 @@
+html {
+  -webkit-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
+}
+
+body {
+  margin: 0;
+}
+
+
+footer,
+main,
+section {
+  display: block;
+}
+
+progress {
+  vertical-align: baseline;
+  display: inline-block;
+}
+
+a {
+  background-color: #0000;
+}
+
+a:active,
+a:hover {
+  outline: 0;
+}
+
+h1 {
+  margin: 0.67em 0;
+  font-size: 2em;
+}
+
+img {
+  border: 0;
+}
+
+svg:not(:root) {
+  overflow: hidden;
+}
+
+input,
+textarea {
+  color: inherit;
+  font: inherit;
+  margin: 0;
+}
+
+input::-moz-focus-inner {
+  border: 0;
+  padding: 0;
+}
+
+input {
+  line-height: normal;
+}
+
+input[type="number"]::-webkit-inner-spin-button,
+input[type="number"]::-webkit-outer-spin-button {
+  height: auto;
+}
+
+textarea {
+  overflow: auto;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  height: 100%;
+}
+
+body {
+  color: #333;
+  background-color: #fff;
+  min-height: 100%;
+  margin: 0;
+
+  font-size: 14px;
+  line-height: 20px;
+}
+
+img {
+  vertical-align: middle;
+  max-width: 100%;
+  display: inline-block;
+}
+
+.lightfaces {
+  max-width: 100%;
+  display: inline-block;
+}
+
+.replevied {
+  color: #fff;
+  line-height: inherit;
+  cursor: pointer;
+  background-color: #3898ec;
+  border: 0;
+  border-radius: 0;
+  padding: 9px 15px;
+  text-decoration: none;
+  display: inline-block;
+}
+
+input.replevied {
+  -webkit-appearance: button;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin-bottom: 10px;
+  font-weight: bold;
+}
+
+h1 {
+  margin-top: 20px;
+  font-size: 38px;
+  line-height: 44px;
+}
+
+h2 {
+  margin-top: 20px;
+  font-size: 32px;
+  line-height: 36px;
+}
+
+h3 {
+  margin-top: 20px;
+  font-size: 24px;
+  line-height: 30px;
+}
+
+h4 {
+  margin-top: 10px;
+  font-size: 18px;
+  line-height: 24px;
+}
+
+h5 {
+  margin-top: 10px;
+  font-size: 14px;
+  line-height: 20px;
+}
+
+h6 {
+  margin-top: 10px;
+  font-size: 12px;
+  line-height: 18px;
+}
+
+p {
+  margin-top: 0;
+  margin-bottom: 10px;
+}
+
+blockquote {
+  border-left: 5px solid #e2e2e2;
+  margin: 0 0 10px;
+  padding: 10px 20px;
+  font-size: 18px;
+  line-height: 22px;
+}
+
+ul {
+  margin-top: 0;
+  margin-bottom: 10px;
+  padding-left: 40px;
+}
+
+.clothespins {
+  margin: 0 0 15px;
+}
+
+.lanolins {
+  text-align: center;
+  background-color: #ddd;
+  padding: 20px;
+  display: none;
+}
+
+.impolicies {
+  background-color: #ffdede;
+  margin-top: 10px;
+  padding: 10px;
+  display: none;
+}
+
+.circinately {
+  color: #333;
+  vertical-align: middle;
+  background-color: #fff;
+  border: 1px solid #ccc;
+  width: 100%;
+  height: 38px;
+  margin-bottom: 10px;
+  padding: 8px 12px;
+  font-size: 14px;
+  line-height: 1.42857;
+  display: block;
+}
+
+.circinately::placeholder {
+  color: #999;
+}
+
+.circinately:focus {
+  border-color: #3898ec;
+  outline: 0;
+}
+
+textarea.circinately {
+  height: auto;
+}
+
+.aromatherapy {
+  max-width: 940px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.aromatherapy:before,
+.aromatherapy:after {
+  content: " ";
+  grid-area: 1 / 1 / 2 / 2;
+  display: table;
+}
+
+.aromatherapy:after {
+  clear: both;
+}
+
+@media screen and (max-width: 991px) {
+  .aromatherapy {
+    max-width: 728px;
+  }
+}
+
+@media screen and (max-width: 479px) {
+  .aromatherapy {
+    max-width: none;
+  }
+}
+
+.engravers:before,
+.engravers:after {
+  content: " ";
+  grid-area: 1 / 1 / 2 / 2;
+  display: table;
+}
+
+.engravers:after {
+  clear: both;
+}
+
+.engravers ul {
+  overflow: hidden;
+}
+
+@keyframes spin {
+  0% {
+    transform: rotate(0);
+  }
+
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+.clearer {
+  background-color: #ddd;
+  padding: 10px;
+}
+
+.plumaged {
+  display: none !important;
+}
+
+:root {
+  --color--white: white;
+  --font-family--body: Satoshi, sans-serif;
+  --color--body: var(--color--gray-2);
+  --font-family--heading: "Tasaorbiterdisplay Bf 64891 Cba 47942", sans-serif;
+  --color--heading: var(--color--black);
+  --color--black: #121a1f;
+  --color--gray-4: #f0f0f0;
+  --color--primary-1: #fa4533;
+  --color--gray-2: #383a3a;
+  --color--gray-3: #e4ebf0;
+  --color--transparent: #0000;
+  --color--gray-1: #20282c;
+}
+
+.prepense {
+  max-width: 940px;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+}
+
+.unwrap {
+  grid-row-gap: 16px;
+  grid-column-gap: 16px;
+  grid-template-rows: auto auto;
+  grid-template-columns: 1fr 1fr;
+  grid-auto-columns: 1fr;
+  display: grid;
+}
+
+@media screen and (max-width: 991px) {
+  .prepense {
+    max-width: 728px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .prepense {
+    max-width: none;
+  }
+}
+
+body {
+  background-color: var(--color--white);
+
+  color: var(--color--body);
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 1.5em;
+}
+
+h1 {
+  color: var(--color--heading);
+  margin-top: 0;
+  margin-bottom: 10px;
+  font-size: 56px;
+  font-weight: 600;
+  line-height: 1.1em;
+}
+
+h2 {
+  color: var(--color--heading);
+  margin-top: 0;
+  margin-bottom: 10px;
+  font-size: 44px;
+  font-weight: 600;
+  line-height: 1.1em;
+}
+
+h3 {
+  color: var(--color--heading);
+  margin-top: 0;
+  margin-bottom: 10px;
+  font-size: 34px;
+  font-weight: 600;
+  line-height: 1.1em;
+}
+
+h4 {
+  color: var(--color--heading);
+  margin-top: 0;
+  margin-bottom: 10px;
+  font-size: 28px;
+  font-weight: 600;
+  line-height: 1.1em;
+}
+
+h5 {
+  color: var(--color--heading);
+  margin-top: 0;
+  margin-bottom: 10px;
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 1.1em;
+}
+
+h6 {
+  color: var(--color--heading);
+  margin-top: 0;
+  margin-bottom: 10px;
+  font-size: 22px;
+  font-weight: 600;
+  line-height: 1.1em;
+}
+
+p {
+  margin-bottom: 10px;
+}
+
+a {
+  color: var(--color--black);
+  text-decoration: underline;
+}
+
+ul {
+  margin-top: 0;
+  margin-bottom: 10px;
+  padding-left: 26px;
+}
+
+li {
+  margin-bottom: 10px;
+}
+
+img {
+  max-width: 100%;
+  display: inline-block;
+}
+
+label {
+  margin-bottom: 5px;
+  font-weight: 500;
+  display: block;
+}
+
+blockquote {
+  background-color: var(--color--gray-4);
+  color: var(--color--black);
+  text-align: center;
+  border-left-style: none;
+  margin-bottom: 10px;
+  padding: 50px;
+  font-size: 18px;
+  line-height: 28px;
+}
+
+.strikers {
+  max-width: 1460px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 30px;
+  padding-right: 30px;
+}
+
+.unnourishing {
+  border: 1px solid var(--color--black);
+  background-color: var(--color--white);
+  color: var(--color--black);
+  height: 50px;
+  margin-bottom: 10px;
+  padding: 10px 20px;
+  font-size: 18px;
+  line-height: 1.6em;
+  transition: border-color 0.3s ease-in-out;
+}
+
+.unnourishing:focus {
+  border: 1px solid var(--color--primary-1);
+  color: var(--color--black);
+}
+
+.unnourishing::placeholder {
+  color: var(--color--gray-2);
+}
+
+.unnourishing.numbfishes {
+  height: 100px;
+  resize: none;
+}
+
+.irised {
+  color: var(--color--white);
+  text-align: center;
+  background-color: #e92222;
+  padding: 15px;
+}
+
+.mitzvoth {
+  grid-column-gap: 30px;
+  grid-row-gap: 30px;
+  background-color: var(--color--primary-1);
+  color: var(--color--black);
+  text-align: center;
+  justify-content: space-between;
+  align-items: center;
+  padding: 12px 20px;
+  font-size: 18px;
+  line-height: 1.4em;
+  text-decoration: none;
+  transition: background-color 0.3s ease-in-out;
+  display: flex;
+}
+
+.mitzvoth:hover {
+  background-color: var(--color--gray-3);
+}
+
+.adumbral {
+  background-color: var(--color--gray-3);
+  padding-top: 90px;
+  padding-bottom: 90px;
+}
+
+.aisles {
+  color: var(--color--white);
+  text-align: center;
+  background-color: #03cd69;
+  padding: 15px;
+}
+
+.coopts ul {
+  margin-bottom: 40px;
+  padding-left: 26px;
+}
+
+.coopts p,
+.coopts blockquote {
+  margin-bottom: 40px;
+}
+
+.bioconversion {
+  margin-bottom: 0;
+}
+
+.denouncements {
+  align-items: center;
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+.pomps {
+  max-width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 30px;
+  padding-right: 30px;
+}
+
+.polytonally {
+  text-align: center;
+}
+
+.hardboots {
+  align-items: flex-end;
+  margin-bottom: 0;
+}
+
+.ediblenesses {
+  color: var(--color--gray-3);
+  text-decoration: none;
+  transition: color 0.3s ease-in-out;
+}
+
+.ediblenesses:hover,
+.ediblenesses.paeon {
+  color: var(--color--primary-1);
+  text-decoration: none;
+}
+
+.striker {
+  color: var(--color--white);
+  margin-bottom: 30px;
+  font-size: 22px;
+}
+
+.flatulently {
+  grid-column-gap: 30px;
+  grid-row-gap: 20px;
+  flex-flow: wrap;
+  align-items: flex-start;
+  display: flex;
+  position: relative;
+}
+
+.saxonies {
+  color: var(--color--gray-4);
+  position: relative;
+  overflow: hidden;
+}
+
+.sparkle {
+  max-width: 980px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 30px;
+  padding-right: 30px;
+}
+
+.burlier {
+  background-color: var(--color--black);
+  color: var(--color--white);
+  text-align: center;
+  padding: 12px 20px;
+  transition: background-color 0.3s ease-in-out;
+}
+
+.burlier:hover {
+  background-color: var(--color--gray-2);
+}
+
+.burlier.merchandizings {
+  width: 100%;
+}
+
+.percussing {
+  max-width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 30px;
+  padding-right: 30px;
+}
+
+.sheas {
+  background-color: var(--color--black);
+}
+
+.badged {
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+
+.chechako {
+  padding-bottom: 100px;
+}
+
+.recross {
+  background-color: var(--color--gray-4);
+}
+
+.alkalotic {
+  width: 18px;
+  height: 10px;
+}
+
+.dhals {
+  grid-column-gap: 30px;
+  grid-row-gap: 30px;
+  background-color: var(--color--white);
+  color: var(--color--black);
+  text-align: center;
+  padding: 12px 20px;
+  font-size: 18px;
+  line-height: 1.4em;
+  text-decoration: none;
+  display: flex;
+}
+
+.sovereignties {
+  background-color: var(--color--white);
+  color: var(--color--black);
+  text-align: center;
+  padding: 12px 20px;
+  transition: background-color 0.3s ease-in-out;
+}
+
+.sovereignties:hover {
+  background-color: var(--color--gray-3);
+}
+
+.sovereignties.merchandizings {
+  width: 100%;
+}
+
+.unsatisfied {
+  grid-column-gap: 30px;
+  grid-row-gap: 30px;
+  background-color: var(--color--black);
+  color: var(--color--white);
+  text-align: center;
+  flex: none;
+  align-self: flex-start;
+  padding: 12px 20px;
+  font-size: 18px;
+  line-height: 1.4em;
+  text-decoration: none;
+  transition: background-color 0.3s ease-in-out;
+  display: flex;
+}
+
+.unsatisfied:hover {
+  background-color: var(--color--primary-1);
+}
+
+.becapping {
+  z-index: 1;
+  grid-column-gap: 70px;
+  grid-row-gap: 70px;
+  grid-template-rows: auto;
+  position: relative;
+}
+
+.misenrol {
+  margin-bottom: 60px;
+}
+.trace {
+  padding-bottom: 50px;
+}
+
+.saprogenic {
+  z-index: 1;
+  grid-column-gap: 30px;
+  grid-row-gap: 30px;
+  justify-content: space-between;
+  display: flex;
+  position: relative;
+}
+
+.noncoms {
+  background-color: var(--color--white);
+  opacity: 0.05;
+  width: 100%;
+  height: 2px;
+  margin-top: 70px;
+  margin-bottom: 35px;
+}
+
+.editorializer {
+  color: var(--color--white);
+  font-size: 18px;
+  line-height: 1.5em;
+  text-decoration: none;
+  transition: color 0.3s ease-in-out;
+}
+
+.editorializer:hover {
+  color: var(--color--primary-1);
+}
+
+.yearling {
+  grid-column-gap: 10px;
+  grid-row-gap: 10px;
+  flex-flow: wrap;
+  margin-top: 5px;
+  display: flex;
+}
+
+.superstud {
+  color: var(--color--primary-1);
+}
+
+.centos {
+  opacity: 0.03;
+  text-align: center;
+  margin-top: -70px;
+  margin-bottom: -50px;
+  font-size: 18vw;
+  line-height: 0.8em;
+  position: relative;
+}
+
+.pram {
+  width: 100%;
+  display: block;
+  position: relative;
+  bottom: -1px;
+}
+
+.soapless {
+  background-color: var(--color--black);
+  margin-top: -160px;
+  padding-top: 190px;
+}
+
+.phials {
+  z-index: 1;
+  flex-flow: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  display: flex;
+  position: relative;
+}
+
+.naughts {
+  color: var(--color--white);
+  width: 70%;
+  margin-bottom: 45px;
+  font-size: 85px;
+}
+
+.defacers {
+  margin-top: -100px;
+  position: relative;
+  overflow: hidden;
+}
+
+.debriefs {
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+}
+
+.extravagancy {
+  background-color: var(--color--black);
+  opacity: 0.3;
+  position: absolute;
+  inset: 0%;
+}
+
+.adjoins {
+  width: 100%;
+  display: block;
+  position: absolute;
+  inset: -5px 0% 0%;
+}
+
+.handclasps {
+  background-color: var(--color--gray-3);
+  position: relative;
+}
+
+.vagotonias {
+  grid-column-gap: 50px;
+  grid-row-gap: 50px;
+  grid-template-rows: auto;
+  grid-template-columns: 1fr 1fr 1fr;
+  width: 95%;
+  margin-bottom: 80px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.buzukia {
+  grid-column-gap: 20px;
+  grid-row-gap: 20px;
+  justify-content: flex-start;
+  align-items: flex-start;
+  display: flex;
+}
+
+.stoles {
+  flex: none;
+  width: 40px;
+  height: 40px;
+}
+
+.neume {
+  margin-bottom: 12px;
+  font-size: 24px;
+}
+
+.buckthorn {
+  margin-bottom: 0;
+}
+
+.exigible {
+  z-index: 1;
+  grid-column-gap: 50px;
+  grid-row-gap: 50px;
+  grid-template-rows: auto;
+  grid-template-columns: 0.75fr 1.25fr;
+  margin-bottom: -80px;
+  position: relative;
+}
+
+.huskers {
+  object-fit: cover;
+  width: 500px;
+  height: 650px;
+}
+
+.cryogeny {
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+}
+
+.apposes {
+  flex-flow: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  padding-top: 30px;
+  display: flex;
+}
+
+.decagon {
+  color: var(--color--primary-1);
+  margin-bottom: 30px;
+  font-size: 22px;
+  font-weight: 600;
+}
+
+.impudence {
+  width: 90%;
+  margin-bottom: 40px;
+}
+
+.marinas {
+  width: 100%;
+  display: block;
+  position: absolute;
+  inset: auto 0% -5px;
+}
+
+.polybutadiene {
+  color: var(--color--white);
+}
+
+.darklings {
+  margin-bottom: 60px;
+}
+
+.mocktails {
+  background-color: var(--color--primary-1);
+  color: var(--color--white);
+  text-align: center;
+  padding: 10px;
+}
+
+.sylphids {
+  grid-column-gap: 50px;
+  grid-row-gap: 50px;
+  grid-template-rows: auto;
+  grid-template-columns: 0.75fr 1.25fr;
+  place-items: start stretch;
+}
+
+.taphonomist {
+  margin-bottom: 160px;
+  position: relative;
+}
+
+.trampoliners {
+  background-color: var(--color--primary-1);
+
+  color: var(--color--white);
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  width: 200px;
+  height: 200px;
+  font-size: 30px;
+  font-weight: 600;
+  line-height: 1.5em;
+  display: flex;
+}
+
+.predevelopment {
+  font-size: 8vw;
+  line-height: 0.8em;
+  position: absolute;
+  top: 160px;
+  left: 80px;
+}
+
+.scatterer {
+  grid-column-gap: 30px;
+  grid-row-gap: 30px;
+  justify-content: flex-start;
+  align-items: center;
+  margin-bottom: 40px;
+  display: flex;
+}
+
+.scatterer.bioconversion,
+.freeloader {
+  margin-bottom: 0;
+}
+
+.pullulations {
+  background-color: var(--color--primary-1);
+  opacity: 0.3;
+  width: 3px;
+  height: 80px;
+}
+
+.decimals {
+  grid-column-gap: 20px;
+  grid-row-gap: 20px;
+  cursor: pointer;
+  justify-content: space-between;
+  align-items: center;
+  padding-bottom: 30px;
+  display: flex;
+}
+
+.gradiometers {
+  margin-top: 0;
+  margin-bottom: 0;
+  font-size: 24px;
+}
+
+.inseams {
+  width: 50%;
+  margin-bottom: 0;
+  overflow: hidden;
+}
+
+.belted {
+  grid-column-gap: 40px;
+  grid-row-gap: 40px;
+  justify-content: space-between;
+  align-items: flex-start;
+  display: flex;
+  overflow: hidden;
+}
+
+.reindeers {
+  margin-bottom: 30px;
+}
+
+.reindeers.understand {
+  margin-bottom: 0;
+}
+
+.sociology {
+  grid-column-gap: 10px;
+  grid-row-gap: 10px;
+  justify-content: flex-start;
+  align-items: center;
+  display: flex;
+}
+
+.genuflections {
+  width: 35px;
+  height: 35px;
+}
+
+.tuckahoes {
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+}
+
+.lusts {
+  margin-bottom: 90px;
+}
+
+.pipeful {
+  background-color: var(--color--white);
+  width: 100%;
+  height: 2px;
+}
+
+.koel {
+  grid-column-gap: 20px;
+  grid-row-gap: 20px;
+  justify-content: space-between;
+  align-items: flex-start;
+  padding-bottom: 30px;
+  display: flex;
+}
+
+.weeping {
+  object-fit: cover;
+  background-image: url("img/hybrid-bike.webp");
+  background-position: 50% 0;
+  background-repeat: no-repeat;
+  background-size: cover;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 600px;
+  margin-bottom: -110px;
+  display: flex;
+  position: relative;
+}
+
+.encrustations {
+  background-color: var(--color--black);
+  opacity: 0.5;
+  position: absolute;
+  inset: 0%;
+}
+
+.legitimize {
+  z-index: 1;
+  grid-column-gap: 40px;
+  grid-row-gap: 40px;
+  margin-top: -100px;
+  display: flex;
+  position: relative;
+}
+
+.penalise {
+  color: var(--color--white);
+  width: 50%;
+  margin-bottom: 0;
+}
+
+.siphoning {
+  grid-column-gap: 35px;
+  grid-row-gap: 35px;
+  flex: none;
+  justify-content: space-between;
+  align-items: center;
+  display: flex;
+}
+
+.complementaries {
+  background-color: var(--color--black);
+  position: relative;
+}
+
+.batty {
+  grid-column-gap: 40px;
+  grid-row-gap: 40px;
+  grid-template-rows: auto;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+.bogusness {
+  border-top: 2px solid var(--color--primary-1);
+  padding-top: 20px;
+}
+
+.cholo {
+  margin-bottom: 20px;
+}
+
+.squawfish {
+  background-color: var(--color--white);
+  border-radius: 50%;
+  justify-content: center;
+  align-items: center;
+  width: 80px;
+  height: 80px;
+  margin-bottom: 15px;
+  display: flex;
+}
+
+.piercings {
+  margin-bottom: 20px;
+  font-size: 22px;
+}
+
+.herald {
+  justify-content: space-between;
+  align-items: flex-end;
+  margin-bottom: 45px;
+  display: flex;
+}
+
+.polypide {
+  margin-bottom: 0;
+  line-height: 0.8em;
+}
+
+.behavioristic {
+  background-color: var(--color--white);
+  width: 100%;
+  height: 2px;
+  margin-bottom: 40px;
+}
+
+.elaterite {
+  grid-column-gap: 20px;
+  grid-row-gap: 20px;
+  flex-flow: column;
+  margin-bottom: 30px;
+  display: flex;
+}
+
+.tunica {
+  grid-column-gap: 5px;
+  grid-row-gap: 5px;
+  justify-content: flex-start;
+  align-items: flex-start;
+  line-height: 1.2em;
+  display: flex;
+}
+
+.dominatrices {
+  background-color: var(--color--white);
+  opacity: 0.1;
+  width: 100%;
+  height: 2px;
+  margin-bottom: 40px;
+}
+
+.jerkingly {
+  margin-bottom: 20px;
+}
+
+.dressiest {
+  width: 70%;
+  margin-bottom: 50px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.subpoena {
+  grid-column-gap: 30px;
+  grid-row-gap: 30px;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 30px;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+}
+
+.carousers {
+  background-color: var(--color--primary-1);
+  color: var(--color--white);
+  padding: 8px 10px;
+  font-size: 14px;
+  line-height: 1em;
+}
+
+.eyebrows {
+  text-align: center;
+  margin-top: -100px;
+  margin-bottom: 50px;
+}
+
+.ensile h1,
+.ensile h2,
+.ensile h3,
+.ensile h4,
+.ensile h5,
+.ensile h6 {
+  padding-left: 50px;
+  padding-right: 50px;
+}
+
+.ensile p {
+  margin-bottom: 40px;
+  padding-left: 50px;
+  padding-right: 50px;
+}
+
+.ensile blockquote {
+  margin-bottom: 40px;
+}
+
+.ensile ul {
+  margin-bottom: 40px;
+  padding-left: 80px;
+  padding-right: 50px;
+}
+
+.chrisoms {
+  margin-top: -80px;
+  margin-bottom: 130px;
+}
+
+.lousy {
+  background-color: var(--color--gray-3);
+  text-align: center;
+  padding-top: 120px;
+  padding-bottom: 200px;
+}
+
+.crumblier {
+  grid-column-gap: 40px;
+  grid-row-gap: 40px;
+  grid-template-rows: auto;
+  grid-template-columns: 1fr 1fr;
+}
+
+.treen {
+  grid-column-gap: 20px;
+  grid-row-gap: 20px;
+  display: flex;
+}
+
+.shopmen {
+  margin-bottom: 15px;
+}
+
+.postlanding {
+  margin-bottom: 45px;
+}
+
+.victimizes {
+  grid-column-gap: 60px;
+  grid-row-gap: 60px;
+  background-color: var(--color--black);
+  flex-flow: column;
+  justify-content: space-between;
+  align-items: flex-start;
+  padding: 50px;
+  display: flex;
+}
+
+.antinovelist {
+  grid-column-gap: 20px;
+  grid-row-gap: 20px;
+  color: var(--color--white);
+  justify-content: flex-start;
+  align-items: center;
+  font-size: 16px;
+  display: flex;
+}
+
+.encrimson {
+  background-color: var(--color--gray-2);
+  flex: none;
+  justify-content: center;
+  align-items: center;
+  width: 70px;
+  height: 70px;
+  display: flex;
+}
+
+.shootdowns {
+  width: 40px;
+  height: 40px;
+}
+
+.obsecrated {
+  grid-column-gap: 30px;
+  grid-row-gap: 30px;
+  flex-flow: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  display: flex;
+}
+
+.negritude {
+  grid-column-gap: 50px;
+  grid-row-gap: 50px;
+  grid-template-rows: auto;
+  grid-template-columns: 1fr 1fr 1fr;
+  place-items: start stretch;
+}
+
+.canzone {
+  grid-column-gap: 50px;
+  grid-row-gap: 50px;
+  grid-template-rows: auto;
+}
+
+.emboli {
+  margin-bottom: 50px;
+}
+
+.nuttinesses {
+  overflow: hidden;
+}
+
+.polenta {
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+}
+
+.ironwomen {
+  grid-column-gap: 100px;
+  grid-row-gap: 100px;
+  flex-flow: column;
+  justify-content: space-between;
+  display: flex;
+}
+
+.sultrier {
+  grid-column-gap: 50px;
+  grid-row-gap: 50px;
+  grid-template-rows: auto;
+}
+
+.reclothing {
+  flex-flow: column;
+  justify-content: flex-end;
+  align-self: stretch;
+  align-items: stretch;
+}
+
+.orchestrations {
+  margin-bottom: 50px;
+}
+
+.hallower {
+  background-color: var(--color--black);
+  margin-top: 50px;
+  position: relative;
+}
+
+.olfactories {
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+}
+
+.parament {
+  padding-top: 50px;
+}
+
+.renunciative {
+  color: var(--color--white);
+  margin-bottom: 20px;
+}
+
+.naphtols {
+  border-top: 2px solid var(--color--primary-1);
+  color: var(--color--gray-3);
+  padding-top: 20px;
+}
+
+.somatotrophin {
+  z-index: -1;
+  width: 100%;
+  display: block;
+  position: absolute;
+  inset: -100px 0% auto;
+}
+
+.scaffolding {
+  background-color: var(--color--gray-3);
+  text-align: center;
+  padding-top: 120px;
+  padding-bottom: 200px;
+}
+
+.broodmare {
+  text-align: center;
+  margin-top: -100px;
+  margin-bottom: 50px;
+}
+
+.parergon {
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+}
+
+.anticked {
+  margin-bottom: 50px;
+}
+
+.gambols {
+  margin-bottom: 30px;
+}
+
+.sporicides {
+  grid-column-gap: 50px;
+  grid-row-gap: 20px;
+  flex-flow: wrap;
+  grid-template-rows: auto;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-auto-columns: 1fr;
+  margin-bottom: 30px;
+  display: grid;
+}
+
+.deeding {
+  grid-column-gap: 10px;
+  grid-row-gap: 10px;
+
+  font-weight: 600;
+  line-height: 1.1em;
+  display: flex;
+}
+
+.urbanities {
+  height: 20px;
+}
+
+.togglers {
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+}
+
+.outward {
+  margin-top: -250px;
+  margin-bottom: 50px;
+  position: relative;
+  overflow: hidden;
+}
+
+.helmets {
+  background-color: var(--color--gray-3);
+  position: absolute;
+  inset: auto 0% 0% auto;
+}
+
+.potlike {
+  grid-column-gap: 30px;
+  grid-row-gap: 30px;
+  flex-flow: column;
+  padding: 30px;
+  display: flex;
+}
+
+.gynandrous {
+  background-color: var(--color--primary-1);
+  padding: 30px;
+}
+
+.stonecutting {
+  grid-column-gap: 10px;
+  grid-row-gap: 10px;
+  font-size: 16px;
+  display: flex;
+}
+
+.brutishnesses {
+  background-color: var(--color--white);
+  border-radius: 50%;
+  justify-content: center;
+  align-items: center;
+  width: 50px;
+  height: 50px;
+  display: flex;
+}
+
+.industrialized {
+  height: 25px;
+}
+
+.westward {
+  margin-top: 5px;
+  margin-bottom: 0;
+  font-size: 20px;
+}
+
+.sneezeweed {
+  background-color: var(--color--gray-3);
+  text-align: center;
+  padding-top: 120px;
+  padding-bottom: 200px;
+}
+
+.rays {
+  grid-column-gap: 20px;
+  grid-row-gap: 20px;
+  flex-flow: column;
+  width: 85%;
+  display: flex;
+}
+
+.seedlike {
+  cursor: zoom-in;
+}
+
+.bloodguiltiness {
+  grid-column-gap: 30px;
+  grid-row-gap: 30px;
+  grid-template-rows: auto;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-auto-columns: 1fr;
+  margin-bottom: 30px;
+  display: grid;
+}
+
+.tandoori {
+  grid-column-gap: 50px;
+  grid-row-gap: 50px;
+  grid-template-rows: auto;
+  grid-template-columns: 1fr 0.75fr;
+}
+
+.computerless {
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+}
+
+.word {
+  grid-column-gap: 150px;
+  grid-row-gap: 150px;
+  flex-flow: column;
+  justify-content: space-between;
+  align-items: flex-start;
+  display: flex;
+}
+
+.hyperpigmented {
+  margin-bottom: 20px;
+}
+
+.verticality {
+  margin-bottom: 0;
+}
+
+.ovicides {
+  grid-column-gap: 50px;
+  grid-row-gap: 50px;
+  grid-template-rows: auto;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
+.deconsecrations {
+  background-color: var(--color--gray-4);
+  text-align: center;
+  flex-flow: column;
+  justify-content: space-between;
+  align-items: center;
+  padding: 30px;
+  display: flex;
+}
+.cat{
+  width: 100%;
+}
+.syllepsis {
+  background-color: var(--color--primary-1);
+  border-radius: 50%;
+  flex: none;
+  justify-content: center;
+  align-items: center;
+  width: 60px;
+  height: 60px;
+  margin-bottom: 20px;
+  display: flex;
+}
+
+.disaster {
+  color: var(--color--white);
+  margin-bottom: 0;
+  font-size: 26px;
+}
+
+.hymenopterans {
+  margin-bottom: 0;
+}
+
+.sunnily {
+  grid-column-gap: 10px;
+  grid-row-gap: 10px;
+  display: flex;
+}
+
+.pettle {
+  margin-bottom: 40px;
+}
+
+.pettle.understand {
+  margin-bottom: 0;
+}
+
+.gunmetals {
+  background-color: var(--color--gray-3);
+  margin-bottom: 30px;
+}
+
+.gunmetals.understand {
+  margin-bottom: 0;
+}
+
+.teacarts {
+  grid-column-gap: 20px;
+  grid-row-gap: 20px;
+  cursor: pointer;
+  justify-content: space-between;
+  align-items: flex-start;
+  padding: 20px;
+  display: flex;
+}
+
+.nonagricultural {
+  margin-top: 0;
+  margin-bottom: 0;
+  line-height: 1.1em;
+}
+
+.letterspacings {
+  background-color: var(--color--black);
+  opacity: 0.4;
+  position: absolute;
+  inset: 0%;
+}
+
+.apocope {
+  color: var(--color--white);
+  margin-bottom: 0;
+  font-size: 22px;
+}
+
+.billiards {
+  grid-column-gap: 50px;
+  grid-row-gap: 50px;
+  grid-template-rows: auto;
+  margin-bottom: 50px;
+}
+
+.albacores {
+  margin-bottom: 20px;
+}
+
+.pneumatic {
+  grid-column-gap: 50px;
+  grid-row-gap: 50px;
+  flex-flow: column;
+  justify-content: space-between;
+  display: flex;
+}
+
+.demagogues {
+  flex-flow: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  height: 100%;
+  padding: 20px;
+  display: flex;
+}
+
+.judiciary {
+  grid-column-gap: 50px;
+  grid-row-gap: 50px;
+  flex-flow: column;
+  grid-template-rows: auto;
+  grid-template-columns: 1fr 1fr;
+  grid-auto-columns: 1fr;
+  justify-content: space-between;
+  display: flex;
+}
+
+.destituted {
+  grid-column-gap: 50px;
+  grid-row-gap: 50px;
+  grid-template-rows: auto;
+}
+
+.sneck {
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+}
+
+.debonairnesses {
+  margin-bottom: 30px;
+}
+
+.merc {
+  grid-column-gap: 40px;
+  grid-row-gap: 40px;
+  grid-template-rows: auto;
+  grid-template-columns: 1fr 1fr;
+}
+
+.coordinating {
+  background-color: var(--color--gray-4);
+  padding: 20px;
+  text-decoration: none;
+  transition: background-color 0.3s ease-in-out;
+}
+
+.coordinating:hover {
+  background-color: var(--color--gray-3);
+}
+
+.toploftiness {
+  font-size: 24px;
+}
+
+.modernizers {
+  grid-column-gap: 30px;
+  grid-row-gap: 30px;
+  grid-template-rows: auto;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
+.wormils {
+  background-color: var(--color--white);
+  border-radius: 50%;
+  flex: none;
+  justify-content: center;
+  align-items: center;
+  width: 50px;
+  height: 50px;
+  margin-bottom: 20px;
+  display: flex;
+}
+
+.immoralism {
+  color: var(--color--black);
+  margin-bottom: 0;
+  font-size: 22px;
+}
+
+.staunchly {
+  margin-bottom: 0;
+  font-size: 16px;
+}
+
+.firestorm {
+  width: 60%;
+  margin-bottom: 50px;
+}
+
+.synarthroses {
+  object-fit: cover;
+  width: 280px;
+  height: 120px;
+}
+
+@media screen and (min-width: 1280px) {
+  h1 {
+    font-size: 60px;
+  }
+
+  h2 {
+    font-size: 48px;
+  }
+
+  h3 {
+    font-size: 36px;
+  }
+
+  h4 {
+    font-size: 30px;
+  }
+
+  h5 {
+    font-size: 26px;
+  }
+
+  .percussing {
+    padding-left: 50px;
+    padding-right: 50px;
+  }
+
+  .badged {
+    padding-top: 130px;
+    padding-bottom: 130px;
+  }
+
+  .chechako {
+    padding-bottom: 130px;
+  }
+
+  .becapping {
+    grid-column-gap: 200px;
+    grid-row-gap: 200px;
+  }
+
+  .yearling {
+    grid-column-gap: 25px;
+    grid-row-gap: 25px;
+  }
+
+  .soapless {
+    margin-top: -130px;
+  }
+
+  .naughts {
+    width: 60%;
+    font-size: 85px;
+  }
+
+  .defacers {
+    margin-top: -150px;
+  }
+
+  .vagotonias {
+    margin-bottom: 150px;
+  }
+
+  .stoles {
+    width: 60px;
+    height: 60px;
+  }
+
+  .exigible {
+    grid-column-gap: 80px;
+    grid-row-gap: 80px;
+    margin-bottom: -100px;
+  }
+
+  .huskers {
+    width: 620px;
+    height: 700px;
+  }
+
+  .apposes {
+    padding-top: 71px;
+  }
+
+  .impudence {
+    width: 95%;
+  }
+
+  .sylphids {
+    grid-column-gap: 100px;
+    grid-row-gap: 100px;
+    grid-template-columns: 0.75fr 1.25fr;
+  }
+
+  .taphonomist {
+    margin-bottom: 160px;
+  }
+
+  .predevelopment {
+    top: 130px;
+    left: 55px;
+  }
+
+  .scatterer {
+    grid-column-gap: 40px;
+    grid-row-gap: 40px;
+    margin-bottom: 40px;
+  }
+
+  .reindeers {
+    margin-bottom: 30px;
+  }
+
+  .lusts {
+    margin-bottom: 90px;
+  }
+
+  .legitimize {
+    grid-column-gap: 190px;
+    grid-row-gap: 190px;
+  }
+
+  .batty {
+    grid-column-gap: 90px;
+    grid-row-gap: 90px;
+  }
+
+  .crumblier {
+    grid-column-gap: 50px;
+    grid-row-gap: 50px;
+    grid-template-columns: 1fr 0.75fr;
+  }
+
+  .canzone {
+    grid-column-gap: 80px;
+    grid-row-gap: 80px;
+  }
+
+  .sporicides {
+    grid-column-gap: 100px;
+  }
+
+  .demagogues {
+    padding: 50px;
+  }
+
+  .merc {
+    grid-column-gap: 90px;
+    grid-row-gap: 90px;
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  h1 {
+    font-size: 64px;
+  }
+
+  h2 {
+    font-size: 50px;
+  }
+
+  h3 {
+    font-size: 40px;
+  }
+
+  h4 {
+    font-size: 34px;
+  }
+
+  h5 {
+    font-size: 28px;
+  }
+
+  h6 {
+    font-size: 22px;
+  }
+
+  .percussing {
+    padding-left: 100px;
+    padding-right: 100px;
+  }
+
+  .exigible {
+    grid-column-gap: 100px;
+    grid-row-gap: 100px;
+    margin-bottom: -100px;
+  }
+
+  .impudence {
+    width: 96%;
+  }
+
+  .sylphids {
+    grid-column-gap: 200px;
+    grid-row-gap: 200px;
+  }
+
+  .crumblier {
+    grid-column-gap: 80px;
+    grid-row-gap: 80px;
+  }
+
+  .canzone {
+    grid-column-gap: 100px;
+    grid-row-gap: 100px;
+  }
+}
+
+@media screen and (min-width: 1920px) {
+  h1 {
+    font-size: 68px;
+  }
+
+  h2 {
+    font-size: 52px;
+  }
+
+  h3 {
+    font-size: 44px;
+  }
+
+  h4 {
+    font-size: 36px;
+  }
+
+  h5 {
+    font-size: 30px;
+  }
+
+  h6 {
+    font-size: 24px;
+  }
+
+  .badged {
+    padding-top: 150px;
+    padding-bottom: 150px;
+  }
+
+  .chechako {
+    padding-bottom: 150px;
+  }
+
+  .centos {
+    margin-bottom: -80px;
+  }
+
+  .vagotonias {
+    width: 80%;
+  }
+
+  .neume {
+    font-size: 30px;
+  }
+
+  .exigible {
+    grid-column-gap: 180px;
+    grid-row-gap: 180px;
+    margin-bottom: -220px;
+  }
+
+  .impudence {
+    width: 75%;
+  }
+
+  .sylphids {
+    grid-column-gap: 240px;
+    grid-row-gap: 240px;
+  }
+
+  .decimals {
+    grid-column-gap: 20px;
+    grid-row-gap: 20px;
+    padding-bottom: 30px;
+  }
+
+  .gradiometers {
+    font-size: 30px;
+  }
+
+  .inseams {
+    width: 50%;
+  }
+
+  .cholo {
+    font-size: 68px;
+  }
+
+  .piercings {
+    font-size: 24px;
+  }
+
+  .elaterite {
+    margin-bottom: 50px;
+  }
+
+  .parergon {
+    object-fit: cover;
+  }
+
+  .judiciary {
+    grid-column-gap: 50px;
+    grid-row-gap: 50px;
+    grid-auto-columns: 1fr;
+    justify-content: space-between;
+    place-items: start stretch;
+  }
+}
+
+@media screen and (max-width: 991px) {
+  h1 {
+    font-size: 50px;
+  }
+
+  h2 {
+    font-size: 40px;
+  }
+
+  h3 {
+    font-size: 30px;
+  }
+
+  h4 {
+    font-size: 26px;
+  }
+
+  h5 {
+    font-size: 22px;
+  }
+
+  h6 {
+    font-size: 20px;
+  }
+
+  ul {
+    padding-left: 20px;
+  }
+
+  blockquote {
+    padding: 30px;
+  }
+
+  .strikers {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+
+  .mitzvoth {
+    flex: none;
+    font-size: 16px;
+  }
+
+  .adumbral {
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
+
+  .bioconversion {
+    align-self: auto;
+  }
+
+  .denouncements {
+    margin-bottom: 10px;
+  }
+
+  .pomps {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+
+  .striker {
+    margin-bottom: 20px;
+  }
+
+  .flatulently {
+    grid-column-gap: 20px;
+    grid-row-gap: 15px;
+  }
+
+  .sparkle {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+
+  .percussing {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+
+  .badged {
+    padding-top: 80px;
+    padding-bottom: 80px;
+  }
+
+  .chechako {
+    padding-bottom: 80px;
+  }
+
+  .dhals,
+  .unsatisfied {
+    font-size: 16px;
+  }
+
+  .becapping {
+    grid-column-gap: 50px;
+    grid-row-gap: 50px;
+  }
+
+  .noncoms {
+    margin-top: 50px;
+  }
+
+  .centos {
+    margin-bottom: -30px;
+  }
+
+  .soapless {
+    margin-top: -160px;
+  }
+
+  .naughts {
+    width: 100%;
+    margin-bottom: 30px;
+    font-size: 56px;
+  }
+
+  .defacers {
+    margin-top: -40px;
+  }
+
+  .vagotonias {
+    grid-column-gap: 40px;
+    grid-row-gap: 40px;
+    width: 100%;
+    margin-bottom: 80px;
+  }
+
+  .buzukia {
+    flex-flow: column;
+  }
+
+  .exigible {
+    grid-column-gap: 40px;
+    grid-row-gap: 40px;
+    margin-bottom: 20px;
+  }
+
+  .huskers,
+  .cryogeny {
+    width: 100%;
+    height: 100%;
+  }
+
+  .apposes {
+    padding-top: 0;
+  }
+
+  .impudence {
+    width: 100%;
+    margin-bottom: 30px;
+  }
+
+  .darklings {
+    margin-bottom: 40px;
+  }
+
+  .sylphids {
+    grid-column-gap: 40px;
+    grid-row-gap: 40px;
+    grid-template-columns: 0.75fr 1fr;
+  }
+
+  .taphonomist {
+    margin-bottom: 100px;
+  }
+
+  .trampoliners {
+    width: 150px;
+    height: 150px;
+  }
+
+  .predevelopment {
+    top: 120px;
+    left: 50px;
+  }
+
+  .scatterer {
+    grid-column-gap: 20px;
+    grid-row-gap: 20px;
+  }
+
+  .freeloader {
+    font-size: 30px;
+  }
+
+  .pullulations {
+    width: 2px;
+  }
+
+  .decimals {
+    padding-bottom: 25px;
+  }
+
+  .inseams {
+    width: 100%;
+    padding-bottom: 15px;
+    padding-left: 15px;
+    padding-right: 15px;
+    font-size: 16px;
+  }
+
+  .reindeers {
+    margin-bottom: 20px;
+  }
+
+  .genuflections {
+    width: 24px;
+    height: 24px;
+  }
+
+  .koel {
+    grid-column-gap: 10px;
+    grid-row-gap: 10px;
+  }
+
+  .weeping {
+    height: 500px;
+  }
+
+  .legitimize {
+    flex-flow: column;
+  }
+
+  .siphoning {
+    justify-content: flex-start;
+    align-items: center;
+  }
+
+  .batty {
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .herald,
+  .behavioristic {
+    margin-bottom: 30px;
+  }
+
+  .dressiest {
+    margin-bottom: 40px;
+  }
+
+  .eyebrows {
+    margin-top: -50px;
+  }
+
+  .ensile h1,
+  .ensile h2,
+  .ensile h3,
+  .ensile h4,
+  .ensile h5,
+  .ensile h6,
+  .ensile p {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+
+  .ensile ul {
+    padding-left: 50px;
+    padding-right: 20px;
+  }
+
+  .chrisoms {
+    margin-top: 20px;
+    margin-bottom: 30px;
+  }
+
+  .lousy {
+    padding-top: 80px;
+    padding-bottom: 100px;
+  }
+
+  .crumblier {
+    grid-template-columns: 1fr;
+  }
+
+  .treen {
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+    flex-flow: column;
+  }
+
+  .postlanding {
+    margin-bottom: 30px;
+  }
+
+  .victimizes {
+    grid-column-gap: 50px;
+    grid-row-gap: 50px;
+    padding: 30px;
+  }
+
+  .encrimson {
+    width: 60px;
+    height: 60px;
+  }
+
+  .shootdowns {
+    width: 30px;
+    height: 30px;
+  }
+
+  .negritude {
+    grid-column-gap: 40px;
+    grid-row-gap: 40px;
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .canzone {
+    grid-column-gap: 40px;
+    grid-row-gap: 40px;
+    grid-template-columns: 1fr;
+  }
+
+  .emboli {
+    margin-bottom: 30px;
+  }
+
+  .ironwomen {
+    grid-column-gap: 30px;
+    grid-row-gap: 30px;
+  }
+
+  .sultrier {
+    grid-column-gap: 40px;
+    grid-row-gap: 40px;
+  }
+
+  .orchestrations {
+    margin-bottom: 30px;
+  }
+
+  .somatotrophin {
+    top: -50px;
+  }
+
+  .scaffolding {
+    padding-top: 60px;
+    padding-bottom: 60px;
+  }
+
+  .broodmare {
+    margin-top: 20px;
+  }
+
+  .sporicides {
+    grid-column-gap: 30px;
+  }
+
+  .outward {
+    margin-top: -50px;
+  }
+
+  .potlike,
+  .gynandrous {
+    padding: 20px;
+  }
+
+  .sneezeweed {
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
+
+  .rays {
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+  }
+
+  .tandoori {
+    grid-column-gap: 40px;
+    grid-row-gap: 40px;
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .word {
+    grid-column-gap: 20px;
+    grid-row-gap: 20px;
+  }
+
+  .verticality {
+    margin-bottom: 30px;
+  }
+
+  .ovicides {
+    grid-column-gap: 40px;
+    grid-row-gap: 40px;
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .deconsecrations {
+    padding: 20px;
+  }
+
+  .syllepsis {
+    width: 50px;
+    height: 50px;
+    margin-bottom: 10px;
+  }
+
+  .disaster {
+    font-size: 22px;
+  }
+
+  .sunnily {
+    grid-column-gap: 15px;
+    grid-row-gap: 15px;
+  }
+
+  .teacarts {
+    padding: 15px;
+  }
+
+  .apocope {
+    align-self: auto;
+  }
+
+  .billiards {
+    grid-column-gap: 30px;
+    grid-row-gap: 30px;
+  }
+
+  .pneumatic {
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+  }
+
+  .demagogues {
+    padding: 20px;
+  }
+
+  .judiciary {
+    grid-column-gap: 20px;
+    grid-row-gap: 20px;
+    grid-template-columns: 0.75fr 1fr;
+  }
+
+  .destituted {
+    grid-column-gap: 40px;
+    grid-row-gap: 40px;
+  }
+
+  .debonairnesses {
+    align-self: auto;
+  }
+
+  .merc {
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .toploftiness {
+    font-size: 22px;
+  }
+
+  .modernizers {
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .wormils {
+    width: 50px;
+    height: 50px;
+    margin-bottom: 10px;
+  }
+
+  .immoralism {
+    font-size: 22px;
+  }
+
+  .firestorm {
+    width: 100%;
+  }
+
+  .synarthroses {
+    width: 200px;
+    height: 100px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  body {
+    font-size: 16px;
+  }
+
+  h1 {
+    font-size: 40px;
+  }
+
+  h2 {
+    font-size: 34px;
+  }
+
+  h3 {
+    font-size: 28px;
+  }
+
+  h4 {
+    font-size: 24px;
+  }
+
+  .strikers {
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+
+  .unnourishing {
+    height: 100%;
+    font-size: 16px;
+  }
+
+  .mitzvoth {
+    font-size: 18px;
+  }
+
+  .adumbral {
+    padding-top: 40px;
+    padding-bottom: 40px;
+  }
+
+  .coopts ul,
+  .coopts p,
+  .coopts blockquote {
+    margin-bottom: 20px;
+  }
+
+  .denouncements {
+    font-size: 16px;
+  }
+
+  .pomps {
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+
+  .dhals {
+    font-size: 18px;
+  }
+
+  .unsatisfied {
+    font-size: 18px;
+  }
+
+  .becapping {
+    grid-template-columns: 1fr;
+  }
+
+  .misenrol {
+    margin-bottom: 50px;
+  }
+
+  .saprogenic {
+    grid-column-gap: 20px;
+    grid-row-gap: 20px;
+    flex-flow: column;
+  }
+
+  .editorializer {
+    font-size: 16px;
+  }
+
+  .yearling {
+    grid-column-gap: 20px;
+    grid-row-gap: 20px;
+  }
+
+  .centos {
+    margin-top: 0;
+    margin-bottom: -23px;
+  }
+
+  .naughts {
+    margin-bottom: 20px;
+    font-size: 48px;
+  }
+
+  .defacers {
+    margin-top: -10px;
+  }
+
+  .vagotonias {
+    grid-template-columns: 1fr 1fr;
+    margin-bottom: 50px;
+  }
+
+  .exigible {
+    grid-column-gap: 20px;
+    grid-row-gap: 20px;
+    grid-template-columns: 1fr;
+  }
+
+  .decagon {
+    margin-bottom: 10px;
+  }
+
+  .impudence {
+    margin-bottom: 20px;
+  }
+
+  .sylphids {
+    grid-template-columns: 1fr;
+  }
+
+  .taphonomist {
+    margin-bottom: 60px;
+  }
+
+  .trampoliners {
+    width: 130px;
+    height: 130px;
+  }
+
+  .predevelopment {
+    top: 114px;
+  }
+
+  .scatterer {
+    margin-bottom: 30px;
+  }
+
+  .pullulations {
+    height: 50px;
+  }
+
+  .inseams {
+    width: 70%;
+  }
+
+  .belted {
+    padding-left: 0;
+  }
+
+  .lusts {
+    margin-bottom: 30px;
+  }
+
+  .legitimize {
+    grid-column-gap: 30px;
+    grid-row-gap: 30px;
+  }
+
+  .penalise {
+    width: 100%;
+  }
+
+  .cholo {
+    margin-bottom: 10px;
+  }
+
+  .squawfish {
+    width: 70px;
+    height: 70px;
+  }
+
+  .reconsidering {
+    width: 40px;
+    height: 40px;
+  }
+
+  .dressiest {
+    width: 100%;
+  }
+
+  .eyebrows,
+  .ensile p,
+  .ensile blockquote,
+  .ensile ul {
+    margin-bottom: 30px;
+  }
+
+  .lousy {
+    padding-top: 40px;
+    padding-bottom: 40px;
+  }
+
+  .negritude {
+    grid-template-columns: 1fr;
+  }
+
+  .sultrier {
+    grid-column-gap: 30px;
+    grid-row-gap: 30px;
+  }
+
+  .parament {
+    padding-top: 40px;
+  }
+
+  .somatotrophin {
+    top: -30px;
+  }
+
+  .scaffolding {
+    padding-top: 40px;
+    padding-bottom: 40px;
+  }
+
+  .anticked {
+    margin-bottom: 40px;
+  }
+
+  .sporicides {
+    grid-column-gap: 20px;
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .helmets {
+    position: relative;
+  }
+
+  .sneezeweed {
+    padding-top: 40px;
+    padding-bottom: 40px;
+  }
+
+  .rays {
+    width: 100%;
+  }
+
+  .bloodguiltiness {
+    grid-column-gap: 20px;
+    grid-row-gap: 20px;
+    margin-bottom: 20px;
+  }
+
+  .tandoori {
+    grid-column-gap: 30px;
+    grid-row-gap: 30px;
+    grid-template-columns: 1fr;
+  }
+
+  .word {
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+  }
+
+  .hyperpigmented {
+    margin-bottom: 10px;
+  }
+
+  .verticality {
+    margin-bottom: 20px;
+  }
+
+  .ovicides {
+    grid-column-gap: 30px;
+    grid-row-gap: 30px;
+    grid-template-columns: 1fr;
+  }
+
+  .syllepsis {
+    width: 40px;
+    height: 40px;
+  }
+
+  .disaster {
+    font-size: 18px;
+  }
+
+  .billiards {
+    grid-column-gap: 20px;
+    grid-row-gap: 20px;
+    grid-template-columns: 1fr;
+    margin-bottom: 40px;
+  }
+
+  .judiciary {
+    grid-column-gap: 10px;
+    grid-row-gap: 10px;
+    grid-template-columns: 1fr;
+  }
+
+  .destituted {
+    grid-column-gap: 30px;
+    grid-row-gap: 30px;
+    grid-template-columns: 1fr;
+  }
+
+  .debonairnesses,
+  .whorl {
+    margin-bottom: 10px;
+  }
+
+  .modernizers {
+    grid-template-columns: 1fr;
+  }
+
+  .wormils {
+    width: 40px;
+    height: 40px;
+  }
+
+  .immoralism {
+    font-size: 18px;
+  }
+}
+
+@media screen and (max-width: 479px) {
+  h1 {
+    font-size: 34px;
+  }
+
+  h2 {
+    font-size: 30px;
+  }
+
+  h3 {
+    font-size: 26px;
+  }
+
+  h4 {
+    font-size: 22px;
+  }
+
+  h5 {
+    font-size: 20px;
+  }
+
+  h6 {
+    font-size: 18px;
+  }
+
+  blockquote {
+    padding: 20px;
+  }
+
+  .unnourishing.numbfishes {
+    height: 100%;
+  }
+
+  .mitzvoth {
+    padding: 10px 30px;
+    font-size: 16px;
+  }
+
+  .adumbral {
+    padding-top: 30px;
+    padding-bottom: 30px;
+  }
+
+  .denouncements {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .pomps {
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+
+  .striker {
+    font-size: 20px;
+  }
+
+  .flatulently {
+    grid-column-gap: 10px;
+    grid-row-gap: 10px;
+    flex-flow: column;
+  }
+
+  .sparkle {
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+
+  .percussing {
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+
+  .badged {
+    padding-top: 60px;
+    padding-bottom: 60px;
+  }
+
+  .chechako {
+    padding-bottom: 60px;
+  }
+
+  .dhals,
+  .unsatisfied {
+    padding: 10px 30px;
+    font-size: 16px;
+  }
+
+  .becapping {
+    grid-row-gap: 40px;
+  }
+
+  .noncoms {
+    margin-top: 35px;
+  }
+
+  .yearling {
+    grid-column-gap: 10px;
+    grid-row-gap: 10px;
+  }
+
+  .centos {
+    margin-bottom: 0;
+  }
+
+  .naughts {
+    margin-bottom: 15px;
+    font-size: 36px;
+  }
+
+  .defacers {
+    margin-top: 0;
+  }
+
+  .vagotonias {
+    grid-column-gap: 30px;
+    grid-row-gap: 30px;
+    grid-template-columns: 1fr;
+    margin-bottom: 40px;
+  }
+
+  .exigible {
+    grid-column-gap: 30px;
+    grid-row-gap: 30px;
+  }
+
+  .decagon {
+    margin-bottom: 10px;
+  }
+
+  .darklings {
+    margin-bottom: 20px;
+  }
+
+  .taphonomist {
+    margin-bottom: 50px;
+  }
+
+  .trampoliners {
+    height: 120px;
+  }
+
+  .predevelopment {
+    font-size: 15vw;
+    top: 103px;
+  }
+
+  .scatterer {
+    grid-column-gap: 15px;
+    grid-row-gap: 15px;
+  }
+
+  .decimals {
+    padding-bottom: 20px;
+  }
+
+  .gradiometers {
+    font-size: 22px;
+  }
+
+  .inseams {
+    width: 100%;
+  }
+
+  .koel {
+    flex-flow: column;
+  }
+
+  .weeping {
+    background-position: 50%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 450px;
+  }
+
+  .legitimize {
+    grid-column-gap: 20px;
+    grid-row-gap: 20px;
+  }
+
+  .penalise {
+    font-size: 26px;
+  }
+
+  .siphoning {
+    grid-column-gap: 20px;
+    grid-row-gap: 20px;
+    flex-flow: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+  }
+
+  .batty {
+    grid-template-columns: 1fr;
+  }
+
+  .bogusness {
+    padding-top: 10px;
+  }
+
+  .squawfish {
+    width: 60px;
+    height: 60px;
+  }
+
+  .reconsidering {
+    width: 30px;
+    height: 30px;
+  }
+
+  .elaterite {
+    grid-column-gap: 15px;
+    grid-row-gap: 15px;
+  }
+
+  .langoustine {
+    height: 18px;
+  }
+
+  .dominatrices {
+    margin-bottom: 30px;
+  }
+
+  .subpoena {
+    grid-column-gap: 20px;
+    grid-row-gap: 20px;
+    flex-flow: wrap;
+  }
+
+  .ensile p,
+  .ensile blockquote,
+  .ensile ul {
+    margin-bottom: 20px;
+  }
+
+  .lousy {
+    padding-top: 30px;
+    padding-bottom: 30px;
+  }
+
+  .treen {
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+    flex-flow: column;
+  }
+
+  .victimizes {
+    padding: 20px;
+  }
+
+  .antinovelist {
+    grid-column-gap: 10px;
+    grid-row-gap: 10px;
+    flex-flow: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+  }
+
+  .encrimson {
+    width: 50px;
+    height: 50px;
+  }
+
+  .shootdowns {
+    width: 24px;
+    height: 24px;
+  }
+
+  .canzone {
+    grid-column-gap: 20px;
+    grid-row-gap: 20px;
+  }
+
+  .emboli {
+    margin-bottom: 20px;
+  }
+
+  .sultrier {
+    grid-column-gap: 20px;
+    grid-row-gap: 20px;
+  }
+
+  .hallower {
+    margin-top: 20px;
+  }
+
+  .parament {
+    padding-top: 30px;
+  }
+
+  .somatotrophin {
+    top: -20px;
+  }
+
+  .scaffolding {
+    padding-top: 30px;
+    padding-bottom: 30px;
+  }
+
+  .broodmare {
+    margin-bottom: 20px;
+  }
+
+  .sporicides {
+    grid-column-gap: 20px;
+    grid-row-gap: 20px;
+    grid-template-columns: 1fr;
+  }
+
+  .outward {
+    margin-top: -30px;
+  }
+
+  .potlike {
+    padding: 15px;
+  }
+
+  .bloodguiltiness,
+  .ovicides {
+    grid-template-columns: 1fr;
+  }
+
+  .sunnily {
+    grid-column-gap: 10px;
+    grid-row-gap: 10px;
+  }
+
+  .nonagricultural {
+    font-size: 18px;
+  }
+
+  .shrink {
+    font-size: 30px;
+  }
+
+  .demagogues {
+    padding: 15px;
+  }
+
+  .destituted {
+    grid-column-gap: 20px;
+    grid-row-gap: 20px;
+  }
+
+  .merc {
+    grid-column-gap: 20px;
+    grid-row-gap: 20px;
+    grid-template-columns: 1fr;
+  }
+
+  .coordinating {
+    padding: 15px;
+  }
+
+  .synarthroses {
+    width: 100%;
+    height: 100%;
+  }
+}
+
+header {
+  background: #131a1f;
+  color: #fff;
+  padding: 10px 0;
+}
+
+.tequila {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1200px;
+  margin: auto;
+  padding: 0 20px;
+}
+
+.iguanodons a {
+  color: #fff;
+  font-size: 32px;
+  text-decoration: none;
+  transition: color 0.3s;
+}
+.iguanodons a:hover {
+  color: #fa4533;
+  text-decoration: none;
+}
+nav {
+  width: auto;
+}
+
+.adagios {
+  list-style: none;
+  display: flex;
+}
+
+.adagios li {
+  margin: 0 15px;
+}
+
+.adagios a {
+  color: #fff;
+  text-decoration: none;
+  transition: color 0.3s;
+}
+
+.adagios a:hover {
+  color: #fa4533;
+}
+
+@media (max-width: 768px) {
+  .tequila {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  nav {
+    margin-top: 10px;
+  }
+
+  .adagios {
+    flex-direction: row;
+    align-items: center;
+    gap: 30px;
+    padding: 0;
+  }
+
+  .adagios li {
+    margin: 5px 0;
+  }
+}
+.tallowing {
+  overflow: hidden;
+  max-height: 0;
+  transition: max-height 0.3s ease, padding 0.3s ease;
+  padding: 0 0;
+}
+
+.tallowing.open {
+  max-height: 500px; 
+  padding: 10px 0;
+}
+
+.sunnily {
+  cursor: pointer;
+  user-select: none;
+}
+
+.sunnily:hover {
+  color: #007BFF;}
+  .scudo{
+    padding: 10px;
+  }
