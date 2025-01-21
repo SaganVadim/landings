@@ -1776,6 +1776,9 @@ label {
   overflow: hidden;
   transition: max-height 0.4s ease-out;
 }
+.open {
+  max-height: 100px;
+}
 .octachords {
   cursor: pointer;
   margin-bottom: 10px;
