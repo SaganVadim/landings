@@ -21,40 +21,42 @@ document.querySelectorAll('.hungrily').forEach((accordion) => {
   
 
 let index = 0;
-const slider = document.getElementById('synthesizers'); 
-const slides = document.querySelectorAll('.durras'); 
-const totalSlides = slides.length;
-const dotsContainer = document.getElementById('deodorizes'); 
+const slider = document.getElementById('synthesizers');
+const slides = document.querySelectorAll('.durras');
+const dotsContainer = document.getElementById('deodorizes');
 
+if (slider && slides.length > 0 && dotsContainer) {
+    const totalSlides = slides.length;
 
-for (let i = 0; i < totalSlides; i++) {
-    const dot = document.createElement('span');
-    dot.classList.add('dot');
-    dot.addEventListener('click', () => showSlide(i));
-    dotsContainer.appendChild(dot);
-}
+    for (let i = 0; i < totalSlides; i++) {
+        const dot = document.createElement('span');
+        dot.classList.add('dot');
+        dot.addEventListener('click', () => showSlide(i));
+        dotsContainer.appendChild(dot);
+    }
 
-function showSlide(i) {
-    index = (i + totalSlides) % totalSlides;
-    const offset = -index * 100;
-    slider.style.transform = `translateX(${offset}%)`;
+    function showSlide(i) {
+        index = (i + totalSlides) % totalSlides;
+        const offset = -index * 100;
+        slider.style.transform = `translateX(${offset}%)`;
+        updateDots();
+    }
+
+    function prevSlide() {
+        showSlide(index - 1);
+    }
+
+    function nextSlide() {
+        showSlide(index + 1);
+    }
+
+    function updateDots() {
+        document.querySelectorAll('.dot').forEach((dot, i) => {
+            dot.classList.toggle('active', i === index);
+        });
+    }
+
     updateDots();
+    setInterval(() => nextSlide(), 5000);
 }
 
-function prevSlide() {
-    showSlide(index - 1);
-}
-
-function nextSlide() {
-    showSlide(index + 1);
-}
-
-function updateDots() {
-    document.querySelectorAll('.dot').forEach((dot, i) => {
-        dot.classList.toggle('active', i === index);
-    });
-}
-
-
-updateDots();
-setInterval(() => nextSlide(), 5000);

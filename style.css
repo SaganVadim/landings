@@ -389,16 +389,7 @@ h3 {
 
 .secretariats.lamenters {
   background-color: var(--light-elevation);
-  background-color: #f8f1e3;
-  opacity: 1;
-  background: repeating-linear-gradient(
-    45deg,
-    #f6e9cf,
-    #f6e9cf 5px,
-    #f8f1e3 5px,
-    #f8f1e3 25px
-  );
-  background-image: repeating-conic-gradient(from 0deg, rgb(254, 239, 234), transparent 10deg, rgb(255, 243, 220) 10deg, rgb(254, 239, 234) 20deg);
+  
 }
 
 .secretariats.jewelleries {
@@ -600,24 +591,8 @@ h3 {
 
 .profiters {
   background-color: var(--light-elevation);
-  background-color: #f8f1e3;
-  opacity: 1;
-  background: repeating-linear-gradient(
-    45deg,
-    #f6e9cf,
-    #f6e9cf 5px,
-    #f8f1e3 5px,
-    #f8f1e3 25px
-  );
-  background-image: repeating-conic-gradient(
-    from 0deg,
-    rgb(247, 205, 190),
-    transparent 10deg,
-    rgb(241, 221, 184) 10deg,
-    rgb(247, 205, 190) 20deg
-  );
-  background-size: 100% 100%;
-  background-repeat: no-repeat;
+  
+ 
   background-color: rgb(241, 221, 184);
   border-radius: 6px;
   padding: 48px 40px;
@@ -649,7 +624,7 @@ h3 {
   width: 130%;
   max-width: 1000px;
   transform-origin: 100%;
-  background-image: url("imgs/6.webp");
+  background-image: url("imgs/roof_rack.jpg");
   background-position: 50%;
   background-size: cover;
   border-radius: 6px;
@@ -851,11 +826,12 @@ h3 {
 }
 
 .storefront {
-  max-width: 341px;
+  max-width: 380px;
   grid-row-gap: 24px;
   flex-direction: column;
   align-items: center;
   display: flex;
+  
 }
 
 .semimetal {
@@ -903,16 +879,7 @@ h3 {
   min-height: 200px;
   grid-row-gap: 16px;
   background-color: var(--light-elevation);
-  background-color: #f8f1e3;
-  opacity: 1;
-  background: repeating-linear-gradient(
-    45deg,
-    #f6e9cf,
-    #f6e9cf 5px,
-    #f8f1e3 5px,
-    #f8f1e3 25px
-  );
-  background-image: repeating-conic-gradient(from 0deg, rgb(247, 205, 190), transparent 10deg, rgb(241, 221, 184) 10deg, rgb(247, 205, 190) 20deg);
+ 
   border-radius: 4px;
   flex-direction: column;
   justify-content: center;
@@ -937,7 +904,7 @@ h3 {
 }
 .raveners {
   z-index: 2;
-  background-image: url("imgs/9.webp");
+  background-image: url("imgs/car_phone_mount.jpg");
   background-position: 30%;
   background-size: cover;
   border-radius: 6px;
@@ -1132,7 +1099,7 @@ h3 {
 
 .aceldama {
   z-index: -1;
-  background-image: url("imgs/1.webp");
+  background-image: url("imgs/custom_wheels.jpg");
   background-position: 50%;
   background-size: cover;
   position: absolute;
@@ -1310,6 +1277,7 @@ h3 {
 
   .facemask {
     grid-template-columns: 1fr;
+    
   }
 
   .facemask.veratria {
@@ -1592,12 +1560,13 @@ nav {
 .eulogizing {
   color: #FFD700;
   font-size: 20px;
+  margin-bottom: 30px;
 }
 .reliving {
   display: flex;
   align-items: center;
   justify-content: center;
-  margin-top: 10px;
+  margin-top: 30px;
 }
 .reliving img {
   width: 40px;
