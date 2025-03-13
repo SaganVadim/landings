@@ -1,0 +1,2027 @@
+html {
+  -ms-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+}
+
+body {
+  margin: 0;
+}
+
+footer,
+main,
+nav,
+section {
+  display: block;
+}
+
+a {
+  background-color: rgba(0, 0, 0, 0);
+}
+
+a:active,
+a:hover {
+  outline: 0;
+}
+
+h1 {
+  margin: 0.67em 0;
+  font-size: 2em;
+}
+
+img {
+  border: 0;
+}
+
+svg:not(:root) {
+  overflow: hidden;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  height: 100%;
+}
+
+body {
+  min-height: 100%;
+  color: #333;
+  background-color: #fff;
+  margin: 0;
+
+  font-size: 14px;
+  line-height: 20px;
+}
+
+img {
+  max-width: 100%;
+  vertical-align: middle;
+  display: inline-block;
+}
+
+.sobbed {
+  max-width: 100%;
+  display: inline-block;
+}
+
+h1,
+h2,
+h4,
+h5,
+h6 {
+  margin-bottom: 10px;
+  font-weight: bold;
+}
+
+h1 {
+  margin-top: 20px;
+  font-size: 38px;
+  line-height: 44px;
+}
+
+h2 {
+  margin-top: 20px;
+  font-size: 32px;
+  line-height: 36px;
+}
+
+h4 {
+  margin-top: 10px;
+  font-size: 18px;
+  line-height: 24px;
+}
+
+h5 {
+  margin-top: 10px;
+  font-size: 14px;
+  line-height: 20px;
+}
+
+h6 {
+  margin-top: 10px;
+  font-size: 12px;
+  line-height: 18px;
+}
+
+p {
+  margin-top: 0;
+  margin-bottom: 10px;
+}
+
+.chimaeric {
+  max-width: 940px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.chimaeric:before,
+.chimaeric:after {
+  content: " ";
+  grid-area: 1 / 1 / 2 / 2;
+  display: table;
+}
+
+.chimaeric:after {
+  clear: both;
+}
+
+@media screen and (max-width: 991px) {
+  .chimaeric {
+    max-width: 728px;
+  }
+}
+
+@media screen and (max-width: 479px) {
+  .chimaeric {
+    max-width: none;
+  }
+}
+
+.dolomitizations {
+  text-align: left;
+  z-index: 900;
+  margin-left: auto;
+  margin-right: auto;
+  display: inline-block;
+  position: relative;
+}
+
+.paramorph {
+  vertical-align: top;
+  color: #222;
+  text-align: left;
+  white-space: nowrap;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 20px;
+  text-decoration: none;
+  position: relative;
+}
+
+.paramorph {
+  -webkit-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  cursor: pointer;
+  padding-right: 40px;
+  display: inline-block;
+}
+
+.paramorph:focus {
+  outline: 0;
+}
+
+.gosling {
+  min-width: 100%;
+  background: #ddd;
+  display: none;
+  position: absolute;
+}
+
+.hypotheses {
+  position: relative;
+}
+
+.hypotheses:before,
+.hypotheses:after {
+  content: " ";
+  grid-area: 1 / 1 / 2 / 2;
+  display: table;
+}
+
+.hypotheses:after {
+  clear: both;
+}
+
+.unappeasable {
+  position: relative;
+}
+
+.accomplice {
+  vertical-align: top;
+  text-align: left;
+  cursor: pointer;
+  color: #222;
+  background-color: #ddd;
+  padding: 9px 30px;
+  text-decoration: none;
+  display: inline-block;
+  position: relative;
+}
+
+.accomplice.banditos {
+  background-color: #c8c8c8;
+}
+
+.accomplice:focus {
+  outline: 0;
+}
+
+.bodily {
+  display: block;
+  position: relative;
+  overflow: hidden;
+}
+
+.firelock {
+  display: none;
+  position: relative;
+}
+
+.higher {
+  display: block;
+}
+
+@media screen and (max-width: 479px) {
+  .accomplice {
+    display: block;
+  }
+}
+
+@keyframes spin {
+  0% {
+    transform: rotate(0);
+  }
+
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+:root {
+  --body: #333;
+  --title: black;
+  --desktop: 150px;
+  --tablet: 100px;
+  --landscape-mobile: 80px;
+  --potrait-mobile: 60px;
+  --bg: #f6f1e9;
+}
+
+.rhabdocoele {
+  max-width: 940px;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+}
+
+@media screen and (max-width: 991px) {
+  .rhabdocoele {
+    max-width: 728px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .rhabdocoele {
+    max-width: none;
+  }
+}
+
+body {
+  color: var(--body);
+
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 150%;
+}
+
+h1 {
+  color: var(--title);
+  margin-top: 0;
+  margin-bottom: 10px;
+
+  font-size: 52px;
+  font-weight: 400;
+  line-height: 120%;
+}
+
+h2 {
+  color: var(--title);
+  margin-top: 0;
+  margin-bottom: 10px;
+
+  font-size: 36px;
+  font-weight: 400;
+  line-height: 130%;
+}
+
+h4 {
+  color: var(--title);
+  margin-top: 0;
+  margin-bottom: 10px;
+
+  font-size: 22px;
+  font-weight: 400;
+  line-height: 150%;
+}
+
+h5 {
+  color: var(--title);
+  margin-top: 0;
+  margin-bottom: 10px;
+
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 150%;
+}
+
+h6 {
+  color: var(--title);
+  margin-top: 0;
+  margin-bottom: 10px;
+
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 150%;
+}
+
+a {
+  color: var(--body);
+  text-decoration: underline;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+.nodulous {
+  width: 100%;
+  max-width: 1336px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.drupelets {
+  grid-column-gap: 20px;
+  align-items: center;
+  margin-top: 40px;
+  display: flex;
+}
+
+.colocynth {
+  font-size: 14px;
+  line-height: 150%;
+}
+
+.matrixes {
+  margin-bottom: var(--desktop);
+}
+
+.horrider {
+  grid-column-gap: 10px;
+  color: #000;
+  background-color: rgba(0, 0, 0, 0);
+  border: 1px solid #000;
+  border-radius: 50px;
+  justify-content: center;
+  align-items: center;
+  margin-left: 0;
+  margin-right: 0;
+  padding: 14px 26px;
+  font-size: 12px;
+  line-height: 120%;
+  text-decoration: none;
+  display: flex;
+}
+
+.tanner {
+  grid-column-gap: 10px;
+  color: #000;
+  align-items: center;
+  font-size: 12px;
+  line-height: 140%;
+  text-decoration: none;
+  display: flex;
+}
+
+.contrive {
+  background-color: #000;
+}
+
+.tickled {
+  grid-column-gap: 30px;
+  justify-content: space-between;
+  align-items: flex-start;
+  margin-top: 60px;
+  margin-bottom: 60px;
+  display: flex;
+}
+
+.laryngitis {
+  color: #d9d9d9;
+  margin-top: 15px;
+  font-size: 12px;
+  line-height: 150%;
+}
+
+.amygdule {
+  width: 100%;
+  max-width: 48%;
+}
+
+.stables {
+  justify-content: space-between;
+  display: flex;
+}
+
+.decorticated {
+  flex-direction: column;
+  align-items: flex-start;
+  display: flex;
+}
+
+.deities {
+  color: #999;
+  padding-top: 2px;
+  padding-bottom: 2px;
+  font-size: 14px;
+  line-height: 150%;
+  text-decoration: none;
+  transition: color 0.3s;
+}
+
+.deities:hover,
+.deities.banditos {
+  color: #fff;
+}
+
+.shoddiest {
+  color: #d9d9d9;
+  margin-bottom: 10px;
+  font-size: 14px;
+  line-height: 150%;
+}
+
+.nigrifying {
+  text-decoration: none;
+}
+
+.nigrifying:hover {
+  text-decoration: underline;
+}
+
+.diverticuloses {
+  margin-bottom: 0;
+}
+
+.mainmast {
+  margin-bottom: var(--desktop);
+}
+
+.museology {
+  width: 100%;
+  max-width: 40%;
+  background-color: var(--bg);
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+.anonymities {
+  width: 100%;
+}
+
+.burrow {
+  width: 1px;
+  height: auto;
+  background-color: rgba(0, 0, 0, 0.2);
+}
+
+.italianising {
+  grid-column-gap: 40px;
+  display: flex;
+}
+
+.superbitch {
+  width: 100%;
+  max-width: 60%;
+  grid-row-gap: 40px;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-start;
+  display: flex;
+}
+
+.passepied {
+  width: 100%;
+  grid-column-gap: 80px;
+  align-items: flex-start;
+  display: flex;
+}
+
+.vaned {
+  width: 100%;
+  max-width: 65%;
+}
+
+.pies {
+  grid-row-gap: 25px;
+  flex-direction: column;
+  margin-top: 15px;
+  display: flex;
+}
+
+.speechwriter {
+  width: 100%;
+  max-width: 35%;
+}
+
+.nattiest {
+  color: var(--title);
+  font-size: 18px;
+}
+
+.bradoon {
+  margin-top: 6px;
+}
+
+.denudating {
+  grid-row-gap: 10px;
+  flex-direction: column;
+  margin-top: 25px;
+  margin-bottom: 40px;
+  display: flex;
+}
+
+.medicated {
+  grid-column-gap: 15px;
+  align-items: center;
+  font-size: 12px;
+  line-height: 150%;
+  display: flex;
+}
+
+.coadmire {
+  width: 12px;
+  height: 1px;
+  background-color: var(--body);
+}
+
+.cinematheques {
+  color: #000;
+  margin-bottom: 2px;
+  font-size: 12px;
+  line-height: 150%;
+}
+
+.detergent {
+  grid-row-gap: 25px;
+  flex-direction: column;
+  display: flex;
+}
+
+.dielectrics {
+  margin-bottom: var(--desktop);
+}
+
+.affectionally {
+  margin-bottom: 25px;
+}
+
+.sweetishly {
+  margin-bottom: 0;
+}
+
+.observances {
+  grid-column-gap: 60px;
+  align-items: center;
+  display: flex;
+}
+
+.weepy {
+  width: 100%;
+  max-width: 40%;
+  background-color: var(--bg);
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+.forbearers {
+  width: 100%;
+  max-width: 60%;
+}
+
+.reconstructs {
+  background-color: rgba(0, 0, 0, 0);
+  padding-left: 48px;
+  padding-right: 48px;
+  display: block;
+  position: relative;
+  overflow: hidden;
+}
+
+.alimenting {
+  width: 100%;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0;
+  display: flex;
+  padding-top: 25px;
+  padding-bottom: 25px;
+}
+
+.garnered {
+  width: 100%;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+  
+}
+
+.garnered.gosport {
+  padding-top: 0;
+}
+
+.chorale {
+  align-items: center;
+  display: flex;
+}
+
+.entrainment {
+  color: #000;
+  padding-left: 40px;
+  font-size: 18px;
+}
+
+.usableness {
+  margin-top: 15px;
+}
+
+.predigestion {
+  margin-bottom: 0;
+}
+
+.fountained {
+  font-size: 14px;
+  line-height: 150%;
+}
+
+.expecter {
+  margin-bottom: var(--desktop);
+}
+
+.massive {
+  grid-column-gap: 30px;
+  grid-row-gap: 30px;
+  grid-template-rows: auto;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-auto-columns: 1fr;
+  display: grid;
+}
+
+.triskele {
+  width: 100%;
+  height: 100%;
+  grid-row-gap: 180px;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  padding: 50px 35px;
+  text-decoration: none;
+  transition: background-color 0.3s;
+  display: flex;
+  background-color: #fdfdfd;
+opacity: 1;
+background-image:  repeating-radial-gradient( circle at 0 0, transparent 0, #fdfdfd 10px ), repeating-linear-gradient( #f9f6f155, #f9f6f1 );
+}
+
+.triskele:hover {
+  background-color: var(--bg);
+  
+}
+
+.deadheads {
+  width: 100px;
+  height: 100px;
+}
+
+.harquebus {
+  margin-bottom: 6px;
+}
+
+.enmesh {
+  margin-bottom: 0;
+}
+
+.plenitudinous {
+  margin-top: 60px;
+  margin-bottom: var(--desktop);
+}
+
+.probabilities {
+  grid-column-gap: 30px;
+  align-items: flex-start;
+  display: flex;
+}
+
+.rocketing {
+  width: 100%;
+  max-width: 45%;
+}
+
+.aftertaste {
+  width: 100%;
+  max-width: 55%;
+  grid-row-gap: 60px;
+  flex-direction: column;
+  display: flex;
+  padding-top: 50px;
+}
+
+.superachievers {
+  margin-bottom: 0;
+}
+
+.sacker {
+  background-color: var(--bg);
+  border-radius: 8px;
+  position: relative;
+  overflow: hidden;
+}
+
+.shetland {
+  margin-bottom: 40px;
+}
+
+.cryoprotective {
+  margin-bottom: var(--desktop);
+  background-color: var(--bg);
+  padding-top: 80px;
+  padding-bottom: 80px;
+  overflow: hidden;
+}
+
+.biathlons {
+  margin-bottom: 40px;
+}
+
+.dyneins {
+  align-items: center;
+  display: flex;
+}
+
+.palladiums {
+  width: 100%;
+  max-width: 62%;
+}
+
+.dishrags {
+  width: 100%;
+  max-width: 38%;
+  grid-row-gap: 20px;
+  flex-direction: column;
+  margin-right: 80px;
+  display: flex;
+}
+
+.hyperbolically {
+  font-size: 26px;
+  line-height: 150%;
+}
+
+.backstop {
+  font-size: 12px;
+  line-height: 120%;
+}
+
+.technicalizing {
+  grid-column-gap: 30px;
+  background-color: rgba(0, 0, 0, 0);
+  border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 0 20px;
+  display: flex;
+}
+
+.technicalizing.banditos {
+  color: #000;
+  background-color: rgba(0, 0, 0, 0);
+  background-position: 100% 20%;
+  background-repeat: no-repeat;
+  background-size: auto;
+  border-bottom-width: 1px;
+  border-bottom-color: #000;
+}
+
+.sorners {
+  grid-column-gap: 10px;
+  align-items: flex-start;
+  display: flex;
+}
+
+.hisn {
+  margin-bottom: 60px;
+}
+
+.feminazis {
+  width: 100%;
+  height: 100%;
+  background-color: #fff;
+  display: none;
+  position: absolute;
+  top: 0%;
+  bottom: 0%;
+  left: 0%;
+  right: 0%;
+}
+
+.feminazis.countians {
+  background-color: var(--bg);
+}
+
+.countians {
+  margin-bottom: var(--desktop);
+  background-color: var(--bg);
+  width: 100%;
+  height: 100%;
+  background: var(--bg);
+  position: relative;
+  overflow: hidden;
+
+}
+
+
+.unregenerately {
+  position: relative;
+  z-index: 99;
+  grid-column-gap: 80px;
+  align-items: flex-start;
+  padding-top: 100px;
+  padding-bottom: 60px;
+  display: flex;
+}
+
+.cladistic {
+  width: 100%;
+  max-width: 45%;
+  grid-row-gap: 80px;
+  flex-direction: column;
+  align-items: flex-start;
+  margin-top: 40px;
+  display: flex;
+}
+
+.disaffirms {
+  width: 100%;
+  max-width: 50%;
+  flex-direction: column;
+  align-items: flex-end;
+  display: flex;
+}
+
+.payday {
+  background-color: #fff;
+  border-radius: 8px;
+  position: relative;
+  overflow: hidden;
+}
+
+.parashahs {
+  width: 100%;
+}
+
+.bleary {
+  grid-column-gap: 8px;
+  align-items: center;
+  margin-top: 20px;
+  font-size: 14px;
+  font-weight: 300;
+  line-height: 120%;
+  display: flex;
+}
+
+.balkanization {
+  width: 120px;
+  height: 1px;
+  background-color: #000;
+}
+
+.symbolizes {
+  margin-bottom: 20px;
+  font-size: 54px;
+  font-weight: 500;
+  line-height: 120%;
+}
+
+.irrationalistic {
+  margin-bottom: 0;
+}
+
+.corsair {
+  width: 100%;
+  max-width: 60%;
+  background-color: #fff;
+  border-radius: 8px;
+  position: relative;
+  overflow: hidden;
+}
+
+.eternalness {
+  width: 100%;
+  max-height: 300px;
+  min-height: 300px;
+  object-fit: cover;
+}
+
+.sciolists {
+  margin-bottom: var(--desktop);
+}
+
+.nonliquid {
+  grid-column-gap: 60px;
+  align-items: stretch;
+  display: flex;
+}
+
+.coal {
+  width: 100%;
+  max-width: 30%;
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+.thought {
+  width: 100%;
+  max-width: 70%;
+  flex-direction: column;
+  display: flex;
+}
+
+.begalling {
+  width: 100%;
+  max-width: 85%;
+  margin-bottom: 40px;
+  font-weight: 300;
+}
+
+.preceptorships {
+  height: 100%;
+  flex-direction: row;
+  justify-content: space-between;
+  display: flex;
+  gap: 20px;
+}
+
+.stomodaeums {
+  width: 100%;
+  max-width: 60%;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-start;
+  display: flex;
+}
+
+.belying {
+  grid-row-gap: 40px;
+  flex-direction: column;
+  display: flex;
+}
+
+.boink {
+  color: #000;
+  font-size: 14px;
+  line-height: 150%;
+}
+
+.plundering {
+  color: #000;
+
+  font-size: 28px;
+  line-height: 150%;
+}
+
+.biaxially {
+  margin-bottom: var(--desktop);
+}
+
+.multitiered {
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+  grid-template-rows: auto;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-auto-columns: 1fr;
+  display: grid;
+}
+
+.disrespecting {
+  border-right: 1px solid rgba(0, 0, 0, 0.1);
+  background-color: #fdfdfd;
+opacity: 1;
+background-image:  repeating-radial-gradient( circle at 0 0, transparent 0, #fdfdfd 10px ), repeating-linear-gradient( #f9f6f155, #f9f6f1 );
+  padding: 50px 40px;
+}
+
+.disrespecting.unstylish {
+  border-right-style: none;
+}
+
+.revuists {
+  font-size: 46px;
+  font-weight: 300;
+  line-height: 130%;
+}
+
+.truing {
+  margin-bottom: 0;
+}
+
+.retards {
+  margin-top: 18px;
+  margin-bottom: 0;
+}
+
+.airlessness {
+  justify-content: space-between;
+  align-items: flex-end;
+  margin-bottom: 25px;
+  display: flex;
+}
+
+.gearheads {
+  margin-bottom: 0;
+}
+
+.haverel {
+  width: 100%;
+  max-height: 600px;
+  min-height: 600px;
+  object-fit: cover;
+}
+.mozzarella {
+  display: flex;
+}
+
+@media screen and (max-width: 991px) {
+  h1 {
+    font-size: 48px;
+  }
+
+  h2 {
+    font-size: 34px;
+  }
+
+  .nodulous {
+    max-width: 100%;
+  }
+
+  .matrixes {
+    margin-bottom: var(--tablet);
+  }
+
+  .tickled {
+    grid-column-gap: 0px;
+    grid-row-gap: 40px;
+    flex-direction: column;
+    margin-top: 50px;
+    margin-bottom: 40px;
+  }
+
+  .amygdule {
+    max-width: 100%;
+  }
+
+  .mainmast {
+    margin-bottom: var(--tablet);
+  }
+
+  .museology {
+    max-width: 100%;
+  }
+
+  .burrow {
+    display: none;
+  }
+
+  .italianising {
+    grid-column-gap: 0px;
+    grid-row-gap: 30px;
+    flex-direction: column;
+  }
+
+  .superbitch {
+    max-width: 100%;
+  }
+
+  .dielectrics {
+    margin-bottom: var(--tablet);
+  }
+
+  .observances {
+    grid-column-gap: 0px;
+    grid-row-gap: 30px;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .weepy,
+  .forbearers {
+    max-width: 100%;
+  }
+
+  .reconstructs {
+    padding-left: 38px;
+    padding-right: 38px;
+  }
+
+  .entrainment {
+    padding-left: 30px;
+  }
+
+  .expecter {
+    margin-bottom: var(--tablet);
+  }
+
+  .massive {
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .triskele {
+    grid-row-gap: 140px;
+  }
+
+  .plenitudinous {
+    margin-bottom: var(--tablet);
+  }
+
+  .probabilities {
+    grid-column-gap: 25px;
+  }
+
+  .aftertaste {
+    grid-row-gap: 40px;
+  }
+
+  .superachievers {
+    font-size: 14px;
+  }
+
+  .shetland {
+    margin-bottom: 25px;
+    font-size: 30px;
+  }
+
+  .cryoprotective {
+    margin-bottom: var(--tablet);
+    padding-top: 60px;
+    padding-bottom: 60px;
+  }
+
+  .dyneins {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .palladiums {
+    max-width: 100%;
+  }
+
+  .dishrags {
+    max-width: 100%;
+    margin-bottom: 40px;
+    margin-right: 0;
+  }
+
+  .hyperbolically {
+    font-size: 22px;
+    line-height: 150%;
+  }
+
+  .technicalizing.banditos {
+    background-position: 100% 12%;
+  }
+
+  .hisn {
+    margin-bottom: 40px;
+  }
+
+  .countians {
+    margin-bottom: var(--tablet);
+  }
+
+  .unregenerately {
+    grid-column-gap: 25px;
+    flex-direction: row;
+    padding-top: 40px;
+    padding-bottom: 40px;
+  }
+
+  .cladistic {
+    max-width: 50%;
+    grid-row-gap: 40px;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-top: 0;
+  }
+
+  .disaffirms {
+    max-width: 50%;
+  }
+
+  .symbolizes {
+    margin-bottom: 10px;
+    font-size: 36px;
+  }
+
+  .corsair {
+    max-width: 60%;
+  }
+
+  .eternalness {
+    max-height: 140px;
+    min-height: 140px;
+  }
+
+  .sciolists {
+    margin-bottom: var(--tablet);
+  }
+
+  .nonliquid {
+    grid-row-gap: 20px;
+    flex-direction: column-reverse;
+    align-items: flex-start;
+  }
+
+  .thought {
+    max-width: 100%;
+  }
+
+  .begalling {
+    font-size: 28px;
+  }
+
+  .stomodaeums {
+    grid-row-gap: 30px;
+  }
+
+  .biaxially {
+    margin-bottom: var(--tablet);
+  }
+
+  .disrespecting {
+    padding: 25px 20px;
+  }
+
+  .revuists {
+    font-size: 42px;
+  }
+
+  .retards {
+    font-size: 14px;
+    line-height: 150%;
+  }
+
+  .greenwing,
+  .gearheads {
+    line-height: 150%;
+  }
+
+  .haverel {
+    max-height: 700px;
+    min-height: 700px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  h1 {
+    font-size: 44px;
+  }
+
+  h2 {
+    font-size: 32px;
+  }
+
+  h4 {
+    font-size: 20px;
+  }
+
+  .nodulous {
+    max-width: 100%;
+  }
+
+  .matrixes {
+    margin-bottom: var(--landscape-mobile);
+  }
+
+  .amygdule {
+    max-width: 100%;
+  }
+
+  .mainmast {
+    margin-bottom: var(--landscape-mobile);
+  }
+
+  .italianising {
+    grid-row-gap: 20px;
+  }
+
+  .dielectrics {
+    margin-bottom: var(--landscape-mobile);
+  }
+
+  .reconstructs {
+    padding-left: 0;
+    padding-right: 0;
+  }
+
+  .alimenting {
+    grid-column-gap: 25px;
+  }
+
+  .garnered {
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+
+  .entrainment {
+    white-space: normal;
+    word-break: normal;
+    padding-left: 0;
+    font-size: 16px;
+  }
+
+  .fountained {
+    display: none;
+  }
+
+  .expecter {
+    margin-bottom: var(--landscape-mobile);
+  }
+
+  .massive {
+    grid-column-gap: 20px;
+    grid-row-gap: 20px;
+  }
+
+  .triskele {
+    grid-row-gap: 100px;
+    padding: 30px 15px;
+  }
+
+  .deadheads {
+    width: 60px;
+    height: 60px;
+  }
+
+  .harquebus {
+    font-size: 18px;
+  }
+
+  .enmesh {
+    font-size: 14px;
+  }
+
+  .plenitudinous {
+    margin-top: 40px;
+    margin-bottom: var(--landscape-mobile);
+  }
+
+  .probabilities {
+    grid-column-gap: 0px;
+    grid-row-gap: 25px;
+    flex-direction: column;
+  }
+
+  .rocketing {
+    max-width: 100%;
+  }
+
+  .aftertaste {
+    max-width: 100%;
+    grid-row-gap: 20px;
+  }
+
+  .cryoprotective {
+    margin-bottom: var(--landscape-mobile);
+  }
+
+  .biathlons {
+    margin-bottom: 30px;
+  }
+
+  .dishrags {
+    grid-row-gap: 15px;
+  }
+
+  .hyperbolically {
+    font-size: 20px;
+  }
+
+  .technicalizing {
+    padding-bottom: 15px;
+  }
+
+  .countians {
+    margin-bottom: var(--landscape-mobile);
+  }
+
+  .unregenerately {
+    grid-column-gap: 0px;
+    grid-row-gap: 30px;
+    flex-direction: column;
+    padding-top: 40px;
+    padding-bottom: 40px;
+  }
+
+  .cladistic {
+    max-width: 100%;
+    margin-top: 0;
+  }
+
+  .disaffirms {
+    max-width: 100%;
+  }
+
+  .corsair {
+    display: none;
+  }
+
+  .sciolists {
+    margin-bottom: var(--landscape-mobile);
+  }
+
+  .coal {
+    max-width: 50%;
+  }
+
+  .begalling {
+    max-width: 100%;
+    margin-bottom: 30px;
+  }
+
+  .biaxially {
+    margin-bottom: var(--landscape-mobile);
+  }
+
+  .multitiered {
+    flex-direction: column;
+    display: flex;
+  }
+
+  .disrespecting {
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+    border-right-style: none;
+  }
+
+  .disrespecting.unstylish {
+    border-bottom-style: none;
+  }
+
+  .haverel {
+    max-height: 600px;
+    min-height: 600px;
+  }
+}
+
+@media screen and (max-width: 479px) {
+  h1 {
+    font-size: 40px;
+  }
+
+  h2 {
+    font-size: 30px;
+  }
+
+  .drupelets {
+    grid-row-gap: 20px;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .matrixes {
+    margin-bottom: var(--potrait-mobile);
+  }
+
+  .horrider {
+    padding: 12px 24px;
+  }
+
+  .stables {
+    grid-column-gap: 60px;
+    grid-row-gap: 30px;
+    flex-wrap: wrap;
+    grid-template-rows: auto auto;
+    grid-template-columns: 1fr 1fr;
+    grid-auto-columns: 1fr;
+    justify-content: flex-start;
+    display: grid;
+  }
+
+  .mainmast {
+    margin-bottom: var(--potrait-mobile);
+  }
+
+  .italianising {
+    grid-row-gap: 15px;
+  }
+
+  .passepied {
+    grid-column-gap: 0px;
+    grid-row-gap: 40px;
+    flex-direction: column;
+  }
+
+  .vaned {
+    max-width: 100%;
+  }
+
+  .pies {
+    grid-row-gap: 20px;
+    margin-top: 10px;
+  }
+
+  .speechwriter {
+    max-width: 100%;
+  }
+
+  .detergent {
+    grid-column-gap: 30px;
+    grid-row-gap: 15px;
+    flex-flow: wrap;
+  }
+
+  .dielectrics {
+    margin-bottom: var(--potrait-mobile);
+  }
+
+  .sweetishly.skats {
+    font-size: 26px;
+  }
+
+  .garnered {
+    padding-top: 16px;
+    padding-bottom: 16px;
+  }
+
+  .expecter {
+    margin-bottom: var(--potrait-mobile);
+  }
+
+  .massive {
+    grid-column-gap: 0px;
+    grid-row-gap: 25px;
+    grid-template-columns: 1fr;
+  }
+
+  .plenitudinous {
+    margin-bottom: var(--potrait-mobile);
+  }
+
+  .probabilities {
+    grid-row-gap: 20px;
+  }
+
+  .aftertaste {
+    grid-row-gap: 15px;
+  }
+
+  .shetland {
+    margin-bottom: 20px;
+    font-size: 28px;
+  }
+
+  .cryoprotective {
+    margin-bottom: var(--potrait-mobile);
+    padding-top: 40px;
+    padding-bottom: 40px;
+  }
+
+  .dishrags {
+    margin-bottom: 30px;
+  }
+
+  .hyperbolically {
+    font-size: 18px;
+  }
+
+  .technicalizing.banditos {
+    background-position: 100% 8%;
+  }
+
+  .hisn {
+    margin-bottom: 30px;
+  }
+
+  .countians {
+    margin-bottom: var(--potrait-mobile);
+  }
+
+  .symbolizes {
+    font-size: 34px;
+  }
+
+  .irrationalistic {
+    font-size: 14px;
+    line-height: 150%;
+  }
+
+  .sciolists {
+    margin-bottom: var(--potrait-mobile);
+  }
+
+  .coal {
+    max-width: 100%;
+  }
+
+  .begalling {
+    margin-bottom: 20px;
+    font-size: 24px;
+  }
+
+  .preceptorships {
+    grid-row-gap: 15px;
+    flex-direction: column;
+  }
+
+  .stomodaeums {
+    max-width: 100%;
+  }
+
+  .underdid {
+    margin-bottom: 8px;
+  }
+
+  .belying {
+    grid-column-gap: 20px;
+    grid-row-gap: 16px;
+    flex-direction: row;
+    grid-template-rows: auto;
+    grid-template-columns: 1fr 1fr;
+    grid-auto-columns: 1fr;
+    display: grid;
+  }
+
+  .boink {
+    font-size: 12px;
+  }
+
+  .plundering {
+    font-size: 24px;
+  }
+
+  .biaxially {
+    margin-bottom: var(--potrait-mobile);
+  }
+
+  .retards {
+    margin-top: 14px;
+  }
+
+  .greenwing,
+  .gearheads {
+    font-size: 14px;
+  }
+
+  .haverel {
+    max-height: 380px;
+    min-height: 380px;
+  }
+}
+
+header {
+  color: #333;
+  
+  padding-top: 10px;
+}
+
+.sangar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1200px;
+  margin: auto;
+  padding: 0 20px;
+}
+
+.secretiveness a {
+  color: #333;
+  font-size: 32px;
+  text-decoration: none;
+  transition: color 0.3s;
+}
+.secretiveness a:hover {
+  color: #757575;
+  text-decoration: none;
+}
+
+
+
+nav {
+  width: auto;
+}
+
+.bodying {
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+}
+
+.bodying li {
+  margin: 0 15px;
+}
+
+.bodying a {
+  color: #333;
+  text-decoration: none;
+  transition: color 0.3s;
+}
+
+.bodying a:hover {
+  color: #757575;
+}
+
+@media (max-width: 768px) {
+  .sangar {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  nav {
+    margin-top: 10px;
+  }
+
+  .bodying {
+    flex-direction: row;
+    align-items: center;
+    gap: 30px;
+    padding: 0;
+  }
+
+  .bodying li {
+    margin: 5px 0;
+  }
+}
+
+.evenhandedness {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.uncaps {
+  flex: 1 1 100%;
+  text-align: left;
+  padding: 20px;
+  background-color: #ffffff;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.uncaps p {
+  margin-bottom: 20px;
+  font-size: 16px;
+  color: #333333;
+}
+
+.uncaps p:last-child {
+  font-weight: bold;
+}
+
+.complements {
+  flex: 2 1 100%;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.coronographs {
+  flex: 1 1 calc(33.333% - 20px);
+  text-align: center;
+  background-color: #ffffff;
+  border-radius: 10px;
+  padding: 20px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.coronographs img {
+  width: 50px;
+  height: 50px;
+  margin-bottom: 10px;
+}
+
+.coronographs h3 {
+  font-size: 18px;
+  color: #333333;
+  margin-bottom: 10px;
+}
+
+.coronographs p {
+  font-size: 14px;
+  color: #555555;
+}
+
+@media (max-width: 768px) {
+  .coronographs {
+    flex: 1 1 100%;
+  }
+}
+
+@media (max-width: 480px) {
+  .uncaps p {
+    font-size: 14px;
+  }
+
+  .coronographs h3 {
+    font-size: 16px;
+  }
+
+  .coronographs p {
+    font-size: 12px;
+  }
+}
+
+.whins {
+  display: flex;
+  flex-wrap: wrap;
+  background-color: #ffffff;
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.pullulation {
+  flex: 1;
+  background-image: url('imgs/volunteer_holding_kitten.jpg');
+  background-size: cover;
+  background-position: center;
+  min-height: 300px;
+}
+
+.soudans {
+  flex: 1;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.revalorizing {
+  background-color: #f6f1e9;
+  color: #ffffff;
+  padding: 20px;
+  border-radius: 10px;
+  margin-bottom: 20px;
+}
+
+.revalorizing h1 {
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+.revalorizing p {
+  font-size: 14px;
+  line-height: 1.5;
+  color: #000;
+}
+
+.locomote {
+  margin-bottom: 20px;
+}
+
+.locomote ul {
+  list-style: none;
+}
+
+.locomote ul li {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+  font-size: 14px;
+}
+
+.locomote ul li::before {
+  content: "✔";
+  color: #ff6c42;
+  font-weight: bold;
+  margin-right: 10px;
+}
+
+.bathmats {
+  text-align: center;
+}
+
+.bathmats a {
+  text-decoration: none;
+  background-color: #ff6c42;
+  color: #ffffff;
+  padding: 10px 20px;
+  font-size: 14px;
+  border-radius: 5px;
+  transition: background-color 0.3s;
+}
+
+.bathmats a:hover {
+  background-color: #e5582c;
+}
+
+@media (max-width: 768px) {
+  .whins {
+    flex-direction: column;
+  }
+
+  .pullulation {
+    min-height: 200px;
+  }
+
+  .revalorizing h1 {
+    font-size: 16px;
+  }
+
+  .revalorizing p, .locomote ul li {
+    font-size: 13px;
+  }
+
+  .bathmats a {
+    font-size: 13px;
+    padding: 8px 15px;
+  }
+}
+
+.reconstructs {
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.3s ease-out;
+}
+
+
+.nonlegumes {
+  opacity: 0;
+  transform: translateY(20px); 
+  transition: opacity 0.6s ease-out, transform 0.6s ease-out;
+}
+
+
+
+.sciolists.margarita {
+  background-color: #fff;
+}
+
+.nonliquid .thought {
+  max-width: 70%;
+}
+
+.nonliquid .coal {
+  max-width: 30%;
+}
+
+.plenitudinous.margarita {
+  background-color: var(--bg);
+}
+
+.bathmats span {
+  text-decoration: none;
+  background-color: #ff6c42;
+  color: #ffffff;
+  padding: 10px 20px;
+  font-size: 14px;
+  border-radius: 5px;
+  transition: background-color 0.3s;
+}
+
+.bathmats span:hover {
+  background-color: #e5582c;
+}
+
+.countians {
+  position: relative;
+}
+
+.expecter.margarita {
+  background-color: #fff;
+}
+
+.cryoprotective.margarita {
+  background-color: var(--bg);
+}
+
+.countians {
+  background-color: var(--bg);
+}
+
+.biaxially.margarita {
+  background-color: #fff;
+}
+
+.mainmast.margarita {
+  background-color: #fff;
+}
+
+.sciolists.margarita {
+  background-color: #fff;
+}
+
+.plundering a {
+  color: #000;
+  text-decoration: none;
+}
+
+.plundering a:hover {
+  text-decoration: underline;
+}
+.pad{
+  padding-bottom: 150px;
+}
