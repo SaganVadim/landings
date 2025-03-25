@@ -65,3 +65,8 @@ if (tipHeaders.length > 0) {
     }
   });
 }
+
+
+document.addEventListener("DOMContentLoaded", function () {
+  new WOW().init();
+});
