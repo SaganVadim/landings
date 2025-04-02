@@ -1183,12 +1183,16 @@ img {
   .hangfire {
     border-top-style: none;
     margin-top: 0;
+    flex-direction: column;
   }
 
   .sennets {
     padding: 30px;
+    width: 100%;
   }
-
+.electrocutes{
+  width: 100%;
+}
   .factitiousness.dialysing {
     max-width: 100%;
   }
@@ -1867,5 +1871,108 @@ nav {
 
   .pricing-card {
     margin-bottom: 20px;
+  }
+}
+
+
+.contact-form-container {
+  width: 100%;
+  max-width: 800px;
+  margin: 40px auto 0;
+  padding: 20px;
+  background: radial-gradient(circle at 50% 50%, #e7feff, #f8f0df);
+  border-radius: 10px;
+  box-shadow: 0 -10px 40px rgba(79, 86, 103, 0.1);
+}
+
+.contact-form {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.form-group {
+  display: flex;
+  flex-direction: column;
+}
+
+.form-label {
+  color: var(--grey);
+  font-size: 16px;
+  font-weight: 500;
+  margin-bottom: 8px;
+}
+
+.form-input,
+.form-textarea {
+  padding: 12px 15px;
+  border: 1px solid var(--dark-grey);
+  border-radius: 5px;
+  font-size: 16px;
+  color: var(--text);
+  background-color: var(--white);
+  transition: border-color 0.3s;
+}
+
+.form-input:focus,
+.form-textarea:focus {
+  border-color: var(--orange);
+  outline: none;
+}
+
+.form-textarea {
+  resize: vertical;
+  min-height: 120px;
+  resize: none;
+}
+
+.checkbox-group {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  justify-content: center;
+  gap: 10px;
+}
+
+.form-checkbox {
+  width: 20px;
+  height: 20px;
+}
+
+.form-checkbox-label {
+  color: var(--text);
+  font-size: 14px;
+}
+
+.form-link {
+  color: var(--orange);
+  text-decoration: none;
+  transition: color 0.3s;
+}
+
+.form-link:hover {
+  color: var(--primary);
+}
+
+.form-submit {
+  align-self: center;
+  padding: 15px 30px;
+  font-size: 18px;
+}
+
+
+@media screen and (max-width: 767px) {
+  .contact-form-container {
+    padding: 15px;
+  }
+
+  .form-input,
+  .form-textarea {
+    font-size: 14px;
+  }
+
+  .form-submit {
+    padding: 12px 25px;
+    font-size: 16px;
   }
 }
