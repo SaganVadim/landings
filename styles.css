@@ -1113,7 +1113,7 @@ label {
 }
 
 .perfusates.unguards.aversenesses {
-  object-position: 100% 0%;
+  object-position: 100% 60%;
 }
 
 .perfusates.unguards.expelled {
@@ -2216,7 +2216,7 @@ label {
   }
 
   .perfusates.unguards.aversenesses {
-    object-position: 100% 0%;
+    object-position: 0% 50%;
   }
 
   .perfusates.unguards.axions,
@@ -2822,5 +2822,370 @@ nav {
 
   .phthalocyanine li {
     margin: 5px 0;
+  }
+}
+
+/* Game Categories Slider & Tips Slider */
+.game-slider,
+.tips-slider {
+  position: relative;
+  max-width: 100%;
+  overflow: hidden;
+  margin-top: 30px;
+}
+
+.slider-container {
+  display: flex;
+  transition: transform 0.5s ease;
+}
+
+.slider-item {
+  min-width: 100%;
+  position: relative;
+}
+
+.slider-item img {
+  width: 100%;
+  height: 400px;
+  object-fit: cover;
+  border-radius: 16px;
+}
+
+.slider-caption {
+  position: absolute;
+  bottom: 20px;
+  left: 20px;
+  right: 20px;
+  background: rgba(9, 7, 23, 0.7);
+  padding: 15px;
+  border-radius: 10px;
+}
+
+.slider-prev,
+.slider-next {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  background: var(--accent--primary-1);
+  color: var(--neutral--100);
+  border: none;
+  padding: 10px 15px;
+  cursor: pointer;
+  font-size: 20px;
+  border-radius: 50%;
+}
+
+.slider-prev {
+  left: 10px;
+}
+
+.slider-next {
+  right: 10px;
+}
+
+/* Gallery */
+.gallery-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 20px;
+  margin-top: 30px;
+}
+
+.gallery-grid img {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 16px;
+  transition: transform 0.3s;
+}
+
+.gallery-grid img:hover {
+  transform: scale(1.05);
+}
+
+/* Review Carousel */
+.review-carousel {
+  position: relative;
+  max-width: 100%;
+  overflow: hidden;
+  margin-top: 30px;
+}
+
+.carousel-container {
+  display: flex;
+  transition: transform 0.5s ease;
+}
+
+.carousel-item {
+  min-width: 100%;
+  text-align: center;
+}
+
+.carousel-item .ponded.coalboxes {
+  padding: 30px;
+  margin: 0 20px;
+}
+
+.carousel-prev,
+.carousel-next {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  background: var(--accent--primary-1);
+  color: var(--neutral--100);
+  border: none;
+  padding: 10px 15px;
+  cursor: pointer;
+  font-size: 20px;
+  border-radius: 50%;
+}
+
+.carousel-prev {
+  left: 10px;
+}
+
+.carousel-next {
+  right: 10px;
+}
+
+/* Game Finder Form */
+.game-finder-form {
+  margin-top: 30px;
+}
+
+.game-finder-form select {
+  width: 100%;
+}
+
+/* Responsive Adjustments */
+@media screen and (max-width: 991px) {
+  .gallery-grid {
+    grid-template-columns: repeat(3, 1fr);
+  }
+
+  .slider-item img {
+    height: 350px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .gallery-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .slider-item img {
+    height: 300px;
+  }
+}
+
+@media screen and (max-width: 479px) {
+  .gallery-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .slider-item img {
+    height: 280px;
+  }
+}
+
+#blebbing{
+  grid-area: span 1 / span 2 / span 1 / span 2;
+}
+
+.mastic {
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.3s ease, padding 0.3s ease;
+  padding: 0 15px;
+}
+
+.mastic.open {
+  max-height: 500px; 
+  padding: 15px;
+}
+
+/* Game Categories Slider & Tips Slider */
+.game-slider,
+.tips-slider {
+  position: relative;
+  max-width: 100%;
+  overflow: hidden;
+  margin-top: 30px;
+}
+
+.slider-container {
+  display: flex;
+  transition: transform 0.5s ease;
+}
+
+.slider-item {
+  min-width: 100%;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.slider-item img {
+  width: 100%;
+  height: 400px;
+  object-fit: cover;
+  border-radius: 16px;
+}
+
+.slider-caption {
+  background: rgba(9, 7, 23, 0.7);
+  padding: 15px;
+  border-radius: 10px;
+  margin: 20px;
+  text-align: center;
+  max-width: 80%;
+}
+
+.slider-prev,
+.slider-next {
+  position: absolute;
+  background: rgba(66, 110, 134, 0.8); /* Слегка прозрачный фон */
+  color: var(--neutral--100);
+  border: none;
+  padding: 10px 15px;
+  cursor: pointer;
+  font-size: 20px;
+  border-radius: 50%;
+  transition: background 0.3s;
+  z-index: 10;
+}
+
+.slider-prev:hover,
+.slider-next:hover {
+  background: var(--accent--primary-1);
+}
+
+.slider-prev {
+  left: 10px;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.slider-next {
+  right: 10px;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+/* Review Carousel */
+.review-carousel {
+  position: relative;
+  max-width: 100%;
+  overflow: hidden;
+  margin-top: 30px;
+}
+
+.carousel-container {
+  display: flex;
+  transition: transform 0.5s ease;
+}
+
+.carousel-item {
+  min-width: 100%;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+}
+
+.carousel-item .ponded.coalboxes {
+  padding: 30px;
+  margin: 0 20px;
+  max-width: 90%;
+}
+
+.carousel-prev,
+.carousel-next {
+  position: absolute;
+  background: rgba(66, 110, 134, 0.8);
+  color: var(--neutral--100);
+  border: none;
+  padding: 10px 15px;
+  cursor: pointer;
+  font-size: 20px;
+  border-radius: 50%;
+  transition: background 0.3s;
+  z-index: 10;
+}
+
+.carousel-prev:hover,
+.carousel-next:hover {
+  background: var(--accent--primary-1);
+}
+
+.carousel-prev {
+  left: 10px;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.carousel-next {
+  right: 10px;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+/* Mobile Adjustments */
+@media screen and (max-width: 767px) {
+  .slider-item img {
+    height: 300px;
+  }
+
+  .slider-caption {
+    margin: 10px;
+    padding: 10px;
+    max-width: 90%;
+  }
+
+  .slider-prev,
+  .slider-next,
+  .carousel-prev,
+  .carousel-next {
+    top: auto;
+    bottom: 10px; /* Кнопки перемещаются вниз */
+    padding: 8px 12px;
+    font-size: 16px;
+  }
+
+  .slider-prev,
+  .carousel-prev {
+    left: 20px;
+    transform: none;
+  }
+
+  .slider-next,
+  .carousel-next {
+    right: 20px;
+    transform: none;
+  }
+
+  .carousel-item .ponded.coalboxes {
+    padding: 20px;
+    margin: 0 10px;
+  }
+}
+
+@media screen and (max-width: 479px) {
+  .slider-item img {
+    height: 250px;
+  }
+
+  .slider-prev,
+  .slider-next,
+  .carousel-prev,
+  .carousel-next {
+    padding: 6px 10px;
+    font-size: 14px;
+    bottom: 5px;
+  }
+
+  .slider-caption {
+    font-size: 14px;
+    padding: 8px;
   }
 }
